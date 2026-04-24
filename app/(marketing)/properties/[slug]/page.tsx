@@ -88,7 +88,7 @@ export default async function PropertyPage({ params }: { params: Promise<{ slug:
               Check availability
             </Link>
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/918208090280"
               className="block w-full text-center mt-3 border border-bark/20 py-3 rounded-full font-medium hover:bg-bark hover:text-bone transition-colors"
             >
               WhatsApp us

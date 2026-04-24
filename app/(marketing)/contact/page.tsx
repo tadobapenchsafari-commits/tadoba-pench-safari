@@ -72,8 +72,8 @@ export default function ContactPage() {
           </div>
 
           <aside className="space-y-6">
-            <ContactCard icon={<Phone className="w-5 h-5" />} label="Call us" value="+91 99999 99999" href="tel:+919999999999" />
-            <ContactCard icon={<MessageCircle className="w-5 h-5" />} label="WhatsApp" value="+91 99999 99999" href="https://wa.me/919999999999" />
+            <ContactCard icon={<Phone className="w-5 h-5" />} label="Call us" value="+91 82080 90280" href="tel:+918208090280" />
+            <ContactCard icon={<MessageCircle className="w-5 h-5" />} label="WhatsApp" value="+91 82080 90280" href="https://wa.me/918208090280" />
             <ContactCard icon={<Mail className="w-5 h-5" />} label="Email" value="info@tadobapenchsafari.com" href="mailto:info@tadobapenchsafari.com" />
             <div className="bg-bark text-bone p-6 rounded-2xl">
               <p className="text-xs uppercase tracking-wider text-bone/60 mb-2">Response time</p>

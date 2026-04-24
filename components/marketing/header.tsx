@@ -47,11 +47,11 @@ export function Header() {
 
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+919999999999"
+              href="tel:+918208090280"
               className="flex items-center gap-2 text-sm text-bark hover:text-sunrise"
             >
               <Phone className="w-4 h-4" />
-              +91 99999 99999
+              +91 82080 90280
             </a>
             <Link
               href="/contact"
