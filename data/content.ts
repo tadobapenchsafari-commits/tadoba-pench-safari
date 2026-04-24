@@ -106,6 +106,54 @@ export const gates: Gate[] = [
       'A lesser-known gate with excellent sighting records in recent seasons, especially for leopards and sloth bears.',
   },
   {
+    slug: 'navegaon',
+    name: 'Navegaon Gate',
+    destination: 'tadoba',
+    zone: 'Core – North',
+    description:
+      'The northernmost core gate of Tadoba — undeveloped, wild, and increasingly productive for tiger sightings after the zone expansion.',
+  },
+  {
+    slug: 'agarzari',
+    name: 'Agarzari Gate',
+    destination: 'tadoba',
+    zone: 'Buffer – South',
+    description:
+      'The most popular Tadoba buffer gate, right next to Moharli. Lower permit cost, monsoon access, and rising tiger activity.',
+  },
+  {
+    slug: 'junona',
+    name: 'Junona Gate',
+    destination: 'tadoba',
+    zone: 'Buffer – South',
+    description:
+      'A quieter southern buffer gate near Chandrapur. Ideal for weekend visitors from Nagpur who want low-crowd safaris.',
+  },
+  {
+    slug: 'devada-adegaon',
+    name: 'Devada-Adegaon Gate',
+    destination: 'tadoba',
+    zone: 'Buffer – East',
+    description:
+      'Eastern buffer zone with mixed teak and bamboo forest. Strong for leopard, sloth bear, and dhole encounters.',
+  },
+  {
+    slug: 'alizanza',
+    name: 'Alizanza Gate',
+    destination: 'tadoba',
+    zone: 'Buffer – North',
+    description:
+      'Buffer gate bordering Kolara core. Grassland terrain with open vistas — favoured by photographers and birders.',
+  },
+  {
+    slug: 'kolsa',
+    name: 'Kolsa Gate',
+    destination: 'tadoba',
+    zone: 'Buffer – South-West',
+    description:
+      'Remote southwestern gate that stays open longer into monsoon. Excellent for repeat visitors seeking uncrowded sightings.',
+  },
+  {
     slug: 'turia',
     name: 'Turia Gate',
     destination: 'pench',

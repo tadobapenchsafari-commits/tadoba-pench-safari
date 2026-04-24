@@ -373,6 +373,287 @@ export const gateDetails: Record<string, GateDetail> = {
     ],
     nearbyPropertySlugs: ['seoni-forest-lodge'],
   },
+  navegaon: {
+    slug: 'navegaon',
+    targetKeyword: 'Navegaon Gate Tadoba',
+    heroImage:
+      'https://upload.wikimedia.org/wikipedia/commons/e/e3/Sambar_deer_in_habitat.jpg',
+    metaDescription:
+      'Navegaon Gate Tadoba — the northernmost core gate of Tadoba Andhari Tiger Reserve. Permits, timings, tigers, nearest villages, and how to plan a Navegaon safari.',
+    intro:
+      'Navegaon is the northernmost core gate at Tadoba Andhari Tiger Reserve and still the least developed. For serious wildlife enthusiasts who want wild, undisturbed tracts with almost no jeep traffic, this is where you head. Sighting rates are rising each year as the resident tigers habituate to the handful of jeeps that come through.',
+    location: {
+      distanceFromNagpur: '125 km (3 hrs)',
+      distanceFromChandrapur: '105 km (2 hrs 30 min)',
+      nearestVillage: 'Navegaon village, Chimur tehsil, Chandrapur district',
+      mapQuery: 'Navegaon+Gate+Tadoba+Andhari+Tiger+Reserve',
+    },
+    dailyPermits: 'Approximately 15 jeeps per slot — the smallest quota of any Tadoba core gate.',
+    entrySchedule: {
+      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
+      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
+      note: 'Closed Tuesdays. Core zone shut 1 July to 30 September for monsoon.',
+    },
+    famousTigers: [
+      'Resident male rotating through the Navegaon-Pangdi belt',
+      'Tigress with 3 sub-adult cubs reported in 2025',
+      'Occasional spillover sightings of Kolara males',
+    ],
+    bestFor: [
+      'Repeat Tadoba visitors who have already done Moharli and Kolara',
+      'Photographers seeking uncrowded sightings',
+      'Birders — the zone has rich grassland edges',
+      'Off-beat wildlife enthusiasts',
+    ],
+    tradeOffs: [
+      'Very limited resort options nearby — most guests stay at Kolara and drive',
+      'Lower tiger-sighting probability than Moharli or Kolara',
+      'Gate infrastructure extremely basic',
+    ],
+    seasonalNotes: [
+      { season: 'Summer (March–June)', notes: 'Water sources concentrate tigers. Early morning is your best window.' },
+      { season: 'Winter (Dec–Feb)', notes: 'Dramatic light, low jeep density. Excellent for serious photography.' },
+    ],
+    faqs: [
+      { q: 'Is Navegaon Gate worth visiting?', a: 'For repeat visitors and photographers, absolutely — it offers almost private safari experiences. For first-timers chasing guaranteed tiger sightings, Moharli or Kolara is a safer choice.' },
+      { q: 'How many jeeps at Navegaon Gate?', a: 'Around 15 jeeps per slot, the smallest quota of Tadoba\'s core gates. Crowds at sightings are tiny — often just your own jeep.' },
+      { q: 'Where to stay for Navegaon safaris?', a: 'Most guests stay at Kolara-area resorts and drive 20–30 minutes to Navegaon gate for entry.' },
+    ],
+    nearbyPropertySlugs: [],
+  },
+  agarzari: {
+    slug: 'agarzari',
+    targetKeyword: 'Agarzari Gate Tadoba',
+    heroImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/A_vista_of_the_jungle_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-A_vista_of_the_jungle_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+    metaDescription:
+      'Agarzari Gate Tadoba — the most popular buffer gate. Lower permit cost than core, monsoon access, rising tiger activity. 2026 guide.',
+    intro:
+      'Agarzari is the Tadoba buffer gate everyone should know about. Located right next to Moharli, it shares the same road-in and the same dense forest — but permits cost half of Moharli\'s and the buffer zone remains open during the monsoon when core gates shut. Sighting rates have climbed sharply as tigers from Moharli core extend their territories into Agarzari buffer.',
+    location: {
+      distanceFromNagpur: '140 km (3 hrs 15 min)',
+      distanceFromChandrapur: '45 km (1 hr)',
+      nearestVillage: 'Agarzari village, adjacent to Moharli',
+      mapQuery: 'Agarzari+Gate+Tadoba+Andhari+Tiger+Reserve',
+    },
+    dailyPermits: 'Approximately 30 jeeps per slot — growing capacity each season.',
+    entrySchedule: {
+      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
+      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
+      note: 'Buffer zones often stay open July–September. Closed Tuesdays.',
+    },
+    famousTigers: [
+      'Male tigers from Moharli core range into Agarzari buffer',
+      'Resident tigress with cubs seen in the Agarzari zone through 2025',
+      'Leopards and sloth bears frequently sighted',
+    ],
+    bestFor: [
+      'Monsoon-season travellers (core shut, buffer open)',
+      'Budget-conscious guests — permits ₹1,200–1,800 vs core ₹2,500+',
+      'Guests staying in Moharli-area resorts',
+      'Last-minute bookers — Agarzari has better availability than Moharli core',
+    ],
+    tradeOffs: [
+      'Core-zone tigers are more predictable in their routes',
+      'Some routes in Agarzari buffer are short compared to core',
+    ],
+    seasonalNotes: [
+      { season: 'Monsoon (July–September)', notes: 'Agarzari\'s biggest advantage — open when Moharli core is closed. Green forest, dramatic light, fewer tourists.' },
+      { season: 'Summer (March–June)', notes: 'Tigers spill from Moharli core looking for prey. Sighting rates peak.' },
+    ],
+    faqs: [
+      { q: 'Is Agarzari Gate open during monsoon?', a: 'Yes — Agarzari is a buffer zone and typically remains operational 1 July to 30 September when Tadoba core zones are shut. Confirm with your operator before booking.' },
+      { q: 'What is the permit cost at Agarzari?', a: 'Around ₹1,200–1,800 per jeep (6 seats), roughly half of Moharli core. Foreign national surcharges apply.' },
+      { q: 'Are tiger sightings good at Agarzari?', a: 'Yes — especially recently. Male tigers from Moharli core regularly extend into Agarzari buffer. Rates are lower than core but far from disappointing.' },
+    ],
+    nearbyPropertySlugs: [],
+  },
+  junona: {
+    slug: 'junona',
+    targetKeyword: 'Junona Gate Tadoba',
+    heroImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sunset_of_tadoba.jpg/1920px-Sunset_of_tadoba.jpg',
+    metaDescription:
+      'Junona Gate Tadoba — a quiet southern buffer gate near Chandrapur. Low crowds, cheaper permits, good weekend option from Nagpur. 2026 complete guide.',
+    intro:
+      'Junona is Tadoba\'s quietest buffer gate, on the southern edge of the reserve near Chandrapur town. If you live in Nagpur and want a low-stress weekend safari without fighting the Moharli crowd, Junona is the pragmatic pick. Permits are easier to secure, infrastructure is basic-but-functional, and wildlife sightings have improved dramatically in the last two years.',
+    location: {
+      distanceFromNagpur: '155 km (3 hrs 30 min)',
+      distanceFromChandrapur: '30 km (45 min)',
+      nearestVillage: 'Junona village, Chandrapur district',
+      mapQuery: 'Junona+Gate+Tadoba+Andhari+Tiger+Reserve',
+    },
+    dailyPermits: 'Approximately 20 jeeps per slot — small buffer quota, rarely sold out.',
+    entrySchedule: {
+      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
+      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
+      note: 'Buffer gate — stays open during monsoon. Closed Tuesdays.',
+    },
+    famousTigers: [
+      'Resident tigress in the Junona-Mamla belt',
+      'Male spillover from Moharli core',
+      'Regular leopard and sloth bear sightings',
+    ],
+    bestFor: [
+      'Weekend trippers from Nagpur / Chandrapur',
+      'Budget safaris',
+      'Last-minute bookings',
+      'Monsoon travel',
+    ],
+    tradeOffs: [
+      'Lower tiger frequency than core zones',
+      'Fewer dedicated resorts — most stay at Chandrapur or Moharli',
+      'Gate facilities are basic',
+    ],
+    seasonalNotes: [
+      { season: 'All year', notes: 'Junona\'s sighting rate is steady rather than seasonal. Best treated as a supplementary safari when core permits aren\'t available.' },
+    ],
+    faqs: [
+      { q: 'Is Junona worth visiting?', a: 'For weekend trips or as a supplementary gate in a longer itinerary — yes. As your only Tadoba safari, pair it with a core gate.' },
+      { q: 'How far is Junona from Chandrapur?', a: 'About 30 km — a 45-minute drive. Makes it the most accessible gate for Chandrapur-based travellers.' },
+    ],
+    nearbyPropertySlugs: [],
+  },
+  'devada-adegaon': {
+    slug: 'devada-adegaon',
+    targetKeyword: 'Devada Adegaon Gate Tadoba',
+    heroImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+    metaDescription:
+      'Devada-Adegaon Gate Tadoba — eastern buffer with rich teak-bamboo forest. Strong for leopards, sloth bears, and dholes. Permits, timings, trip-planning guide.',
+    intro:
+      'Devada-Adegaon is Tadoba\'s eastern buffer gate — a name longer than the line of jeeps you\'ll find here. Mixed teak and bamboo forest, a dhole pack that regularly traverses this zone, and excellent sloth-bear records make this a favourite among serious wildlife observers looking for more than the classic tiger-only shot.',
+    location: {
+      distanceFromNagpur: '170 km (3 hrs 45 min)',
+      distanceFromChandrapur: '55 km (1 hr 15 min)',
+      nearestVillage: 'Devada and Adegaon villages, Chimur tehsil',
+      mapQuery: 'Devada+Adegaon+Gate+Tadoba',
+    },
+    dailyPermits: 'Approximately 15 jeeps per slot — small, rarely fills up.',
+    entrySchedule: {
+      morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
+      eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
+      note: 'Buffer — stays open during monsoon. Closed Tuesdays.',
+    },
+    famousTigers: [
+      'Dhole (wild dog) pack regularly sighted',
+      'Sloth bear family in the Adegaon sector',
+      'Leopards active in rocky outcrops',
+      'Occasional tiger cubs',
+    ],
+    bestFor: [
+      'Wildlife photographers diversifying beyond tiger-only',
+      'Repeat Tadoba visitors',
+      'Dhole and sloth bear enthusiasts',
+      'Monsoon-season safaris',
+    ],
+    tradeOffs: [
+      'Tiger sighting rates lower than core gates',
+      'Limited resort infrastructure nearby',
+      'Long drive from Nagpur',
+    ],
+    seasonalNotes: [
+      { season: 'Monsoon (July–September)', notes: 'Dhole pups emerge. Green forest is stunning. One of the best gates to visit in monsoon.' },
+      { season: 'Winter', notes: 'Dramatic golden-hour light. Sloth bears more active.' },
+    ],
+    faqs: [
+      { q: 'Can I see dholes at Devada-Adegaon?', a: 'Yes — this gate has one of the highest dhole sighting rates in Tadoba. A resident pack has used this zone for years.' },
+      { q: 'Is Devada-Adegaon good for first-timers?', a: 'Not as a primary choice. First-timers chasing tiger guarantees should start with Moharli or Kolara. Devada-Adegaon rewards patient, repeat visitors.' },
+    ],
+    nearbyPropertySlugs: [],
+  },
+  alizanza: {
+    slug: 'alizanza',
+    targetKeyword: 'Alizanza Gate Tadoba',
+    heroImage:
+      'https://upload.wikimedia.org/wikipedia/commons/5/53/A_road_in_between_bamboo_forest_at_Tadoba_Andhari_Tiger_Reserve_%28India%2C_2016%29.jpg',
+    metaDescription:
+      'Alizanza Gate Tadoba — the northern buffer adjacent to Kolara core. Open grasslands, raptor activity, and spillover tiger sightings from Choti Tara\'s territory.',
+    intro:
+      'Alizanza is the buffer zone that abuts Kolara core on the northern edge of Tadoba. Its defining feature is its terrain — grasslands that open up between teak patches, unusual for this otherwise dense forest. Photographers chase the golden-hour light here; birders come for the raptor density. And because it borders Kolara, the tigress Choti Tara and her cubs routinely spill into Alizanza routes.',
+    location: {
+      distanceFromNagpur: '115 km (2 hrs 45 min)',
+      distanceFromChandrapur: '100 km (2 hrs 15 min)',
+      nearestVillage: 'Alizanza village, Chimur tehsil',
+      mapQuery: 'Alizanza+Gate+Tadoba',
+    },
+    dailyPermits: 'Approximately 15 jeeps per slot.',
+    entrySchedule: {
+      morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
+      eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
+      note: 'Buffer — often stays open during monsoon. Closed Tuesdays.',
+    },
+    famousTigers: [
+      'Choti Tara (from Kolara core) spills into Alizanza routes',
+      'Chhota Matka male',
+      'Emerging young cubs seen in recent seasons',
+    ],
+    bestFor: [
+      'Photographers seeking grassland compositions',
+      'Birders (raptor activity high)',
+      'Guests staying in Kolara-area resorts',
+      'Budget-conscious safaris',
+    ],
+    tradeOffs: [
+      'Lower permit count means advance booking helps',
+      'Some routes are shorter than core gate safaris',
+    ],
+    seasonalNotes: [
+      { season: 'Winter (Dec–Feb)', notes: 'Grasslands at their golden-brown peak. Raptors on migration.' },
+      { season: 'Monsoon shoulder (Oct–Nov)', notes: 'Green grasslands, migratory birds arriving.' },
+    ],
+    faqs: [
+      { q: 'Is Alizanza the same as Kolara?', a: 'No — Alizanza is the buffer zone adjacent to Kolara core gate. Separate permits, different entry point, but the terrain overlaps and tigers cross between them.' },
+      { q: 'Why do photographers prefer Alizanza?', a: 'The grassland terrain is rare in Tadoba and produces dramatic open-space compositions. Fewer jeeps also help.' },
+    ],
+    nearbyPropertySlugs: ['tadoba-aranya-villa', 'jungle-home-tadoba-kolara', '7-tigers-resort-tadoba', 'a1-tiger-resort-chimur'],
+  },
+  kolsa: {
+    slug: 'kolsa',
+    targetKeyword: 'Kolsa Gate Tadoba',
+    heroImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Pench_National_Park_habitat_shot.jpg/1920px-Pench_National_Park_habitat_shot.jpg',
+    metaDescription:
+      'Kolsa Gate Tadoba — a remote southwestern gate. Monsoon-friendly, uncrowded, suited to repeat visitors seeking wilder, quieter safari experiences.',
+    intro:
+      'Kolsa is Tadoba\'s most remote active gate, on the southwestern edge of the reserve. Infrastructure is minimal, roads are rougher, and the experience is closest to what Tadoba felt like 15 years ago — wild, quiet, unhurried. Tigers are fewer than core gates but more relaxed, and the zone stays accessible longer into monsoon than most buffer alternatives.',
+    location: {
+      distanceFromNagpur: '165 km (3 hrs 45 min)',
+      distanceFromChandrapur: '65 km (1 hr 30 min)',
+      nearestVillage: 'Kolsa village, Chimur tehsil',
+      mapQuery: 'Kolsa+Gate+Tadoba+Andhari',
+    },
+    dailyPermits: 'Approximately 10–12 jeeps per slot — the smallest of all Tadoba gates.',
+    entrySchedule: {
+      morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
+      eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
+      note: 'Often stays open in monsoon. Closed Tuesdays.',
+    },
+    famousTigers: [
+      'Resident tigress active in the Kolsa-Pangdi belt',
+      'Spillover males from neighbouring zones',
+    ],
+    bestFor: [
+      'Repeat visitors looking for wild, uncrowded safaris',
+      'Photographers wanting almost-private sightings',
+      'Monsoon enthusiasts',
+      'Off-the-beaten-path travellers',
+    ],
+    tradeOffs: [
+      'Lowest tiger sighting frequency in Tadoba',
+      'Rougher roads — not comfortable for mobility-limited guests',
+      'Very limited resorts in 30 km radius',
+    ],
+    seasonalNotes: [
+      { season: 'Monsoon (July–September)', notes: 'Stays open when others close. Dramatic wet-forest scenery.' },
+      { season: 'All other seasons', notes: 'Consistent but low volume. Expect solitude.' },
+    ],
+    faqs: [
+      { q: 'Is Kolsa worth visiting?', a: 'Only if you\'ve done other Tadoba gates and want a wilder, quieter experience. Not a first-timer gate.' },
+      { q: 'How accessible is Kolsa?', a: 'It\'s remote. Plan a longer drive and simpler accommodation. The reward is near-private safaris.' },
+    ],
+    nearbyPropertySlugs: [],
+  },
   karmajhiri: {
     slug: 'karmajhiri',
     targetKeyword: 'Karmajhiri Gate Pench',
