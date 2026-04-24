@@ -13,7 +13,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const p = packages.find((x) => x.slug === slug);
   if (!p) return {};
-  return { title: p.name, description: p.shortDescription };
+  return {
+    title: p.name,
+    description: p.shortDescription,
+    alternates: { canonical: `/packages/${p.slug}` },
+  };
 }
 
 export default async function PackagePage({ params }: { params: Promise<{ slug: string }> }) {

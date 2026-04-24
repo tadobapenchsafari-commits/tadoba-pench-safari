@@ -13,7 +13,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const p = properties.find((x) => x.slug === slug);
   if (!p) return {};
-  return { title: p.name, description: p.shortDescription };
+  return {
+    title: p.name,
+    description: p.shortDescription,
+    alternates: { canonical: `/properties/${p.slug}` },
+  };
 }
 
 export default async function PropertyPage({ params }: { params: Promise<{ slug: string }> }) {

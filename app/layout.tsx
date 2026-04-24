@@ -18,7 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://tadobapenchsafari.com'),
+  metadataBase: new URL('https://www.tadobapenchsafari.com'),
   title: {
     default: 'Tadoba Pench Safari — Expert-led jungle safaris in central India',
     template: '%s | Tadoba Pench Safari',
@@ -34,14 +34,27 @@ export const metadata: Metadata = {
     'pench resort',
     'india tiger safari',
   ],
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://tadobapenchsafari.com',
+    url: 'https://www.tadobapenchsafari.com',
     siteName: 'Tadoba Pench Safari',
   },
   twitter: {
     card: 'summary_large_image',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 

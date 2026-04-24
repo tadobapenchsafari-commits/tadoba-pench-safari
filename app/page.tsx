@@ -4,9 +4,26 @@ import { ArrowRight, MapPin, Compass, Star, Clock, Users, Shield } from 'lucide-
 import { destinations, properties, packages } from '@/data/content';
 import { formatINR } from '@/lib/utils';
 
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'TravelAgency',
+  name: 'Tadoba Pench Safari',
+  url: 'https://www.tadobapenchsafari.com',
+  description:
+    'Premium tiger safari experiences in Tadoba and Pench with curated resorts, expert naturalists, and end-to-end trip planning.',
+  areaServed: [
+    { '@type': 'Place', name: 'Tadoba Andhari Tiger Reserve, Maharashtra, India' },
+    { '@type': 'Place', name: 'Pench Tiger Reserve, Madhya Pradesh, India' },
+  ],
+};
+
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+      />
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden grain">
         <Image
