@@ -146,12 +146,20 @@ export const gates: Gate[] = [
       'Buffer gate bordering Kolara core. Grassland terrain with open vistas — favoured by photographers and birders.',
   },
   {
-    slug: 'kolsa',
-    name: 'Kolsa Gate',
+    slug: 'pangdi',
+    name: 'Pangdi Gate',
     destination: 'tadoba',
-    zone: 'Buffer – South-West',
+    zone: 'Core – West',
     description:
-      'Remote southwestern gate that stays open longer into monsoon. Excellent for repeat visitors seeking uncrowded sightings.',
+      'Western core gate with the smallest permit allotment at Tadoba. Remote and quiet, favoured by patient wildlife observers.',
+  },
+  {
+    slug: 'zari',
+    name: 'Zari Gate',
+    destination: 'tadoba',
+    zone: 'Core – East',
+    description:
+      'Eastern core gate with teak and bamboo forest. Good tiger density and fewer jeeps than Moharli or Kolara.',
   },
   {
     slug: 'turia',

@@ -41,7 +41,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Moharli village, Chimur tehsil, Chandrapur district',
       mapQuery: 'Moharli+Gate+Tadoba+Andhari+Tiger+Reserve',
     },
-    dailyPermits: 'Approximately 55 jeeps per slot (morning + evening), the highest of any Tadoba gate',
+    dailyPermits: 'Moharli has the largest permit allotment among Tadoba gates — exact numbers are set per season by the Forest Department. Online quota is smaller than total quota, so going via an authorised operator often helps.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
@@ -116,7 +116,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Kolara village, Chimur tehsil, Chandrapur district',
       mapQuery: 'Kolara+Gate+Tadoba+Andhari+Tiger+Reserve',
     },
-    dailyPermits: 'Approximately 25 jeeps per slot — less than half of Moharli. Books out faster per day.',
+    dailyPermits: 'Kolara has a smaller allotment than Moharli — exact numbers vary by season and are set by the Forest Department. Fewer jeeps per slot is exactly why experienced photographers pick this gate.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
@@ -191,7 +191,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Khutwanda village, Chimur tehsil',
       mapQuery: 'Khutwanda+Gate+Tadoba+Andhari+Tiger+Reserve',
     },
-    dailyPermits: 'Approximately 20 jeeps per slot — smallest quota of Tadoba\'s main core gates.',
+    dailyPermits: 'Khutwanda runs a smaller quota than Moharli and Kolara — exact counts are set by the Forest Department per season. Permits are typically easier to secure here.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
@@ -254,7 +254,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Turia village, Seoni district, Madhya Pradesh',
       mapQuery: 'Turia+Gate+Pench+Tiger+Reserve+Madhya+Pradesh',
     },
-    dailyPermits: 'Approximately 40 jeeps per slot — the main capacity gate for Pench-MP.',
+    dailyPermits: 'Turia is the highest-capacity gate on the MP side of Pench. Exact numbers are set seasonally by the MP Forest Department; online quota is smaller than the total quota.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
@@ -325,7 +325,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Jamtara village, Seoni district, MP',
       mapQuery: 'Jamtara+Gate+Pench+Tiger+Reserve',
     },
-    dailyPermits: 'Approximately 30 jeeps per slot — growing capacity as buffer zones get upgraded.',
+    dailyPermits: 'Jamtara is Pench\'s main buffer gate with a growing allotment. Exact counts are set per season by the Forest Department. Permits are cheaper than Turia core.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
@@ -388,7 +388,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Navegaon village, Chimur tehsil, Chandrapur district',
       mapQuery: 'Navegaon+Gate+Tadoba+Andhari+Tiger+Reserve',
     },
-    dailyPermits: 'Approximately 15 jeeps per slot — the smallest quota of any Tadoba core gate.',
+    dailyPermits: 'Navegaon has one of the smallest allotments of any Tadoba core gate. Exact numbers are set per season by the Forest Department. The upside of the small quota: tiny crowds at sightings.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
@@ -436,7 +436,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Agarzari village, adjacent to Moharli',
       mapQuery: 'Agarzari+Gate+Tadoba+Andhari+Tiger+Reserve',
     },
-    dailyPermits: 'Approximately 30 jeeps per slot — growing capacity each season.',
+    dailyPermits: 'Agarzari is the highest-quota Tadoba buffer gate. Exact numbers are decided per season by the Forest Department, but it\'s consistently easier to book here than Moharli core.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
@@ -483,7 +483,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Junona village, Chandrapur district',
       mapQuery: 'Junona+Gate+Tadoba+Andhari+Tiger+Reserve',
     },
-    dailyPermits: 'Approximately 20 jeeps per slot — small buffer quota, rarely sold out.',
+    dailyPermits: 'Junona runs a small buffer quota that rarely sells out. Exact numbers are set by the Forest Department and can vary with season.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
@@ -529,7 +529,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Devada and Adegaon villages, Chimur tehsil',
       mapQuery: 'Devada+Adegaon+Gate+Tadoba',
     },
-    dailyPermits: 'Approximately 15 jeeps per slot — small, rarely fills up.',
+    dailyPermits: 'A small buffer allotment that rarely fills. Exact counts are set by the Forest Department seasonally.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
@@ -577,7 +577,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Alizanza village, Chimur tehsil',
       mapQuery: 'Alizanza+Gate+Tadoba',
     },
-    dailyPermits: 'Approximately 15 jeeps per slot.',
+    dailyPermits: 'A small buffer quota — exact numbers set by the Forest Department seasonally. Good last-minute availability most of the year.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
@@ -608,49 +608,92 @@ export const gateDetails: Record<string, GateDetail> = {
     ],
     nearbyPropertySlugs: ['tadoba-aranya-villa', 'jungle-home-tadoba-kolara', '7-tigers-resort-tadoba', 'a1-tiger-resort-chimur'],
   },
-  kolsa: {
-    slug: 'kolsa',
-    targetKeyword: 'Kolsa Gate Tadoba',
+  pangdi: {
+    slug: 'pangdi',
+    targetKeyword: 'Pangdi Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Pench_National_Park_habitat_shot.jpg/1920px-Pench_National_Park_habitat_shot.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sunset_of_tadoba.jpg/1920px-Sunset_of_tadoba.jpg',
     metaDescription:
-      'Kolsa Gate Tadoba — a remote southwestern gate. Monsoon-friendly, uncrowded, suited to repeat visitors seeking wilder, quieter safari experiences.',
+      'Pangdi Gate Tadoba — the western core gate with the smallest permit allotment in the reserve. Permits, timings, tigers, trip-planning notes.',
     intro:
-      'Kolsa is Tadoba\'s most remote active gate, on the southwestern edge of the reserve. Infrastructure is minimal, roads are rougher, and the experience is closest to what Tadoba felt like 15 years ago — wild, quiet, unhurried. Tigers are fewer than core gates but more relaxed, and the zone stays accessible longer into monsoon than most buffer alternatives.',
+      'Pangdi is Tadoba\'s western core gate and runs the smallest permit allotment of any gate in the reserve. Only a handful of jeeps enter per slot. For photographers or experienced travellers who value solitude over guarantees, Pangdi is as private as a Tadoba safari gets.',
     location: {
-      distanceFromNagpur: '165 km (3 hrs 45 min)',
-      distanceFromChandrapur: '65 km (1 hr 30 min)',
-      nearestVillage: 'Kolsa village, Chimur tehsil',
-      mapQuery: 'Kolsa+Gate+Tadoba+Andhari',
+      distanceFromNagpur: '155 km (3 hrs 30 min)',
+      distanceFromChandrapur: '90 km (2 hrs)',
+      nearestVillage: 'Pangdi village, Chimur tehsil',
+      mapQuery: 'Pangdi+Gate+Tadoba+Andhari+Tiger+Reserve',
     },
-    dailyPermits: 'Approximately 10–12 jeeps per slot — the smallest of all Tadoba gates.',
+    dailyPermits: 'The smallest core-gate allotment at Tadoba — typically a handful of jeeps per slot. Exact numbers set by the Forest Department seasonally.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
-      note: 'Often stays open in monsoon. Closed Tuesdays.',
+      note: 'Closed Tuesdays. Core zone shut 1 July to 30 September.',
     },
     famousTigers: [
-      'Resident tigress active in the Kolsa-Pangdi belt',
-      'Spillover males from neighbouring zones',
+      'Resident tigers rotating through the Pangdi-Kolsa belt',
+      'Occasional spillover males from Navegaon',
     ],
     bestFor: [
-      'Repeat visitors looking for wild, uncrowded safaris',
-      'Photographers wanting almost-private sightings',
-      'Monsoon enthusiasts',
-      'Off-the-beaten-path travellers',
+      'Photographers seeking near-private sightings',
+      'Repeat visitors who want the wildest Tadoba experience',
+      'Those who prefer solitude over sighting guarantees',
     ],
     tradeOffs: [
-      'Lowest tiger sighting frequency in Tadoba',
-      'Rougher roads — not comfortable for mobility-limited guests',
-      'Very limited resorts in 30 km radius',
+      'Lower tiger sighting probability than Moharli or Kolara',
+      'Very limited infrastructure at the gate',
+      'Few resorts within easy reach',
     ],
     seasonalNotes: [
-      { season: 'Monsoon (July–September)', notes: 'Stays open when others close. Dramatic wet-forest scenery.' },
-      { season: 'All other seasons', notes: 'Consistent but low volume. Expect solitude.' },
+      { season: 'Summer (March–June)', notes: 'Tigers move toward water sources in the Pangdi range.' },
+      { season: 'Winter', notes: 'Dramatic low-light photography. Very few jeeps.' },
     ],
     faqs: [
-      { q: 'Is Kolsa worth visiting?', a: 'Only if you\'ve done other Tadoba gates and want a wilder, quieter experience. Not a first-timer gate.' },
-      { q: 'How accessible is Kolsa?', a: 'It\'s remote. Plan a longer drive and simpler accommodation. The reward is near-private safaris.' },
+      { q: 'Is Pangdi worth it?', a: 'For repeat visitors and photographers, yes. For a first Tadoba trip, pair with Moharli or Kolara for better sighting odds.' },
+      { q: 'How many jeeps at Pangdi?', a: 'The smallest allotment of any Tadoba core gate. Expect a near-private safari but plan advance bookings.' },
+    ],
+    nearbyPropertySlugs: [],
+  },
+  zari: {
+    slug: 'zari',
+    targetKeyword: 'Zari Gate Tadoba',
+    heroImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+    metaDescription:
+      'Zari Gate Tadoba — eastern core gate with good tiger density, teak-bamboo forest, and fewer jeeps than Moharli. Permit timings, nearby stays, planning guide.',
+    intro:
+      'Zari is a core gate on Tadoba\'s eastern edge. It runs a mid-sized permit allotment — fewer jeeps than Moharli, more than Pangdi — and the terrain is classic Tadoba: teak, bamboo, mixed deciduous forest. Tiger density is genuinely good and crowd density is genuinely lower than the central gates.',
+    location: {
+      distanceFromNagpur: '160 km (3 hrs 30 min)',
+      distanceFromChandrapur: '55 km (1 hr 15 min)',
+      nearestVillage: 'Zari village, Chimur tehsil',
+      mapQuery: 'Zari+Gate+Tadoba+Andhari+Tiger+Reserve',
+    },
+    dailyPermits: 'A mid-sized core allotment — fewer than Moharli and Kolara, but more than Navegaon and Pangdi. Exact numbers set by the Forest Department per season.',
+    entrySchedule: {
+      morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
+      eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
+      note: 'Closed Tuesdays. Core zone shut July–September.',
+    },
+    famousTigers: [
+      'Resident tigers in the Zari-Peth belt',
+      'Leopards active in rocky outcrops',
+    ],
+    bestFor: [
+      'Travellers wanting core-zone density with fewer jeeps',
+      'Repeat visitors seeking variety beyond Moharli and Kolara',
+      'Photographers',
+    ],
+    tradeOffs: [
+      'Fewer luxury resorts than Moharli area',
+      'Road to the gate is longer than to Moharli',
+    ],
+    seasonalNotes: [
+      { season: 'Summer (March–June)', notes: 'Good tiger movement as waterholes shrink.' },
+      { season: 'Winter', notes: 'Less crowded than Moharli core. Comfortable weather for long safaris.' },
+    ],
+    faqs: [
+      { q: 'Is Zari core or buffer?', a: 'Zari is a core zone gate on the eastern edge of Tadoba.' },
+      { q: 'How does Zari compare to Moharli?', a: 'Zari has a smaller permit allotment, meaning fewer jeeps per sighting. Moharli has higher permit count and more infrastructure.' },
     ],
     nearbyPropertySlugs: [],
   },
@@ -669,7 +712,7 @@ export const gateDetails: Record<string, GateDetail> = {
       nearestVillage: 'Karmajhiri village, Seoni district, MP',
       mapQuery: 'Karmajhiri+Gate+Pench+Tiger+Reserve',
     },
-    dailyPermits: 'Approximately 20 jeeps per slot — smallest of the Pench core gates.',
+    dailyPermits: 'Karmajhiri has a smaller quota than Turia. Exact numbers are set per season by the Forest Department. Less booked than Turia — easier for last-minute plans.',
     entrySchedule: {
       morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
       eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',

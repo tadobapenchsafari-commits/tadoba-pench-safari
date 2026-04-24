@@ -327,7 +327,7 @@ We've run safaris out of both for eight years. Here's the honest comparison.
 | Location | South-east of park | North-west of park |
 | Nearest town | Chandrapur (45km) | Warora (25km) |
 | Nagpur drive | ~3.5 hrs | ~3 hrs |
-| Daily permits | ~55 jeeps | ~25 jeeps |
+| Daily permits | Largest allotment | Smaller allotment |
 | Crowd level | Busier | Quieter |
 | Tiger density | High | High (different territory) |
 | Infrastructure | Fully developed | Growing |
@@ -345,7 +345,7 @@ Better toilets, shade, benches, and a small museum while you wait for entry. Moh
 From backpacker homestays to luxury lodges like Svasara and Waghoba — almost every major property in the Tadoba ecosystem is within 10 minutes of Moharli gate.
 
 ### You're booking last-minute
-Because Moharli issues ~55 permits per slot (vs Kolara's ~25), last-minute availability is 2–3× better here.
+Because Moharli has a larger allotment per slot than Kolara, last-minute availability is typically better here. Exact counts are decided by the Forest Department seasonally.
 
 ## Pick Kolara if…
 
