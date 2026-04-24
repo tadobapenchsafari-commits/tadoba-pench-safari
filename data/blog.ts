@@ -11,6 +11,157 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'tadoba-safari-cost-2026',
+    title: 'Tadoba Safari Cost 2026: Complete Price Breakdown',
+    excerpt:
+      'What does a Tadoba safari actually cost in 2026? Real numbers for permits, gypsies, guides, resorts, and full packages — with no hidden fees.',
+    heroImage:
+      'https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=2400&q=80',
+    publishedAt: '2026-04-24',
+    readingMinutes: 9,
+    keywords: [
+      'tadoba safari cost 2026',
+      'tadoba safari price',
+      'tadoba jungle safari cost',
+      'tadoba gypsy cost',
+      'tadoba permit cost',
+      'tadoba package price',
+    ],
+    content: `**Tadoba safari cost in 2026 ranges from ₹4,500 per person for a single buffer-zone drive to ₹75,000+ per person for a premium 3-night all-inclusive package.** This guide breaks down exactly where that money goes so you can plan a realistic budget.
+
+All prices below are current for the April 2026 season. Forest department rates revise each October — we'll update this page then.
+
+## The short answer
+
+| Trip type | Per person (2 sharing) | What's included |
+|---|---|---|
+| Single buffer safari | ₹4,500 – 6,000 | 1 safari, guide, gypsy share |
+| Single core safari | ₹6,500 – 8,500 | 1 safari, guide, gypsy share |
+| 1-night budget package | ₹12,000 – 18,000 | 1 night, 2 safaris, meals, transfers |
+| 2-night mid-range package | ₹25,000 – 40,000 | 2 nights, 3 safaris, mid-tier resort |
+| 3-night premium package | ₹50,000 – 75,000+ | 3 nights, 5 safaris, luxury lodge |
+
+## Breaking down a single safari
+
+A Tadoba safari is made up of four separate costs that people often confuse for one:
+
+### 1. Permit (government-set)
+- **Core zone** (Moharli, Tadoba, Kolara, Navegaon, Pangdi): **₹2,500–3,500 per jeep** (6 seats)
+- **Buffer zone** (Agarzari, Junona, Alizanza, Devada-Adegaon, Zari): **₹1,200–1,800 per jeep**
+- Foreign national surcharge: add ~₹1,500 per head
+
+A permit buys the whole jeep — not a seat. If you're two people, you either pay for a full jeep or share with strangers.
+
+### 2. Gypsy rental (private)
+- **Shared jeep:** ₹600–800 per seat
+- **Exclusive jeep:** ₹3,000–4,500 per safari
+- Air-conditioned premium gypsy (rare): ₹5,500+
+
+The gypsy is a Maruti 4x4 operated by a licensed driver. The park enforces a cap on total gypsies per zone per slot.
+
+### 3. Naturalist / guide
+- **Mandatory government guide:** ₹500–700 per safari (assigned at gate)
+- **Private naturalist:** ₹1,500–3,000 per safari (walks you through animal behaviour, tracks, photography)
+
+The government guide is included in your permit. Hiring a private naturalist alongside is optional but dramatically improves the experience for first-timers and photographers.
+
+### 4. Camera fees (if applicable)
+- **Still camera:** ₹200 per camera per safari (often waived for phones)
+- **Video camera / DSLR with detachable lens:** ₹500–1,000 depending on zone
+
+## Tadoba resort costs — by tier
+
+Accommodation is usually the biggest line item. Prices below are **per night, double occupancy, including breakfast**:
+
+| Tier | Rate range | Example properties |
+|---|---|---|
+| Budget | ₹2,500 – 5,000 | Forest department rest houses, basic lodges |
+| Mid | ₹6,000 – 12,000 | Standard resorts near Moharli / Kolara |
+| Premium | ₹13,000 – 25,000 | Svasara Jungle Lodge, Tadoba Tiger Resort |
+| Luxury | ₹28,000 – 60,000+ | Waghoba Eco Lodge, Baagh Resort, Aaranyak |
+
+**Peak season (March–May) premium is 15–25% higher** across all tiers. Book early or shoulder season (Nov–Feb) for better rates.
+
+## What a "package" actually includes
+
+When we quote a Tadoba safari package, here's exactly what's in it:
+
+- **Accommodation** — room, breakfast, often dinner
+- **Safari permits** — typically 2 per day (morning + evening)
+- **Gypsy + guide** for each safari
+- **Park entry fees** — small but mandatory
+- **Airport/railway transfers** from Nagpur (Tadoba) or Jabalpur (Pench)
+- **Inter-park transfers** if combining Tadoba + Pench
+- **GST** — 5% on tour services
+
+## What's usually NOT included
+
+Budget for these separately — they add up:
+
+- **Lunches** at the resort: ₹500–800 per head per meal
+- **Beverages**, especially bottled water on the drives: ₹100–200 per day
+- **Camera fees** (above)
+- **Naturalist tips:** ₹300–500 per safari is customary for great guides
+- **Personal spend** — memorabilia, books, prints
+
+Plan an extra ₹1,500–2,500 per person per day for these on top of your package.
+
+## Sample itineraries with real 2026 numbers
+
+### The quick trip: 1 night / 2 safaris
+
+Best for: Travellers in Nagpur for work, weekend trippers.
+
+- Resort (mid-tier): ₹8,000 × 1 night = ₹8,000
+- 2 core safari permits + gypsies: ₹12,000
+- Guide fees + entry: ₹2,500
+- Transfer from Nagpur: ₹4,500 round trip
+- **Total for 2 people: ~₹27,000 (₹13,500 per person)**
+
+### The classic: 2 nights / 3 safaris
+
+Best for: First-time Tadoba visitors.
+
+- Resort (mid-tier): ₹8,000 × 2 nights = ₹16,000
+- 3 safaris (2 core + 1 buffer): ₹15,500
+- Guide + park fees: ₹4,000
+- Transfer: ₹4,500
+- Meals (3 lunches): ₹3,000
+- **Total for 2 people: ~₹43,000 (₹21,500 per person)**
+
+### The enthusiast: 3 nights / 5 safaris + photography
+
+Best for: Wildlife photographers, repeat visitors.
+
+- Premium resort: ₹16,000 × 3 nights = ₹48,000
+- 5 core safaris (exclusive gypsy): ₹32,000
+- Private naturalist × 5: ₹10,000
+- Transfers + extras: ₹8,000
+- Meals + camera fees: ₹6,000
+- **Total for 2 people: ~₹1,04,000 (₹52,000 per person)**
+
+## When DIY booking is cheaper — and when it isn't
+
+Booking permits yourself via **mahaonline.gov.in** saves the operator fee (usually ₹500–1,500 per safari). **But** you'll fight for permits against a portal that crashes at 6 AM, and you'll still need a separate gypsy + resort booking.
+
+**DIY makes sense if:** you're flexible on dates, patient with government portals, and travelling off-season.
+
+**Book with an operator if:** your dates are fixed (festivals, school holidays), you want one confirmed price, or you're combining Tadoba + Pench.
+
+## Hidden costs to watch for
+
+- **Permit cancellation:** non-refundable. Don't book permits before you've confirmed leave dates.
+- **"Minimum pax" surcharges** at resorts — some charge a single-occupancy premium even if you book a shared jeep safari.
+- **Festival peak surcharges** — Diwali, Christmas week, Holi weekend can see resort rates jump 40–60%.
+- **Foreign currency surcharge** if your card is non-Indian: ~2–3%.
+
+## Ready to plan?
+
+We build custom packages at every budget — from a ₹15,000-per-person 1-night trip to bespoke photography expeditions. [Tell us your dates on the contact page](/contact) or check our [packages](/packages) for starting quotes.
+
+Pricing on all our packages is transparent: permit, gypsy, guide, resort, transfers, meals — itemised on the invoice. No surprises.`,
+  },
+  {
     slug: 'best-time-to-visit-tadoba-for-tiger-sightings',
     title: 'Best Time to Visit Tadoba for Tiger Sightings (2026 Guide)',
     excerpt:
