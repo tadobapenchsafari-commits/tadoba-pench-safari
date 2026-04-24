@@ -11,6 +11,97 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'moharli-vs-kolara-gate-tadoba-honest-comparison',
+    title: 'Moharli vs Kolara Gate Tadoba: An Honest Comparison (2026)',
+    excerpt:
+      'Which Tadoba gate should you book — Moharli or Kolara? Our naturalists have run safaris from both for eight years. Here are the real trade-offs.',
+    heroImage:
+      'https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=2400&q=80',
+    publishedAt: '2026-04-24',
+    readingMinutes: 7,
+    keywords: [
+      'moharli vs kolara',
+      'moharli gate tadoba',
+      'kolara gate tadoba',
+      'best gate tadoba',
+      'tadoba core zone gates',
+    ],
+    content: `Of the five core-zone gates in Tadoba Andhari Tiger Reserve, **Moharli and Kolara are the two most popular** — and also the two most frequently confused by first-time visitors. Travel operators often push guests toward whichever has availability rather than the gate that actually suits them.
+
+We've run safaris out of both for eight years. Here's the honest comparison.
+
+## At a glance
+
+| | Moharli | Kolara |
+|---|---|---|
+| Location | South-east of park | North-west of park |
+| Nearest town | Chandrapur (45km) | Warora (25km) |
+| Nagpur drive | ~3.5 hrs | ~3 hrs |
+| Daily permits | ~55 jeeps | ~25 jeeps |
+| Crowd level | Busier | Quieter |
+| Tiger density | High | High (different territory) |
+| Infrastructure | Fully developed | Growing |
+| Resort options | 30+ | ~10 |
+
+## Pick Moharli if…
+
+### You want the "classic" Tadoba experience
+Moharli is the original safari gate. The interpretation centre, large parking, restaurant, and clean washrooms are all here. For first-timers, it feels organised and reassuring.
+
+### You're travelling with elderly family or kids
+Better toilets, shade, benches, and a small museum while you wait for entry. Moharli has the infrastructure; Kolara has the wilderness.
+
+### You want more resort choice
+From backpacker homestays to luxury lodges like Svasara and Waghoba — almost every major property in the Tadoba ecosystem is within 10 minutes of Moharli gate.
+
+### You're booking last-minute
+Because Moharli issues ~55 permits per slot (vs Kolara's ~25), last-minute availability is 2–3× better here.
+
+## Pick Kolara if…
+
+### You want fewer jeeps at sightings
+When a tiger is spotted at Moharli, you often get 10–15 jeeps clustered. At Kolara, it's usually 4–6. Huge difference for photography and the quality of experience.
+
+### You're serious about photography
+Fewer vehicles means fewer reflections on glass, less dust, less engine noise spooking cats. Most pros we host prefer Kolara's North Bhanuskhindi and Chhota Matka routes.
+
+### You want to see specific tigers
+The tigress **Choti Tara** and her cubs have dominated the Kolara-Alizanza belt for years. Male tigers like **Chhota Matka** and historically **Matkasur** also range here. If you're coming for named tigers, ask your operator which gate matches which cat.
+
+### You're up for a slightly longer drive
+Kolara's road from Nagpur via Warora is actually shorter time-wise than Moharli via Chandrapur in most seasons — counter-intuitive but true.
+
+## What almost nobody tells you
+
+### Zone rotation matters more than gate
+Inside each gate, there are multiple zones. Moharli routes into **Moharli, Khutwanda, and Khari** zones. Kolara routes into **Kolara, Bhanuskhindi, and Alizanza**. The zone you get on your specific safari is decided at the gate on the day — not when you book.
+
+Two of our most-requested routes for experienced guests:
+- **Moharli → Khari zone** (morning): high bison density, less trafficked
+- **Kolara → Alizanza zone** (evening): open grasslands, golden-hour photography
+
+### Gate allotment when a zone is closed
+Occasionally a zone is temporarily closed (fire, flood, court order). If your booking's zone is closed, you're reallocated — but to a zone in the **same gate**, not a different gate. Book flexibility matters.
+
+### The morning–evening split
+- **Morning safaris** (6:00–10:30) have better tiger-sighting odds at both gates in summer
+- **Evening safaris** (15:00–18:30) favour Kolara in winter for dramatic light
+
+## What we recommend for most guests
+
+**For your first 3-night trip:** 2 Moharli safaris + 1 Kolara safari. Best of both — the reassuring infrastructure of Moharli plus the quieter Kolara experience.
+
+**For repeat visitors or photographers:** All 4 safaris at Kolara if permits allow. The quality of sightings is consistently better when jeep counts are lower.
+
+**For groups with kids under 10:** All Moharli. The breaks between safaris work better when your resort is nearby and the gate has facilities.
+
+## Booking reality
+
+Kolara sells out faster per-slot because of the smaller permit count. If you're targeting a peak weekend (Dec 25 weekend, Holi weekend, long weekends), get your Kolara permits in the first 15 minutes of the 120-day window opening at 6 AM IST.
+
+We handle this for guests — [tell us your dates](/contact) and we'll secure the permit combo that actually fits your trip, not whatever's easiest to book.`,
+  },
+  {
     slug: 'tadoba-safari-cost-2026',
     title: 'Tadoba Safari Cost 2026: Complete Price Breakdown',
     excerpt:
