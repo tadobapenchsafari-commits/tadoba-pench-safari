@@ -1,0 +1,178 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { ArrowRight, MapPin } from 'lucide-react';
+import { destinations, properties, packages, gates } from '@/data/content';
+import { formatINR } from '@/lib/utils';
+
+export function generateStaticParams() {
+  return destinations.map((d) => ({ slug: d.slug }));
+}
+
+export function generateMetadata({ params }: { params: { slug: string } }) {
+  const d = destinations.find((x) => x.slug === params.slug);
+  if (!d) return {};
+  return {
+    title: `${d.name} Safari — ${d.tagline}`,
+    description: d.description.slice(0, 160),
+  };
+}
+
+export default function DestinationPage({ params }: { params: { slug: string } }) {
+  const d = destinations.find((x) => x.slug === params.slug);
+  if (!d) notFound();
+
+  const destGates = gates.filter((g) => g.destination === d.slug);
+  const destProps = properties.filter((p) => p.destination === d.slug);
+  const destPacks = packages.filter((p) => p.destination === d.slug);
+
+  return (
+    <>
+      <section className="relative min-h-[70vh] flex items-end overflow-hidden grain">
+        <Image src={d.heroImage} alt={d.name} fill priority className="object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/50 to-transparent" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
+          <p className="divider-tribal max-w-xs text-bone/70 mb-4">
+            {d.quickFacts[0].value}
+          </p>
+          <h1 className="font-display text-6xl md:text-8xl text-bone leading-none mb-4">
+            {d.name}
+          </h1>
+          <p className="text-xl text-bone/85 max-w-2xl italic">{d.tagline}</p>
+        </div>
+      </section>
+
+      {/* Quick facts */}
+      <section className="bg-canopy text-bone">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-2 md:grid-cols-4 gap-6">
+          {d.quickFacts.map((f) => (
+            <div key={f.label}>
+              <div className="text-xs uppercase tracking-wider text-bone/60 mb-1">
+                {f.label}
+              </div>
+              <div className="font-display text-2xl text-sunrise">{f.value}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* About */}
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <p className="divider-tribal max-w-xs mb-6">About {d.name}</p>
+        <p className="text-lg text-bark/80 leading-relaxed">{d.description}</p>
+      </section>
+
+      {/* Gates */}
+      <section className="bg-paper py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-12 max-w-2xl">
+            <p className="divider-tribal max-w-xs mb-4">Safari gates</p>
+            <h2 className="font-display text-4xl text-bark">
+              Where to enter the forest
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {destGates.map((g) => (
+              <div key={g.slug} className="bg-bone p-6 rounded-2xl">
+                <div className="flex items-center gap-2 text-xs text-bamboo uppercase tracking-wider mb-2">
+                  <MapPin className="w-3 h-3" />
+                  {g.zone}
+                </div>
+                <h3 className="font-display text-2xl text-bark mb-3">{g.name}</h3>
+                <p className="text-sm text-bark/70 leading-relaxed">{g.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Properties */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="mb-12 flex items-end justify-between">
+          <div>
+            <p className="divider-tribal max-w-xs mb-4">Where to stay</p>
+            <h2 className="font-display text-4xl text-bark">
+              Properties in {d.name}
+            </h2>
+          </div>
+          <Link href="/properties" className="text-sm hover:text-sunrise">
+            View all <ArrowRight className="w-4 h-4 inline" />
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {destProps.map((p) => (
+            <Link
+              key={p.slug}
+              href={`/properties/${p.slug}`}
+              className="group bg-paper rounded-2xl overflow-hidden hover:shadow-xl transition-all"
+            >
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <Image
+                  src={p.heroImage}
+                  alt={p.name}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="font-display text-xl text-bark mb-2">{p.name}</h3>
+                <p className="text-sm text-bark/60 line-clamp-2 mb-4">{p.shortDescription}</p>
+                <div className="font-display text-lg text-canopy">
+                  {formatINR(p.priceFromINR)}<span className="text-xs text-bark/60">/night</span>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Packages */}
+      {destPacks.length > 0 && (
+        <section className="bg-paper py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-12">
+              <p className="divider-tribal max-w-xs mb-4">Ready-to-book journeys</p>
+              <h2 className="font-display text-4xl text-bark">
+                Packages for {d.name}
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {destPacks.map((p) => (
+                <Link
+                  key={p.slug}
+                  href={`/packages/${p.slug}`}
+                  className="group bg-bone rounded-2xl overflow-hidden hover:shadow-xl flex"
+                >
+                  <div className="relative w-2/5 aspect-[4/5] overflow-hidden flex-shrink-0">
+                    <Image
+                      src={p.heroImage}
+                      alt={p.name}
+                      fill
+                      sizes="(max-width: 768px) 40vw, 20vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                  <div className="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                      <div className="text-xs text-bamboo uppercase tracking-wider mb-2">
+                        {p.durationNights}N / {p.durationDays}D · {p.safariCount} safaris
+                      </div>
+                      <h3 className="font-display text-xl text-bark mb-2">{p.name}</h3>
+                      <p className="text-sm text-bark/60 line-clamp-3">
+                        {p.shortDescription}
+                      </p>
+                    </div>
+                    <div className="font-display text-lg text-canopy mt-4">
+                      From {formatINR(p.priceFromINR)}
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+    </>
+  );
+}
