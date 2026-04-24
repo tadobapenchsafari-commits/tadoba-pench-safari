@@ -28,7 +28,7 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
   return (
     <>
       <section className="relative min-h-[55vh] flex items-end overflow-hidden grain">
-        <Image src={p.heroImage} alt={p.name} fill priority className="object-cover" />
+        <Image src={p.heroImage} alt={`${p.name} — ${p.destination === 'pench' ? 'Pench Tiger Reserve' : 'Tadoba Andhari Tiger Reserve'} safari package with ${p.safariCount} jeep safaris`} fill priority className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/40 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
           <p className="text-sm tracking-[0.2em] uppercase text-sunrise mb-3">

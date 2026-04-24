@@ -35,7 +35,7 @@ export default function BlogIndex() {
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl mb-6">
               <Image
                 src={p.heroImage}
-                alt={p.title}
+                alt={`${p.title} — Tadoba Pench Safari journal`}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-700"

@@ -33,7 +33,7 @@ export default function PackagesPage() {
               <div className="relative md:w-2/5 aspect-[4/3] md:aspect-auto overflow-hidden">
                 <Image
                   src={p.heroImage}
-                  alt={p.name}
+                  alt={`${p.name} — ${p.destination === 'pench' ? 'Pench Tiger Reserve' : 'Tadoba Andhari Tiger Reserve'} safari package, ${p.durationNights}-night stay`}
                   fill
                   sizes="(max-width: 768px) 100vw, 40vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"

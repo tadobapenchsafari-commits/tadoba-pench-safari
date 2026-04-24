@@ -151,7 +151,7 @@ export default function HomePage() {
             >
               <Image
                 src={d.heroImage}
-                alt={d.name}
+                alt={`${d.name} National Park — tiger safari and wildlife in central India`}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -202,7 +202,7 @@ export default function HomePage() {
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <Image
                     src={p.heroImage}
-                    alt={p.name}
+                    alt={`${p.name} — ${p.destination === 'pench' ? 'Pench Tiger Reserve' : 'Tadoba Andhari Tiger Reserve'} safari package`}
                     fill
                     sizes="(max-width: 768px) 100vw, 25vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
