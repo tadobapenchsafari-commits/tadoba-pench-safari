@@ -9,14 +9,16 @@ export function generateStaticParams() {
   return packages.map((p) => ({ slug: p.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const p = packages.find((x) => x.slug === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const p = packages.find((x) => x.slug === slug);
   if (!p) return {};
   return { title: p.name, description: p.shortDescription };
 }
 
-export default function PackagePage({ params }: { params: { slug: string } }) {
-  const p = packages.find((x) => x.slug === params.slug);
+export default async function PackagePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const p = packages.find((x) => x.slug === slug);
   if (!p) notFound();
 
   return (

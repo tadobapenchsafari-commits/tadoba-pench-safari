@@ -9,8 +9,9 @@ export function generateStaticParams() {
   return destinations.map((d) => ({ slug: d.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const d = destinations.find((x) => x.slug === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const d = destinations.find((x) => x.slug === slug);
   if (!d) return {};
   return {
     title: `${d.name} Safari — ${d.tagline}`,
@@ -18,8 +19,9 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   };
 }
 
-export default function DestinationPage({ params }: { params: { slug: string } }) {
-  const d = destinations.find((x) => x.slug === params.slug);
+export default async function DestinationPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const d = destinations.find((x) => x.slug === slug);
   if (!d) notFound();
 
   const destGates = gates.filter((g) => g.destination === d.slug);

@@ -9,14 +9,16 @@ export function generateStaticParams() {
   return properties.map((p) => ({ slug: p.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const p = properties.find((x) => x.slug === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const p = properties.find((x) => x.slug === slug);
   if (!p) return {};
   return { title: p.name, description: p.shortDescription };
 }
 
-export default function PropertyPage({ params }: { params: { slug: string } }) {
-  const p = properties.find((x) => x.slug === params.slug);
+export default async function PropertyPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const p = properties.find((x) => x.slug === slug);
   if (!p) notFound();
 
   const destination = destinations.find((d) => d.slug === p.destination);
