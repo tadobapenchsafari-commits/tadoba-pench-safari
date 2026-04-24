@@ -9,11 +9,60 @@ const organizationJsonLd = {
   '@type': 'TravelAgency',
   name: 'Tadoba Pench Safari',
   url: 'https://www.tadobapenchsafari.com',
+  telephone: '+91-82080-90280',
+  email: 'info@tadobapenchsafari.com',
   description:
     'Premium tiger safari experiences in Tadoba and Pench with curated resorts, expert naturalists, and end-to-end trip planning.',
   areaServed: [
     { '@type': 'Place', name: 'Tadoba Andhari Tiger Reserve, Maharashtra, India' },
     { '@type': 'Place', name: 'Pench Tiger Reserve, Madhya Pradesh, India' },
+  ],
+};
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What is the best time to visit Tadoba for tiger sightings?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'April, May, and early June have the highest tiger sighting rates (80–95% across a four-safari package) because tigers concentrate around shrinking waterholes. November to February is more comfortable weather-wise, with sighting rates around 55–70%.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How far in advance should I book a Tadoba safari?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Core zone permits open 120 days in advance and peak-season slots sell out within 15–45 minutes. For March–June travel, the permit should be secured by January.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is Tadoba or Pench better for a tiger safari?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Tadoba has a higher tiger density and better single-sighting odds. Pench offers more wildlife variety (leopards, wild dogs, sloth bears) and a quieter forest experience. For a 4–5 day trip, a combined Tadoba + Pench itinerary works best.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much does a Tadoba safari cost?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'A core-zone safari permit is roughly ₹2,500–3,500 per jeep (up to 6 guests), plus guide fees. Full packages including resort stay, safaris, meals, and transfers typically start from ₹15,000 per person for 2 nights.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Are Tadoba safaris open year-round?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. Tadoba core zones are closed every Tuesday year-round and completely shut from 1 July to 30 September for the monsoon. Buffer zones stay open during the monsoon.',
+      },
+    },
   ],
 };
 
@@ -23,6 +72,10 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden grain">

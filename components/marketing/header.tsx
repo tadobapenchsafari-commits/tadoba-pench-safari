@@ -9,6 +9,7 @@ const nav = [
   { label: 'Pench', href: '/destinations/pench' },
   { label: 'Properties', href: '/properties' },
   { label: 'Packages', href: '/packages' },
+  { label: 'Journal', href: '/blog' },
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ];

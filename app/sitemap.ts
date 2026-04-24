@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { destinations, properties, packages } from '@/data/content';
+import { blogPosts } from '@/data/blog';
 
 const BASE_URL = 'https://www.tadobapenchsafari.com';
 
@@ -12,7 +13,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE_URL}/properties`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/packages`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE_URL}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
   ];
+
+  const blogRoutes = blogPosts.map((p) => ({
+    url: `${BASE_URL}/blog/${p.slug}`,
+    lastModified: new Date(p.publishedAt),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
 
   const destinationRoutes = destinations.map((d) => ({
     url: `${BASE_URL}/destinations/${d.slug}`,
@@ -35,5 +44,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...destinationRoutes, ...propertyRoutes, ...packageRoutes];
+  return [...staticRoutes, ...destinationRoutes, ...propertyRoutes, ...packageRoutes, ...blogRoutes];
 }

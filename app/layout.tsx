@@ -1,9 +1,12 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Fraunces, Inter } from 'next/font/google';
 import { Header } from '@/components/marketing/header';
 import { Footer } from '@/components/marketing/footer';
 import { WhatsAppFloat } from '@/components/marketing/whatsapp-float';
 import './globals.css';
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -70,6 +73,20 @@ export default function RootLayout({
         {children}
         <Footer />
         <WhatsAppFloat />
+        {GA_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga4-init" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_ID}');`}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );
