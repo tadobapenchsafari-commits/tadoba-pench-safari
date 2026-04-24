@@ -3,14 +3,56 @@
 import { useState } from 'react';
 import { Phone, Mail, MessageCircle } from 'lucide-react';
 
+const WHATSAPP_NUMBER = '918208090280';
+const INQUIRY_EMAIL = 'info@tadobapenchsafari.com';
+
 export default function ContactPage() {
-  const [status, setStatus] = useState<'idle' | 'sending' | 'sent'>('idle');
+  const [status, setStatus] = useState<'idle' | 'sent'>('idle');
+
+  function buildMessage(data: FormData) {
+    const name = (data.get('name') as string) || '';
+    const email = (data.get('email') as string) || '';
+    const phone = (data.get('phone') as string) || '';
+    const date = (data.get('date') as string) || 'not specified';
+    const adults = (data.get('adults') as string) || '2';
+    const children = (data.get('children') as string) || '0';
+    const message = (data.get('message') as string) || '';
+
+    return `Hi Tadoba Pench Safari 👋
+
+I would like to plan a safari trip. Here are my details:
+
+👤 Name: ${name}
+📧 Email: ${email}
+📞 Phone: ${phone}
+📅 Preferred date: ${date}
+👥 Adults: ${adults} | Children: ${children}
+
+${message ? `💬 Notes:\n${message}` : ''}
+
+Please send me options.`;
+  }
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setStatus('sending');
-    // TODO: wire up API route /api/inquiry
-    setTimeout(() => setStatus('sent'), 1200);
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    const text = buildMessage(data);
+    const encoded = encodeURIComponent(text);
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
+    window.open(url, '_blank', 'noopener,noreferrer');
+    setStatus('sent');
+  }
+
+  function handleEmail(e: React.MouseEvent<HTMLButtonElement>) {
+    e.preventDefault();
+    const form = (e.currentTarget.closest('form') as HTMLFormElement) || null;
+    if (!form) return;
+    const data = new FormData(form);
+    const text = buildMessage(data);
+    const subject = 'Safari inquiry via website';
+    const url = `mailto:${INQUIRY_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
+    window.location.href = url;
   }
 
   return (
@@ -33,11 +75,18 @@ export default function ContactPage() {
                   <MessageCircle className="w-8 h-8 text-bone" />
                 </div>
                 <h2 className="font-display text-3xl text-bark mb-3">
-                  We've got your message.
+                  Opening WhatsApp…
                 </h2>
-                <p className="text-bark/70">
-                  One of our safari specialists will get back to you within 2 hours.
+                <p className="text-bark/70 mb-6">
+                  Your inquiry is ready in a WhatsApp message. Just press
+                  send in that chat and we&apos;ll reply within 2 hours.
                 </p>
+                <button
+                  onClick={() => setStatus('idle')}
+                  className="text-sm underline text-bark/60 hover:text-sunrise"
+                >
+                  Send another inquiry
+                </button>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5">
@@ -50,31 +99,49 @@ export default function ContactPage() {
                   <Field label="Children" name="children" type="number" defaultValue="0" />
                 </div>
                 <div>
-                  <label className="block text-xs uppercase tracking-wider text-bark/60 mb-2">
+                  <label htmlFor="message" className="block text-xs uppercase tracking-wider text-bark/60 mb-2">
                     Tell us more
                   </label>
                   <textarea
+                    id="message"
                     name="message"
                     rows={5}
                     placeholder="Tadoba or Pench? Preferred tier? Any must-haves?"
                     className="w-full px-4 py-3 bg-bone border border-bark/15 rounded-lg focus:outline-none focus:border-sunrise"
                   />
                 </div>
-                <button
-                  type="submit"
-                  disabled={status === 'sending'}
-                  className="px-10 py-4 bg-sunrise text-bark rounded-full font-medium hover:bg-rust hover:text-bone transition-colors disabled:opacity-60"
-                >
-                  {status === 'sending' ? 'Sending…' : 'Send inquiry'}
-                </button>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <button
+                    type="submit"
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-sunrise text-bark rounded-full font-medium hover:bg-rust hover:text-bone transition-colors"
+                  >
+                    <MessageCircle className="w-4 h-4" />
+                    Send via WhatsApp
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleEmail}
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-transparent text-bark border border-bark/20 rounded-full font-medium hover:bg-bark hover:text-bone transition-colors"
+                  >
+                    <Mail className="w-4 h-4" />
+                    Email instead
+                  </button>
+                </div>
+                <p className="text-xs text-bark/50">
+                  By submitting, you agree to our{' '}
+                  <a href="/legal/privacy" className="underline hover:text-sunrise">
+                    Privacy Policy
+                  </a>
+                  . We reply within 2 hours during business hours.
+                </p>
               </form>
             )}
           </div>
 
           <aside className="space-y-6">
             <ContactCard icon={<Phone className="w-5 h-5" />} label="Call us" value="+91 82080 90280" href="tel:+918208090280" />
-            <ContactCard icon={<MessageCircle className="w-5 h-5" />} label="WhatsApp" value="+91 82080 90280" href="https://wa.me/918208090280" />
-            <ContactCard icon={<Mail className="w-5 h-5" />} label="Email" value="info@tadobapenchsafari.com" href="mailto:info@tadobapenchsafari.com" />
+            <ContactCard icon={<MessageCircle className="w-5 h-5" />} label="WhatsApp" value="+91 82080 90280" href={`https://wa.me/${WHATSAPP_NUMBER}`} />
+            <ContactCard icon={<Mail className="w-5 h-5" />} label="Email" value={INQUIRY_EMAIL} href={`mailto:${INQUIRY_EMAIL}`} />
             <div className="bg-bark text-bone p-6 rounded-2xl">
               <p className="text-xs uppercase tracking-wider text-bone/60 mb-2">Response time</p>
               <p className="font-display text-2xl text-sunrise mb-1">Within 2 hours</p>
