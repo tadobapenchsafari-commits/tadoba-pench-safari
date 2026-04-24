@@ -11,6 +11,296 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'tadoba-safari-from-nagpur-complete-guide',
+    title: 'Tadoba Safari from Nagpur: Complete 2026 Guide',
+    excerpt:
+      'Nagpur is the natural starting point for a Tadoba trip. Here are the real routes, drive times, cab costs, and day-by-day itineraries for 2, 3, and 4-night plans.',
+    heroImage:
+      'https://upload.wikimedia.org/wikipedia/commons/5/53/A_road_in_between_bamboo_forest_at_Tadoba_Andhari_Tiger_Reserve_%28India%2C_2016%29.jpg',
+    publishedAt: '2026-04-25',
+    readingMinutes: 10,
+    keywords: [
+      'tadoba safari from nagpur',
+      'nagpur to tadoba distance',
+      'tadoba from nagpur package',
+      'tadoba airport transfer nagpur',
+      'nagpur tadoba trip',
+    ],
+    content: `**Nagpur is the gateway to Tadoba.** Dr. Babasaheb Ambedkar International Airport (NAG) is the closest major airport, and every real Tadoba itinerary starts with a car ride from Nagpur. This guide covers the routes, times, costs, and the best 2, 3, and 4-night plans departing from Nagpur in 2026.
+
+## Distance & drive times
+
+| Route | Distance | Drive time | Best gate |
+|---|---|---|---|
+| Nagpur → Moharli Gate | 140 km | 3 hrs 15 min | Moharli core |
+| Nagpur → Kolara Gate (via Warora) | 110 km | 2 hrs 45 min | Kolara core |
+| Nagpur → Khutwanda Gate | 150 km | 3 hrs 30 min | Khutwanda core |
+
+Most guests pick **Kolara** if they want the shortest drive and a quieter safari, or **Moharli** if they want maximum resort choice and best infrastructure. See our [Moharli vs Kolara honest comparison](/blog/moharli-vs-kolara-gate-tadoba-honest-comparison) to decide which suits you.
+
+## Routes from Nagpur
+
+### Route 1 — Nagpur to Moharli (via Chandrapur)
+Take NH-44 south through Kamptee, then SH-266 via Chandrapur town. The last 20 km from Chandrapur to Moharli is narrow state road — drive carefully, especially after dusk. Toll: approximately ₹150 one way. Fuel for a sedan: ~₹1,100 one way.
+
+### Route 2 — Nagpur to Kolara (via Warora)
+Take NH-44 south, turn off at Warora toward Chimur. This route is slightly shorter and usually 15–20 minutes faster than Moharli's. Road surface improved dramatically in 2024. Toll: ₹100. Fuel: ~₹900 one way.
+
+### Route 3 — Combined Tadoba + Pench
+If you're doing both parks, Nagpur is the natural hub:
+- Nagpur → Pench (Turia Gate): 95 km, 2 hrs
+- Pench → Tadoba (Kolara): 145 km, 3 hrs 30 min
+- Tadoba → Nagpur airport: 110 km, 2 hrs 45 min
+
+## Getting to Nagpur first
+
+### Flights
+Nagpur has direct connections from Delhi, Mumbai, Bangalore, Hyderabad, Kolkata, Chennai, Pune, and Goa. International connections via Sharjah (Air Arabia) and Doha (Qatar Airways).
+
+Typical one-way fares (booked 30+ days ahead):
+- Mumbai → Nagpur: ₹3,500–6,500
+- Delhi → Nagpur: ₹4,500–7,500
+- Bangalore → Nagpur: ₹5,500–8,500
+
+### Trains
+Nagpur Junction is a major railway hub on the Mumbai–Howrah line. Overnight trains from Mumbai (Duronto, 13hrs) and Delhi (Rajdhani, 14hrs) are comfortable and cheaper than flying — AC 2-tier: ₹2,400–3,000.
+
+## Nagpur airport pickup options
+
+**Pre-booked private cab (recommended):** ₹3,500–5,000 one-way to Tadoba. Driver meets you at arrivals with a name board. Air-conditioned sedan (Dzire or equivalent) for 3 passengers + luggage.
+
+**App-based cabs:** Ola and Uber run in Nagpur but outstation trips to Tadoba are rare and expensive on these apps. Not recommended for the full journey.
+
+**Shared cab to Chandrapur, then local:** Cheapest option at ~₹800 per person to Chandrapur, then ₹500 private from Chandrapur to your resort. Adds 1.5 hrs to total journey. Only worth it if budget is tight.
+
+**Your own car:** If driving from Mumbai, Pune, or Hyderabad, reaching Tadoba via Nagpur is 10–12 hrs from most Maharashtra cities. Parking is available at all resorts.
+
+## Suggested itineraries
+
+### 2-night / 3 safari weekend (Mumbai/Delhi doable)
+
+**Day 1 (Friday):**
+- 6 AM Mumbai → Nagpur flight
+- 9 AM arrival, pickup begins immediately
+- 12:30 PM reach resort, lunch, rest
+- 3 PM evening safari at Kolara Gate (first sighting chance)
+- Dinner at resort
+
+**Day 2 (Saturday):**
+- 5:30 AM morning safari
+- Breakfast, pool time
+- 3 PM evening safari
+- Dinner
+
+**Day 3 (Sunday):**
+- 5:30 AM morning safari
+- Breakfast, checkout 11 AM
+- Return to Nagpur (arrive ~3 PM)
+- 6 PM evening flight home
+
+**Rough cost:** ₹28,000–42,000 per person including flights, resort (mid-tier), all safaris, and transfers.
+
+### 3-night / 5 safari classic trip
+
+Adds an extra day either before or after, letting you mix Moharli and Kolara gates. **This is the sweet spot** — enough safaris to almost guarantee a tiger sighting, without travel fatigue.
+
+**Rough cost:** ₹38,000–55,000 per person.
+
+### 4-night Tadoba + Pench combo
+
+Day 1–2 Pench (2 safaris), day 3 transfer + evening Tadoba safari, day 4–5 Tadoba (3 safaris), return to Nagpur. Covers both parks, no backtracking.
+
+**Rough cost:** ₹52,000–72,000 per person.
+
+## When to fly/arrive for the best experience
+
+**Arrive morning** if possible — most flights from major cities land by 11 AM, giving you enough time to reach your resort and join the **evening safari on Day 1**. An afternoon arrival means you miss that safari slot.
+
+**Avoid Tuesday arrival** — Tadoba is closed every Tuesday year-round. You'd waste Day 1.
+
+**Avoid monsoon (1 July – 30 September)** — core zones shut completely. Buffer zones stay open but sighting odds drop.
+
+## Nagpur stopover — worth it?
+
+If you have half a day either side of the safari, Nagpur offers:
+
+- **Deekshabhoomi** — the Buddhist memorial where Dr. B.R. Ambedkar and thousands converted to Buddhism in 1956. 2-hour visit.
+- **Ramtek** — ancient fort and temples, 40 km from Nagpur. Half-day trip.
+- **Khindsey Lake** — boating and bird-watching, 35 km from airport. Good for families.
+
+But honestly — most guests skip Nagpur and maximise park time. Fly in, safari, fly out.
+
+## Practical tips
+
+- **Book airport cab in advance** — cab availability at Nagpur airport after 9 PM is thin
+- **ATM at airport** — withdraw ₹10,000–15,000 for tips, bottled water, entry fees. Cards work at most resorts but not at gates
+- **Your ID must be the same** as on the safari permit — carry the original Aadhaar, passport, or driving licence you booked with
+- **Layers** — Nagpur can be 32°C at airport and forest can be 10°C at 6 AM morning safari. Pack a light jacket
+- **Phone signal** — Jio and Airtel both work inside the park. Keep phone on silent during safaris
+
+## How we help
+
+We handle the whole Nagpur-to-Nagpur trip: flight recommendations, airport pickup with a driver who knows the route, permits, resort, safaris, and drop-off. You fly into Nagpur and we take over until you fly home.
+
+[Tell us your dates](/contact) and we'll put together an itinerary.`,
+  },
+  {
+    slug: 'what-to-pack-for-tadoba-safari-checklist',
+    title: 'What to Pack for a Tadoba Safari: Essential 2026 Checklist',
+    excerpt:
+      'Ten years of running Tadoba trips have taught us exactly what guests always forget. Here is the no-fluff packing list — what to bring, what to skip, and what the weather really does.',
+    heroImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+    publishedAt: '2026-04-25',
+    readingMinutes: 8,
+    keywords: [
+      'what to pack for tadoba safari',
+      'tadoba safari packing list',
+      'tadoba safari clothes',
+      'tadoba safari gear',
+      'tadoba weather safari',
+    ],
+    content: `Most Tadoba first-timers either overpack luxury resort wear they never use, or underpack and freeze on a December morning safari. After eight years of running trips, here is the real list — grouped by what actually matters.
+
+## The non-negotiables
+
+These four things ruin your trip if missed:
+
+1. **Original government photo ID** — Aadhaar, passport, or driving licence. The name on your ID must match the permit exactly. No ID = no safari, no refund.
+2. **Printed permit** (or screenshot on phone) — you get this from your operator 24 hrs before entry.
+3. **Cash in small notes** — ₹200, ₹500, ₹2,000. For tips, bottled water at the gate, camera fees, and the odd meal outside the resort.
+4. **Any medication you take regularly** — pharmacies near Tadoba are limited. Bring 1.5× what you need.
+
+Everything else is comfort. Without the four above, you simply can't safari.
+
+## Clothing — colour first, everything else second
+
+**Wear muted colours only.** No bright white, no red, no neon blue. Bright colours spook tigers and get you side-eye from experienced guides.
+
+Safe colours: **olive, khaki, beige, brown, dark green, grey.**
+
+### The safari-day outfit
+
+- **Full-sleeve T-shirt or shirt** — cotton in summer, layers in winter. Full sleeves protect from sun and occasional branches.
+- **Long trousers or cargo pants** — never shorts. Mosquitoes are active 5–7 AM when you enter the park.
+- **Closed shoes** — sneakers or light hiking shoes. Not sandals.
+- **Cap or wide-brim hat** — sun is brutal from March to June, even at 7 AM.
+- **Sunglasses** — polarised helps cut glare off leaves when scanning for tigers.
+
+### Layer for morning safaris
+
+Mornings are cold year-round — even April mornings can be 15°C for the first 90 minutes of the safari. Always pack:
+
+- **Light fleece or sweatshirt** — slip off by 8:30 AM
+- **Windbreaker** — the jeep hits 40 km/h on some stretches; wind chill matters
+
+### Winter (November–February) adds
+
+- **Thick fleece or sweater** — 6 AM can hit 6°C in December
+- **Gloves** — thin ones. Your hands on exposed metal at 20 km/h will go numb otherwise
+- **Wool beanie** — serious game-changer for photographers holding still
+
+### Summer (April–June) adds
+
+- **Sweat towel or bandana** — soak it at gate, tie around neck
+- **Electrolyte sachets** — 44°C afternoons will wipe you out
+- **Extra T-shirt** — morning safari, midday shower, evening safari fresh shirt
+
+## Camera gear — honest advice
+
+### Serious photographer
+
+- **Telephoto 200-600mm or 150-600mm** — this is what you need for tigers at 40m distance
+- **Body** — any mirrorless or DSLR works. Pros prefer Sony Alpha, Canon R, or Nikon Z
+- **2 batteries** — cold mornings drain them fast
+- **Fast SD cards + at least 128 GB total** — burst mode on an approaching tiger fills storage fast
+- **Lens cloth + blower** — dust gets everywhere
+- **Beanbag** — rest the long lens on the jeep rail. Far better than handholding for 3 hours
+
+### Casual photographer
+
+- Your phone is fine for wide landscape shots
+- A bridge camera (Nikon P950, Sony RX10) with 24–600mm zoom is the best "one camera" buy for ₹60,000–80,000
+- Don't borrow an unfamiliar DSLR for the trip — you'll miss sightings figuring out buttons
+
+### Camera fees at the gate
+- **Still camera (phones and point-and-shoot):** ₹200 per camera per safari, often waived for phones
+- **DSLR / mirrorless with detachable lens:** ₹500–1,000 per safari depending on zone
+- Keep this cash in small notes — payable at the gate counter
+
+## Health & comfort kit
+
+**Small bag, packed once, keeps you sane:**
+
+- Sunscreen SPF 50+ (apply at 6 AM for morning safari)
+- Lip balm — air is drier than you expect
+- Mosquito repellent — the forest gets buggy around dusk
+- Basic painkillers (paracetamol, ibuprofen)
+- Antacid (food is rich and unfamiliar)
+- Band-aids
+- Motion sickness tablets if the jeep ride bothers you
+- Personal hand sanitiser
+- Wet wipes — no running water inside the park
+
+## Food & water
+
+- **Reusable water bottle** — your resort fills it before each safari
+- **Energy bars or dry fruit** — you're in the jeep 3+ hours, often see lunch delayed. A bar saves you
+- **Avoid heavy snacks** on morning safaris — the jeep bounces
+
+Note: **eating is not permitted inside the park**. Bars must be consumed before entry or after exit.
+
+## What to leave at home
+
+- **Bright clothes** — covered above, bears repeating
+- **Strong perfume or cologne** — tigers have incredible olfactory range; don't announce yourself
+- **Drones** — strictly prohibited inside tiger reserves. Confiscation + fine
+- **Flash** — not allowed. Ever. If your phone has it, turn off manually
+- **Portable speakers** — ruins the experience for the other 5 people in your jeep
+- **Plastic bottles and packaging** — most resorts discourage; carry a reusable bottle
+- **Valuables you don't need** — jewellery, expensive watches. Leave at resort safe
+
+## The "photographer veteran" additions
+
+Things our repeat guests always bring that first-timers forget:
+
+- **Silver reflector card** (A4 size) — for low-light side-lighting a tiger cub at 10m
+- **Rubber rain cover for lens** — a single unseasonal shower has ended more trips than you'd think
+- **Notebook + pencil** — phones dim quickly in summer; names of tigers and zones are worth writing down
+- **Small torch or headlamp** — resort paths at 5 AM are dark
+- **Spare charging cable** — one always fails at the worst moment
+- **A paperback book** — the gap between morning and evening safari is 5 hours
+
+## Seasonal snapshot
+
+| Season | Pack priority |
+|---|---|
+| **March – June** (summer) | Sunscreen, electrolytes, extra T-shirts, bottled water |
+| **July – September** | Park closed for core; don't travel unless buffer-only trip |
+| **October – November** | Light jacket for mornings, regular safari kit |
+| **December – February** | Thick fleece, gloves, beanie, thermal base layer optional |
+
+## One-bag packing for a 3-night trip
+
+If you can, travel with **one cabin-sized bag + camera backpack**. Tadoba resorts are casual, and you'll wear the same 2–3 outfits across 4 safaris.
+
+- 3 full-sleeve T-shirts (muted colours)
+- 2 trousers / cargo pants
+- 1 fleece + 1 windbreaker (winter: add thermal)
+- 4 pairs of socks, 4 underwear
+- Closed shoes (worn) + 1 pair sandals for resort
+- Toiletries + medical kit (see above)
+- Camera + lenses
+- Power bank + chargers
+- Documents (ID, permits, itinerary)
+
+Total weight: under 7 kg. Most airlines allow this as cabin baggage — no check-in hassle, no lost bags at Nagpur.
+
+## Ready to go?
+
+Once your dates are locked and the permits are in hand, we send guests this exact checklist by email 7 days before arrival, customised to the season of their trip. If you'd like to start planning, [reach us here](/contact).`,
+  },
+  {
     slug: 'moharli-vs-kolara-gate-tadoba-honest-comparison',
     title: 'Moharli vs Kolara Gate Tadoba: An Honest Comparison (2026)',
     excerpt:
