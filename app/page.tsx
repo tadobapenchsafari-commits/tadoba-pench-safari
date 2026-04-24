@@ -88,7 +88,7 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-bark/30 via-bark/40 to-bark/80" />
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-20 pb-12">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-20 pb-40 md:pb-48">
           <div className="max-w-3xl">
             <p className="divider-tribal text-bone/70 max-w-xs mb-8">
               <span>Est. 2018</span>
