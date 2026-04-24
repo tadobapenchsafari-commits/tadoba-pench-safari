@@ -38,11 +38,6 @@ export default function PrivacyPolicyPage() {
               guests, dietary notes, ID copies required for forest permits.
             </li>
             <li>
-              <strong>Payment information</strong> — processed directly by
-              payment gateways (Razorpay, Stripe). We do not store full card
-              numbers or CVVs on our servers.
-            </li>
-            <li>
               <strong>Analytics data</strong> — anonymous usage stats via
               Google Analytics 4 (pages visited, device type, approximate
               location).
@@ -81,8 +76,8 @@ export default function PrivacyPolicyPage() {
           <p>
             We share only with third parties directly needed to deliver your
             safari: forest-department officials (for permits), the resort you
-            stay at, jeep operators, and payment processors. We do not sell
-            your data to advertisers or data brokers — ever.
+            stay at, and jeep operators. We do not sell your data to
+            advertisers or data brokers — ever.
           </p>
         </section>
 
@@ -111,10 +106,12 @@ export default function PrivacyPolicyPage() {
         <section>
           <h2 className="font-display text-2xl text-bark mt-10 mb-3">Security</h2>
           <p>
-            The website runs on HTTPS. Payments go through PCI-compliant
-            gateways. Backups are encrypted at rest. No system is perfectly
-            secure — if a breach ever affects your data, we'll notify you
-            within 72 hours.
+            The website runs on HTTPS. We do not collect or store any
+            payment information — all settlements are handled directly
+            between you and our team via bank transfer or UPI.
+            Backups of your contact and booking data are encrypted at rest.
+            No system is perfectly secure — if a breach ever affects your
+            data, we'll notify you within 72 hours.
           </p>
         </section>
 

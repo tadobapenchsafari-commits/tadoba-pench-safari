@@ -43,8 +43,9 @@ export default function TermsPage() {
               time of booking if arrival is within 30 days.
             </li>
             <li>
-              <strong>Mode:</strong> UPI, NEFT, or credit/debit card via
-              secured payment gateway. Cash is not accepted for bookings.
+              <strong>Mode:</strong> Direct bank transfer (NEFT / IMPS) or UPI
+              to our business account. Payment details are shared individually
+              on confirmation. We do not collect or store card details.
             </li>
             <li>
               <strong>GST:</strong> 5% GST is added to all tour services as
