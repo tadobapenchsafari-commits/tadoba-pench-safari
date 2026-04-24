@@ -28,31 +28,52 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 function renderMarkdown(md: string) {
-  const blocks = md.trim().split(/\n\n+/);
-  return blocks.map((block, i) => {
-    if (block.startsWith('## ')) {
-      return (
-        <h2 key={i} className="font-display text-3xl text-bark mt-12 mb-4">
-          {block.replace(/^##\s+/, '')}
+  const lines = md.trim().split('\n');
+  const out: React.ReactElement[] = [];
+  let i = 0;
+  let key = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+
+    if (line.trim() === '') {
+      i++;
+      continue;
+    }
+
+    // H2
+    if (line.startsWith('## ')) {
+      out.push(
+        <h2 key={key++} className="font-display text-3xl text-bark mt-12 mb-4">
+          {line.replace(/^##\s+/, '')}
         </h2>
       );
+      i++;
+      continue;
     }
-    if (block.startsWith('- ')) {
-      const items = block.split('\n').map((l) => l.replace(/^-\s+/, ''));
-      return (
-        <ul key={i} className="list-disc pl-6 space-y-2 text-bark/80 leading-relaxed mb-6">
-          {items.map((it, j) => (
-            <li key={j} dangerouslySetInnerHTML={{ __html: inline(it) }} />
-          ))}
-        </ul>
+
+    // H3
+    if (line.startsWith('### ')) {
+      out.push(
+        <h3 key={key++} className="font-display text-2xl text-bark mt-8 mb-3">
+          {line.replace(/^###\s+/, '')}
+        </h3>
       );
+      i++;
+      continue;
     }
-    if (block.startsWith('|')) {
-      const rows = block.split('\n').filter((r) => r.startsWith('|'));
+
+    // Table (starts with |)
+    if (line.startsWith('|')) {
+      const rows: string[] = [];
+      while (i < lines.length && lines[i].startsWith('|')) {
+        rows.push(lines[i]);
+        i++;
+      }
       const header = rows[0].split('|').slice(1, -1).map((c) => c.trim());
       const body = rows.slice(2).map((r) => r.split('|').slice(1, -1).map((c) => c.trim()));
-      return (
-        <div key={i} className="overflow-x-auto mb-6">
+      out.push(
+        <div key={key++} className="overflow-x-auto mb-6">
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-bark/20">
@@ -65,7 +86,7 @@ function renderMarkdown(md: string) {
               {body.map((row, r) => (
                 <tr key={r} className="border-b border-bark/10">
                   {row.map((cell, c) => (
-                    <td key={c} className="py-2 px-3 text-bark/80">{cell}</td>
+                    <td key={c} className="py-2 px-3 text-bark/80" dangerouslySetInnerHTML={{ __html: inline(cell) }} />
                   ))}
                 </tr>
               ))}
@@ -73,25 +94,67 @@ function renderMarkdown(md: string) {
           </table>
         </div>
       );
+      continue;
     }
-    if (/^\d+\.\s/.test(block)) {
-      const items = block.split('\n').map((l) => l.replace(/^\d+\.\s+/, ''));
-      return (
-        <ol key={i} className="list-decimal pl-6 space-y-2 text-bark/80 leading-relaxed mb-6">
+
+    // Unordered list
+    if (line.startsWith('- ')) {
+      const items: string[] = [];
+      while (i < lines.length && lines[i].startsWith('- ')) {
+        items.push(lines[i].replace(/^-\s+/, ''));
+        i++;
+      }
+      out.push(
+        <ul key={key++} className="list-disc pl-6 space-y-2 text-bark/80 leading-relaxed mb-6">
+          {items.map((it, j) => (
+            <li key={j} dangerouslySetInnerHTML={{ __html: inline(it) }} />
+          ))}
+        </ul>
+      );
+      continue;
+    }
+
+    // Ordered list
+    if (/^\d+\.\s/.test(line)) {
+      const items: string[] = [];
+      while (i < lines.length && /^\d+\.\s/.test(lines[i])) {
+        items.push(lines[i].replace(/^\d+\.\s+/, ''));
+        i++;
+      }
+      out.push(
+        <ol key={key++} className="list-decimal pl-6 space-y-2 text-bark/80 leading-relaxed mb-6">
           {items.map((it, j) => (
             <li key={j} dangerouslySetInnerHTML={{ __html: inline(it) }} />
           ))}
         </ol>
       );
+      continue;
     }
-    return (
+
+    // Paragraph — collect consecutive non-blank, non-special lines
+    const paraLines: string[] = [];
+    while (
+      i < lines.length &&
+      lines[i].trim() !== '' &&
+      !lines[i].startsWith('## ') &&
+      !lines[i].startsWith('### ') &&
+      !lines[i].startsWith('- ') &&
+      !lines[i].startsWith('|') &&
+      !/^\d+\.\s/.test(lines[i])
+    ) {
+      paraLines.push(lines[i]);
+      i++;
+    }
+    out.push(
       <p
-        key={i}
+        key={key++}
         className="text-lg text-bark/80 leading-relaxed mb-6"
-        dangerouslySetInnerHTML={{ __html: inline(block) }}
+        dangerouslySetInnerHTML={{ __html: inline(paraLines.join(' ')) }}
       />
     );
-  });
+  }
+
+  return out;
 }
 
 function inline(text: string) {
