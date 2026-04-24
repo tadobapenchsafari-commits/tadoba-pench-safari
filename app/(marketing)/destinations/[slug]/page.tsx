@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowRight, MapPin } from 'lucide-react';
-import { destinations, properties, packages, gates } from '@/data/content';
+import { destinations, packages, gates } from '@/data/content';
 import { formatINR } from '@/lib/utils';
 
 export function generateStaticParams() {
@@ -26,7 +26,6 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
   if (!d) notFound();
 
   const destGates = gates.filter((g) => g.destination === d.slug);
-  const destProps = properties.filter((p) => p.destination === d.slug);
   const destPacks = packages.filter((p) => p.destination === d.slug);
 
   return (
@@ -98,45 +97,41 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         </div>
       </section>
 
-      {/* Properties */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="mb-12 flex items-end justify-between">
-          <div>
-            <p className="divider-tribal max-w-xs mb-4">Where to stay</p>
-            <h2 className="font-display text-4xl text-bark">
-              Properties in {d.name}
-            </h2>
+      {/* Accommodation approach */}
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="mb-12 max-w-2xl">
+          <p className="divider-tribal max-w-xs mb-4">Where to stay</p>
+          <h2 className="font-display text-4xl text-bark mb-4">
+            Curated tie-up resorts across every gate
+          </h2>
+          <p className="text-lg text-bark/70 leading-relaxed">
+            We are a travel agent — we don&apos;t run one resort and push
+            everyone into it. Instead, we have tie-ups with premium, mid-tier,
+            and budget properties near every major gate in {d.name}. Once
+            we know your dates, group size, and budget, we recommend the
+            property that genuinely fits — and handle the booking end-to-end.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+          <div className="bg-paper p-6 rounded-2xl">
+            <div className="font-display text-3xl text-canopy mb-2">15+</div>
+            <div className="text-sm text-bark/70">Tie-up resorts across {d.name}</div>
           </div>
-          <Link href="/properties" className="text-sm hover:text-sunrise">
-            View all <ArrowRight className="w-4 h-4 inline" />
-          </Link>
+          <div className="bg-paper p-6 rounded-2xl">
+            <div className="font-display text-3xl text-canopy mb-2">Every tier</div>
+            <div className="text-sm text-bark/70">Budget, mid, premium &amp; luxury</div>
+          </div>
+          <div className="bg-paper p-6 rounded-2xl">
+            <div className="font-display text-3xl text-canopy mb-2">All gates</div>
+            <div className="text-sm text-bark/70">Never a long drive to the park</div>
+          </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {destProps.map((p) => (
-            <Link
-              key={p.slug}
-              href={`/properties/${p.slug}`}
-              className="group bg-paper rounded-2xl overflow-hidden hover:shadow-xl transition-all"
-            >
-              <div className="relative aspect-[4/3] overflow-hidden">
-                <Image
-                  src={p.heroImage}
-                  alt={p.name}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="font-display text-xl text-bark mb-2">{p.name}</h3>
-                <p className="text-sm text-bark/60 line-clamp-2 mb-4">{p.shortDescription}</p>
-                <div className="font-display text-lg text-canopy">
-                  {formatINR(p.priceFromINR)}<span className="text-xs text-bark/60">/night</span>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+        <Link
+          href="/contact"
+          className="inline-flex items-center gap-2 px-8 py-4 bg-sunrise text-bark rounded-full font-medium hover:bg-bone transition-colors"
+        >
+          Get a tailored recommendation <ArrowRight className="w-4 h-4" />
+        </Link>
       </section>
 
       {/* Packages */}

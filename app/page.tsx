@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, MapPin, Compass, Star, Clock, Users, Shield } from 'lucide-react';
-import { destinations, properties, packages } from '@/data/content';
+import { destinations, packages } from '@/data/content';
 import { formatINR } from '@/lib/utils';
 
 const organizationJsonLd = {
@@ -231,71 +231,6 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* PROPERTIES */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
-          <div className="max-w-2xl">
-            <p className="divider-tribal max-w-xs mb-4">Where you stay matters</p>
-            <h2 className="font-display text-4xl md:text-5xl text-bark leading-tight">
-              Boutique lodges,
-              <br />
-              <span className="italic">hand-picked by us.</span>
-            </h2>
-          </div>
-          <Link
-            href="/properties"
-            className="inline-flex items-center gap-2 text-sm font-medium text-bark hover:text-sunrise"
-          >
-            View all properties <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {properties.slice(0, 6).map((p) => (
-            <Link
-              key={p.slug}
-              href={`/properties/${p.slug}`}
-              className="group bg-paper rounded-2xl overflow-hidden hover:shadow-xl transition-all"
-            >
-              <div className="relative aspect-[4/3] overflow-hidden">
-                <Image
-                  src={p.heroImage}
-                  alt={p.name}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute top-4 right-4 bg-bone/95 backdrop-blur text-bark text-xs font-medium px-3 py-1 rounded-full flex items-center gap-1">
-                  <Star className="w-3 h-3 fill-sunrise text-sunrise" />
-                  {p.starRating}
-                </div>
-              </div>
-              <div className="p-6">
-                <div className="flex items-center gap-2 text-xs text-bamboo uppercase tracking-wider mb-2">
-                  <MapPin className="w-3 h-3" />
-                  {p.destination} · {p.distanceFromGateMeters}m from gate
-                </div>
-                <h3 className="font-display text-xl text-bark mb-2">{p.name}</h3>
-                <p className="text-sm text-bark/60 line-clamp-2 mb-4">
-                  {p.shortDescription}
-                </p>
-                <div className="flex items-end justify-between pt-4 border-t border-bark/10">
-                  <div>
-                    <div className="text-xs text-bark/50 uppercase tracking-wide">From</div>
-                    <div className="font-display text-lg text-canopy">
-                      {formatINR(p.priceFromINR)}<span className="text-xs text-bark/60">/night</span>
-                    </div>
-                  </div>
-                  <span className="text-xs text-bark/50 uppercase tracking-wider">
-                    {p.tier.toLowerCase()}
-                  </span>
-                </div>
-              </div>
-            </Link>
-          ))}
         </div>
       </section>
 

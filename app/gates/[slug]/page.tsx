@@ -3,8 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { MapPin, Clock, Users, Camera, ArrowRight } from 'lucide-react';
 import { gateDetails } from '@/data/gates-content';
-import { gates, properties } from '@/data/content';
-import { formatINR } from '@/lib/utils';
+import { gates } from '@/data/content';
 
 export function generateStaticParams() {
   return Object.keys(gateDetails).map((slug) => ({ slug }));
@@ -34,7 +33,6 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
 
   const baseGate = gates.find((g) => g.slug === slug);
   const destination = baseGate?.destination;
-  const nearbyProps = properties.filter((p) => d.nearbyPropertySlugs.includes(p.slug));
 
   const faqJsonLd = {
     '@context': 'https://schema.org',
@@ -170,40 +168,18 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
           ))}
         </div>
 
-        {nearbyProps.length > 0 && (
-          <>
-            <h2 className="font-display text-3xl text-bark mb-6">Resorts near this gate</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
-              {nearbyProps.map((p) => (
-                <Link
-                  key={p.slug}
-                  href={`/properties/${p.slug}`}
-                  className="group bg-paper rounded-2xl overflow-hidden hover:shadow-xl transition-all"
-                >
-                  <div className="relative aspect-[4/3]">
-                    <Image
-                      src={p.heroImage}
-                      alt={p.name}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                  <div className="p-5">
-                    <h3 className="font-display text-lg text-bark mb-1">{p.name}</h3>
-                    <p className="text-sm text-bark/60 mb-2">
-                      {p.distanceFromGateMeters}m from gate · {p.tier.toLowerCase()}
-                    </p>
-                    <p className="font-display text-canopy">
-                      From {formatINR(p.priceFromINR)}
-                      <span className="text-xs text-bark/60">/night</span>
-                    </p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </>
-        )}
+        <div className="bg-paper p-6 rounded-2xl mb-16">
+          <h2 className="font-display text-2xl text-bark mb-3">Where to stay</h2>
+          <p className="text-bark/80 leading-relaxed">
+            We have tie-ups with multiple vetted resorts within easy reach of
+            this gate — across budget, mid, premium and luxury tiers. Tell us
+            your dates, group size and budget on the{' '}
+            <Link href="/contact" className="text-canopy underline">
+              contact page
+            </Link>
+            {' '}and we&apos;ll recommend the right property for your trip.
+          </p>
+        </div>
 
         <h2 className="font-display text-3xl text-bark mb-6">Frequently asked questions</h2>
         <div className="space-y-6 mb-16">

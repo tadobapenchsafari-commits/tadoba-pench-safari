@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { destinations, properties, packages } from '@/data/content';
+import { destinations, packages } from '@/data/content';
 import { blogPosts } from '@/data/blog';
 import { gateDetails } from '@/data/gates-content';
 
@@ -12,7 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/`, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
     { url: `${BASE_URL}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE_URL}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${BASE_URL}/properties`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/packages`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/legal/privacy`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 },
@@ -34,13 +33,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const propertyRoutes = properties.map((p) => ({
-    url: `${BASE_URL}/properties/${p.slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
-
   const packageRoutes = packages.map((p) => ({
     url: `${BASE_URL}/packages/${p.slug}`,
     lastModified: now,
@@ -55,5 +47,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...staticRoutes, ...destinationRoutes, ...propertyRoutes, ...packageRoutes, ...blogRoutes, ...gateRoutes];
+  return [...staticRoutes, ...destinationRoutes, ...packageRoutes, ...blogRoutes, ...gateRoutes];
 }
