@@ -334,4 +334,69 @@ export const packages: Package[] = [
     ],
     safariCount: 3,
   },
+  {
+    slug: 'pench-classic-3n',
+    name: 'Pench Classic — 3 Nights',
+    destination: 'pench',
+    durationNights: 3,
+    durationDays: 4,
+    priceFromINR: 36000,
+    shortDescription:
+      'Five safaris across Turia, Jamtara, and Karmajhiri gates — the full Pench experience with Kipling-country storytelling, leopards, and dhole packs alongside the tigers.',
+    heroImage:
+      'https://images.unsplash.com/photo-1562960912-e32361b7e41a?w=1600&q=80',
+    inclusions: [
+      '3 nights premium accommodation',
+      '5 jeep safaris (3 gates)',
+      'All meals',
+      'Airport transfers from Nagpur or Jabalpur',
+      'Experienced naturalist',
+      'All permits & taxes',
+    ],
+    safariCount: 5,
+  },
+  {
+    slug: 'pench-birding-wildlife-4n',
+    name: 'Pench Birding & Wildlife — 4 Nights',
+    destination: 'pench',
+    durationNights: 4,
+    durationDays: 5,
+    priceFromINR: 52000,
+    shortDescription:
+      'Pench hosts 285+ bird species including migratory raptors from November. This package pairs six safaris with dedicated early-morning birding walks led by an ornithologist-naturalist.',
+    heroImage:
+      'https://images.unsplash.com/photo-1444464666168-49d633b86797?w=1600&q=80',
+    inclusions: [
+      '4 nights eco-lodge accommodation',
+      '6 jeep safaris across all major zones',
+      'Guided birding walks each morning',
+      'Ornithologist naturalist',
+      'All meals',
+      'Checklist of 285+ species',
+      'Nagpur / Jabalpur transfers',
+    ],
+    safariCount: 6,
+  },
+  {
+    slug: 'pench-family-adventure-3n',
+    name: 'Pench Family Adventure — 3 Nights',
+    destination: 'pench',
+    durationNights: 3,
+    durationDays: 4,
+    priceFromINR: 42000,
+    shortDescription:
+      'Designed for families with kids 6+ — shorter canter safaris, a Mowgli storytelling evening, nature walks, and a village visit. Resorts selected for pool, family rooms, and kid-friendly meals.',
+    heroImage:
+      'https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=1600&q=80',
+    inclusions: [
+      '3 nights family-friendly resort with pool',
+      '4 jeep / canter safaris',
+      'Mowgli-themed storytelling evening',
+      'Guided nature walk',
+      'Village visit',
+      'All meals (kid menu available)',
+      'Transfers',
+    ],
+    safariCount: 4,
+  },
 ];
