@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { destinations, properties, packages } from '@/data/content';
 import { blogPosts } from '@/data/blog';
+import { gateDetails } from '@/data/gates-content';
 
 const BASE_URL = 'https://www.tadobapenchsafari.com';
 
@@ -44,5 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...destinationRoutes, ...propertyRoutes, ...packageRoutes, ...blogRoutes];
+  const gateRoutes = Object.keys(gateDetails).map((slug) => ({
+    url: `${BASE_URL}/gates/${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
+  }));
+
+  return [...staticRoutes, ...destinationRoutes, ...propertyRoutes, ...packageRoutes, ...blogRoutes, ...gateRoutes];
 }

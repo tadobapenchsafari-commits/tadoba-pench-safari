@@ -76,14 +76,23 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {destGates.map((g) => (
-              <div key={g.slug} className="bg-bone p-6 rounded-2xl">
+              <Link
+                key={g.slug}
+                href={`/gates/${g.slug}`}
+                className="group bg-bone p-6 rounded-2xl hover:shadow-xl hover:-translate-y-1 transition-all"
+              >
                 <div className="flex items-center gap-2 text-xs text-bamboo uppercase tracking-wider mb-2">
                   <MapPin className="w-3 h-3" />
                   {g.zone}
                 </div>
-                <h3 className="font-display text-2xl text-bark mb-3">{g.name}</h3>
-                <p className="text-sm text-bark/70 leading-relaxed">{g.description}</p>
-              </div>
+                <h3 className="font-display text-2xl text-bark mb-3 group-hover:text-sunrise transition-colors">
+                  {g.name}
+                </h3>
+                <p className="text-sm text-bark/70 leading-relaxed mb-3">{g.description}</p>
+                <span className="text-xs text-sunrise font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                  2026 guide <ArrowRight className="w-3 h-3" />
+                </span>
+              </Link>
             ))}
           </div>
         </div>
