@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Mail, Phone, MapPin, Instagram, Facebook, Youtube } from 'lucide-react';
+import { TrackedLink } from './tracked-link';
 
 export function Footer() {
   return (
@@ -44,11 +45,11 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 mt-0.5 shrink-0" />
-                <a href="tel:+918208090280" className="hover:text-sunrise">+91 82080 90280</a>
+                <TrackedLink event="phone_click" params={{ location: 'footer' }} href="tel:+918208090280" className="hover:text-sunrise">+91 82080 90280</TrackedLink>
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-0.5 shrink-0" />
-                <a href="mailto:info@tadobapenchsafari.com" className="hover:text-sunrise break-all">info@tadobapenchsafari.com</a>
+                <TrackedLink event="email_click" params={{ location: 'footer' }} href="mailto:info@tadobapenchsafari.com" className="hover:text-sunrise break-all">info@tadobapenchsafari.com</TrackedLink>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0" />

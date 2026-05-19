@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { ArrowRight, MapPin, Compass, Star, Clock, Users, Shield } from 'lucide-react';
 import { destinations, packages } from '@/data/content';
 import { formatINR } from '@/lib/utils';
+import { TrackedLink } from '@/components/marketing/tracked-link';
 
 const organizationJsonLd = {
   '@context': 'https://schema.org',
@@ -110,12 +111,14 @@ export default function HomePage() {
                 Plan Your Safari
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <a
+              <TrackedLink
+                event="whatsapp_click"
+                params={{ location: 'home_hero' }}
                 href="https://wa.me/918208090280"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-bone/10 backdrop-blur text-bone border border-bone/30 rounded-full font-medium hover:bg-bone/20 transition-colors"
               >
                 Chat on WhatsApp
-              </a>
+              </TrackedLink>
             </div>
           </div>
         </div>

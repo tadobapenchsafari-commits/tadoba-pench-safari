@@ -1,8 +1,11 @@
 import { MessageCircle } from 'lucide-react';
+import { TrackedLink } from './tracked-link';
 
 export function WhatsAppFloat() {
   return (
-    <a
+    <TrackedLink
+      event="whatsapp_click"
+      params={{ location: 'float' }}
       href="https://wa.me/918208090280?text=Hi%2C%20I%27m%20interested%20in%20a%20safari%20booking"
       target="_blank"
       rel="noopener noreferrer"
@@ -11,6 +14,6 @@ export function WhatsAppFloat() {
     >
       <MessageCircle className="w-7 h-7" fill="white" />
       <span className="absolute -top-1 -right-1 w-4 h-4 bg-rust rounded-full border-2 border-bone animate-pulse" />
-    </a>
+    </TrackedLink>
   );
 }

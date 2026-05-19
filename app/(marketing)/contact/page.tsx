@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Phone, Mail, MessageCircle } from 'lucide-react';
+import { track } from '@/lib/analytics';
 
 const WHATSAPP_NUMBER = '918208090280';
 const INQUIRY_EMAIL = 'info@tadobapenchsafari.com';
@@ -40,6 +41,7 @@ Please send me options.`;
     const text = buildMessage(data);
     const encoded = encodeURIComponent(text);
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
+    track('generate_lead', { method: 'whatsapp' });
     window.open(url, '_blank', 'noopener,noreferrer');
     setStatus('sent');
   }
@@ -52,6 +54,7 @@ Please send me options.`;
     const text = buildMessage(data);
     const subject = 'Safari inquiry via website';
     const url = `mailto:${INQUIRY_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
+    track('generate_lead', { method: 'email' });
     window.location.href = url;
   }
 
@@ -139,9 +142,9 @@ Please send me options.`;
           </div>
 
           <aside className="space-y-6">
-            <ContactCard icon={<Phone className="w-5 h-5" />} label="Call us" value="+91 82080 90280" href="tel:+918208090280" />
-            <ContactCard icon={<MessageCircle className="w-5 h-5" />} label="WhatsApp" value="+91 82080 90280" href={`https://wa.me/${WHATSAPP_NUMBER}`} />
-            <ContactCard icon={<Mail className="w-5 h-5" />} label="Email" value={INQUIRY_EMAIL} href={`mailto:${INQUIRY_EMAIL}`} />
+            <ContactCard icon={<Phone className="w-5 h-5" />} label="Call us" value="+91 82080 90280" href="tel:+918208090280" event="phone_click" />
+            <ContactCard icon={<MessageCircle className="w-5 h-5" />} label="WhatsApp" value="+91 82080 90280" href={`https://wa.me/${WHATSAPP_NUMBER}`} event="whatsapp_click" />
+            <ContactCard icon={<Mail className="w-5 h-5" />} label="Email" value={INQUIRY_EMAIL} href={`mailto:${INQUIRY_EMAIL}`} event="email_click" />
             <div className="bg-bark text-bone p-6 rounded-2xl">
               <p className="text-xs uppercase tracking-wider text-bone/60 mb-2">Response time</p>
               <p className="font-display text-2xl text-sunrise mb-1">Within 2 hours</p>
@@ -189,14 +192,20 @@ function ContactCard({
   label,
   value,
   href,
+  event,
 }: {
   icon: React.ReactNode;
   label: string;
   value: string;
   href: string;
+  event: string;
 }) {
   return (
-    <a href={href} className="flex items-start gap-4 bg-paper p-5 rounded-2xl hover:bg-paper/70 transition-colors">
+    <a
+      href={href}
+      onClick={() => track(event, { location: 'contact_aside' })}
+      className="flex items-start gap-4 bg-paper p-5 rounded-2xl hover:bg-paper/70 transition-colors"
+    >
       <div className="w-10 h-10 rounded-full bg-canopy text-bone flex items-center justify-center shrink-0">
         {icon}
       </div>

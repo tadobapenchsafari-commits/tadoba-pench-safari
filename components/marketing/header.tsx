@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
+import { track } from '@/lib/analytics';
 
 const nav = [
   { label: 'Tadoba', href: '/destinations/tadoba' },
@@ -48,6 +49,7 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="tel:+918208090280"
+              onClick={() => track('phone_click', { location: 'header' })}
               className="flex items-center gap-2 text-sm text-bark hover:text-sunrise"
             >
               <Phone className="w-4 h-4" />
