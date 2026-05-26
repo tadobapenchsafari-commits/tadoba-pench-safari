@@ -81,10 +81,11 @@ export default function HomePage() {
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden grain">
         <Image
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Matkasur_the_male_tiger_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Matkasur_the_male_tiger_at_Tadoba_Andhari_Tiger_Reserve.jpg"
+          src="/images/hero-matkasur-tiger.jpg"
           alt="Matkasur, a male Bengal tiger, photographed at Tadoba Andhari Tiger Reserve"
           fill
           priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-bark/30 via-bark/40 to-bark/80" />

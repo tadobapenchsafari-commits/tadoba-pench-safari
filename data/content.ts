@@ -54,8 +54,7 @@ export const destinations: Destination[] = [
     tagline: 'India\'s most reliable tiger sighting destination',
     description:
       'Tadoba-Andhari Tiger Reserve, spread across 1,727 sq km in the Chandrapur district of Maharashtra, is famed for having one of the highest tiger densities in central India. Dense teak forests, meadows, and the Tadoba lake create the stage for daily encounters with Bengal tigers, leopards, sloth bears, and wild dogs. The reserve has six core gates and multiple buffer zones, offering a variety of terrains and wildlife experiences.',
-    heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/A_vista_of_the_jungle_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-A_vista_of_the_jungle_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+    heroImage: '/images/dest-tadoba.jpg',
     quickFacts: [
       { label: 'Area', value: '1,727 sq km' },
       { label: 'Best Months', value: 'Oct – Jun' },
@@ -69,8 +68,7 @@ export const destinations: Destination[] = [
     tagline: 'The land that inspired The Jungle Book',
     description:
       'Straddling Madhya Pradesh and Maharashtra, Pench Tiger Reserve is the real-life setting that inspired Rudyard Kipling\'s Jungle Book. Open grasslands, teak forests, and the Pench river shape a landscape where tigers, leopards, wild dogs, and over 325 bird species thrive. Pench has earned the TX2 award for doubling its tiger count, and its buffer zones offer quieter, photographer-friendly safaris.',
-    heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Pench_National_Park_habitat_shot.jpg/1920px-Pench_National_Park_habitat_shot.jpg',
+    heroImage: '/images/dest-pench.jpg',
     quickFacts: [
       { label: 'Area', value: '1,179 sq km' },
       { label: 'Best Months', value: 'Oct – Jun' },
@@ -396,8 +394,7 @@ export const packages: Package[] = [
     priceFromINR: 32000,
     shortDescription:
       'Four safaris across Moharli and Kolara gates, premium accommodation, and airport transfers. Our most popular first-time safari package.',
-    heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Matkasur_the_male_tiger_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Matkasur_the_male_tiger_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+    heroImage: '/images/hero-matkasur-tiger.jpg',
     inclusions: [
       '3 nights premium accommodation',
       '4 jeep safaris (2 gates)',
@@ -417,8 +414,7 @@ export const packages: Package[] = [
     priceFromINR: 58000,
     shortDescription:
       'The best of central India in one trip. Three nights in Tadoba, two in Pench, six safaris total, with a private driver between reserves.',
-    heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/7/7f/Pench_Tiger_Reserve%2C_MP%2C_India._05.jpg',
+    heroImage: '/images/pkg-tadoba-pench-combo.jpg',
     inclusions: [
       '3 nights Tadoba + 2 nights Pench',
       '6 jeep safaris across both reserves',
@@ -437,8 +433,7 @@ export const packages: Package[] = [
     priceFromINR: 110000,
     shortDescription:
       'Twelve safaris with dedicated photography naturalists, early-morning buffer zone access, and post-processing sessions in the evening.',
-    heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/e/e3/Sambar_deer_in_habitat.jpg',
+    heroImage: '/images/pkg-photography-week.jpg',
     inclusions: [
       '6 nights luxury accommodation',
       '12 safaris (dedicated photography jeep)',
@@ -458,8 +453,7 @@ export const packages: Package[] = [
     priceFromINR: 19500,
     shortDescription:
       'A quick weekend getaway for Mumbai, Pune, and Nagpur travelers. Three safaris at Turia and Jamtara gates.',
-    heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/1/10/Karmazari_Pench_National_Park_13.jpg',
+    heroImage: '/images/pkg-pench-weekend.jpg',
     inclusions: [
       '2 nights premium accommodation',
       '3 jeep safaris',
@@ -477,8 +471,7 @@ export const packages: Package[] = [
     priceFromINR: 36000,
     shortDescription:
       'Five safaris across Turia, Jamtara, and Karmajhiri gates — the full Pench experience with Kipling-country storytelling, leopards, and dhole packs alongside the tigers.',
-    heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Dhole_Stroll_at_Pench_National_Park%2C_India.jpg/1920px-Dhole_Stroll_at_Pench_National_Park%2C_India.jpg',
+    heroImage: '/images/pkg-pench-classic.jpg',
     inclusions: [
       '3 nights premium accommodation',
       '5 jeep safaris (3 gates)',
@@ -498,8 +491,7 @@ export const packages: Package[] = [
     priceFromINR: 52000,
     shortDescription:
       'Pench hosts 285+ bird species including migratory raptors from November. This package pairs six safaris with dedicated early-morning birding walks led by an ornithologist-naturalist.',
-    heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Indian_Peacock_courtship_display_at_Pench_national_park_%28April%2C_2024%29_08.jpg/1920px-Indian_Peacock_courtship_display_at_Pench_national_park_%28April%2C_2024%29_08.jpg',
+    heroImage: '/images/pkg-pench-birding.jpg',
     inclusions: [
       '4 nights eco-lodge accommodation',
       '6 jeep safaris across all major zones',
@@ -520,8 +512,7 @@ export const packages: Package[] = [
     priceFromINR: 42000,
     shortDescription:
       'Designed for families with kids 6+ — shorter canter safaris, a Mowgli storytelling evening, nature walks, and a village visit. Resorts selected for pool, family rooms, and kid-friendly meals.',
-    heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Spotted_Deer_in_Pench_National_Park_India.jpg/1920px-Spotted_Deer_in_Pench_National_Park_India.jpg',
+    heroImage: '/images/pkg-pench-family.jpg',
     inclusions: [
       '3 nights family-friendly resort with pool',
       '4 jeep / canter safaris',
