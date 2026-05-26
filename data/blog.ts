@@ -497,7 +497,7 @@ Best for: Travellers in Nagpur for work, weekend trippers.
 - 2 core safari permits + gypsies: ₹12,000
 - Guide fees + entry: ₹2,500
 - Transfer from Nagpur: ₹4,500 round trip
-- **Total for 2 people: ~₹27,000 (₹13,500 per person)**
+- **Total for 2 people: ~₹27,000**
 
 ### The classic: 2 nights / 3 safaris
 
@@ -508,7 +508,7 @@ Best for: First-time Tadoba visitors.
 - Guide + park fees: ₹4,000
 - Transfer: ₹4,500
 - Meals (3 lunches): ₹3,000
-- **Total for 2 people: ~₹43,000 (₹21,500 per person)**
+- **Total for 2 people: ~₹43,000**
 
 ### The enthusiast: 3 nights / 5 safaris + photography
 
@@ -519,7 +519,7 @@ Best for: Wildlife photographers, repeat visitors.
 - Private naturalist × 5: ₹10,000
 - Transfers + extras: ₹8,000
 - Meals + camera fees: ₹6,000
-- **Total for 2 people: ~₹1,04,000 (₹52,000 per person)**
+- **Total for 2 people: ~₹1,04,000**
 
 ## When DIY booking is cheaper — and when it isn't
 
