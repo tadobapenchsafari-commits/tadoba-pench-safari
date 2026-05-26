@@ -8,3 +8,6 @@ build
 .DS_Store
 *.log
 .vercel
+
+# Local-only source folder for original phone photos before enhancement
+my pic/

@@ -81,8 +81,8 @@ export default function HomePage() {
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden grain">
         <Image
-          src="/images/hero-matkasur-tiger.jpg"
-          alt="Matkasur, a male Bengal tiger, photographed at Tadoba Andhari Tiger Reserve"
+          src="/images/hero-tiger-tadoba.jpg"
+          alt="Bengal tiger striding through golden grassland at Tadoba Andhari Tiger Reserve"
           fill
           priority
           sizes="100vw"

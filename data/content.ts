@@ -394,7 +394,7 @@ export const packages: Package[] = [
     priceFromINR: 32000,
     shortDescription:
       'Four safaris across Moharli and Kolara gates, premium accommodation, and airport transfers. Our most popular first-time safari package.',
-    heroImage: '/images/hero-matkasur-tiger.jpg',
+    heroImage: '/images/pkg-tadoba-classic.jpg',
     inclusions: [
       '3 nights premium accommodation',
       '4 jeep safaris (2 gates)',
