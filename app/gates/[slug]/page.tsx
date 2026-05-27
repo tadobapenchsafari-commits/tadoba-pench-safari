@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { MapPin, Clock, Users, Camera, ArrowRight } from 'lucide-react';
+import { MapPin, Clock, Users, Camera, ArrowRight, Compass } from 'lucide-react';
 import { gateDetails } from '@/data/gates-content';
-import { gates } from '@/data/content';
+import { gates, packages } from '@/data/content';
+import { formatINR } from '@/lib/utils';
 
 export function generateStaticParams() {
   return Object.keys(gateDetails).map((slug) => ({ slug }));
@@ -33,6 +34,16 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
 
   const baseGate = gates.find((g) => g.slug === slug);
   const destination = baseGate?.destination;
+
+  // Packages relevant to this gate's reserve, plus the combo as a soft cross-sell
+  const matchingPacks = packages
+    .filter((p) => p.destination === destination || p.slug === 'tadoba-pench-combo-5n')
+    .slice(0, 3);
+
+  // Sibling gates at the same reserve (for cross-linking)
+  const siblingGates = gates
+    .filter((g) => g.destination === destination && g.slug !== slug)
+    .slice(0, 4);
 
   const faqJsonLd = {
     '@context': 'https://schema.org',
@@ -180,6 +191,74 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
             {' '}and we&apos;ll recommend the right property for your trip.
           </p>
         </div>
+
+        {/* Recommended packages — passes authority from gate pages to package pages */}
+        {matchingPacks.length > 0 && (
+          <div className="mb-16">
+            <h2 className="font-display text-3xl text-bark mb-2">
+              Packages that visit {d.targetKeyword.split(' ')[0]} Gate
+            </h2>
+            <p className="text-bark/70 mb-8">
+              Curated trips that include safaris at {d.targetKeyword.split(' ')[0]} or sibling gates of the same reserve.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+              {matchingPacks.map((p) => (
+                <Link
+                  key={p.slug}
+                  href={`/packages/${p.slug}`}
+                  className="group bg-paper rounded-2xl overflow-hidden hover:shadow-xl transition-all hover:-translate-y-1 flex flex-col"
+                >
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <Image
+                      src={p.heroImage}
+                      alt={`${p.name} — recommended package for ${d.targetKeyword} visitors`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                  <div className="p-5 flex-1 flex flex-col justify-between">
+                    <div>
+                      <div className="text-xs text-bamboo uppercase tracking-wider mb-2">
+                        {p.durationNights}N / {p.durationDays}D · {p.safariCount} safaris
+                      </div>
+                      <h3 className="font-display text-lg text-bark mb-2 leading-snug">
+                        {p.name}
+                      </h3>
+                    </div>
+                    <div className="font-display text-base text-canopy mt-3">
+                      From {formatINR(p.priceFromINR)}
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Sibling gates — internal linking across the gate cluster */}
+        {siblingGates.length > 0 && (
+          <div className="mb-16">
+            <h2 className="font-display text-3xl text-bark mb-2">
+              Other gates at {destination === 'pench' ? 'Pench' : 'Tadoba'}
+            </h2>
+            <p className="text-bark/70 mb-6">
+              Compare with sibling gates to find the right zone for your trip.
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              {siblingGates.map((g) => (
+                <Link
+                  key={g.slug}
+                  href={`/gates/${g.slug}`}
+                  className="group flex items-center gap-2 bg-paper hover:bg-canopy hover:text-bone px-4 py-3 rounded-xl text-sm transition-colors"
+                >
+                  <Compass className="w-4 h-4 text-canopy group-hover:text-sunrise shrink-0" />
+                  <span>{g.name}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         <h2 className="font-display text-3xl text-bark mb-6">Frequently asked questions</h2>
         <div className="space-y-6 mb-16">
