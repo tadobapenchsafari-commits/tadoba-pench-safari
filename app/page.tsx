@@ -10,10 +10,20 @@ const organizationJsonLd = {
   '@type': 'TravelAgency',
   name: 'Tadoba Pench Safari',
   url: 'https://www.tadobapenchsafari.com',
+  logo: 'https://www.tadobapenchsafari.com/images/hero-tiger-tadoba.jpg',
+  image: 'https://www.tadobapenchsafari.com/images/hero-tiger-tadoba.jpg',
   telephone: '+91-82080-90280',
   email: 'info@tadobapenchsafari.com',
   description:
     'Premium tiger safari experiences in Tadoba and Pench with curated resorts, expert naturalists, and end-to-end trip planning.',
+  priceRange: '₹19,500–₹1,10,000',
+  foundingDate: '2018',
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: 'IN',
+    addressRegion: 'Maharashtra',
+    addressLocality: 'Chandrapur',
+  },
   areaServed: [
     { '@type': 'Place', name: 'Tadoba Andhari Tiger Reserve, Maharashtra, India' },
     { '@type': 'Place', name: 'Pench Tiger Reserve, Madhya Pradesh, India' },
