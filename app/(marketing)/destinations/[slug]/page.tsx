@@ -20,6 +20,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
+const SITE_URL = 'https://www.tadobapenchsafari.com';
+
 export default async function DestinationPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const d = destinations.find((x) => x.slug === slug);
@@ -28,8 +30,53 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
   const destGates = gates.filter((g) => g.destination === d.slug);
   const destPacks = packages.filter((p) => p.destination === d.slug);
 
+  const pageUrl = `${SITE_URL}/destinations/${d.slug}`;
+  const imageUrl = d.heroImage.startsWith('http') ? d.heroImage : `${SITE_URL}${d.heroImage}`;
+  const isTadoba = d.slug === 'tadoba';
+
+  const attractionJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'TouristAttraction',
+    name: `${d.name} Tiger Reserve`,
+    description: d.description,
+    image: imageUrl,
+    url: pageUrl,
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'IN',
+      addressRegion: isTadoba ? 'Maharashtra' : 'Madhya Pradesh',
+      addressLocality: isTadoba ? 'Chandrapur' : 'Seoni',
+    },
+    containedInPlace: {
+      '@type': 'AdministrativeArea',
+      name: isTadoba ? 'Maharashtra, India' : 'Madhya Pradesh, India',
+    },
+    touristType: ['Wildlife enthusiasts', 'Tiger safari travellers', 'Photographers', 'Birders'],
+    isAccessibleForFree: false,
+    publicAccess: true,
+    availableLanguage: ['English', 'Hindi', 'Marathi'],
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Destinations', item: `${SITE_URL}/destinations` },
+      { '@type': 'ListItem', position: 3, name: d.name, item: pageUrl },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(attractionJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <section className="relative min-h-[70vh] flex items-end overflow-hidden grain">
         <Image src={d.heroImage} alt={`${d.name} National Park — tiger safari and wildlife in ${d.slug === 'tadoba' ? 'Maharashtra' : 'Madhya Pradesh'}, India`} fill priority className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/50 to-transparent" />

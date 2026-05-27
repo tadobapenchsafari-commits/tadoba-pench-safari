@@ -163,27 +163,57 @@ function inline(text: string) {
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-canopy underline hover:text-sunrise">$1</a>');
 }
 
+const SITE_URL = 'https://www.tadobapenchsafari.com';
+
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = blogPosts.find((x) => x.slug === slug);
   if (!post) notFound();
 
+  const pageUrl = `${SITE_URL}/blog/${post.slug}`;
+  const imageUrl = post.heroImage.startsWith('http') ? post.heroImage : `${SITE_URL}${post.heroImage}`;
+  const wordCount = post.content ? post.content.split(/\s+/).filter(Boolean).length : undefined;
+
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
-    image: post.heroImage,
+    image: [imageUrl],
     datePublished: post.publishedAt,
+    dateModified: post.publishedAt,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+    url: pageUrl,
+    keywords: post.keywords,
+    wordCount,
+    timeRequired: `PT${post.readingMinutes}M`,
+    inLanguage: 'en-IN',
     author: {
       '@type': 'Organization',
       name: 'Tadoba Pench Safari',
-      url: 'https://www.tadobapenchsafari.com',
+      url: SITE_URL,
     },
     publisher: {
       '@type': 'Organization',
       name: 'Tadoba Pench Safari',
+      url: SITE_URL,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/logo.png`,
+        width: 1200,
+        height: 400,
+      },
     },
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` },
+      { '@type': 'ListItem', position: 3, name: post.title, item: pageUrl },
+    ],
   };
 
   return (
@@ -191,6 +221,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <article>
         <div className="relative aspect-[16/9] md:aspect-[21/9] overflow-hidden">
