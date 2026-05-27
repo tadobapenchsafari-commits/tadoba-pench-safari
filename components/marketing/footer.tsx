@@ -53,7 +53,13 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
-                <span>Nagpur, Maharashtra, India</span>
+                <address className="not-italic">
+                  1105, Pioneer Tulip, Jaitala
+                  <br />
+                  Nagpur, Maharashtra 440036
+                  <br />
+                  India
+                </address>
               </li>
             </ul>
 

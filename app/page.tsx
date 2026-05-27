@@ -20,9 +20,11 @@ const organizationJsonLd = {
   foundingDate: '2018',
   address: {
     '@type': 'PostalAddress',
-    addressCountry: 'IN',
+    streetAddress: '1105, Pioneer Tulip, Jaitala',
+    addressLocality: 'Nagpur',
     addressRegion: 'Maharashtra',
-    addressLocality: 'Chandrapur',
+    postalCode: '440036',
+    addressCountry: 'IN',
   },
   areaServed: [
     { '@type': 'Place', name: 'Tadoba Andhari Tiger Reserve, Maharashtra, India' },
