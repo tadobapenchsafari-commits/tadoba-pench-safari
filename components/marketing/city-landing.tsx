@@ -1,47 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { notFound } from 'next/navigation';
-import { ArrowRight, Plane, Car, Train, Clock, MapPin } from 'lucide-react';
-import { originCities } from '@/data/origin-cities';
+import { ArrowRight, Plane, Car, Train, Clock } from 'lucide-react';
+import type { OriginCity } from '@/data/origin-cities';
 import { packages } from '@/data/content';
 import { formatINR } from '@/lib/utils';
-import { TrackedLink } from '@/components/marketing/tracked-link';
+import { TrackedLink } from './tracked-link';
 
 const SITE_URL = 'https://www.tadobapenchsafari.com';
 
-export function generateStaticParams() {
-  return originCities.map((c) => ({ city: c.slug }));
-}
-
-export async function generateMetadata({ params }: { params: Promise<{ city: string }> }) {
-  const { city } = await params;
-  const c = originCities.find((x) => x.slug === city);
-  if (!c) return {};
-  return {
-    title: `Tadoba Safari from ${c.name} — 2026 Booking Guide`,
-    description: `Plan a Tadoba tiger safari from ${c.name}: direct flights to Nagpur in ${c.flight.durationHrs}h, ${c.drive.distanceKm} km drive route, train options, recommended ${c.bestTripLength} itinerary, and curated package picks.`,
-    alternates: { canonical: `/tadoba-safari-from-${c.slug}` },
-    openGraph: {
-      title: `Tadoba Safari from ${c.name}`,
-      description: `Direct flights, drive routes, and trip planning — Tadoba from ${c.name}.`,
-      type: 'website',
-      images: [
-        {
-          url: `/og/city-${c.slug}.jpg`,
-          width: 1200,
-          height: 630,
-          alt: `Tadoba Safari from ${c.name} — booking guide`,
-        },
-      ],
-    },
-  };
-}
-
-export default async function CityPage({ params }: { params: Promise<{ city: string }> }) {
-  const { city } = await params;
-  const c = originCities.find((x) => x.slug === city);
-  if (!c) notFound();
-
+export function CityLanding({ city: c }: { city: OriginCity }) {
   const pageUrl = `${SITE_URL}/tadoba-safari-from-${c.slug}`;
   const recommendedPacks = c.recommendedPackages
     .map((slug) => packages.find((p) => p.slug === slug))
@@ -144,11 +111,14 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
 
       {/* INTRO */}
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        {c.intro.split('\n').filter(Boolean).map((para, i) => (
-          <p key={i} className="text-lg text-bark/85 leading-relaxed mb-5">
-            {para}
-          </p>
-        ))}
+        {c.intro
+          .split('\n')
+          .filter(Boolean)
+          .map((para, i) => (
+            <p key={i} className="text-lg text-bark/85 leading-relaxed mb-5">
+              {para}
+            </p>
+          ))}
       </section>
 
       {/* TRANSPORT */}
@@ -281,10 +251,7 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
           </div>
           <div className="space-y-6">
             {c.faqs.map((f, i) => (
-              <details
-                key={i}
-                className="bg-bone rounded-2xl p-6 group"
-              >
+              <details key={i} className="bg-bone rounded-2xl p-6 group">
                 <summary className="font-display text-lg text-bark cursor-pointer list-none flex justify-between items-start gap-4">
                   <span>{f.q}</span>
                   <span className="text-sunrise text-2xl leading-none group-open:rotate-45 transition-transform">
@@ -305,8 +272,8 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
             Ready to plan from {c.name}?
           </h2>
           <p className="text-lg text-bark/75 mb-8">
-            Tell us your dates and we'll put together a complete itinerary — permits, transfers,
-            resort, and the safaris best suited for {c.name}-based travellers.
+            Tell us your dates and we&apos;ll put together a complete itinerary — permits,
+            transfers, resort, and the safaris best suited for {c.name}-based travellers.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -351,4 +318,25 @@ function TransportCard({
       <p className="text-sm text-bark/70 leading-relaxed">{detail}</p>
     </div>
   );
+}
+
+export function cityMetadata(c: OriginCity) {
+  return {
+    title: `Tadoba Safari from ${c.name} — 2026 Booking Guide`,
+    description: `Plan a Tadoba tiger safari from ${c.name}: direct flights to Nagpur in ${c.flight.durationHrs}h, ${c.drive.distanceKm} km drive route, train options, recommended ${c.bestTripLength} itinerary, and curated package picks.`,
+    alternates: { canonical: `/tadoba-safari-from-${c.slug}` },
+    openGraph: {
+      title: `Tadoba Safari from ${c.name}`,
+      description: `Direct flights, drive routes, and trip planning — Tadoba from ${c.name}.`,
+      type: 'website' as const,
+      images: [
+        {
+          url: `/og/city-${c.slug}.jpg`,
+          width: 1200,
+          height: 630,
+          alt: `Tadoba Safari from ${c.name} — booking guide`,
+        },
+      ],
+    },
+  };
 }
