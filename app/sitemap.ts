@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { destinations, packages } from '@/data/content';
 import { blogPosts } from '@/data/blog';
 import { gateDetails } from '@/data/gates-content';
+import { originCities } from '@/data/origin-cities';
 
 const BASE_URL = 'https://www.tadobapenchsafari.com';
 
@@ -47,5 +48,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...staticRoutes, ...destinationRoutes, ...packageRoutes, ...blogRoutes, ...gateRoutes];
+  const cityRoutes = originCities.map((c) => ({
+    url: `${BASE_URL}/tadoba-safari-from-${c.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
+  }));
+
+  return [
+    ...staticRoutes,
+    ...destinationRoutes,
+    ...packageRoutes,
+    ...blogRoutes,
+    ...gateRoutes,
+    ...cityRoutes,
+  ];
 }

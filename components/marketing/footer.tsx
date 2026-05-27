@@ -1,11 +1,30 @@
 import Link from 'next/link';
 import { Mail, Phone, MapPin, Instagram, Facebook, Youtube } from 'lucide-react';
 import { TrackedLink } from './tracked-link';
+import { originCities } from '@/data/origin-cities';
 
 export function Footer() {
   return (
     <footer className="bg-bark text-bone/80 mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* Plan from your city */}
+        <div className="border-b border-bone/10 pb-8 mb-12">
+          <p className="text-xs uppercase tracking-[0.18em] text-bone/60 mb-4">
+            Plan your Tadoba safari from
+          </p>
+          <div className="flex flex-wrap gap-x-7 gap-y-3 text-sm">
+            {originCities.map((c) => (
+              <Link
+                key={c.slug}
+                href={`/tadoba-safari-from-${c.slug}`}
+                className="hover:text-sunrise"
+              >
+                {c.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-2 mb-4">
