@@ -41,10 +41,10 @@ export const originCities: OriginCity[] = [
         'IndiGo, Air India, and Akasa fly direct between BOM and NAG (Nagpur). Multiple departures across the morning and evening.',
     },
     drive: {
-      distanceKm: 870,
-      durationHrs: 13,
+      distanceKm: 850,
+      durationHrs: 12,
       routeNote:
-        'Via NH53 through Aurangabad–Akola–Nagpur. Best driven as two days with an overnight at Aurangabad or Jalna; non-stop is possible but exhausting before a safari morning.',
+        'Via the Samruddhi Mahamarg (Mumbai–Nagpur Expressway) — 701 km of six-lane toll road, Mumbai to Nagpur in 10–11 hours non-stop, then a 3-hour transfer from Nagpur to Tadoba. The older NH53 route via Aurangabad–Akola is ~870 km / 13+ hours, only worth taking if you want to stop at Aurangabad or Ajanta caves. Either way, non-stop is possible but exhausting before a 6 AM safari morning.',
     },
     train: {
       durationHrs: 13,
@@ -89,9 +89,9 @@ export const originCities: OriginCity[] = [
     },
     drive: {
       distanceKm: 720,
-      durationHrs: 11,
+      durationHrs: 10,
       routeNote:
-        'Via NH160 through Aurangabad. Pune\'s exit traffic adds 60–90 minutes; plan to leave by 5 AM for a same-day drive.',
+        'Two routes: direct via NH160 through Aurangabad (~720 km / 11 hours surface highway), or Pune → Shirdi → Samruddhi Mahamarg → Nagpur (~700 km / 9–10 hours, faster thanks to the expressway portion). Pune exit traffic adds 60–90 minutes either way; plan to leave by 5 AM.',
     },
     train: {
       durationHrs: 13,
