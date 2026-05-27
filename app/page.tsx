@@ -108,9 +108,9 @@ export default function HomePage() {
               <span>Est. 2018</span>
             </p>
             <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-bone leading-[0.95] mb-6">
-              Walk the forest
+              Walk Tadoba &amp; Pench
               <br />
-              <span className="italic text-sunrise">with those who know it best.</span>
+              <span className="italic text-sunrise">with those who know the forest best.</span>
             </h1>
             <p className="text-lg md:text-xl text-bone/85 max-w-xl leading-relaxed mb-10">
               Boutique safari experiences in Tadoba and Pench — curated by local
