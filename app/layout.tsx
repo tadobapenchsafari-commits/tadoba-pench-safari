@@ -23,7 +23,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.tadobapenchsafari.com'),
   title: {
-    default: 'Tadoba Pench Safari — Expert-led jungle safaris in central India',
+    default: 'Tadoba & Pench Tiger Safari — 2026 Booking & Packages',
     template: '%s | Tadoba Pench Safari',
   },
   description:
