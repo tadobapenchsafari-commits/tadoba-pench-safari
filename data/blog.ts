@@ -639,7 +639,7 @@ Tadoba core-zone permits are released 120 days in advance and the premium gates 
 
 ## Why not both?
 
-Most of our guests who've done the math come back with a 4 or 5-night package covering both parks. The drive between them is only 3.5 hours. You get Tadoba's odds plus Pench's variety — and a complete central India tiger-country experience.
+Most of our guests who've done the math come back with a 4 or 5-night package covering both parks. [The drive between them is around 4 hours via Nagpur](/blog/tadoba-to-pench-distance-routes). You get Tadoba's odds plus Pench's variety — and a complete central India tiger-country experience.
 
 ## Our recommendation by traveller type
 
@@ -706,5 +706,97 @@ Carry original ID (matching the permit), reach the gate **30 minutes before** en
 Most guests don't want to wake up at 5:55 AM to fight for a government portal that often crashes. On our packages, we handle the permit on booking — you tell us the dates, we secure it. You pay the government's published rate plus our service fee. No surprises.
 
 If you've already got dates in mind, check availability at [our Tadoba packages page](/destinations/tadoba) or message us on WhatsApp.`,
+  },
+  {
+    slug: 'tadoba-to-pench-distance-routes',
+    title: 'Tadoba to Pench Distance: Routes, Transfer Time & 2026 Costs',
+    excerpt:
+      'Tadoba (Moharli gate) to Pench (Turia gate) is roughly 200 km by road and a 4-5 hour drive via Nagpur. Here are the three routes, transfer costs, and the timing logic our naturalists use when planning combo trips.',
+    heroImage: '/images/pkg-tadoba-pench-combo.jpg',
+    publishedAt: '2026-05-27',
+    readingMinutes: 6,
+    keywords: [
+      'tadoba to pench distance',
+      'pench to tadoba distance',
+      'tadoba pench transfer',
+      'tadoba pench combo trip',
+      'moharli to turia distance',
+      'nagpur to pench distance',
+      'chandrapur to seoni distance',
+    ],
+    content: `**Tadoba to Pench is roughly 200 km by road and a 4–5 hour drive, with the Tadoba Moharli gate sitting in Maharashtra's Chandrapur district and Pench's Turia gate just across the state line in Madhya Pradesh's Seoni district.** Both reserves share Nagpur as their gateway city, which is what makes a combo trip so easy.
+
+Most of our guests pair the two reserves on a single trip — 3 nights in Tadoba, 2 nights in Pench is the most-booked pattern. Below are the three real route options, transfer costs, and the timing logic our drivers use.
+
+## The three routes from Tadoba to Pench
+
+There is no direct rail link between the two reserves. The transfer is always by road, and you have three honest options.
+
+### Route 1: Via Nagpur (most common)
+
+| Leg | Distance | Drive time |
+|---|---|---|
+| Moharli → Nagpur airport | ~140 km | 2h 45m |
+| Nagpur airport → Turia gate (Pench) | ~95 km | 2h 0m |
+| **Total** | **~235 km** | **~4h 45m** |
+
+This is the route 90% of our combo trips use. The drive is on NH353B from Tadoba up to Nagpur, then NH44 / Seoni road down to Pench. Most of the road is good four-lane highway. The downside is the Nagpur city loop — adds 30–45 minutes depending on time of day.
+
+### Route 2: Direct rural route via Warora
+
+| Leg | Distance | Drive time |
+|---|---|---|
+| Moharli → Warora → Khat → Seoni → Turia | ~180 km | ~5h |
+
+Shorter on paper, but the road from Warora to Seoni passes through small villages and stretches of two-lane road in poor condition. The 20-minute "saving" disappears in slow sections. We don't recommend this route — drivers also don't like it after dark.
+
+### Route 3: Mixed (rail + road)
+
+A few guests ask about taking the train. The realistic option:
+- Drop at Chandrapur railway station from Tadoba (~45 km / 1h)
+- Train to Nagpur or Sausar (~3h)
+- Pick-up by Pench resort vehicle (~2h)
+
+Total: 6–7 hours and three handoffs. Only worth it if you specifically want a train segment for the experience.
+
+## What the transfer costs in 2026
+
+A private AC SUV (4-seater Innova / Crysta) for the Tadoba-to-Pench transfer via Nagpur runs **₹6,500–9,500** in 2026 depending on operator and season. For a 6-seater (Tempo Traveller or larger SUV), expect ₹11,000–14,000.
+
+If you're booking the transfer as part of a package with us, this is included in the Tadoba + Pench Combo pricing and you'll have the same driver across both reserves. That continuity matters for luggage handling and the inevitable schedule changes.
+
+## When to do the transfer within your trip
+
+The transfer eats a half-day. Plan around it.
+
+**Don't:** end your last Tadoba safari, drive 5 hours, and expect to do a Pench safari the same evening. You'll arrive after the gate has closed.
+
+**Do:** schedule the transfer the morning after your last Tadoba safari (no rush), arriving at your Pench resort by 2 PM. That gives you time to settle in, eat, and head out for the afternoon safari (3 PM gate opening at Turia in winter, 4 PM in summer).
+
+The classic Tadoba + Pench combo itinerary:
+- Day 1: Arrive Nagpur → transfer to Tadoba
+- Days 2–3: Two morning + two afternoon Tadoba safaris
+- Day 4 (morning): Transfer to Pench
+- Day 4 (afternoon): First Pench safari
+- Day 5 (morning): Second Pench safari → transfer to Nagpur for evening flight
+
+## Pench-to-Tadoba (reverse direction)
+
+The drive is identical — same routes, same costs, same time. The only real difference is gate timings. Pench gates open earlier in winter than Tadoba, which can give you an extra hour of cushion if you do Pench first.
+
+For most travellers coming from Mumbai, Pune, Hyderabad, or Bangalore, Tadoba-first makes more sense because Nagpur airport handles your inbound flight, you transfer south, and you fly out from Nagpur after Pench. No backtracking.
+
+## Practical considerations
+
+- **Inter-state checkpoint:** at the Maharashtra–Madhya Pradesh border between Tadoba and Pench, there's a brief commercial vehicle check. Passenger cars pass without issue but expect a 10-minute pause.
+- **Food on route:** the Nagpur side has good highway dhabas (Haldiram's outlets and Pench Highway Resort). Pack water and snacks for the rural segment if your driver doesn't stop.
+- **Mobile signal:** Jio and Airtel work end-to-end. BSNL has patchy gaps near the state border.
+- **Don't try to do both in one day.** The "park-hop in 24 hours" idea kills the experience. Tigers are best at dawn and dusk; you'll miss both transitions if you're on the road.
+
+## Ready to plan a Tadoba + Pench combo?
+
+Our [5-night Tadoba + Pench Combo package](/packages/tadoba-pench-combo-5n) handles both reserves with a single driver, six total safaris, and the transfer logistics built in. Or [tell us your dates](/contact) and we'll quote a custom split.
+
+For the broader picture of what each reserve offers, see [Tadoba vs Pench: Which Safari is Right for You?](/blog/tadoba-vs-pench-which-safari-is-right-for-you)`,
   },
 ];
