@@ -18,6 +18,19 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: p.name,
     description: p.shortDescription,
     alternates: { canonical: `/packages/${p.slug}` },
+    openGraph: {
+      title: p.name,
+      description: p.shortDescription,
+      type: 'website',
+      images: [
+        {
+          url: `/og/package-${p.slug}.jpg`,
+          width: 1200,
+          height: 630,
+          alt: `${p.name} — Tadoba Pench Safari`,
+        },
+      ],
+    },
   };
 }
 

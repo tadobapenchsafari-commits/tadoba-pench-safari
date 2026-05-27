@@ -17,6 +17,19 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${d.name} Safari — ${d.tagline}`,
     description: d.description.slice(0, 160),
     alternates: { canonical: `/destinations/${d.slug}` },
+    openGraph: {
+      title: `${d.name} Tiger Reserve`,
+      description: d.tagline,
+      type: 'website',
+      images: [
+        {
+          url: `/og/destination-${d.slug}.jpg`,
+          width: 1200,
+          height: 630,
+          alt: `${d.name} Tiger Reserve — ${d.tagline}`,
+        },
+      ],
+    },
   };
 }
 

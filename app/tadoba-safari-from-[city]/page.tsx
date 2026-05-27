@@ -25,7 +25,14 @@ export async function generateMetadata({ params }: { params: Promise<{ city: str
       title: `Tadoba Safari from ${c.name}`,
       description: `Direct flights, drive routes, and trip planning — Tadoba from ${c.name}.`,
       type: 'website',
-      images: [{ url: '/images/hero-tiger-tadoba.jpg' }],
+      images: [
+        {
+          url: `/og/city-${c.slug}.jpg`,
+          width: 1200,
+          height: 630,
+          alt: `Tadoba Safari from ${c.name} — booking guide`,
+        },
+      ],
     },
   };
 }

@@ -45,6 +45,14 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://www.tadobapenchsafari.com',
     siteName: 'Tadoba Pench Safari',
+    images: [
+      {
+        url: '/og/home.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Tadoba & Pench Tiger Safari — curated boutique safaris in central India',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
