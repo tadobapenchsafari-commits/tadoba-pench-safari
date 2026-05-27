@@ -21,13 +21,123 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
+const SITE_URL = 'https://www.tadobapenchsafari.com';
+
 export default async function PackagePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const p = packages.find((x) => x.slug === slug);
   if (!p) notFound();
 
+  const pageUrl = `${SITE_URL}/packages/${p.slug}`;
+  const imageUrl = p.heroImage.startsWith('http') ? p.heroImage : `${SITE_URL}${p.heroImage}`;
+
+  // Locations for the trip — combo package covers both reserves
+  const tadobaLocation = {
+    '@type': 'TouristAttraction',
+    name: 'Tadoba Andhari Tiger Reserve',
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'IN',
+      addressRegion: 'Maharashtra',
+      addressLocality: 'Chandrapur',
+    },
+  };
+  const penchLocation = {
+    '@type': 'TouristAttraction',
+    name: 'Pench Tiger Reserve',
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'IN',
+      addressRegion: 'Madhya Pradesh',
+      addressLocality: 'Seoni',
+    },
+  };
+  const isCombo = p.slug === 'tadoba-pench-combo-5n';
+  const locations = isCombo
+    ? [tadobaLocation, penchLocation]
+    : p.destination === 'pench'
+    ? [penchLocation]
+    : [tadobaLocation];
+
+  const productJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: p.name,
+    description: p.shortDescription,
+    image: [imageUrl],
+    brand: { '@type': 'Brand', name: 'Tadoba Pench Safari' },
+    category: 'Wildlife Safari Tour Package',
+    offers: {
+      '@type': 'Offer',
+      url: pageUrl,
+      priceCurrency: 'INR',
+      price: p.priceFromINR,
+      priceValidUntil: '2026-12-31',
+      availability: 'https://schema.org/InStock',
+      seller: {
+        '@type': 'TravelAgency',
+        name: 'Tadoba Pench Safari',
+        url: SITE_URL,
+      },
+    },
+  };
+
+  const tripJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'TouristTrip',
+    name: p.name,
+    description: p.shortDescription,
+    image: imageUrl,
+    url: pageUrl,
+    touristType: 'Wildlife enthusiast, tiger safari traveller',
+    itinerary: {
+      '@type': 'ItemList',
+      numberOfItems: p.inclusions.length,
+      itemListElement: p.inclusions.map((inc, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: inc,
+      })),
+    },
+    subjectOf: locations,
+    offers: {
+      '@type': 'Offer',
+      priceCurrency: 'INR',
+      price: p.priceFromINR,
+      availability: 'https://schema.org/InStock',
+    },
+    provider: {
+      '@type': 'TravelAgency',
+      name: 'Tadoba Pench Safari',
+      url: SITE_URL,
+      telephone: '+91-82080-90280',
+    },
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Packages', item: `${SITE_URL}/packages` },
+      { '@type': 'ListItem', position: 3, name: p.name, item: pageUrl },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(tripJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <section className="relative min-h-[55vh] flex items-end overflow-hidden grain">
         <Image src={p.heroImage} alt={`${p.name} — ${p.destination === 'pench' ? 'Pench Tiger Reserve' : 'Tadoba Andhari Tiger Reserve'} safari package with ${p.safariCount} jeep safaris`} fill priority className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/40 to-transparent" />
