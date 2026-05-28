@@ -5,6 +5,11 @@ import { Check } from 'lucide-react';
 import { packages } from '@/data/content';
 import { formatINR } from '@/lib/utils';
 import { TrackedLink } from '@/components/marketing/tracked-link';
+import { TestimonialsSection } from '@/components/marketing/testimonials-section';
+import {
+  testimonialsForPackage,
+  aggregateRating,
+} from '@/data/testimonials';
 
 export function generateStaticParams() {
   return packages.map((p) => ({ slug: p.slug }));
@@ -72,7 +77,11 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
     ? [penchLocation]
     : [tadobaLocation];
 
-  const productJsonLd = {
+  // Reviews tied to this package (sample testimonials are filtered out for schema)
+  const packageReviews = testimonialsForPackage(p.slug).filter((t) => !t.sample);
+  const packageAggregate = aggregateRating(packageReviews);
+
+  const productJsonLd: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: p.name,
@@ -94,6 +103,25 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
       },
     },
   };
+
+  if (packageAggregate) {
+    productJsonLd.aggregateRating = {
+      '@type': 'AggregateRating',
+      ratingValue: packageAggregate.ratingValue,
+      reviewCount: packageAggregate.reviewCount,
+      bestRating: packageAggregate.bestRating,
+    };
+    productJsonLd.review = packageReviews.slice(0, 5).map((t) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: t.name },
+      reviewBody: t.quote,
+      reviewRating: { '@type': 'Rating', ratingValue: t.rating, bestRating: 5 },
+      datePublished: `${t.travelMonth}-15`,
+    }));
+  }
+
+  // All testimonials for this package (incl. samples) get shown on the page
+  const pageTestimonials = testimonialsForPackage(p.slug);
 
   const tripJsonLd = {
     '@context': 'https://schema.org',
@@ -203,6 +231,16 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
           </aside>
         </div>
       </section>
+
+      {pageTestimonials.length > 0 && (
+        <TestimonialsSection
+          testimonials={pageTestimonials}
+          heading={`What guests of the ${p.name} say`}
+          subheading="Recent travellers who booked this exact package."
+          bg="bg-paper"
+          showAllLink={false}
+        />
+      )}
     </>
   );
 }

@@ -4,8 +4,12 @@ import { ArrowRight, MapPin, Compass, Star, Clock, Users, Shield } from 'lucide-
 import { destinations, packages } from '@/data/content';
 import { formatINR } from '@/lib/utils';
 import { TrackedLink } from '@/components/marketing/tracked-link';
+import { TestimonialsSection } from '@/components/marketing/testimonials-section';
+import { testimonials, aggregateRating } from '@/data/testimonials';
 
-const organizationJsonLd = {
+const homeAggregateRating = aggregateRating();
+
+const organizationJsonLd: Record<string, unknown> = {
   '@context': 'https://schema.org',
   '@type': 'TravelAgency',
   name: 'Tadoba Pench Safari',
@@ -31,6 +35,26 @@ const organizationJsonLd = {
     { '@type': 'Place', name: 'Pench Tiger Reserve, Madhya Pradesh, India' },
   ],
 };
+
+// Only attach AggregateRating / Review schema once there are real reviews.
+if (homeAggregateRating) {
+  organizationJsonLd.aggregateRating = {
+    '@type': 'AggregateRating',
+    ratingValue: homeAggregateRating.ratingValue,
+    reviewCount: homeAggregateRating.reviewCount,
+    bestRating: homeAggregateRating.bestRating,
+  };
+  organizationJsonLd.review = testimonials
+    .filter((t) => !t.sample)
+    .slice(0, 5)
+    .map((t) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: t.name },
+      reviewBody: t.quote,
+      reviewRating: { '@type': 'Rating', ratingValue: t.rating, bestRating: 5 },
+      datePublished: `${t.travelMonth}-15`,
+    }));
+}
 
 const faqJsonLd = {
   '@context': 'https://schema.org',
@@ -288,6 +312,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* TESTIMONIALS */}
+      <TestimonialsSection testimonials={testimonials} limit={3} bg="bg-paper" />
 
       {/* CTA BAND */}
       <section className="py-24">
