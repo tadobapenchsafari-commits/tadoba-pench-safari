@@ -94,7 +94,7 @@ export default function HomePage() {
       <section className="relative min-h-[92vh] flex items-center overflow-hidden grain">
         <Image
           src="/images/hero-tiger-tadoba.jpg"
-          alt="Bengal tiger striding through golden grassland at Tadoba Andhari Tiger Reserve"
+          alt="Bengal tiger walking across a rocky clearing at Tadoba Andhari Tiger Reserve"
           fill
           priority
           sizes="100vw"
