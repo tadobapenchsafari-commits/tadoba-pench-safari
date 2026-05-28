@@ -33,39 +33,24 @@ export type Testimonial = {
 };
 
 export const testimonials: Testimonial[] = [
-  {
-    id: 'sample-1',
-    name: 'Sample R.',
-    city: 'Sample City',
-    travelMonth: '2026-04',
-    rating: 5,
-    quote:
-      'This is a sample testimonial. Replace with a real customer message — what they came hoping for, what they actually saw, and how the trip felt. Two short sentences read best.',
-    packageSlug: 'tadoba-classic-3n',
-    sample: true,
-  },
-  {
-    id: 'sample-2',
-    name: 'Sample N.',
-    city: 'Sample City',
-    travelMonth: '2026-03',
-    rating: 5,
-    quote:
-      'Another sample. Honest, specific testimonials work much better than generic praise — mention the gate, the naturalist, the sighting, anything concrete.',
-    packageSlug: 'tadoba-pench-combo-5n',
-    sample: true,
-  },
-  {
-    id: 'sample-3',
-    name: 'Sample K.',
-    city: 'Sample City',
-    travelMonth: '2026-02',
-    rating: 5,
-    quote:
-      'Sample three. If a customer specifically liked something we did differently (permit hassle handled, late checkout, resort upgrade), call that out — that detail builds trust.',
-    packageSlug: 'pench-classic-3n',
-    sample: true,
-  },
+  // Add real testimonials here when ready, e.g.:
+  //
+  // {
+  //   id: 'priya-mumbai-2026-04',
+  //   name: 'Priya S.',
+  //   city: 'Mumbai',
+  //   travelMonth: '2026-04',
+  //   rating: 5,
+  //   quote: 'We saw three tigers in two safaris — naturalist Sahil knew exactly where to wait...',
+  //   packageSlug: 'tadoba-classic-3n',
+  // },
+  //
+  // With the array empty, the testimonials sections on the home page and
+  // per-package pages render nothing (the components return null on empty
+  // input) and the /testimonials hub + footer link / sitemap entry have
+  // been removed. Re-add the /testimonials page, footer link, and sitemap
+  // entry once you've populated 3+ real testimonials so AggregateRating
+  // schema can activate.
 ];
 
 // --- Helpers that pages / components import ---
