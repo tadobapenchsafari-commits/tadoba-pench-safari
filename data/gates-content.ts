@@ -30,7 +30,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'moharli',
     targetKeyword: 'Moharli Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/A_vista_of_the_jungle_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-A_vista_of_the_jungle_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+      '/images/hero-tiger-tadoba.jpg',
     metaDescription:
       'Complete Moharli Gate Tadoba guide — permit timings, sighting odds, famous tigers, resort options, and how to book core zone safaris at Tadoba\'s most popular gate.',
     intro:
@@ -105,7 +105,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'kolara',
     targetKeyword: 'Kolara Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/5/53/A_road_in_between_bamboo_forest_at_Tadoba_Andhari_Tiger_Reserve_%28India%2C_2016%29.jpg',
+      '/images/dest-tadoba.jpg',
     metaDescription:
       'Everything about Kolara Gate Tadoba — permit availability, famous tigers like Choti Tara and Chhota Matka, resort options, and why photographers choose Kolara over Moharli.',
     intro:
@@ -180,7 +180,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'khutwanda',
     targetKeyword: 'Khutwanda Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+      '/images/wildlife-tiger-lying.jpg',
     metaDescription:
       'Khutwanda Gate Tadoba guide — a lesser-known core-zone gate with strong leopard and sloth bear records. Permits, timings, and when to choose Khutwanda over Moharli.',
     intro:
@@ -243,7 +243,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'turia',
     targetKeyword: 'Turia Gate Pench',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Pench_National_Park_habitat_shot.jpg/1920px-Pench_National_Park_habitat_shot.jpg',
+      '/images/dest-pench.jpg',
     metaDescription:
       'Turia Gate Pench is the main entry on the Madhya Pradesh side — dense teak forest, predictable tiger territories, and the Kipling connection. Permits, timings, resorts.',
     intro:
@@ -314,7 +314,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'jamtara',
     targetKeyword: 'Jamtara Gate Pench',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Dhole_Stroll_at_Pench_National_Park%2C_India.jpg/1920px-Dhole_Stroll_at_Pench_National_Park%2C_India.jpg',
+      '/images/pkg-pench-classic.jpg',
     metaDescription:
       'Jamtara is Pench\'s top buffer-zone gate — better value permits, quieter safaris, and tigers increasingly habituated to jeeps. Complete 2026 guide.',
     intro:
@@ -377,7 +377,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'navegaon',
     targetKeyword: 'Navegaon Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/e/e3/Sambar_deer_in_habitat.jpg',
+      '/images/pkg-tadoba-classic.jpg',
     metaDescription:
       'Navegaon Gate Tadoba — the northernmost core gate of Tadoba Andhari Tiger Reserve. Permits, timings, tigers, nearest villages, and how to plan a Navegaon safari.',
     intro:
@@ -425,7 +425,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'agarzari',
     targetKeyword: 'Agarzari Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/A_vista_of_the_jungle_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-A_vista_of_the_jungle_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+      '/images/wildlife-tiger-grass-1.jpg',
     metaDescription:
       'Agarzari Gate Tadoba — the most popular buffer gate. Lower permit cost than core, monsoon access, rising tiger activity. 2026 guide.',
     intro:
@@ -472,7 +472,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'junona',
     targetKeyword: 'Junona Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sunset_of_tadoba.jpg/1920px-Sunset_of_tadoba.jpg',
+      '/images/wildlife-deer-forest.jpg',
     metaDescription:
       'Junona Gate Tadoba — a quiet southern buffer gate near Chandrapur. Low crowds, cheaper permits, good weekend option from Nagpur. 2026 complete guide.',
     intro:
@@ -518,7 +518,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'devada-adegaon',
     targetKeyword: 'Devada Adegaon Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+      '/images/wildlife-gaur-lying.jpg',
     metaDescription:
       'Devada-Adegaon Gate Tadoba — eastern buffer with rich teak-bamboo forest. Strong for leopards, sloth bears, and dholes. Permits, timings, trip-planning guide.',
     intro:
@@ -566,7 +566,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'alizanza',
     targetKeyword: 'Alizanza Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/5/53/A_road_in_between_bamboo_forest_at_Tadoba_Andhari_Tiger_Reserve_%28India%2C_2016%29.jpg',
+      '/images/pkg-pench-birding.jpg',
     metaDescription:
       'Alizanza Gate Tadoba — the northern buffer adjacent to Kolara core. Open grasslands, raptor activity, and spillover tiger sightings from Choti Tara\'s territory.',
     intro:
@@ -612,7 +612,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'pangdi',
     targetKeyword: 'Pangdi Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sunset_of_tadoba.jpg/1920px-Sunset_of_tadoba.jpg',
+      '/images/wildlife-tiger-grass-3.jpg',
     metaDescription:
       'Pangdi Gate Tadoba — the western core gate with the smallest permit allotment in the reserve. Permits, timings, tigers, trip-planning notes.',
     intro:
@@ -657,7 +657,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'zari',
     targetKeyword: 'Zari Gate Tadoba',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+      '/images/wildlife-tiger-grass-2.jpg',
     metaDescription:
       'Zari Gate Tadoba — eastern core gate with good tiger density, teak-bamboo forest, and fewer jeeps than Moharli. Permit timings, nearby stays, planning guide.',
     intro:
@@ -701,7 +701,7 @@ export const gateDetails: Record<string, GateDetail> = {
     slug: 'karmajhiri',
     targetKeyword: 'Karmajhiri Gate Pench',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/1/10/Karmazari_Pench_National_Park_13.jpg',
+      '/images/pkg-pench-family.jpg',
     metaDescription:
       'Karmajhiri Gate Pench — the eastern core gate with open grasslands, predictable tiger territories, and some of the best grassland photography in central India.',
     intro:

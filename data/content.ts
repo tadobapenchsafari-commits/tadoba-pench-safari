@@ -197,10 +197,10 @@ export const properties: Property[] = [
     shortDescription:
       'An intimate four-room luxury villa tucked into the wilderness near Kolara Gate. Swimming pool, kids play area, and forest-facing lawns make it equally good for couples and families. Rated 4.8 across 95+ reviews.',
     heroImage:
-      'https://www.tadobaaranyavilla.com/wp-content/uploads/2024/04/banner-1920x928B.jpg',
+      '/images/dest-tadoba.jpg',
     images: [
-      'https://www.tadobaaranyavilla.com/wp-content/uploads/2024/04/banner-1920x928B.jpg',
-      'https://www.tadobaaranyavilla.com/wp-content/uploads/2022/01/Rooms_520x360_1-520x360.jpg',
+      '/images/dest-tadoba.jpg',
+      '/images/dest-tadoba.jpg',
     ],
     amenities: ['Swimming pool', 'WiFi', 'Restaurant', 'Kids play area', 'Parking', 'Naturalist'],
     distanceFromGateMeters: 2500,
@@ -217,9 +217,9 @@ export const properties: Property[] = [
     shortDescription:
       'Well-appointed cottages with a sparkling pool, on-site restaurant, and bonfire pit — set in Masal Khurd, Chimur, 1.5 miles from Shri Hari Balaji temple and 5.7 miles from Kolara Gate. 24/7 power backup.',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sunset_of_tadoba.jpg/1920px-Sunset_of_tadoba.jpg',
+      '/images/wildlife-tiger-grass-1.jpg',
     images: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sunset_of_tadoba.jpg/1920px-Sunset_of_tadoba.jpg',
+      '/images/wildlife-tiger-grass-1.jpg',
     ],
     amenities: ['Swimming pool', 'Restaurant', 'Bonfire', '24/7 power backup', 'Events area'],
     distanceFromGateMeters: 9000,
@@ -236,10 +236,10 @@ export const properties: Property[] = [
     shortDescription:
       'A five-minute walk from Kolara Gate — premium cottages, luxury suites, and three-bedroom villas with private pools. On-site spa, multi-cuisine restaurant with locally sourced ingredients, and guided nature walks.',
     heroImage:
-      'https://junglehometadoba.com/wp-content/uploads/2024/08/U4A9459-homepage-2-768x1152.jpg',
+      '/images/wildlife-tiger-lying.jpg',
     images: [
-      'https://junglehometadoba.com/wp-content/uploads/2024/08/U4A9459-homepage-2-768x1152.jpg',
-      'https://junglehometadoba.com/wp-content/uploads/2024/07/Luxury-Cottages-768x512.jpg',
+      '/images/wildlife-tiger-lying.jpg',
+      '/images/wildlife-tiger-lying.jpg',
     ],
     amenities: ['Private pool villas', 'Spa', 'Multi-cuisine restaurant', 'Nature walks', 'Naturalist', 'WiFi'],
     distanceFromGateMeters: 400,
@@ -256,9 +256,9 @@ export const properties: Property[] = [
     shortDescription:
       'Owner-driven resort just 4km from Kolara Safari Gate, promoted by Ritesh Kumar Anand. Multi-cuisine restaurant, swimming pool, spa therapy, indoor and outdoor games, and jungle safaris with expert naturalists. Ranked #1 on TripAdvisor for Masal Bk.',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+      '/images/dest-tadoba.jpg',
     images: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+      '/images/dest-tadoba.jpg',
     ],
     amenities: ['Swimming pool', 'Spa', 'Multi-cuisine restaurant', 'Indoor games', 'Naturalist', 'Safaris'],
     distanceFromGateMeters: 4000,

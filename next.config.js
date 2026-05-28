@@ -1,16 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // All site imagery is self-hosted under /public/images. No external image
+  // domains are allowed — keeps OG previews, SERP thumbnails, and Vercel
+  // image optimisation entirely within our own infrastructure.
   images: {
-    remotePatterns: [
-      { protocol: 'https', hostname: 'images.unsplash.com' },
-      { protocol: 'https', hostname: 'plus.unsplash.com' },
-      { protocol: 'https', hostname: 'upload.wikimedia.org' },
-      { protocol: 'https', hostname: 'commons.wikimedia.org' },
-      { protocol: 'https', hostname: 'www.tadobaaranyavilla.com' },
-      { protocol: 'https', hostname: 'tadobaaranyavilla.com' },
-      { protocol: 'https', hostname: 'junglehometadoba.com' },
-      { protocol: 'https', hostname: 'www.junglehometadoba.com' },
-    ],
+    remotePatterns: [],
   },
 };
 

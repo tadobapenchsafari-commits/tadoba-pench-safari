@@ -16,7 +16,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Nagpur is the natural starting point for a Tadoba trip. Here are the real routes, drive times, cab costs, and day-by-day itineraries for 2, 3, and 4-night plans.',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/5/53/A_road_in_between_bamboo_forest_at_Tadoba_Andhari_Tiger_Reserve_%28India%2C_2016%29.jpg',
+      '/images/dest-tadoba.jpg',
     publishedAt: '2026-04-25',
     readingMinutes: 10,
     keywords: [
@@ -150,7 +150,7 @@ We handle the whole Nagpur-to-Nagpur trip: flight recommendations, airport picku
     excerpt:
       'Ten years of running Tadoba trips have taught us exactly what guests always forget. Here is the no-fluff packing list — what to bring, what to skip, and what the weather really does.',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+      '/images/wildlife-tiger-grass-1.jpg',
     publishedAt: '2026-04-25',
     readingMinutes: 8,
     keywords: [
@@ -306,7 +306,7 @@ Once your dates are locked and the permits are in hand, we send guests this exac
     excerpt:
       'Which Tadoba gate should you book — Moharli or Kolara? Our naturalists have run safaris from both for eight years. Here are the real trade-offs.',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/5/53/A_road_in_between_bamboo_forest_at_Tadoba_Andhari_Tiger_Reserve_%28India%2C_2016%29.jpg',
+      '/images/wildlife-tiger-lying.jpg',
     publishedAt: '2026-04-24',
     readingMinutes: 7,
     keywords: [
@@ -397,7 +397,7 @@ We handle this for guests — [tell us your dates](/contact) and we'll secure th
     excerpt:
       'What does a Tadoba safari actually cost in 2026? Real numbers for permits, gypsies, guides, resorts, and full packages — with no hidden fees.',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sunset_of_tadoba.jpg/1920px-Sunset_of_tadoba.jpg',
+      '/images/wildlife-gaur-lying.jpg',
     publishedAt: '2026-04-24',
     readingMinutes: 9,
     keywords: [
@@ -548,7 +548,7 @@ Pricing on all our packages is transparent: permit, gypsy, guide, resort, transf
     excerpt:
       'The Tadoba tiger sighting rate peaks between March and June. Here is the month-by-month breakdown our naturalists use to plan trips.',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Matkasur_the_male_tiger_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Matkasur_the_male_tiger_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+      '/images/wildlife-tiger-grass-2.jpg',
     publishedAt: '2026-04-20',
     readingMinutes: 7,
     keywords: [
@@ -601,7 +601,7 @@ Tadoba core-zone permits are released 120 days in advance and the premium gates 
     excerpt:
       'Both are premier central India tiger reserves — but they attract different travellers for different reasons. An honest comparison.',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Dhole_Stroll_at_Pench_National_Park%2C_India.jpg/1920px-Dhole_Stroll_at_Pench_National_Park%2C_India.jpg',
+      '/images/pkg-pench-birding.jpg',
     publishedAt: '2026-04-15',
     readingMinutes: 6,
     keywords: [
@@ -654,7 +654,7 @@ Most of our guests who've done the math come back with a 4 or 5-night package co
     excerpt:
       'Tadoba permits sell out months ahead and the official portal is unforgiving. Here is exactly how the process works and where people get stuck.',
     heroImage:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg/1920px-Ghost_Tree_at_Tadoba_Andhari_Tiger_Reserve.jpg',
+      '/images/wildlife-tiger-grass-3.jpg',
     publishedAt: '2026-04-10',
     readingMinutes: 8,
     keywords: [
