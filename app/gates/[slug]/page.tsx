@@ -35,10 +35,8 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
   const baseGate = gates.find((g) => g.slug === slug);
   const destination = baseGate?.destination;
 
-  // Packages relevant to this gate's reserve, plus the combo as a soft cross-sell
-  const matchingPacks = packages
-    .filter((p) => p.destination === destination || p.slug === 'tadoba-pench-combo-5n')
-    .slice(0, 3);
+  // All current packages are Tadoba 3N tier options; show all three on every gate.
+  const matchingPacks = packages.slice(0, 3);
 
   // Sibling gates at the same reserve (for cross-linking)
   const siblingGates = gates

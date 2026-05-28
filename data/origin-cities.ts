@@ -54,7 +54,7 @@ export const originCities: OriginCity[] = [
     bestTripLength: '5 nights / 6 days',
     bestTripReason:
       'Long enough to do both Tadoba (3 nights) and Pench (2 nights) without rushing — the standard Mumbai itinerary because flying once and seeing two reserves justifies the leave.',
-    recommendedPackages: ['tadoba-pench-combo-5n', 'tadoba-classic-3n'],
+    recommendedPackages: ['tadoba-mid-3n', 'tadoba-luxury-3n'],
     cityTips: [
       'Book the 6 AM IndiGo BOM→NAG flight for the same-day Moharli safari that afternoon — saves a full day of leave.',
       'Travelling May–June? Choose flight over train — Mumbai\'s pre-monsoon humidity hits hard and the train can run hours late.',
@@ -101,7 +101,7 @@ export const originCities: OriginCity[] = [
     bestTripLength: '4 nights / 5 days',
     bestTripReason:
       'A long weekend extended by 2 leave days. Pune travellers often fit Tadoba into a Friday evening to Wednesday morning slot using the overnight train both ways.',
-    recommendedPackages: ['tadoba-classic-3n', 'tadoba-pench-combo-5n'],
+    recommendedPackages: ['tadoba-budget-3n', 'tadoba-mid-3n'],
     cityTips: [
       'The 12114 Garib Rath has AC 3-tier coaches at far lower fares than peak-season flights — book 60 days ahead.',
       'If driving, the Pune-Aurangabad-Jalna stretch can be done in a day. Stage the second day from Jalna to Nagpur (5 hours) for a fresher safari start.',
@@ -148,7 +148,7 @@ export const originCities: OriginCity[] = [
     bestTripLength: '3 nights / 4 days',
     bestTripReason:
       'Hyderabad\'s proximity and frequent flights make the classic 3N/4D Tadoba trip an easy long weekend — Thursday evening to Sunday night.',
-    recommendedPackages: ['tadoba-classic-3n', 'tadoba-pench-combo-5n'],
+    recommendedPackages: ['tadoba-budget-3n', 'tadoba-mid-3n'],
     cityTips: [
       'Hyderabad has the best price-to-time ratio of any major Indian metro for Tadoba — typically ₹6,000–8,000 round trip on IndiGo HYD↔NAG.',
       'Driving is genuinely realistic from Hyderabad — the highway is good and the route passes through Adilabad, where you can stop for a meal at the well-known Telangana dhabas.',
@@ -195,7 +195,7 @@ export const originCities: OriginCity[] = [
     bestTripLength: '5 nights / 6 days',
     bestTripReason:
       'Flying both ways consumes a day each side, so 5 nights on the ground (Tadoba + Pench) gives the best ratio of safari to travel time.',
-    recommendedPackages: ['tadoba-pench-combo-5n', 'photography-week-tadoba'],
+    recommendedPackages: ['tadoba-mid-3n', 'tadoba-luxury-3n'],
     cityTips: [
       'The BLR→NAG fare drops sharply if you book 45+ days in advance — common round-trip is ₹7,500–9,500.',
       'For Bangalore-based photography clubs, the Photography Week Tadoba package is well-matched: enough safaris (12) to justify carrying camera gear on a long flight.',
@@ -242,7 +242,7 @@ export const originCities: OriginCity[] = [
     bestTripLength: '5 nights / 6 days',
     bestTripReason:
       'Same logic as Bangalore — flying consumes ~half a day each way, so a 5N/6D Tadoba+Pench combo balances the airfare against on-ground experience.',
-    recommendedPackages: ['tadoba-pench-combo-5n', 'tadoba-classic-3n'],
+    recommendedPackages: ['tadoba-mid-3n', 'tadoba-luxury-3n'],
     cityTips: [
       'IndiGo\'s 6 AM DEL→NAG flight is the sweet spot — lands in Nagpur by 8 AM, you can do an afternoon Moharli safari the same day.',
       'For Delhi families with kids — the Tadoba Family package shapes around shorter safaris and a Mowgli-themed evening, which travels better than long jeep days.',

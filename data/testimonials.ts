@@ -42,7 +42,7 @@ export const testimonials: Testimonial[] = [
   //   travelMonth: '2026-04',
   //   rating: 5,
   //   quote: 'We saw three tigers in two safaris — naturalist Sahil knew exactly where to wait...',
-  //   packageSlug: 'tadoba-classic-3n',
+  //   packageSlug: 'tadoba-mid-3n',
   // },
   //
   // With the array empty, the testimonials sections on the home page and

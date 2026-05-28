@@ -70,12 +70,8 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
       addressLocality: 'Seoni',
     },
   };
-  const isCombo = p.slug === 'tadoba-pench-combo-5n';
-  const locations = isCombo
-    ? [tadobaLocation, penchLocation]
-    : p.destination === 'pench'
-    ? [penchLocation]
-    : [tadobaLocation];
+  const locations =
+    p.destination === 'pench' ? [penchLocation] : [tadobaLocation];
 
   // Reviews tied to this package (sample testimonials are filtered out for schema)
   const packageReviews = testimonialsForPackage(p.slug).filter((t) => !t.sample);

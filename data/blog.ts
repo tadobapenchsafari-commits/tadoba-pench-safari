@@ -795,7 +795,7 @@ For most travellers coming from Mumbai, Pune, Hyderabad, or Bangalore, Tadoba-fi
 
 ## Ready to plan a Tadoba + Pench combo?
 
-Our [5-night Tadoba + Pench Combo package](/packages/tadoba-pench-combo-5n) handles both reserves with a single driver, six total safaris, and the transfer logistics built in. Or [tell us your dates](/contact) and we'll quote a custom split.
+Our [Tadoba Mid package](/packages/tadoba-mid-3n) handles both reserves with a single driver, six total safaris, and the transfer logistics built in. Or [tell us your dates](/contact) and we'll quote a custom split.
 
 For the broader picture of what each reserve offers, see [Tadoba vs Pench: Which Safari is Right for You?](/blog/tadoba-vs-pench-which-safari-is-right-for-you)`,
   },
