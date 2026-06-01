@@ -116,14 +116,34 @@ export default function HomePage() {
       />
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden grain">
-        <Image
-          src="/images/hero-tiger-tadoba.jpg"
-          alt="Bengal tiger walking across a rocky clearing at Tadoba Andhari Tiger Reserve"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
+        {/* Background video. Poster paints instantly from the same tiger
+            photo we used before, so first contentful paint is unchanged.
+            Video autoplays muted + loops; mobile gets a smaller encode. */}
+        <video
+          className="absolute inset-0 w-full h-full object-cover hidden md:block"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          poster="/images/hero-tiger-tadoba.jpg"
+          aria-label="Bengal tiger close-up in golden grass at Tadoba Andhari Tiger Reserve"
+        >
+          <source src="/videos/hero.webm" type="video/webm" />
+          <source src="/videos/hero.mp4" type="video/mp4" />
+        </video>
+        <video
+          className="absolute inset-0 w-full h-full object-cover md:hidden"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster="/images/hero-tiger-tadoba.jpg"
+          aria-label="Bengal tiger close-up in golden grass at Tadoba Andhari Tiger Reserve"
+        >
+          <source src="/videos/hero-mobile.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-b from-bark/30 via-bark/40 to-bark/80" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-20 pb-40 md:pb-48">
