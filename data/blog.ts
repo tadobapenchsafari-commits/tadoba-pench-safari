@@ -799,4 +799,98 @@ Our [Tadoba Mid package](/packages/tadoba-mid-3n) handles both reserves with a s
 
 For the broader picture of what each reserve offers, see [Tadoba vs Pench: Which Safari is Right for You?](/blog/tadoba-vs-pench-which-safari-is-right-for-you)`,
   },
+  {
+    slug: 'mumbai-to-tadoba-samruddhi-mahamarg-drive-guide',
+    title: 'Mumbai to Tadoba by Samruddhi Mahamarg: 2026 Drive Guide',
+    excerpt:
+      'The Samruddhi Mahamarg cut the Mumbai-to-Nagpur drive from 14 hours to about 10. Here are the real numbers — tolls, fuel stops, overnight options, and whether driving still beats flying for a Tadoba safari.',
+    heroImage: '/images/dest-tadoba.jpg',
+    publishedAt: '2026-06-02',
+    readingMinutes: 7,
+    keywords: [
+      'mumbai to tadoba',
+      'mumbai to tadoba samruddhi',
+      'samruddhi mahamarg tadoba',
+      'mumbai to nagpur expressway',
+      'mumbai to tadoba drive',
+      'mumbai to tadoba by car',
+      'mumbai to tadoba toll cost',
+      'mumbai tadoba safari self drive',
+    ],
+    content: `**Driving from Mumbai to Tadoba is now a single long day on tarmac — roughly 850 km and ~12 hours total — thanks to the Hindu Hriday Samrat Balasaheb Thackeray Maharashtra Samruddhi Mahamarg, the new 701 km Mumbai–Nagpur expressway.** That is a 2–3 hour saving over the older NH53 route via Akola, and it has changed the calculus for Mumbai-based safari travellers who want to bring their own car.
+
+If you have been weighing fly-vs-drive for a Tadoba trip from Mumbai, here is the real picture for 2026 — distances, tolls, overnight options, and the honest trade-offs.
+
+## The route in three segments
+
+| Segment | Road | Distance | Drive time |
+|---|---|---|---|
+| Mumbai → Shahapur / Igatpuri entry | NH160, ghats | ~80–120 km | 2–3 h (heavy traffic until Kalyan, then ghats) |
+| Shahapur → Nagpur on Samruddhi | Six-lane expressway, 120 km/h speed limit | ~701 km | 9–10 h |
+| Nagpur → Moharli (Tadoba) | NH353B, state highway | ~140 km | 3 h |
+| **Total** | | **~870 km** | **~14 h with realistic stops** |
+
+The 14-hour figure assumes 30 minutes for tolls/fuel + a one-hour meal break. Non-stop is mathematically 12 hours but not advisable before a 6 AM safari.
+
+## Toll cost
+
+The Samruddhi Mahamarg toll for a passenger car (Mumbai entry to Nagpur exit) is approximately **₹1,210 one-way** in 2026. With FASTag, the toll deducts automatically at each section gantry. Add ~₹100 in tolls on the Mumbai-end NH160 and Nagpur-end NH353B, and budget **₹1,400 in total tolls each direction.**
+
+That puts your round-trip toll at roughly **₹2,800.** Fuel at ~13 km/l for a sedan and ₹105/l averages another ₹13,500 round trip. Total Mumbai → Tadoba → Mumbai by car: about **₹16,500 in road costs** — significantly less than four airline tickets and an airport transfer for a family of four.
+
+## The two realistic drive plans
+
+### Plan A: Single long day (advanced drivers only)
+
+Leave Mumbai at **4 AM**, beat the Kalyan traffic, hit Samruddhi by 6 AM, reach Nagpur by 4 PM, arrive at Moharli by 7 PM. You will not be fresh for a 6 AM safari the next morning — plan for a recovery half-day at the resort.
+
+### Plan B: Two-day drive with overnight at Sambhajinagar (Aurangabad)
+
+This is what we recommend for couples and families.
+
+- **Day 1**: Mumbai → Sambhajinagar via Samruddhi (~450 km, 6–7 hours including a lunch break). Overnight at Aurangabad/Sambhajinagar. Multiple good hotels.
+- **Day 2**: Sambhajinagar → Tadoba via Nagpur (~400 km, 5–6 hours). Arrive Moharli by 2 PM, settled in for the next morning's safari.
+
+The Day 2 leg is short enough that you can do the afternoon safari the day you arrive — if the gate timing fits.
+
+## Where to refuel and eat
+
+The Samruddhi Mahamarg has **18 service interchanges** with HPCL / IOCL / BPCL fuel stations on slip roads. Recommended stops:
+
+- **Igatpuri Plaza** (km 60) — first major stop with food, restrooms, fuel
+- **Sambhajinagar / Aurangabad exit** (km 230) — overnight option, or take a 1-hour Ajanta-or-Ellora detour if you have time
+- **Jalna interchange** (km 320) — clean restrooms, mid-route fuel
+- **Wardha interchange** (km 590) — last fuel + meal stop before Nagpur
+
+Avoid local exit dhabas after dark — stick to interchange plazas.
+
+## When to drive (and when not to)
+
+| Month | Drive verdict |
+|---|---|
+| Oct – Feb | Best. Cool weather, clear roads, comfortable in any vehicle. |
+| Mar – May | Heat builds. AC running hard. Carry extra water and check tyre pressure (highway heat blows under-inflated tyres). |
+| Jun – Sep | Tadoba core zones close in monsoon (1 Jul – 30 Sep). If you must drive in early June, expect heat. After mid-July, NH353B has rain-related delays. |
+
+## Fly vs drive — honest comparison
+
+| | Fly Mumbai → Nagpur | Drive Mumbai → Tadoba |
+|---|---|---|
+| Door-to-door time | 5–6 hours | 12–14 hours |
+| Cost (couple, return) | ₹14k–22k | ₹16k–18k incl. fuel + tolls |
+| Cost (family of 4, return) | ₹28k–44k | ₹17k–20k |
+| Fatigue arrival day | Low | High |
+| Vehicle at destination | Need to rent / use our transfer | Yours, full flexibility |
+| Best for | Couples, time-poor travellers | Families, photographers with gear, road-trippers |
+
+**Bottom line for Mumbai families**: driving wins on cost (often by ₹15k+) and beats the airline-baggage hassle if you are carrying camera gear, tripods, or a child's safety seat.
+
+## What we handle if you drive yourself
+
+Even on a self-drive Tadoba trip, you still need the permit, the gypsy, the guide, and the resort booking — which is where most independent travellers waste hours. We handle all of that end-to-end on any of our [Tadoba safari packages](/packages); you arrive at Moharli, park your car at the resort, and walk straight into a confirmed itinerary.
+
+If you would like a custom self-drive quote (no transfer line item, just safaris + resort), [WhatsApp us your dates](https://wa.me/918208090280) or [send the form](/contact).
+
+For more on getting to Tadoba from your city, see our complete [Tadoba Safari from Mumbai planning guide](/tadoba-safari-from-mumbai).`,
+  },
 ];
