@@ -9,5 +9,6 @@ build
 *.log
 .vercel
 
-# Local-only source folder for original phone photos before enhancement
+# Local-only source folders for original photos before enhancement
 my pic/
+tiger pic/
