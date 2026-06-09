@@ -67,6 +67,23 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  // Search-engine ownership verification.
+  //
+  //  google:  Already verified via DNS (sc-domain property in Search Console),
+  //           so no meta-tag verification is required. Left commented in case
+  //           we ever switch to URL-prefix verification.
+  //
+  //  msvalidate.01:  Bing Webmaster Tools. To activate:
+  //    1. Sign in at https://www.bing.com/webmasters
+  //    2. Add the site as a URL prefix property
+  //    3. Choose 'HTML Meta Tag' verification method
+  //    4. Replace BING_VERIFICATION_PLACEHOLDER below with the content value
+  //       from the meta tag Bing generates
+  //    5. Deploy, then click 'Verify' in the Bing dashboard
+  verification: {
+    // google: 'PASTE_GSC_HTML_TAG_VALUE_HERE',
+    // other: { 'msvalidate.01': 'PASTE_BING_VALUE_HERE' },
+  },
 };
 
 export default function RootLayout({

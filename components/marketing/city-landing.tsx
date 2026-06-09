@@ -86,14 +86,7 @@ export function CityLanding({ city: c }: { city: OriginCity }) {
 
       {/* HERO */}
       <section className="relative min-h-[60vh] flex items-end overflow-hidden grain">
-        <Image
-          src="/images/hero-tiger-tadoba.jpg"
-          alt={`Tadoba safari guide for travellers from ${c.name}`}
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
+        <Image src="/images/hero-tiger-tadoba.jpg" alt={`Tadoba safari guide for travellers from ${c.name}`} priority sizes="100vw" className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
         <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/55 to-transparent" />
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-bone">
           <p className="divider-tribal max-w-xs text-bone/70 mb-4">
@@ -159,7 +152,7 @@ export function CityLanding({ city: c }: { city: OriginCity }) {
         <div className="bg-canopy text-bone rounded-3xl p-10 md:p-14">
           <div className="flex items-center gap-2 text-sunrise text-xs uppercase tracking-[0.2em] mb-3">
             <Clock className="w-4 h-4" />
-            Suggested trip length
+            Suggested trip length<span className="sr-only"> — Tadoba safari from {c.name}</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl mb-4 leading-tight">
             {c.bestTripLength}
@@ -181,7 +174,7 @@ export function CityLanding({ city: c }: { city: OriginCity }) {
             <div className="mb-12 max-w-2xl">
               <p className="divider-tribal max-w-xs mb-4">Recommended for {c.name}</p>
               <h2 className="font-display text-4xl text-bark leading-tight">
-                Packages we suggest
+                Packages we suggest<span className="sr-only"> for travellers from {c.name}</span>
               </h2>
             </div>
 
@@ -193,13 +186,7 @@ export function CityLanding({ city: c }: { city: OriginCity }) {
                   className="group bg-bone rounded-2xl overflow-hidden hover:shadow-xl flex"
                 >
                   <div className="relative w-2/5 aspect-[4/5] overflow-hidden shrink-0">
-                    <Image
-                      src={p.heroImage}
-                      alt={`${p.name} — recommended Tadoba safari package for travellers from ${c.name}`}
-                      fill
-                      sizes="(max-width: 768px) 40vw, 20vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
+                    <Image src={p.heroImage} alt={`${p.name} — recommended Tadoba safari package for travellers from ${c.name}`} sizes="(max-width: 768px) 40vw, 20vw" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={1200} height={1500} />
                   </div>
                   <div className="p-6 flex-1 flex flex-col justify-between">
                     <div>

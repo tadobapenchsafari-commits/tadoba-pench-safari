@@ -91,7 +91,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <section className="relative min-h-[70vh] flex items-end overflow-hidden grain">
-        <Image src={d.heroImage} alt={`${d.name} National Park — tiger safari and wildlife in ${d.slug === 'tadoba' ? 'Maharashtra' : 'Madhya Pradesh'}, India`} fill priority className="object-cover" />
+        <Image src={d.heroImage} alt={`${d.name} National Park — tiger safari and wildlife in ${d.slug === 'tadoba' ? 'Maharashtra' : 'Madhya Pradesh'}, India`} priority className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
         <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/50 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
           <p className="divider-tribal max-w-xs text-bone/70 mb-4">
@@ -212,13 +212,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
                   className="group bg-bone rounded-2xl overflow-hidden hover:shadow-xl flex"
                 >
                   <div className="relative w-2/5 aspect-[4/5] overflow-hidden flex-shrink-0">
-                    <Image
-                      src={p.heroImage}
-                      alt={`${p.name} — ${d.name} safari package with ${p.safariCount} jeep safaris`}
-                      fill
-                      sizes="(max-width: 768px) 40vw, 20vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
+                    <Image src={p.heroImage} alt={`${p.name} — ${d.name} safari package with ${p.safariCount} jeep safaris`} sizes="(max-width: 768px) 40vw, 20vw" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={1200} height={1500} />
                   </div>
                   <div className="p-6 flex-1 flex flex-col justify-between">
                     <div>

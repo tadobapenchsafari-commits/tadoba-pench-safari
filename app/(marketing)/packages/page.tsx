@@ -31,13 +31,7 @@ export default function PackagesPage() {
               className="group bg-paper rounded-2xl overflow-hidden hover:shadow-xl flex flex-col md:flex-row"
             >
               <div className="relative md:w-2/5 aspect-[4/3] md:aspect-auto overflow-hidden">
-                <Image
-                  src={p.heroImage}
-                  alt={`${p.name} — ${p.destination === 'pench' ? 'Pench Tiger Reserve' : 'Tadoba Andhari Tiger Reserve'} safari package, ${p.durationNights}-night stay`}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 40vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
+                <Image src={p.heroImage} alt={`${p.name} — ${p.destination === 'pench' ? 'Pench Tiger Reserve' : 'Tadoba Andhari Tiger Reserve'} safari package, ${p.durationNights}-night stay`} sizes="(max-width: 768px) 100vw, 40vw" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={1920} height={1080} />
               </div>
               <div className="p-6 md:p-8 flex-1 flex flex-col justify-between">
                 <div>

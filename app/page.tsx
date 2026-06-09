@@ -209,13 +209,7 @@ export default function HomePage() {
               href={`/destinations/${d.slug}`}
               className="group relative aspect-[4/5] md:aspect-[3/4] overflow-hidden rounded-2xl"
             >
-              <Image
-                src={d.heroImage}
-                alt={`${d.name} National Park — tiger safari and wildlife in central India`}
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover group-hover:scale-105 transition-transform duration-700"
-              />
+              <Image src={d.heroImage} alt={`${d.name} National Park — tiger safari and wildlife in central India`} sizes="(max-width: 768px) 100vw, 50vw" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" width={1200} height={1600} />
               <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/40 to-transparent" />
               <div className="absolute inset-0 p-8 md:p-10 flex flex-col justify-end text-bone">
                 <p className="text-sm tracking-[0.2em] uppercase text-sunrise mb-2">
@@ -260,13 +254,7 @@ export default function HomePage() {
                 className="group bg-bone rounded-2xl overflow-hidden hover:shadow-xl transition-all hover:-translate-y-1"
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
-                  <Image
-                    src={p.heroImage}
-                    alt={`${p.name} — ${p.destination === 'pench' ? 'Pench Tiger Reserve' : 'Tadoba Andhari Tiger Reserve'} safari package`}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 25vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+                  <Image src={p.heroImage} alt={`${p.name} — ${p.destination === 'pench' ? 'Pench Tiger Reserve' : 'Tadoba Andhari Tiger Reserve'} safari package`} sizes="(max-width: 768px) 100vw, 25vw" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={1600} height={1200} />
                   <div className="absolute top-4 left-4 bg-bone/95 backdrop-blur text-bark text-xs font-medium px-3 py-1 rounded-full">
                     {p.durationNights}N / {p.durationDays}D
                   </div>

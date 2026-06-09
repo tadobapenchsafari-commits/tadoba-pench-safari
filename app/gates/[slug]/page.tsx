@@ -61,7 +61,7 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
       />
 
       <section className="relative min-h-[60vh] flex items-end overflow-hidden grain">
-        <Image src={d.heroImage} alt={`${d.targetKeyword} — Tadoba Pench Safari`} fill priority className="object-cover" />
+        <Image src={d.heroImage} alt={`${d.targetKeyword} — Tadoba Pench Safari`} priority className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
         <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/60 to-transparent" />
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-bone">
           <p className="divider-tribal max-w-xs text-bone/70 mb-4">
@@ -82,7 +82,7 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div>
             <h2 className="font-display text-2xl text-bark mb-4 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-canopy" /> Location
+              <MapPin className="w-5 h-5 text-canopy" /> Location<span className="sr-only"> — {d.targetKeyword}</span>
             </h2>
             <dl className="space-y-2 text-bark/80">
               {d.location.distanceFromNagpur && (
@@ -111,7 +111,7 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
           </div>
           <div>
             <h2 className="font-display text-2xl text-bark mb-4 flex items-center gap-2">
-              <Clock className="w-5 h-5 text-canopy" /> Entry Schedule
+              <Clock className="w-5 h-5 text-canopy" /> Entry Schedule<span className="sr-only"> — {d.targetKeyword}</span>
             </h2>
             <dl className="space-y-2 text-bark/80">
               <div>
@@ -135,7 +135,7 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
           </div>
         </div>
 
-        <h2 className="font-display text-3xl text-bark mb-6">Famous tigers & wildlife</h2>
+        <h2 className="font-display text-3xl text-bark mb-6">Famous tigers &amp; wildlife<span className="sr-only"> at {d.targetKeyword}</span></h2>
         <ul className="list-disc pl-6 space-y-2 text-bark/80 leading-relaxed mb-12">
           {d.famousTigers.map((t) => (
             <li key={t}>{t}</li>
@@ -144,7 +144,7 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div>
-            <h2 className="font-display text-2xl text-bark mb-4">Pick this gate if…</h2>
+            <h2 className="font-display text-2xl text-bark mb-4">Pick {d.targetKeyword.split(' ')[0]} Gate if…</h2>
             <ul className="space-y-2 text-bark/80">
               {d.bestFor.map((b) => (
                 <li key={b} className="flex gap-2">
@@ -155,7 +155,7 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
             </ul>
           </div>
           <div>
-            <h2 className="font-display text-2xl text-bark mb-4">Trade-offs</h2>
+            <h2 className="font-display text-2xl text-bark mb-4">Trade-offs<span className="sr-only"> at {d.targetKeyword}</span></h2>
             <ul className="space-y-2 text-bark/80">
               {d.tradeOffs.map((t) => (
                 <li key={t} className="flex gap-2">
@@ -167,7 +167,7 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
           </div>
         </div>
 
-        <h2 className="font-display text-3xl text-bark mb-6">Season-by-season notes</h2>
+        <h2 className="font-display text-3xl text-bark mb-6">Season-by-season notes<span className="sr-only"> — {d.targetKeyword}</span></h2>
         <div className="space-y-6 mb-16">
           {d.seasonalNotes.map((s) => (
             <div key={s.season} className="border-l-2 border-sunrise pl-6">
@@ -178,7 +178,7 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
         </div>
 
         <div className="bg-paper p-6 rounded-2xl mb-16">
-          <h2 className="font-display text-2xl text-bark mb-3">Where to stay</h2>
+          <h2 className="font-display text-2xl text-bark mb-3">Where to stay near {d.targetKeyword}</h2>
           <p className="text-bark/80 leading-relaxed">
             We have tie-ups with multiple vetted resorts within easy reach of
             this gate — across budget, mid, premium and luxury tiers. Tell us
@@ -207,13 +207,7 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
                   className="group bg-paper rounded-2xl overflow-hidden hover:shadow-xl transition-all hover:-translate-y-1 flex flex-col"
                 >
                   <div className="relative aspect-[4/3] overflow-hidden">
-                    <Image
-                      src={p.heroImage}
-                      alt={`${p.name} — recommended package for ${d.targetKeyword} visitors`}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
+                    <Image src={p.heroImage} alt={`${p.name} — recommended package for ${d.targetKeyword} visitors`} sizes="(max-width: 768px) 100vw, 33vw" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={1600} height={1200} />
                   </div>
                   <div className="p-5 flex-1 flex flex-col justify-between">
                     <div>
@@ -258,7 +252,7 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
           </div>
         )}
 
-        <h2 className="font-display text-3xl text-bark mb-6">Frequently asked questions</h2>
+        <h2 className="font-display text-3xl text-bark mb-6">{d.targetKeyword.split(' ')[0]} Gate — frequently asked questions</h2>
         <div className="space-y-6 mb-16">
           {d.faqs.map((f) => (
             <div key={f.q}>

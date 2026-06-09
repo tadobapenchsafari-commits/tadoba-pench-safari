@@ -33,13 +33,7 @@ export default function BlogIndex() {
             className="group block"
           >
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl mb-6">
-              <Image
-                src={p.heroImage}
-                alt={`${p.title} — Tadoba Pench Safari journal`}
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover group-hover:scale-105 transition-transform duration-700"
-              />
+              <Image src={p.heroImage} alt={`${p.title} — Tadoba Pench Safari journal`} sizes="(max-width: 768px) 100vw, 50vw" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" width={1600} height={1200} />
             </div>
             <div className="flex items-center gap-4 text-xs text-bark/60 mb-3 uppercase tracking-wider">
               <span>{new Date(p.publishedAt).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
