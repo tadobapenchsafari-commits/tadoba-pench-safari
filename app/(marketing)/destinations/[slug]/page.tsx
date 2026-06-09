@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { destinations, packages, gates } from '@/data/content';
 import { formatINR } from '@/lib/utils';
+import { destinationFaqs } from '@/data/faqs';
 
 export function generateStaticParams() {
   return destinations.map((d) => ({ slug: d.slug }));
@@ -80,6 +81,19 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
     ],
   };
 
+  const faqs = destinationFaqs[d.slug] ?? [];
+  const faqJsonLd = faqs.length
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      }
+    : null;
+
   return (
     <>
       <script
@@ -90,6 +104,12 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <section className="relative min-h-[70vh] flex items-end overflow-hidden grain">
         <Image src={d.heroImage} alt={`${d.name} National Park — tiger safari and wildlife in ${d.slug === 'tadoba' ? 'Maharashtra' : 'Madhya Pradesh'}, India`} priority className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
         <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/50 to-transparent" />
@@ -229,6 +249,32 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
                     </div>
                   </div>
                 </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {faqs.length > 0 && (
+        <section className="bg-paper py-20">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-10 max-w-2xl">
+              <p className="divider-tribal max-w-xs mb-4">FAQ</p>
+              <h2 className="font-display text-4xl text-bark leading-tight">
+                {d.name} safari — frequently asked questions
+              </h2>
+            </div>
+            <div className="space-y-4">
+              {faqs.map((f, i) => (
+                <details key={i} className="bg-bone rounded-2xl p-6 group">
+                  <summary className="font-display text-lg text-bark cursor-pointer list-none flex justify-between items-start gap-4">
+                    <span>{f.q}</span>
+                    <span className="text-sunrise text-2xl leading-none group-open:rotate-45 transition-transform shrink-0">
+                      +
+                    </span>
+                  </summary>
+                  <p className="mt-4 text-bark/75 leading-relaxed">{f.a}</p>
+                </details>
               ))}
             </div>
           </div>
