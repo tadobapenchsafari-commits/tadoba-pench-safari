@@ -5,6 +5,8 @@ import { ArrowRight, MapPin } from 'lucide-react';
 import { destinations, packages, gates } from '@/data/content';
 import { formatINR } from '@/lib/utils';
 import { destinationFaqs } from '@/data/faqs';
+import { QuickAnswers } from '@/components/marketing/quick-answers';
+import { destinationQuickAnswers } from '@/data/quick-answers';
 
 export function generateStaticParams() {
   return destinations.map((d) => ({ slug: d.slug }));
@@ -123,6 +125,8 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
           <p className="text-xl text-bone/85 max-w-2xl italic">{d.tagline}</p>
         </div>
       </section>
+
+      <QuickAnswers items={destinationQuickAnswers[d.slug] ?? []} bg="bg-paper" heading={`${d.name} at a glance`} />
 
       {/* Quick facts */}
       <section className="bg-canopy text-bone">

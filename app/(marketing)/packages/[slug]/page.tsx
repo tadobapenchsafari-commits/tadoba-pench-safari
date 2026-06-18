@@ -11,6 +11,8 @@ import {
   aggregateRating,
 } from '@/data/testimonials';
 import { packageFaqs } from '@/data/faqs';
+import { QuickAnswers } from '@/components/marketing/quick-answers';
+import { packageQuickAnswers } from '@/data/quick-answers';
 
 export function generateStaticParams() {
   return packages.map((p) => ({ slug: p.slug }));
@@ -208,6 +210,8 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
           <p className="text-lg text-bone/85 max-w-2xl">{p.shortDescription}</p>
         </div>
       </section>
+
+      <QuickAnswers items={packageQuickAnswers[p.slug] ?? []} bg="bg-paper" heading="Package at a glance" />
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">

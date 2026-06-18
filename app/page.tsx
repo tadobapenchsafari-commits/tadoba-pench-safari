@@ -5,6 +5,8 @@ import { destinations, packages } from '@/data/content';
 import { formatINR } from '@/lib/utils';
 import { TrackedLink } from '@/components/marketing/tracked-link';
 import { TestimonialsSection } from '@/components/marketing/testimonials-section';
+import { QuickAnswers } from '@/components/marketing/quick-answers';
+import { homeQuickAnswers } from '@/data/quick-answers';
 import { testimonials, aggregateRating } from '@/data/testimonials';
 
 const homeAggregateRating = aggregateRating();
@@ -190,6 +192,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* AT A GLANCE — AEO extractable Q&A */}
+      <QuickAnswers items={homeQuickAnswers} bg="bg-paper" />
 
       {/* DESTINATIONS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">

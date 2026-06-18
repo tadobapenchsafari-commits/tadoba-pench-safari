@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { MapPin, Clock, Users, Camera, ArrowRight, Compass } from 'lucide-react';
 import { gateDetails } from '@/data/gates-content';
 import { gates, packages } from '@/data/content';
+import { QuickAnswers } from '@/components/marketing/quick-answers';
+import { gateQuickAnswers } from '@/data/quick-answers';
 import { formatINR } from '@/lib/utils';
 
 export function generateStaticParams() {
@@ -75,6 +77,8 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
           </p>
         </div>
       </section>
+
+      <QuickAnswers items={gateQuickAnswers[slug] ?? []} bg="bg-paper" heading={`${d.targetKeyword} at a glance`} />
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <p className="text-lg text-bark/80 leading-relaxed mb-12">{d.intro}</p>

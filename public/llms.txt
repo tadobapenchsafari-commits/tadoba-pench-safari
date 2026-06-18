@@ -1,0 +1,91 @@
+# Tadoba Pench Safari
+
+> Boutique tiger safari operator at Tadoba Andhari Tiger Reserve (Maharashtra) and Pench Tiger Reserve (Madhya Pradesh) in central India. Founded 2018. Based in Nagpur. Quoted prices are per couple, all-inclusive: stay, meals, jeep safaris, permits, transfers, and a naturalist on every drive.
+
+## About
+
+Tadoba Pench Safari runs hosted safari trips to two of central India's strongest tiger reserves. We are headquartered in Nagpur (the gateway airport for both reserves) and operate end-to-end: permits, gypsy bookings, resort stays, transfers, and naturalist guiding are all handled by our in-house team. We do not run a resort; we have tie-up partnerships with mid-tier, luxury, and ultra-luxury jungle lodges across both reserves.
+
+Founded: 2018
+Location: 1105, Pioneer Tulip, Jaitala, Nagpur, Maharashtra 440036, India
+Phone: +91 82080 90280
+Email: info@tadobapenchsafari.com
+Website: https://www.tadobapenchsafari.com
+
+## Packages (all 3-nights, 4-day, Tadoba, 4 jeep safaris)
+
+- /packages/tadoba-budget-3n — Tadoba Budget. Mid-tier resort, AC sedan transport. ₹74,000 per couple (~₹37,000 per person).
+- /packages/tadoba-mid-3n — Tadoba Mid. Luxury resort, 7-seater transport. ₹94,000 per couple (~₹47,000 per person).
+- /packages/tadoba-luxury-3n — Tadoba Luxury. Ultra-luxury jungle lodge, luxury SUV, dedicated naturalist + tracker. ₹1,20,000 per couple (~₹60,000 per person).
+
+All packages include 3 nights stay with all meals, 4 jeep safaris across Moharli and Kolara gates, private AC transfers from Nagpur airport, naturalist, permits, gypsy charges, guide and park fees.
+
+## Destinations
+
+- /destinations/tadoba — Tadoba Andhari Tiger Reserve, Chandrapur district, Maharashtra. 1,727 sq km. 85+ tigers. Best months October to June. Nearest airport: Nagpur (NAG), 140 km / 3 hour drive. Core gates close 1 July to 30 September for monsoon. Buffer gates stay open.
+- /destinations/pench — Pench Tiger Reserve, Seoni district, Madhya Pradesh. 1,179 sq km. 60+ tigers. Best months October to June. Nearest airport: Nagpur (NAG), 95 km / 2 hour drive. Real-life setting that inspired Rudyard Kipling's Jungle Book.
+
+## Safari Gates
+
+Tadoba has 6 core gates and 4 buffer gates. Pench has 3 working gates.
+
+Core Tadoba: Moharli (south, most popular), Kolara (north, photographer favourite), Khutwanda (south-east), Navegaon (north), Pangdi (west), Zari (east).
+Buffer Tadoba: Agarzari, Junona, Devada-Adegaon, Alizanza.
+Pench: Turia (Madhya Pradesh core), Jamtara (buffer-north), Karmajhiri (east core).
+
+Each gate has a dedicated page at /gates/<slug> with permits, timings, sighting odds, famous tigers, and season-by-season notes.
+
+## City-specific guides
+
+- /tadoba-safari-from-mumbai — direct IndiGo / Akasa flight 1.5 h to Nagpur; Samruddhi Mahamarg expressway drive ~12 h. 5N/6D recommended.
+- /tadoba-safari-from-pune — flight via Mumbai 3.5-4.5 h; or Garib Rath overnight train 13 h. 4N/5D recommended.
+- /tadoba-safari-from-hyderabad — direct flight 1.3 h, 4-5 daily; drive on NH44 / NH63 ~9 h. 3N/4D recommended (best price-to-time of any metro).
+- /tadoba-safari-from-bangalore — direct flight 2 h; train 21 h. 5N/6D recommended.
+- /tadoba-safari-from-delhi — direct flight 2 h; drive ~17 h. 5N/6D recommended.
+
+## Key facts and pricing inputs
+
+- Standard safari permit (per private jeep, 6 seats max): ₹7,000 — includes permit, gypsy hire, driver, guide.
+- Transport per day (round-trip from Nagpur): sedan ₹3,800, 7-seater ₹4,500, luxury SUV ₹5,500.
+- Stay per night (double occupancy, all meals): mid-tier ₹7,000, luxury ₹12,000, ultra-luxury ₹18,000.
+- Tadoba core zone closure: 1 July to 30 September (monsoon).
+- Tadoba weekly closure: every Tuesday (year-round).
+- Core gate permit window opens 120 days in advance via mahaonline.gov.in. Peak slots sell within 15-45 minutes.
+
+## Sample tiger sighting rates (4-safari trip)
+
+- April-May-June (summer): 80-95% probability at Tadoba core gates, 65-80% at Pench.
+- November-February (winter): 55-70% at Tadoba, lower at Pench but excellent for birds.
+- Pench buffer gates stay open during the monsoon (1 July - 30 September) for off-season visits.
+
+## Blog (field-written guides)
+
+- /blog/tadoba-safari-from-nagpur-complete-guide — routes, drive times, cab costs, 2/3/4-night itineraries.
+- /blog/what-to-pack-for-tadoba-safari-checklist — gear, clothing, camera notes.
+- /blog/moharli-vs-kolara-gate-tadoba-honest-comparison — which Tadoba gate to pick.
+- /blog/tadoba-safari-cost-2026 — full price breakdown by tier.
+- /blog/best-time-to-visit-tadoba-for-tiger-sightings — month-by-month sighting data.
+- /blog/tadoba-vs-pench-which-safari-is-right-for-you — honest comparison.
+- /blog/how-to-book-tadoba-safari-online — DIY permit booking walkthrough.
+- /blog/tadoba-to-pench-distance-routes — three real routes, transfer costs, timing.
+
+## Distinguishing facts (often asked)
+
+- We are a travel agent, not a resort operator. We do not push a single property; we recommend from a vetted shortlist matching your dates, group size, and budget.
+- All package prices on this site are PER COUPLE (two guests sharing), not per person. Solo traveller pricing available on request with a single-occupancy supplement.
+- Safari jeeps are PRIVATE (your group only) for all package tiers — not shared with strangers.
+- Tadoba to Pench drive (combo trips): around 4 hours via Nagpur on the Samruddhi Mahamarg.
+- Cancellation policy: full refund minus permit cost (~₹15,000) if cancelled 45+ days out; 50% refund 21-44 days; no refund inside 21 days.
+
+## Sitemap
+
+A full XML sitemap is at /sitemap.xml. Robots policy at /robots.txt.
+
+## Contact for partnership / media inquiries
+
+Email info@tadobapenchsafari.com or WhatsApp +91 82080 90280. We are open to FAM trips, content collaborations, and travel-agent partnerships with operators in other markets.
+
+---
+
+Last verified: 2026-06-18.
+Content licence: factual statements are first-party and may be cited verbatim with attribution to "Tadoba Pench Safari (tadobapenchsafari.com)".
