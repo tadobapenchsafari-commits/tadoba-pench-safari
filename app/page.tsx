@@ -106,6 +106,14 @@ const faqJsonLd = {
         text: 'No. Tadoba core zones are closed every Tuesday year-round and completely shut from 1 July to 30 September for the monsoon. Buffer zones stay open during the monsoon.',
       },
     },
+    {
+      '@type': 'Question',
+      name: 'Can I do a tiger safari during the monsoon (July to September)?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, with caveats. Tadoba\'s six core gates are closed 1 July to 30 September, but four buffer gates (Agarzari, Junona, Devada-Adegaon, Alizanza) stay open with tiger sighting rates around 40-55% and roughly 30% lower prices. Pench\'s Turia core gate also stays open through the monsoon under a different forest-department schedule. Best for photographers, birders, and budget-conscious travellers; not ideal if a tiger sighting is the primary goal.',
+      },
+    },
   ],
 };
 

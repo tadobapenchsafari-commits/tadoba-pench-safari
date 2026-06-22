@@ -131,7 +131,7 @@ Day 1–2 Pench (2 safaris), day 3 transfer + evening Tadoba safari, day 4–5 T
 
 **Avoid Tuesday arrival** — Tadoba is closed every Tuesday year-round. You'd waste Day 1.
 
-**Avoid monsoon (1 July – 30 September)** — core zones shut completely. Buffer zones stay open but sighting odds drop.
+**Avoid monsoon (1 July – 30 September)** — core zones shut completely. Buffer zones stay open and are now well-documented in our [Tadoba in monsoon guide](/blog/tadoba-safari-in-monsoon); sighting odds drop but prices fall ~30%.
 
 ## Nagpur stopover — worth it?
 
@@ -613,7 +613,7 @@ If tiger sighting is your single priority: **April, May, and first half of June.
 If you want cooler weather and greener forest: **November to February.**
 If you want fewer tourists and better prices: **late October or early November.**
 
-The park is closed every Tuesday (year-round) and completely shut from 1 July to 30 September for the monsoon.
+The park is closed every Tuesday (year-round) and core zones shut from 1 July to 30 September for the monsoon — but four buffer gates stay open, see [Tadoba safari in monsoon](/blog/tadoba-safari-in-monsoon) for the details.
 
 ## March to June — peak sighting window
 
@@ -693,6 +693,10 @@ Tadoba core-zone permits are released 120 days in advance and the premium gates 
 ## Why not both?
 
 Most of our guests who've done the math come back with a 4 or 5-night package covering both parks. [The drive between them is around 4 hours via Nagpur](/blog/tadoba-to-pench-distance-routes). You get Tadoba's odds plus Pench's variety — and a complete central India tiger-country experience.
+
+## Travelling in monsoon (Jul-Sep)?
+
+If you have to travel July through September, the choice changes: Tadoba's core gates are all closed, but Pench's Turia core gate stays open. See [Pench safari in monsoon](/blog/pench-safari-in-monsoon) and [Tadoba safari in monsoon](/blog/tadoba-safari-in-monsoon) for the gate-by-gate situation.
 
 ## Our recommendation by traveller type
 
@@ -939,7 +943,7 @@ Avoid local exit dhabas after dark — stick to interchange plazas.
 |---|---|
 | Oct – Feb | Best. Cool weather, clear roads, comfortable in any vehicle. |
 | Mar – May | Heat builds. AC running hard. Carry extra water and check tyre pressure (highway heat blows under-inflated tyres). |
-| Jun – Sep | Tadoba core zones close in monsoon (1 Jul – 30 Sep). If you must drive in early June, expect heat. After mid-July, NH353B has rain-related delays. |
+| Jun – Sep | Tadoba core zones close in monsoon (1 Jul – 30 Sep). If you must drive in early June, expect heat. After mid-July, NH353B has rain-related delays — and if monsoon is when you're travelling, see [Tadoba](/blog/tadoba-safari-in-monsoon) and [Pench](/blog/pench-safari-in-monsoon) monsoon guides. |
 
 ## Fly vs drive — honest comparison
 
