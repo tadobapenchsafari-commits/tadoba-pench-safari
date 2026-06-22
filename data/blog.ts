@@ -7,6 +7,11 @@ export type BlogPost = {
   readingMinutes: number;
   keywords: string[];
   content: string;
+  // AEO: a 1-2 sentence direct answer rendered as a TLDR box at the top
+  // of the post. Optional but recommended — LLMs extract this verbatim.
+  tldr?: string;
+  // 3-5 bullet 'key facts' rendered alongside the TLDR.
+  keyFacts?: string[];
 };
 
 export const blogPosts: BlogPost[] = [
@@ -25,6 +30,14 @@ export const blogPosts: BlogPost[] = [
       'tadoba from nagpur package',
       'tadoba airport transfer nagpur',
       'nagpur tadoba trip',
+    ],
+    tldr: 'Nagpur airport is 140 km from Tadoba\'s Moharli gate — roughly a 3-hour drive on NH353B. Most travellers fly into Nagpur, transfer to a Tadoba resort the same day, and start safaris the following morning.',
+    keyFacts: [
+      'Nagpur airport (NAG) — 140 km / 3 h to Moharli gate.',
+      'Chandrapur railway station — 45 km / 1 h to Moharli, served by Mumbai / Pune / Hyderabad overnight trains.',
+      'Same-day arrival + afternoon safari works if you land by noon.',
+      '2-night trip: 3 safaris. 3-night: 4 safaris. 4-night: 5-6 safaris.',
+      'Private AC sedan from Nagpur: ₹3,800 / day. Round-trip ₹7,000-9,000.',
     ],
     content: `**Nagpur is the gateway to Tadoba.** Dr. Babasaheb Ambedkar International Airport (NAG) is the closest major airport, and every real Tadoba itinerary starts with a car ride from Nagpur. This guide covers the routes, times, costs, and the best 2, 3, and 4-night plans departing from Nagpur in 2026.
 
@@ -159,6 +172,14 @@ We handle the whole Nagpur-to-Nagpur trip: flight recommendations, airport picku
       'tadoba safari clothes',
       'tadoba safari gear',
       'tadoba weather safari',
+    ],
+    tldr: 'For a 3-night Tadoba trip in safari season, pack muted earth-tone layers (mornings are cold, afternoons hot), closed shoes, sunscreen, a 200-400 mm lens if you photograph, and original ID matching your permit. Avoid bright whites, reds, and blues.',
+    keyFacts: [
+      'ID: original photo ID must match the permit name — no exceptions at the gate.',
+      'Clothing: olive / khaki / muted brown. Avoid bright whites, reds, and blues.',
+      'Layers: 5-10 °C mornings (Nov-Feb), 35-45 °C afternoons (Apr-Jun).',
+      'Camera: 200-400 mm lens is the sweet spot for tigers at 30-80 m.',
+      'Extras: sunscreen, lip balm, dust mask, refillable water bottle, plug adapter (Indian Type C/D/M).',
     ],
     content: `Most Tadoba first-timers either overpack luxury resort wear they never use, or underpack and freeze on a December morning safari. After eight years of running trips, here is the real list — grouped by what actually matters.
 
@@ -316,6 +337,14 @@ Once your dates are locked and the permits are in hand, we send guests this exac
       'best gate tadoba',
       'tadoba core zone gates',
     ],
+    tldr: 'Moharli has higher tiger sighting odds (~82% on a 4-safari trip) and more resorts; Kolara has slightly lower odds (~75%) but quieter jeep traffic and better grassland photography. First-timers usually pick Moharli; returning photographers pick Kolara.',
+    keyFacts: [
+      'Moharli: south core zone, ~82% sighting rate, 30+ resorts within 5 km.',
+      'Kolara: north core zone, ~75% sighting rate, smaller premium-resort cluster.',
+      'Famous Moharli tigers: Maya, Choti Tara, Matkasur, Junabai.',
+      'Famous Kolara tigers: Choti Tara, Chhota Matka.',
+      'Both gates run two safari slots per day (morning + afternoon).',
+    ],
     content: `Of the five core-zone gates in Tadoba Andhari Tiger Reserve, **Moharli and Kolara are the two most popular** — and also the two most frequently confused by first-time visitors. Travel operators often push guests toward whichever has availability rather than the gate that actually suits them.
 
 We've run safaris out of both for eight years. Here's the honest comparison.
@@ -407,6 +436,14 @@ We handle this for guests — [tell us your dates](/contact) and we'll secure th
       'tadoba gypsy cost',
       'tadoba permit cost',
       'tadoba package price',
+    ],
+    tldr: 'A Tadoba safari in 2026 costs between ₹37,000 and ₹60,000 per person for a 3-night all-inclusive trip from Nagpur. DIY (booking the permit yourself, arranging your own resort and transfers) can be cheaper but requires fighting for permits on mahaonline.gov.in at 6 AM and managing logistics across three vendors.',
+    keyFacts: [
+      'Core-zone permit + gypsy + driver + guide: ₹7,000 per safari (per jeep, 6 seats).',
+      'Mid-tier jungle resort with all meals: ₹7,000 / night (double occupancy).',
+      'Luxury jungle resort: ₹12,000 / night. Ultra-luxury: ₹18,000 / night.',
+      'Nagpur-to-Tadoba transfer (round trip): ₹3,800-5,500 / day for sedan / 7-seater / luxury SUV.',
+      'Operator margin on full packages: typically 15%.',
     ],
     content: `**Tadoba safari cost in 2026 ranges from ₹4,500 per person for a single buffer-zone drive to ₹75,000+ per person for a premium 3-night all-inclusive package.** This guide breaks down exactly where that money goes so you can plan a realistic budget.
 
@@ -558,6 +595,14 @@ Pricing on all our packages is transparent: permit, gypsy, guide, resort, transf
       'tadoba summer safari',
       'tadoba winter safari',
     ],
+    tldr: 'April, May, and early June have the highest tiger sighting rates at Tadoba (80-95% across a four-safari trip) because tigers concentrate around shrinking waterholes. November-February is more comfortable weather (10-25 °C) with sighting rates around 55-70%.',
+    keyFacts: [
+      'Apr-May-Jun: 80-95% sighting rate, 35-45 °C, peak permit prices.',
+      'Nov-Feb: 55-70% sighting rate, 10-25 °C, comfortable for families.',
+      'Jul-Sep: Core zones closed for monsoon. Buffer zones open at lower prices.',
+      'Oct: Shoulder season. Forest is greenest, sightings improving.',
+      'Mar: Transitional. 70-80% sighting rate, weather still pleasant.',
+    ],
     content: `Tadoba Andhari Tiger Reserve is one of the few parks in India where a tiger sighting is statistically likely rather than a matter of luck. But "likely" is relative — it changes dramatically with the season, the gate you enter, and the time of day.
 
 This is the same framework our naturalists use when we plan a guest's dates.
@@ -611,6 +656,14 @@ Tadoba core-zone permits are released 120 days in advance and the premium gates 
       'tadoba national park',
       'best tiger reserve india',
     ],
+    tldr: 'Tadoba has higher tiger density and better single-sighting odds (one of the highest in central India). Pench offers more wildlife variety — leopards, dholes, sloth bears, 285+ bird species — and a quieter forest experience. For a 4-5 day trip, a combined Tadoba + Pench itinerary captures both.',
+    keyFacts: [
+      'Tadoba: ~80-95% summer tiger sighting rate, 1,727 sq km, Maharashtra.',
+      'Pench: ~65-80% summer tiger sighting rate, 1,179 sq km, Madhya Pradesh.',
+      'Pench is the real-life forest tract Kipling set The Jungle Book in.',
+      'The two reserves are ~4 hours apart by road via Nagpur.',
+      'Nagpur airport (NAG) serves both — 140 km to Tadoba, 95 km to Pench.',
+    ],
     content: `Tadoba and Pench are the two most popular tiger reserves in central India, a 4-hour drive apart. Guests often ask which one to pick if they only have time for one. Here's the honest answer — it depends on what kind of trip you want.
 
 ## At a glance
@@ -663,6 +716,14 @@ Most of our guests who've done the math come back with a 4 or 5-night package co
       'tadoba permit booking',
       'mahaonline tadoba',
       'tadoba core zone booking',
+    ],
+    tldr: 'Tadoba core-zone permits open 120 days in advance on mahaonline.gov.in at 6 AM IST and peak-season slots (March-June, weekends) typically sell within 15-45 minutes. You need a registered ID matching the permit name, a confirmed safari date and gate, and the permit fee paid online before the slot closes.',
+    keyFacts: [
+      'Permit window: opens 120 days out, closes when slots fill.',
+      'Booking time: 6 AM IST sharp on mahaonline.gov.in.',
+      'Peak season (Mar-Jun, weekends): sells in 15-45 minutes.',
+      'Off-peak (Nov, weekdays): available for weeks at a time.',
+      'Cancellation: permits are NON-REFUNDABLE once booked.',
     ],
     content: `Booking a Tadoba safari involves three separate things: a **permit** (government), a **gypsy + guide** (allotted with permit), and a **resort** (private). Most first-timers don't realise permits and resorts are booked on totally different platforms — and that's where trips get derailed.
 
@@ -723,6 +784,14 @@ If you've already got dates in mind, check availability at [our Tadoba packages 
       'moharli to turia distance',
       'nagpur to pench distance',
       'chandrapur to seoni distance',
+    ],
+    tldr: 'Tadoba to Pench is roughly 200 km by road and a 4-5 hour drive, with the Tadoba Moharli gate sitting in Maharashtra\'s Chandrapur district and Pench\'s Turia gate just across the state line in Madhya Pradesh\'s Seoni district. Both reserves share Nagpur as their gateway city.',
+    keyFacts: [
+      'Distance via Nagpur (most-used route): ~235 km / ~4 h 45 m.',
+      'Direct rural route via Warora: ~180 km / ~5 h, poor roads, not recommended.',
+      'No direct rail link — train option requires Chandrapur -> Nagpur transfer.',
+      'Private AC SUV transfer: ₹6,500-9,500 (4-seater) or ₹11,000-14,000 (6-seater).',
+      'Best to do the transfer in the morning after your last Tadoba safari, arriving at Pench by 2 PM for the afternoon drive.',
     ],
     content: `**Tadoba to Pench is roughly 200 km by road and a 4–5 hour drive, with the Tadoba Moharli gate sitting in Maharashtra's Chandrapur district and Pench's Turia gate just across the state line in Madhya Pradesh's Seoni district.** Both reserves share Nagpur as their gateway city, which is what makes a combo trip so easy.
 

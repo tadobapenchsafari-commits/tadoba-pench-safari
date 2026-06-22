@@ -53,6 +53,11 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
+    // Voice-AI extraction.
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['.faq-question', '.faq-answer'],
+    },
   };
 
   return (
@@ -260,8 +265,8 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
         <div className="space-y-6 mb-16">
           {d.faqs.map((f) => (
             <div key={f.q}>
-              <h3 className="font-display text-lg text-bark mb-2">{f.q}</h3>
-              <p className="text-bark/80 leading-relaxed">{f.a}</p>
+              <h3 className="faq-question font-display text-lg text-bark mb-2">{f.q}</h3>
+              <p className="faq-answer text-bark/80 leading-relaxed">{f.a}</p>
             </div>
           ))}
         </div>

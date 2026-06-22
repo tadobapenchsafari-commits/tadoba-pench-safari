@@ -57,6 +57,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
     description: d.description,
     image: imageUrl,
     url: pageUrl,
+    dateModified: '2026-06-18',
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'IN',
@@ -93,6 +94,10 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
           name: f.q,
           acceptedAnswer: { '@type': 'Answer', text: f.a },
         })),
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['.faq-question', '.faq-answer'],
+        },
       }
     : null;
 
@@ -272,12 +277,12 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
               {faqs.map((f, i) => (
                 <details key={i} className="bg-bone rounded-2xl p-6 group">
                   <summary className="font-display text-lg text-bark cursor-pointer list-none flex justify-between items-start gap-4">
-                    <span>{f.q}</span>
+                    <span className="faq-question">{f.q}</span>
                     <span className="text-sunrise text-2xl leading-none group-open:rotate-45 transition-transform shrink-0">
                       +
                     </span>
                   </summary>
-                  <p className="mt-4 text-bark/75 leading-relaxed">{f.a}</p>
+                  <p className="faq-answer mt-4 text-bark/75 leading-relaxed">{f.a}</p>
                 </details>
               ))}
             </div>

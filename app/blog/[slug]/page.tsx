@@ -261,6 +261,51 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             {post.excerpt}
           </p>
 
+          {/* AEO: TLDR box (LLMs extract this verbatim) + key facts */}
+          {(post.tldr || post.keyFacts) && (
+            <aside className="bg-paper border-l-4 border-sunrise rounded-r-2xl p-6 mb-10">
+              {post.tldr && (
+                <div className="mb-4">
+                  <div className="text-xs uppercase tracking-[0.18em] text-sunrise mb-2 font-medium">
+                    TL;DR
+                  </div>
+                  <p className="text-bark/85 leading-relaxed">{post.tldr}</p>
+                </div>
+              )}
+              {post.keyFacts && post.keyFacts.length > 0 && (
+                <div>
+                  <div className="text-xs uppercase tracking-[0.18em] text-bark/60 mb-2 font-medium">
+                    Key facts
+                  </div>
+                  <ul className="space-y-1.5">
+                    {post.keyFacts.map((f, i) => (
+                      <li
+                        key={i}
+                        className="text-sm text-bark/80 leading-relaxed pl-4 relative before:content-['•'] before:text-sunrise before:absolute before:left-0"
+                      >
+                        {f}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </aside>
+          )}
+
+          {/* Author byline (E-E-A-T signal — Experience, Expertise, Authority, Trust) */}
+          <div className="flex items-center gap-4 mb-10 pb-8 border-b border-bark/10">
+            <div className="w-12 h-12 rounded-full bg-canopy/15 flex items-center justify-center font-display text-canopy text-lg">
+              TPS
+            </div>
+            <div className="text-sm">
+              <div className="font-medium text-bark">Tadoba Pench Safari editorial team</div>
+              <div className="text-bark/60">
+                Written by our resident naturalists. Verified against current
+                forest-department circulars and field reports.
+              </div>
+            </div>
+          </div>
+
           <div className="prose prose-lg max-w-none">{renderMarkdown(post.content)}</div>
 
           <div className="mt-16 pt-10 border-t border-bark/10">

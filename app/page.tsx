@@ -61,6 +61,10 @@ if (homeAggregateRating) {
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['.faq-question', '.faq-answer'],
+  },
   mainEntity: [
     {
       '@type': 'Question',
@@ -159,8 +163,7 @@ export default function HomePage() {
               <span className="italic text-sunrise">with those who know the forest best.</span>
             </h1>
             <p className="text-lg md:text-xl text-bone/85 max-w-xl leading-relaxed mb-10">
-              Boutique safari experiences in Tadoba and Pench — curated by local
-              wildlife specialists who have spent decades reading the forest.
+              <strong className="font-medium text-bone">Tadoba Pench Safari</strong> runs boutique tiger-safari trips from Nagpur to two central-India reserves — Tadoba (Maharashtra) and Pench (Madhya Pradesh). All-inclusive 3-night packages from ₹74,000 per couple. Founded 2018.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

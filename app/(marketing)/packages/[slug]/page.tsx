@@ -88,6 +88,7 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
     image: [imageUrl],
     brand: { '@type': 'Brand', name: 'Tadoba Pench Safari' },
     category: 'Wildlife Safari Tour Package',
+    dateModified: '2026-06-18',
     offers: {
       '@type': 'Offer',
       url: pageUrl,
@@ -174,6 +175,12 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
           name: f.q,
           acceptedAnswer: { '@type': 'Answer', text: f.a },
         })),
+        // Voice-AI extraction: tells Siri / Google / Alexa which CSS-selected
+        // chunks of the page are safe to read aloud.
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['.faq-question', '.faq-answer'],
+        },
       }
     : null;
 
@@ -275,12 +282,12 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
               {faqs.map((f, i) => (
                 <details key={i} className="bg-bone rounded-2xl p-6 group">
                   <summary className="font-display text-lg text-bark cursor-pointer list-none flex justify-between items-start gap-4">
-                    <span>{f.q}</span>
+                    <span className="faq-question">{f.q}</span>
                     <span className="text-sunrise text-2xl leading-none group-open:rotate-45 transition-transform shrink-0">
                       +
                     </span>
                   </summary>
-                  <p className="mt-4 text-bark/75 leading-relaxed">{f.a}</p>
+                  <p className="faq-answer mt-4 text-bark/75 leading-relaxed">{f.a}</p>
                 </details>
               ))}
             </div>
