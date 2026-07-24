@@ -446,4 +446,24 @@ export const packages: Package[] = [
     ],
     safariCount: 4,
   },
+  {
+    slug: 'pench-classic-3n',
+    name: 'Pench Classic — 3 Nights',
+    destination: 'pench',
+    durationNights: 3,
+    durationDays: 4,
+    priceFromINR: 69000,
+    shortDescription:
+      'Three nights in the forest that inspired The Jungle Book. Mid-tier jungle resort near Turia Gate, four jeep safaris across Turia and Karmajhiri, and AC sedan transfers from Nagpur — at 95 km, Pench is the closest tiger reserve to the airport. Quieter jeep traffic than Tadoba and superb birdlife. Quoted for two guests sharing.',
+    heroImage: '/images/pkg-pench-classic.jpg',
+    inclusions: [
+      '3 nights mid-tier jungle resort near Turia Gate, double occupancy',
+      'All meals (breakfast, lunch, dinner)',
+      '4 jeep safaris across 2 gates (Turia & Karmajhiri)',
+      'Private AC sedan transfers from Nagpur airport (4 days)',
+      'Experienced naturalist on every safari',
+      'All permits, gypsy charges, guide and park fees',
+    ],
+    safariCount: 4,
+  },
 ];

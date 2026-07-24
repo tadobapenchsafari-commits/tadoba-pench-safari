@@ -28,7 +28,7 @@ export const homeQuickAnswers: QuickAnswer[] = [
   },
   {
     q: 'How are packages structured?',
-    a: 'Three tiers — Budget, Mid, Luxury — all 3-night / 4-day Tadoba trips with the same 4 jeep safaris across Moharli and Kolara gates. The difference is the resort and transport vehicle.',
+    a: 'Three Tadoba tiers — Budget, Mid, Luxury — all 3-night / 4-day trips with 4 jeep safaris across Moharli and Kolara gates (the difference is the resort and transport vehicle), plus a Pench Classic 3-night package covering Turia and Karmajhiri gates.',
   },
   {
     q: 'How do I book?',
@@ -61,6 +61,14 @@ export const packageQuickAnswers: Record<string, QuickAnswer[]> = {
     { q: 'How you travel', a: 'Luxury SUV transfers from Nagpur airport across 4 days.' },
     { q: 'Naturalist', a: 'Dedicated naturalist + tracker (two people scouting territories between your safaris).' },
     { q: 'Best for', a: 'Serious wildlife photographers, anniversary trips, and connoisseur travellers prioritising comfort and personalisation.' },
+  ],
+  'pench-classic-3n': [
+    { q: 'Price', a: '₹69,000 per couple (all-inclusive). Roughly ₹34,500 per person.' },
+    { q: 'Duration', a: '3 nights / 4 days with 4 jeep safaris.' },
+    { q: 'Where you stay', a: 'Mid-tier jungle resort near Turia Gate, double occupancy, all meals included.' },
+    { q: 'How you travel', a: 'Private AC sedan transfers from Nagpur airport — at 95 km, Pench is the closest tiger reserve to Nagpur.' },
+    { q: 'Gates covered', a: 'Turia (main MP-side core gate) and Karmajhiri (scenic eastern gate along the Pench river, rich birdlife).' },
+    { q: 'Best for', a: 'Jungle Book fans, birders, and travellers who want a quieter forest than Tadoba with steady tiger sightings.' },
   ],
 };
 

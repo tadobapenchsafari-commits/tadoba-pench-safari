@@ -80,6 +80,33 @@ export const packageFaqs: Record<string, FAQ[]> = {
       a: 'Tadoba core gates run two safari slots per day (early morning and afternoon). Four safaris over a 3-night / 4-day trip is the maximum without compromising rest, meals, or naturalist briefings. If you want more safaris, the answer is more nights — ask us for a 5-night or 7-night Luxury extension when you inquire.',
     },
   ],
+
+  'pench-classic-3n': [
+    {
+      q: 'What is included in the Pench Classic package price of ₹69,000?',
+      a: '3 nights at a mid-tier jungle resort near Turia Gate (double occupancy), all meals, 4 jeep safaris across two gates (Turia and Karmajhiri), AC sedan transfers from Nagpur airport for the four travel days, an experienced naturalist on every safari, and all permits, gypsy charges, guide and park fees. Quoted for two guests sharing — what each couple pays for the whole trip.',
+    },
+    {
+      q: 'Should I choose Pench or Tadoba for my first tiger safari?',
+      a: 'Tadoba has a higher tiger density and better single-sighting odds. Pench offers more wildlife variety — leopards, wild dogs, sloth bears, and over 325 bird species — with noticeably quieter jeep traffic and the Jungle Book setting. If a tiger photo is the one goal, pick Tadoba. If you want a calmer, more varied forest experience, pick Pench. For a 4–5 day trip, combining both works best.',
+    },
+    {
+      q: 'Which Pench gates does the Classic package visit?',
+      a: 'Two safaris at Turia Gate — the main gate on the Madhya Pradesh side, known for dense teak forest and predictable tiger territories — and two at Karmajhiri Gate, the scenic eastern entry along the Pench river with rich birdlife. The naturalist assigns morning vs afternoon slots based on recent movement reports.',
+    },
+    {
+      q: 'How do I get to Pench from Nagpur?',
+      a: 'Pench is the closest major tiger reserve to Nagpur airport — Turia Gate is about 95 km away, roughly a 2.5-hour drive on NH44. That makes Pench the easiest Indian tiger safari to reach by air: morning flights into Nagpur comfortably connect to the same day\'s afternoon safari. Transfers are included in the package.',
+    },
+    {
+      q: 'Is Pench open during the monsoon?',
+      a: 'Largely, yes. Unlike Tadoba\'s core zones (closed 1 July to 30 September), Pench\'s Turia core gate stays open through the monsoon under the Madhya Pradesh forest department\'s schedule. The forest is at its greenest and jeep traffic is at its lowest — a good window for photographers and birders, though tiger sighting odds are lower than in summer.',
+    },
+    {
+      q: 'Can I combine the Pench Classic with a Tadoba trip?',
+      a: 'Yes — Pench and Tadoba pair naturally into a 5–6 night central India circuit with Nagpur as the hub. Tell us your dates on the contact page or WhatsApp and we will quote a custom Tadoba + Pench split; a 2-night extension to either park typically adds around ₹35,000 including the inter-park transfer.',
+    },
+  ],
 };
 
 export const destinationFaqs: Record<string, FAQ[]> = {

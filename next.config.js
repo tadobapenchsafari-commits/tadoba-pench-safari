@@ -84,19 +84,20 @@ const nextConfig = {
     ];
   },
 
-  // Permanent (308) redirects for the seven legacy package slugs.
-  // The site moved to a 3-tier model (Budget / Mid / Luxury) in May 2026;
-  // these redirects keep any inbound links or indexed search results from
-  // 404'ing while passing SEO equity to the closest current equivalent.
+  // Permanent (308) redirects for the legacy package slugs retired in the
+  // May 2026 move to the 3-tier model (Budget / Mid / Luxury). They keep any
+  // inbound links or indexed search results from 404'ing while passing SEO
+  // equity to the closest current equivalent. pench-classic-3n is NOT listed:
+  // it was revived as a live package in July 2026, and a redirect here would
+  // shadow the page (redirects run before routes).
   async redirects() {
     return [
       { source: '/packages/tadoba-classic-3n',          destination: '/packages/tadoba-budget-3n', permanent: true },
       { source: '/packages/tadoba-pench-combo-5n',      destination: '/packages/tadoba-mid-3n',    permanent: true },
       { source: '/packages/photography-week-tadoba',    destination: '/packages/tadoba-luxury-3n', permanent: true },
-      { source: '/packages/pench-weekend-2n',           destination: '/packages',                  permanent: true },
-      { source: '/packages/pench-classic-3n',           destination: '/packages',                  permanent: true },
-      { source: '/packages/pench-birding-wildlife-4n',  destination: '/packages',                  permanent: true },
-      { source: '/packages/pench-family-adventure-3n',  destination: '/packages',                  permanent: true },
+      { source: '/packages/pench-weekend-2n',           destination: '/packages/pench-classic-3n', permanent: true },
+      { source: '/packages/pench-birding-wildlife-4n',  destination: '/packages/pench-classic-3n', permanent: true },
+      { source: '/packages/pench-family-adventure-3n',  destination: '/packages/pench-classic-3n', permanent: true },
     ];
   },
 };
