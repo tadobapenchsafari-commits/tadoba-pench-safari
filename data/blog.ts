@@ -1168,4 +1168,200 @@ We run custom monsoon Pench itineraries at ~30-40% lower than peak-season equiva
 
 For the other half of central India\'s monsoon story, see [Tadoba Safari in Monsoon](/blog/tadoba-safari-in-monsoon).`,
   },
+  {
+    slug: 'history-of-tadoba-national-park',
+    title: 'History of Tadoba National Park: From Gond Legend to Tiger Stronghold',
+    excerpt:
+      'Tadoba is named after a Gond deity, was a royal hunting ground for centuries, and became one of Maharashtra\'s first national parks in 1955. How a modest teak forest became India\'s most reliable tiger reserve.',
+    heroImage: '/images/wildlife-tiger-lying.jpg',
+    publishedAt: '2026-07-24',
+    readingMinutes: 7,
+    keywords: [
+      'history of tadoba national park',
+      'tadoba name origin',
+      'tadoba andhari tiger reserve history',
+      'when was tadoba established',
+      'taru god tadoba',
+    ],
+    tldr: 'Tadoba takes its name from Taru, a Gond tribal chief said to have died fighting a tiger and worshipped as a deity at a shrine on Tadoba lake. The forest became a national park in 1955 — among Maharashtra\'s first — merged with the Andhari Wildlife Sanctuary to form the Tadoba-Andhari Tiger Reserve in 1995, and has since grown into India\'s most dependable tiger-sighting destination.',
+    keyFacts: [
+      'Named after Taru, a Gond chief-turned-deity; his shrine still stands beside Tadoba lake.',
+      '"Andhari" comes from the Andhari river that winds through the reserve.',
+      'National park in 1955; Andhari sanctuary added 1986; combined tiger reserve in 1995.',
+      'Core area ~625 sq km of teak and bamboo, with a larger buffer notified in 2010.',
+      'Tiger numbers roughly doubled between 2010 and the early 2020s — now around a hundred across the landscape.',
+    ],
+    content: `**Every forest has a story. Tadoba's begins with a man who fought a tiger.** Local Gond tradition holds that Taru, a village chief, died in single combat with a tiger near the lake that now bears his name. The community deified him — Taru became "Tadoba", and his shrine on the bank of Tadoba lake is still worshipped by villagers today. The second half of the reserve's official name is simpler: the Andhari river, which threads through these hills before joining the Wainganga system.
+
+## The Gond centuries
+
+Long before permits and gypsies, this forest belonged to the Gond kings of Chanda (today's Chandrapur). The walled city they built — its fort ramparts and the Mahakali temple still stand 30 km from Moharli gate — controlled a countryside of teak, bamboo, and tigers. Forests like Tadoba were royal hunting grounds and a source of timber, but the Gond rulers' hunts were episodic; the forest itself stayed largely intact.
+
+## Colonial era: timber and trophy
+
+Under British administration the Chanda forests were organised for teak extraction, and tigers moved from being feared neighbours to trophy targets. By the early twentieth century, hunting pressure was severe enough that the colonial forest department itself began imposing restrictions — shooting in the Tadoba block was progressively curtailed in the 1930s, one of the earliest protection moves in the region.
+
+## 1955: a national park before Project Tiger
+
+India's modern conservation era is usually dated to Project Tiger in 1973, but Tadoba was ahead of it: **in 1955 it was declared a national park**, among the first in Maharashtra. For decades it stayed small and obscure — a compact core around Tadoba lake, visited by few.
+
+The map changed twice more:
+
+| Year | Event |
+|---|---|
+| 1955 | Tadoba National Park declared |
+| 1986 | Andhari Wildlife Sanctuary created on adjoining forest |
+| 1995 | Park + sanctuary combined as the Tadoba-Andhari Tiger Reserve (Project Tiger) |
+| 2010 | Large buffer zone notified around the core |
+
+That 1995 merger created today's reserve: a core of roughly **625 sq km** wrapped in a buffer that villages, resorts, and — increasingly — tigers share.
+
+## The turnaround years
+
+Through the 2000s Tadoba was still a connoisseur's park — good sightings, little infrastructure. Two things changed it. First, protection and prey recovery: tiger numbers roughly doubled from around forty in 2010 to close to a hundred across the wider landscape by the early 2020s. Second, a generation of habituated, camera-famous tigers — none more than **Maya**, the Pandharpauni tigress whose comfort around vehicles defined a decade of Tadoba photography — turned the park into household news among Indian wildlife travellers.
+
+When core-zone tourism was capped after 2012's nationwide court orders, Tadoba's buffer zones became a template other reserves copied: gates like [Agarzari, Junona, Devada-Adegaon and Alizanza](/gates) opened regulated safaris outside the core, spreading vehicles, revenue, and sightings across a wider area — and keeping the park open through the monsoon when core gates close.
+
+## Why the history matters for your safari
+
+- **The lake is the heart.** Tadoba lake — Taru's lake — anchors the richest tiger territories in the park. Routes around it from [Moharli gate](/gates/moharli) sit at the centre of a hundred years of protection.
+- **Teak and bamboo are the stage.** The same timber the Gonds and British valued now gives Tadoba its dry-season visibility — sparse understorey, long sightlines, reliable sightings. See [when to visit](/blog/best-time-to-visit-tadoba-for-tiger-sightings) to use that to your advantage.
+- **The buffer is the future.** Most new tiger territories, night safaris, and value stays are in the buffer — the newest chapter of the story above.
+
+Walk it with people who grew up beside it — [our packages](/packages) are led by naturalists from these villages. [Tell us your dates](/contact) and we'll plan your trip.`,
+  },
+  {
+    slug: 'things-to-do-in-tadoba-beyond-safari',
+    title: 'Things to Do in Tadoba Beyond the Jeep Safari',
+    excerpt:
+      'The jeep safari is the headline act, but Tadoba rewards the hours between drives: buffer-zone night safaris, birding on the Irai backwaters, the Agarzari butterfly garden, Gond-era Chandrapur, and village visits.',
+    heroImage: '/images/gate-bird-insect.jpg',
+    publishedAt: '2026-07-24',
+    readingMinutes: 6,
+    keywords: [
+      'things to do in tadoba',
+      'tadoba activities',
+      'tadoba night safari',
+      'tadoba butterfly park agarzari',
+      'places to visit near tadoba',
+    ],
+    tldr: 'Between morning and evening safaris, Tadoba offers buffer-zone night drives (Junona and Devada-Adegaon gates), winter birding along the Irai backwaters, the Agarzari butterfly garden, Gond-era forts and temples in Chandrapur, and village walks arranged by resorts. Plan activities around the afternoon gap and the Tuesday core-zone closure.',
+    keyFacts: [
+      'Night safaris run in select buffer zones (Junona, Devada-Adegaon) — book like a regular buffer permit.',
+      'Irai backwaters draw winter waterfowl and raptors November–February.',
+      'Agarzari butterfly garden is a short, family-friendly stop near the Moharli road.',
+      'Chandrapur\'s Gond fort walls and Mahakali temple are ~45 minutes from Moharli.',
+      'Core zones close every Tuesday — the natural day for everything on this list.',
+    ],
+    content: `**A Tadoba trip has a rhythm:** safari at dawn, a long bright gap, safari again at three. First-time visitors treat the gap as pool time. Repeat visitors know it's a second itinerary. Here's what actually exists around the park — no padding, only things you can genuinely do.
+
+## 1. Night safari in the buffer
+
+The core zones shut at dusk, but select buffer gates — **[Junona](/gates/junona)** and **[Devada-Adegaon](/gates/devada-adegaon)** among them — run permitted night drives with forest-department guides and red-filtered spotlights. Expect civets, jungle cats, owls, sometimes a leopard, occasionally a tiger crossing a forest road in the dark. It books like any buffer safari — see our [booking guide](/blog/how-to-book-tadoba-safari-online) — and slots are far easier to get than core-zone permits.
+
+## 2. Birding on the Irai backwaters
+
+The Irai dam's backwaters lap the western edge of the reserve, and from **November to February** they hold winter waterfowl — pintails, shovellers, jacanas — plus fishing raptors: osprey, grey-headed fish eagle. Resorts near [Moharli](/gates/moharli) arrange guided morning walks along the shoreline. Bring binoculars; the light off the water at 7 AM is the best photography light of the day.
+
+## 3. Agarzari butterfly garden
+
+Beside the [Agarzari buffer gate](/gates/agarzari), the forest department maintains a small butterfly garden and interpretation area — an easy, shaded hour that younger kids genuinely enjoy, and a useful half-day pairing with an Agarzari buffer safari.
+
+## 4. Gond-era Chandrapur
+
+Forty-five minutes from Moharli is a city most safari-goers drive past: Chandrapur, seat of the Gond kings who once owned these forests. Their legacy survives in kilometres of **fort wall**, carved city gates, and the **Mahakali temple**, the region's most important shrine. Combine it with an arrival or departure transfer rather than sacrificing a safari day — the history connects directly to the park's own story, which we cover in [History of Tadoba](/blog/history-of-tadoba-national-park).
+
+## 5. Village walks and local crafts
+
+Buffer villages like Agarzari and Moharli increasingly host guided walks — bamboo work, farm visits, a look at how communities live beside a hundred tigers. Arranged through resorts on a day's notice; fees go to the villagers. It's the most honest picture you'll get of what "buffer zone" actually means.
+
+## 6. Ramdegi and Anandvan (longer add-ons)
+
+- **Ramdegi temple**, near the Navegaon side, sits in a forest clearing where herbivores graze around an old shrine — a quiet, atmospheric stop when that zone's roads are open.
+- **Anandvan** at Warora, en route to [Kolara](/gates/kolara) from Nagpur, is the community Baba Amte built for leprosy patients — a moving hour if your route passes it.
+
+## Planning the gaps
+
+| When | What fits |
+|---|---|
+| Tuesday (core closed) | Night safari eve before, Chandrapur or Anandvan day trip, buffer safari |
+| Midday gap (11 AM–3 PM) | Butterfly garden, village walk, pool |
+| Winter mornings without permits | Irai backwater birding |
+| Monsoon (Jul–Sep) | Buffer safaris + everything above — see [Tadoba in monsoon](/blog/tadoba-safari-in-monsoon) |
+
+All [our packages](/packages) can fold these in — tell us what you enjoy beyond tigers and [we'll build the itinerary around it](/contact).`,
+  },
+  {
+    slug: 'pench-national-park-complete-guide',
+    title: 'Pench National Park: Zones, Booking & Best Time — Complete Guide',
+    excerpt:
+      'Everything for a first Pench trip: how the MP and Maharashtra sides differ, which gate to pick (Turia, Karmajhiri, Jamtara, Sillari), how permits work, month-by-month timing, and what it costs.',
+    heroImage: '/images/dest-pench.jpg',
+    publishedAt: '2026-07-24',
+    readingMinutes: 9,
+    keywords: [
+      'pench national park guide',
+      'pench safari zones',
+      'pench safari booking',
+      'turia gate pench',
+      'best time to visit pench',
+      'pench from nagpur',
+    ],
+    tldr: 'Pench straddles Madhya Pradesh and Maharashtra, 95 km from Nagpur airport. First-timers should book the MP side: Turia gate for infrastructure and sighting reliability, Karmajhiri for quiet, Jamtara for value. Permits open 120 days ahead on the MP forest portal. March–June is best for tigers, November–February for birds and comfort, and Turia stays open through the monsoon.',
+    keyFacts: [
+      'Nagpur → Turia gate: 95 km, about 2.5 hours on NH44 — the closest major tiger reserve to an airport in central India.',
+      'MP-side gates: Turia (main), Karmajhiri (quiet, riverine), Jamtara (buffer value). Maharashtra side runs separately (Sillari/East Pench).',
+      'Permits open 120 days ahead; Turia weekends sell out first from the Nagpur crowd.',
+      '60+ tigers, strong wild dog and leopard populations, 325+ bird species.',
+      'Turia core stays open Jul–Sep when Tadoba\'s core is shut.',
+    ],
+    content: `**Pench is the forest that raised Mowgli.** Kipling set The Jungle Book in these teak hills, and the reserve now holds a TX2 award for doubling its tigers. It is also, practically speaking, the easiest serious tiger reserve to reach in India — 95 km from Nagpur airport, close enough that a morning flight connects to the same afternoon's safari. This guide covers the park end to end; for a ready-made trip, our [Pench Classic package](/packages/pench-classic-3n) bundles all of it.
+
+## One forest, two states
+
+Pench is split by the Madhya Pradesh–Maharashtra border, and the two sides run **separate permit systems**:
+
+- **Madhya Pradesh side** — the classic Pench of documentaries: core zones, the Pench river, most of the resort infrastructure. This is where first-timers should book.
+- **Maharashtra side (East Pench)** — gates like Sillari and Khursapar, booked through Maharashtra's system. Quieter and cheaper, best for repeat visitors and Nagpur weekenders.
+
+## The gates, honestly compared
+
+### Turia — the main event
+Two hours from Nagpur, the biggest resort cluster, the most naturalists, and dependable tiger territories in dense teak. If you have one Pench trip, enter here. Its popularity is the only caveat: **weekend permits vanish fastest**, claimed by Nagpur's short-trip crowd. Full detail on our [Turia gate page](/gates/turia).
+
+### Karmajhiri — the connoisseur's gate
+The scenic eastern entry along the Pench river: fewer vehicles, superb birdlife, landscapes that reward photographers. Sightings are less frequent than Turia but feel earned. See [Karmajhiri](/gates/karmajhiri).
+
+### Jamtara — the value play
+A newer buffer gate — easier permits, lower cost, and tigers increasingly comfortable around vehicles. Good third-safari option or budget fallback. See [Jamtara](/gates/jamtara).
+
+## Booking, step by step
+
+1. Permits open **120 days ahead** on the MP forest portal and sell gate-wise, slot-wise (morning/evening).
+2. A core jeep permit lands around **₹2,500–4,000 per vehicle** with guide fees, before gypsy hire — budget roughly ₹6,000–7,500 all-in per safari for a private jeep.
+3. Carry the **same photo ID** used on the permit; it's checked at the gate.
+4. Or skip the portal wrangling: our packages include permits, gypsy, naturalist, and gate timing strategy.
+
+Weekday slots at Karmajhiri and Jamtara are genuinely easy; Turia weekends need the full 120-day head start.
+
+## When to go
+
+| Months | What you get |
+|---|---|
+| Oct–Feb | 10–25°C, migratory birds among 325+ species, relaxed sightings — the comfortable season |
+| Mar–Jun | Heat rising to 40°C+, tigers pinned to water, best sighting odds |
+| Jul–Sep | Monsoon — Turia core stays open (unlike Tadoba), forest at its greenest, lowest prices — our [monsoon Pench guide](/blog/pench-safari-in-monsoon) covers it |
+
+## What you'll see
+
+Around **60+ tigers** across the MP side, one of India's most watchable **wild dog (dhole)** populations, leopards holding the rocky edges, gaur, and sambar. Birders treat Pench as a destination in itself — winter rafts of waterfowl on the river, crested serpent eagles, racket-tailed drongos in the teak.
+
+## Pench or Tadoba — or both?
+
+Tadoba gives better single-safari tiger odds; Pench gives variety, quiet, and the river. The full comparison is in [Tadoba vs Pench](/blog/tadoba-vs-pench-which-safari-is-right-for-you) — but with Nagpur between them ([95 km to Pench, 140 to Tadoba](/blog/tadoba-to-pench-distance-routes)), the honest answer for a 5–6 night trip is both.
+
+## The easy version
+
+Our [Pench Classic — 3 Nights](/packages/pench-classic-3n) covers Turia + Karmajhiri with four safaris, resort, meals, and Nagpur transfers at ₹69,000 per couple. [Send your dates](/contact) or [WhatsApp us](https://wa.me/918208090280) and we'll hold the permits.`,
+  },
 ];
