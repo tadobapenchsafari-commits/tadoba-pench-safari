@@ -3,6 +3,7 @@ import { destinations, packages } from '@/data/content';
 import { blogPosts } from '@/data/blog';
 import { gateDetails } from '@/data/gates-content';
 import { originCities } from '@/data/origin-cities';
+import { aggregateRating } from '@/data/testimonials';
 
 const BASE_URL = 'https://www.tadobapenchsafari.com';
 
@@ -57,8 +58,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
+  // /testimonials 404s until 3+ real reviews exist (see data/testimonials.ts),
+  // so it only enters the sitemap once it actually renders.
+  const testimonialRoutes: MetadataRoute.Sitemap = aggregateRating()
+    ? [{ url: `${BASE_URL}/testimonials`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 }]
+    : [];
+
   return [
     ...staticRoutes,
+    ...testimonialRoutes,
     ...destinationRoutes,
     ...packageRoutes,
     ...blogRoutes,

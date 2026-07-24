@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Mail, Phone, MapPin, Instagram, Facebook, Youtube } from 'lucide-react';
 import { TrackedLink } from './tracked-link';
 import { originCities } from '@/data/origin-cities';
+import { aggregateRating } from '@/data/testimonials';
 
 export function Footer() {
   return (
@@ -47,6 +48,9 @@ export function Footer() {
               <li><Link href="/gates" className="hover:text-sunrise">All gates</Link></li>
               <li><Link href="/packages" className="hover:text-sunrise">Packages</Link></li>
               <li><Link href="/blog" className="hover:text-sunrise">Journal</Link></li>
+              {aggregateRating() && (
+                <li><Link href="/testimonials" className="hover:text-sunrise">Reviews</Link></li>
+              )}
             </ul>
           </div>
 
