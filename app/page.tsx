@@ -130,33 +130,24 @@ export default function HomePage() {
       />
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden grain">
-        {/* Background video. Poster paints instantly from the same tiger
-            photo we used before, so first contentful paint is unchanged.
-            Video autoplays muted + loops; mobile gets a smaller encode. */}
+        {/* Background video. One element for all viewports — the media
+            attribute on <source> makes the browser download only the encode
+            that matches (two CSS-hidden <video>s each still download).
+            Poster is the 1280px frame grab: same sharpness as the 720p video,
+            ~128KB instead of the 1MB+ full photo. */}
         <video
-          className="absolute inset-0 w-full h-full object-cover hidden md:block"
+          className="absolute inset-0 w-full h-full object-cover"
           autoPlay
           muted
           loop
           playsInline
           preload="auto"
-          poster="/images/hero-tiger-tadoba.jpg"
+          poster="/videos/hero-poster.jpg"
           aria-label="Bengal tiger close-up in golden grass at Tadoba Andhari Tiger Reserve"
         >
+          <source src="/videos/hero-mobile.mp4" type="video/mp4" media="(max-width: 767px)" />
           <source src="/videos/hero.webm" type="video/webm" />
           <source src="/videos/hero.mp4" type="video/mp4" />
-        </video>
-        <video
-          className="absolute inset-0 w-full h-full object-cover md:hidden"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          poster="/images/hero-tiger-tadoba.jpg"
-          aria-label="Bengal tiger close-up in golden grass at Tadoba Andhari Tiger Reserve"
-        >
-          <source src="/videos/hero-mobile.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-bark/30 via-bark/40 to-bark/80" />
 
@@ -166,7 +157,7 @@ export default function HomePage() {
               <span>Est. 2018</span>
             </p>
             <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-bone leading-[0.95] mb-6">
-              Walk Tadoba &amp; Pench
+              Walk Tadoba &amp; Pench{' '}
               <br />
               <span className="italic text-sunrise">with those who know the forest best.</span>
             </h1>
