@@ -70,6 +70,14 @@ export const packageQuickAnswers: Record<string, QuickAnswer[]> = {
     { q: 'Gates covered', a: 'Turia (main MP-side core gate) and Karmajhiri (scenic eastern gate along the Pench river, rich birdlife).' },
     { q: 'Best for', a: 'Jungle Book fans, birders, and travellers who want a quieter forest than Tadoba with steady tiger sightings.' },
   ],
+  'tadoba-pench-combo-5n': [
+    { q: 'Price', a: '₹1,09,000 per couple (all-inclusive). Roughly ₹54,500 per person.' },
+    { q: 'Duration', a: '5 nights / 6 days — 3 nights Tadoba + 2 nights Pench, 6 jeep safaris.' },
+    { q: 'Where you stay', a: 'Mid-tier jungle resorts in both parks, double occupancy, all meals included.' },
+    { q: 'How you travel', a: 'Private AC sedan for the full circuit, including the direct 145 km Tadoba–Pench transfer (no Nagpur backtrack).' },
+    { q: 'Gates covered', a: 'Moharli + Kolara in Tadoba, Turia in Pench — the strongest gate in each park.' },
+    { q: 'Best for', a: 'First-time central India visitors who want maximum tiger odds and two genuinely different forests in one trip.' },
+  ],
 };
 
 // --- Per-destination ---

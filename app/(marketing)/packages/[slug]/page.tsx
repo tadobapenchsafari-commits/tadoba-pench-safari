@@ -5,6 +5,7 @@ import { Check } from 'lucide-react';
 import { packages } from '@/data/content';
 import { formatINR } from '@/lib/utils';
 import { TrackedLink } from '@/components/marketing/tracked-link';
+import { PlanMySafariForm } from '@/components/marketing/plan-safari-form';
 import { TestimonialsSection } from '@/components/marketing/testimonials-section';
 import {
   testimonialsForPackage,
@@ -74,7 +75,11 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
     },
   };
   const locations =
-    p.destination === 'pench' ? [penchLocation] : [tadobaLocation];
+    p.destination === 'both'
+      ? [tadobaLocation, penchLocation]
+      : p.destination === 'pench'
+        ? [penchLocation]
+        : [tadobaLocation];
 
   // Reviews tied to this package (sample testimonials are filtered out for schema)
   const packageReviews = testimonialsForPackage(p.slug).filter((t) => !t.sample);
@@ -205,7 +210,7 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
         />
       )}
       <section className="relative min-h-[55vh] flex items-end overflow-hidden grain">
-        <Image src={p.heroImage} alt={`${p.name} — ${p.destination === 'pench' ? 'Pench Tiger Reserve' : 'Tadoba Andhari Tiger Reserve'} safari package with ${p.safariCount} jeep safaris`} priority className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
+        <Image src={p.heroImage} alt={`${p.name} — ${p.destination === 'both' ? 'Tadoba & Pench combined' : p.destination === 'pench' ? 'Pench Tiger Reserve' : 'Tadoba Andhari Tiger Reserve'} safari package with ${p.safariCount} jeep safaris`} priority className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
         <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/40 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
           <p className="text-sm tracking-[0.2em] uppercase text-sunrise mb-3">
@@ -258,6 +263,8 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
           </aside>
         </div>
       </section>
+
+      <PlanMySafariForm context={p.name} />
 
       {pageTestimonials.length > 0 && (
         <TestimonialsSection

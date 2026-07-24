@@ -466,4 +466,24 @@ export const packages: Package[] = [
     ],
     safariCount: 4,
   },
+  {
+    slug: 'tadoba-pench-combo-5n',
+    name: 'Tadoba + Pench Combo — 5 Nights',
+    destination: 'both',
+    durationNights: 5,
+    durationDays: 6,
+    priceFromINR: 109000,
+    shortDescription:
+      'Both flagship reserves in one trip: three nights and four safaris in Tadoba (Moharli & Kolara) plus two nights and two safaris in Pench (Turia), joined by the direct 145 km inter-park transfer — no backtracking through Nagpur. Six safaris across two very different forests. Quoted for two guests sharing.',
+    heroImage: '/images/pkg-tadoba-pench-combo.jpg',
+    inclusions: [
+      '3 nights mid-tier jungle resort in Tadoba + 2 nights near Turia Gate, Pench',
+      'All meals (breakfast, lunch, dinner)',
+      '4 Tadoba safaris (Moharli & Kolara) + 2 Pench safaris (Turia)',
+      'Private AC sedan: Nagpur pickup, direct Tadoba–Pench transfer, Nagpur drop',
+      'Experienced naturalist on every safari',
+      'All permits, gypsy charges, guide and park fees',
+    ],
+    safariCount: 6,
+  },
 ];

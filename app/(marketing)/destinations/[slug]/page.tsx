@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { destinations, packages, gates } from '@/data/content';
+import { PlanMySafariForm } from '@/components/marketing/plan-safari-form';
 import { formatINR } from '@/lib/utils';
 import { destinationFaqs } from '@/data/faqs';
 import { QuickAnswers } from '@/components/marketing/quick-answers';
@@ -44,7 +45,9 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
   if (!d) notFound();
 
   const destGates = gates.filter((g) => g.destination === d.slug);
-  const destPacks = packages.filter((p) => p.destination === d.slug);
+  const destPacks = packages.filter(
+    (p) => p.destination === d.slug || p.destination === 'both'
+  );
 
   const pageUrl = `${SITE_URL}/destinations/${d.slug}`;
   const imageUrl = d.heroImage.startsWith('http') ? d.heroImage : `${SITE_URL}${d.heroImage}`;
@@ -289,6 +292,8 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
           </div>
         </section>
       )}
+
+      <PlanMySafariForm context={`a ${d.name} safari`} />
     </>
   );
 }

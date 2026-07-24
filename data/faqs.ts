@@ -107,6 +107,29 @@ export const packageFaqs: Record<string, FAQ[]> = {
       a: 'Yes — Pench and Tadoba pair naturally into a 5–6 night central India circuit with Nagpur as the hub. Tell us your dates on the contact page or WhatsApp and we will quote a custom Tadoba + Pench split; a 2-night extension to either park typically adds around ₹35,000 including the inter-park transfer.',
     },
   ],
+
+  'tadoba-pench-combo-5n': [
+    {
+      q: 'What is included in the Tadoba + Pench Combo price of ₹1,09,000?',
+      a: 'Five nights across both parks (3 in a mid-tier Tadoba resort, 2 near Turia Gate in Pench), all meals, six jeep safaris (four in Tadoba across Moharli and Kolara, two in Pench at Turia), private AC sedan for the whole circuit — Nagpur pickup, the direct inter-park transfer, and Nagpur drop — a naturalist on every safari, and all permits, gypsy, guide and park fees. Quoted for two guests sharing.',
+    },
+    {
+      q: 'Which park comes first on the combo itinerary?',
+      a: 'Either works — the parks sit on opposite sides of Nagpur, connected by a direct 145 km / 3.5-hour road transfer that skips the city entirely. We usually sequence Pench first and finish with Tadoba\'s higher sighting odds as the crescendo, but if your flight times favour the reverse we flip it at no cost.',
+    },
+    {
+      q: 'Why do the combo and not just one park?',
+      a: 'Because they are genuinely different forests: Tadoba is dry teak-bamboo with the best single-safari tiger odds in India; Pench is riverine Jungle Book country with wild dogs, leopards, and 325+ bird species and far quieter jeeps. Six safaris across both gives you near-certain tiger sightings plus real variety — see our full Tadoba vs Pench comparison on the journal.',
+    },
+    {
+      q: 'Can the combo be customised — different split, more nights, better resorts?',
+      a: 'Yes. Common tweaks: a 2+3 split favouring Pench for birders, a luxury-resort upgrade in either park, or stretching to 7 nights with a rest day between parks. The ₹1,09,000 price holds for the standard 3+2 mid-tier version; we quote custom versions within 24 hours.',
+    },
+    {
+      q: 'When is the best time for the combined trip?',
+      a: 'October to June. Winter (Oct–Feb) is comfortable with superb birding; March to June maximises tiger sightings in both parks. During the monsoon (Jul–Sep) Tadoba\'s core closes, so we switch the itinerary to Pench\'s Turia gate plus Tadoba buffer zones — ask us for the monsoon variant.',
+    },
+  ],
 };
 
 export const destinationFaqs: Record<string, FAQ[]> = {

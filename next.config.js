@@ -93,7 +93,6 @@ const nextConfig = {
   async redirects() {
     return [
       { source: '/packages/tadoba-classic-3n',          destination: '/packages/tadoba-budget-3n', permanent: true },
-      { source: '/packages/tadoba-pench-combo-5n',      destination: '/packages/tadoba-mid-3n',    permanent: true },
       { source: '/packages/photography-week-tadoba',    destination: '/packages/tadoba-luxury-3n', permanent: true },
       { source: '/packages/pench-weekend-2n',           destination: '/packages/pench-classic-3n', permanent: true },
       { source: '/packages/pench-birding-wildlife-4n',  destination: '/packages/pench-classic-3n', permanent: true },
