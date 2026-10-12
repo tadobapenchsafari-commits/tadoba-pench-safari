@@ -195,7 +195,7 @@ export const properties: Property[] = [
     ownership: 'TIE_UP',
     starRating: 5,
     shortDescription:
-      'An intimate four-room luxury villa tucked into the wilderness near Kolara Gate. Swimming pool, kids play area, and forest-facing lawns make it equally good for couples and families. Rated 4.8 across 95+ reviews.',
+      'A few minutes from Kolara Gate: 12 rooms plus an eight-bed family room, a pool, a machan, and all meals included. Rated 4.7 on Google (101 reviews, Aug 2026). Page: /stays/tadoba-aranya-villa.',
     heroImage:
       '/images/dest-tadoba.jpg',
     images: [
@@ -204,7 +204,7 @@ export const properties: Property[] = [
     ],
     amenities: ['Swimming pool', 'WiFi', 'Restaurant', 'Kids play area', 'Parking', 'Naturalist'],
     distanceFromGateMeters: 2500,
-    priceFromINR: 12500,
+    priceFromINR: 7000,
   },
   {
     slug: 'a1-tiger-resort-chimur',

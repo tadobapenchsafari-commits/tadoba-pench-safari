@@ -100,6 +100,8 @@ const nextConfig = {
       // /properties/* was removed in 2026 but is still indexed and still gets
       // visits (GA4 shows 404 hits). Send listing → packages, detail → Tadoba.
       { source: '/properties',                          destination: '/packages',                  permanent: true },
+      // Partner resort with its own page — must come before the catch-all below.
+      { source: '/properties/tadoba-aranya-villa',     destination: '/stays/tadoba-aranya-villa', permanent: true },
       { source: '/properties/:slug',                    destination: '/destinations/tadoba',       permanent: true },
     ];
   },

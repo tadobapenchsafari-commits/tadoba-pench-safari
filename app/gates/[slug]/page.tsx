@@ -197,6 +197,11 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
             </Link>
             {' '}and we&apos;ll recommend the right property for your trip.
           </p>
+          {d.slug === 'kolara' && (
+            <Link href="/stays/tadoba-aranya-villa" className="mt-4 inline-block text-canopy underline font-medium">
+              Our partner stay a few minutes from Kolara gate: Tadoba Aranya Villa Resort →
+            </Link>
+          )}
         </div>
 
         {/* Recommended packages — passes authority from gate pages to package pages */}
