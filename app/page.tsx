@@ -85,7 +85,7 @@ const faqJsonLd = {
       name: 'How far in advance should I book a Tadoba safari?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Core zone permits open 120 days in advance and peak-season slots sell out within 15–45 minutes. For March–June travel, the permit should be secured by January.',
+        text: 'Core zone safaris open for booking 120 days in advance at 12:00 AM IST on the official portal, and peak-season weekend slots go quickly. For March–June travel, the permit should be secured by January.',
       },
     },
     {
@@ -117,7 +117,7 @@ const faqJsonLd = {
       name: 'Can I do a tiger safari during the monsoon (July to September)?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, with caveats. Tadoba\'s six core gates are closed 1 July to 30 September, but four buffer gates (Agarzari, Junona, Devada-Adegaon, Alizanza) stay open with tiger sighting rates around 40-55% and roughly 30% lower prices. Pench\'s Turia core gate also stays open through the monsoon under a different forest-department schedule. Best for photographers, birders, and budget-conscious travellers; not ideal if a tiger sighting is the primary goal.',
+        text: 'Yes, with caveats. Tadoba\'s six core gates are closed 1 July to 30 September, but four buffer gates (Agarzari, Junona, Devada-Adegaon, Alizanza) stay open (closed on Wednesdays) with tiger sighting rates around 40-55% and resort rates 30-50% lower. Pench\'s Turia core gate also stays open through the monsoon under a different forest-department schedule. Best for photographers, birders, and budget-conscious travellers; not ideal if a tiger sighting is the primary goal.',
       },
     },
   ],

@@ -47,12 +47,13 @@ Each gate has a dedicated page at /gates/<slug> with permits, timings, sighting 
 
 ## Key facts and pricing inputs
 
-- Standard safari permit (per private jeep, 6 seats max): ₹7,000 — includes permit, gypsy hire, driver, guide.
+- Official Tadoba safari fee (per jeep, up to 6 guests; entry + guide + gypsy): core ₹5,800 weekday / ₹6,800 weekend when booked 1-59 days ahead, ₹8,800 / ₹12,800 when booked 60-120 days ahead; buffer ₹6,000 / ₹7,000. Same for Indian and foreign tourists, except full-day safaris (₹50,000 Indian / ₹70,000 foreign). Camera ₹250 at the gate. Children under 8 free, max 2 per jeep. Source: mytadoba.mahaforest.gov.in, checked 12 October 2026.
 - Transport per day (round-trip from Nagpur): sedan ₹3,800, 7-seater ₹4,500, luxury SUV ₹5,500.
 - Stay per night (double occupancy, all meals): mid-tier ₹7,000, luxury ₹12,000, ultra-luxury ₹18,000.
 - Tadoba core zone closure: 1 July to 30 September (monsoon).
-- Tadoba weekly closure: every Tuesday (year-round).
-- Core gate permit window opens 120 days in advance via mahaonline.gov.in. Peak slots sell within 15-45 minutes.
+- Tadoba weekly closure: core gates every Tuesday, buffer gates every Wednesday.
+- Tadoba safari timings: Nov-Feb 6:30-10:30 AM and 2:00-6:00 PM; Oct and Mar-Apr 6:00-10:00 AM and 2:30-6:30 PM; May-Jun 5:30-9:30 AM and 3:00-7:00 PM.
+- Booking: official portal mytadoba.mahaforest.gov.in. Normal bookings open 12:00 AM IST, 120 days ahead; Tatkal (core gates) opens 8:00 AM IST three days ahead. Bookings made 60-120 days ahead are non-refundable. ID: foreigners passport only; Indians passport, voter ID, PAN, driving licence (originals).
 
 ## Sample tiger sighting rates (4-safari trip)
 

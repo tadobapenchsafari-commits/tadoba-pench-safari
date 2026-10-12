@@ -43,9 +43,9 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'Moharli has the largest permit allotment among Tadoba gates — exact numbers are set per season by the Forest Department. Online quota is smaller than total quota, so going via an authorised operator often helps.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
-      note: 'Gate is closed every Tuesday year-round. Core zones shut completely 1 July to 30 September for monsoon.',
+      morningSlot: '6:30–10:30 AM (Nov–Feb) | 6:00–10:00 AM (Oct, Mar–Apr) | 5:30–9:30 AM (May–Jun)',
+      eveningSlot: '2:00–6:00 PM (Nov–Feb) | 2:30–6:30 PM (Oct, Mar–Apr) | 3:00–7:00 PM (May–Jun)',
+      note: 'Closed every Tuesday. Core zones shut 1 July to 30 September.',
     },
     famousTigers: [
       'Maya — legendary tigress of the Telia lake area',
@@ -88,7 +88,7 @@ export const gateDetails: Record<string, GateDetail> = {
       },
       {
         q: 'What is the permit cost at Moharli Gate?',
-        a: 'Permit costs ₹2,500–3,500 per jeep (6 seats) for Indian nationals. Foreign nationals pay an additional surcharge. Weekend rates can be higher.',
+        a: 'The official core-zone fee is ₹5,800 (weekday) or ₹6,800 (weekend) per jeep when booked 1–59 days ahead, and ₹8,800 / ₹12,800 when booked 60–120 days ahead. It covers entry, guide and gypsy for up to 6 guests, and is the same for Indian and foreign tourists. Cameras are ₹250 extra at the gate.',
       },
       {
         q: 'Which resorts are closest to Moharli Gate?',
@@ -96,7 +96,7 @@ export const gateDetails: Record<string, GateDetail> = {
       },
       {
         q: 'Can I book Moharli permits online?',
-        a: 'Yes, via the Maharashtra Forest Department official portal mytadoba.mahaforest.gov.in. Permits open 120 days before the safari date at 6 AM IST and peak-season slots sell out within 30–60 minutes.',
+        a: 'Yes, via the Maharashtra Forest Department official portal mytadoba.mahaforest.gov.in. Normal bookings open 120 days before the safari date at 12:00 AM IST, and a Tatkal quota opens at 8:00 AM IST three days before. Peak-season weekend slots go quickly.',
       },
     ],
     nearbyPropertySlugs: ['forest-villa-moharli', 'jungle-edge-camp-khutwanda'],
@@ -118,9 +118,9 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'Kolara has a smaller allotment than Moharli — exact numbers vary by season and are set by the Forest Department. Fewer jeeps per slot is exactly why experienced photographers pick this gate.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
-      note: 'Closed Tuesdays. Core zones shut 1 July to 30 September.',
+      morningSlot: '6:30–10:30 AM (Nov–Feb) | 6:00–10:00 AM (Oct, Mar–Apr) | 5:30–9:30 AM (May–Jun)',
+      eveningSlot: '2:00–6:00 PM (Nov–Feb) | 2:30–6:30 PM (Oct, Mar–Apr) | 3:00–7:00 PM (May–Jun)',
+      note: 'Closed every Tuesday. Core zones shut 1 July to 30 September.',
     },
     famousTigers: [
       'Choti Tara — tigress who has ruled the Kolara-Alizanza belt for years, raised multiple cub litters here',
@@ -193,9 +193,9 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'Khutwanda runs a smaller quota than Moharli and Kolara — exact counts are set by the Forest Department per season. Permits are typically easier to secure here.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
-      note: 'Closed Tuesdays. Core zones shut in monsoon (July–Sept).',
+      morningSlot: '6:30–10:30 AM (Nov–Feb) | 6:00–10:00 AM (Oct, Mar–Apr) | 5:30–9:30 AM (May–Jun)',
+      eveningSlot: '2:00–6:00 PM (Nov–Feb) | 2:30–6:30 PM (Oct, Mar–Apr) | 3:00–7:00 PM (May–Jun)',
+      note: 'Closed every Tuesday. Core zones shut 1 July to 30 September.',
     },
     famousTigers: [
       'Tigers from the Khari and Khutwanda zones rotate through this gate',
@@ -390,9 +390,9 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'Navegaon has one of the smallest allotments of any Tadoba core gate. Exact numbers are set per season by the Forest Department. The upside of the small quota: tiny crowds at sightings.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
-      note: 'Closed Tuesdays. Core zone shut 1 July to 30 September for monsoon.',
+      morningSlot: '6:30–10:30 AM (Nov–Feb) | 6:00–10:00 AM (Oct, Mar–Apr) | 5:30–9:30 AM (May–Jun)',
+      eveningSlot: '2:00–6:00 PM (Nov–Feb) | 2:30–6:30 PM (Oct, Mar–Apr) | 3:00–7:00 PM (May–Jun)',
+      note: 'Closed every Tuesday. Core zones shut 1 July to 30 September.',
     },
     famousTigers: [
       'Resident male rotating through the Navegaon-Pangdi belt',
@@ -429,7 +429,7 @@ export const gateDetails: Record<string, GateDetail> = {
     metaDescription:
       'Agarzari Gate Tadoba — the most popular buffer gate. Lower permit cost than core, monsoon access, rising tiger activity. 2026 guide.',
     intro:
-      'Agarzari is the Tadoba buffer gate everyone should know about. Located right next to Moharli, it shares the same road-in and the same dense forest — but permits cost half of Moharli\'s and the buffer zone remains open during the monsoon when core gates shut. Sighting rates have climbed sharply as tigers from Moharli core extend their territories into Agarzari buffer.',
+      'Agarzari is the Tadoba buffer gate everyone should know about. Located right next to Moharli, it shares the same road-in and the same dense forest — but buffer permits carry no advance-booking premium (a flat ₹6,000–7,000 per jeep) and the buffer zone remains open during the monsoon when core gates shut. Sighting rates have climbed sharply as tigers from Moharli core extend their territories into Agarzari buffer.',
     location: {
       distanceFromNagpur: '140 km (3 hrs 15 min)',
       distanceFromChandrapur: '45 km (1 hr)',
@@ -438,9 +438,9 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'Agarzari is the highest-quota Tadoba buffer gate. Exact numbers are decided per season by the Forest Department, but it\'s consistently easier to book here than Moharli core.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
-      note: 'Buffer zones often stay open July–September. Closed Tuesdays.',
+      morningSlot: '6:30–10:30 AM (Nov–Feb) | 6:00–10:00 AM (Oct, Mar–Apr) | 5:30–9:30 AM (May–Jun)',
+      eveningSlot: '2:00–6:00 PM (Nov–Feb) | 2:30–6:30 PM (Oct, Mar–Apr) | 3:00–7:00 PM (May–Jun)',
+      note: 'Closed every Wednesday. Buffer gates stay open through the monsoon (July–September), with an extra noon slot.',
     },
     famousTigers: [
       'Male tigers from Moharli core range into Agarzari buffer',
@@ -449,7 +449,7 @@ export const gateDetails: Record<string, GateDetail> = {
     ],
     bestFor: [
       'Monsoon-season travellers (core shut, buffer open)',
-      'Budget-conscious guests — permits ₹1,200–1,800 vs core ₹2,500+',
+      'Advance planners — a flat ₹6,000–7,000 per jeep vs up to ₹12,800 for core booked 60–120 days ahead',
       'Guests staying in Moharli-area resorts',
       'Last-minute bookers — Agarzari has better availability than Moharli core',
     ],
@@ -463,7 +463,7 @@ export const gateDetails: Record<string, GateDetail> = {
     ],
     faqs: [
       { q: 'Is Agarzari Gate open during monsoon?', a: 'Yes — Agarzari is a buffer zone and typically remains operational 1 July to 30 September when Tadoba core zones are shut. Confirm with your operator before booking.' },
-      { q: 'What is the permit cost at Agarzari?', a: 'Around ₹1,200–1,800 per jeep (6 seats), roughly half of Moharli core. Foreign national surcharges apply.' },
+      { q: 'What is the permit cost at Agarzari?', a: 'The official buffer fee is ₹6,000 per jeep on weekdays and ₹7,000 on weekends (up to 6 guests, guide and vehicle included), bookable up to 120 days ahead at the same price. Same rate for Indian and foreign tourists. Core gates cost ₹5,800–₹12,800 depending on the day and how early you book.' },
       { q: 'Are tiger sightings good at Agarzari?', a: 'Yes — especially recently. Male tigers from Moharli core regularly extend into Agarzari buffer. Rates are lower than core but far from disappointing.' },
     ],
     nearbyPropertySlugs: [],
@@ -474,7 +474,7 @@ export const gateDetails: Record<string, GateDetail> = {
     heroImage:
       '/images/wildlife-deer-forest.jpg',
     metaDescription:
-      'Junona Gate Tadoba — a quiet southern buffer gate near Chandrapur. Low crowds, cheaper permits, good weekend option from Nagpur. 2026 complete guide.',
+      'Junona Gate Tadoba — a quiet southern buffer gate near Chandrapur. Low crowds, flat-rate buffer permits, good weekend option from Nagpur. 2026 complete guide.',
     intro:
       'Junona is Tadoba\'s quietest buffer gate, on the southern edge of the reserve near Chandrapur town. If you live in Nagpur and want a low-stress weekend safari without fighting the Moharli crowd, Junona is the pragmatic pick. Permits are easier to secure, infrastructure is basic-but-functional, and wildlife sightings have improved dramatically in the last two years.',
     location: {
@@ -485,9 +485,9 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'Junona runs a small buffer quota that rarely sells out. Exact numbers are set by the Forest Department and can vary with season.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
-      note: 'Buffer gate — stays open during monsoon. Closed Tuesdays.',
+      morningSlot: '6:30–10:30 AM (Nov–Feb) | 6:00–10:00 AM (Oct, Mar–Apr) | 5:30–9:30 AM (May–Jun)',
+      eveningSlot: '2:00–6:00 PM (Nov–Feb) | 2:30–6:30 PM (Oct, Mar–Apr) | 3:00–7:00 PM (May–Jun)',
+      note: 'Closed every Wednesday. Buffer gates stay open through the monsoon (July–September), with an extra noon slot.',
     },
     famousTigers: [
       'Resident tigress in the Junona-Mamla belt',
@@ -496,7 +496,7 @@ export const gateDetails: Record<string, GateDetail> = {
     ],
     bestFor: [
       'Weekend trippers from Nagpur / Chandrapur',
-      'Budget safaris',
+      'Flat-rate permits (no advance-booking premium)',
       'Last-minute bookings',
       'Monsoon travel',
     ],
@@ -531,9 +531,9 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'A small buffer allotment that rarely fills. Exact counts are set by the Forest Department seasonally.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
-      note: 'Buffer — stays open during monsoon. Closed Tuesdays.',
+      morningSlot: '6:30–10:30 AM (Nov–Feb) | 6:00–10:00 AM (Oct, Mar–Apr) | 5:30–9:30 AM (May–Jun)',
+      eveningSlot: '2:00–6:00 PM (Nov–Feb) | 2:30–6:30 PM (Oct, Mar–Apr) | 3:00–7:00 PM (May–Jun)',
+      note: 'Closed every Wednesday. Buffer gates stay open through the monsoon (July–September), with an extra noon slot.',
     },
     famousTigers: [
       'Dhole (wild dog) pack regularly sighted',
@@ -579,9 +579,9 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'A small buffer quota — exact numbers set by the Forest Department seasonally. Good last-minute availability most of the year.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
-      note: 'Buffer — often stays open during monsoon. Closed Tuesdays.',
+      morningSlot: '6:30–10:30 AM (Nov–Feb) | 6:00–10:00 AM (Oct, Mar–Apr) | 5:30–9:30 AM (May–Jun)',
+      eveningSlot: '2:00–6:00 PM (Nov–Feb) | 2:30–6:30 PM (Oct, Mar–Apr) | 3:00–7:00 PM (May–Jun)',
+      note: 'Closed every Wednesday. Buffer gates stay open through the monsoon (July–September), with an extra noon slot.',
     },
     famousTigers: [
       'Choti Tara (from Kolara core) spills into Alizanza routes',
@@ -592,7 +592,7 @@ export const gateDetails: Record<string, GateDetail> = {
       'Photographers seeking grassland compositions',
       'Birders (raptor activity high)',
       'Guests staying in Kolara-area resorts',
-      'Budget-conscious safaris',
+      'Flat-rate permits (no advance-booking premium)',
     ],
     tradeOffs: [
       'Lower permit count means advance booking helps',
@@ -625,9 +625,9 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'The smallest core-gate allotment at Tadoba — typically a handful of jeeps per slot. Exact numbers set by the Forest Department seasonally.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
-      note: 'Closed Tuesdays. Core zone shut 1 July to 30 September.',
+      morningSlot: '6:30–10:30 AM (Nov–Feb) | 6:00–10:00 AM (Oct, Mar–Apr) | 5:30–9:30 AM (May–Jun)',
+      eveningSlot: '2:00–6:00 PM (Nov–Feb) | 2:30–6:30 PM (Oct, Mar–Apr) | 3:00–7:00 PM (May–Jun)',
+      note: 'Closed every Tuesday. Core zones shut 1 July to 30 September.',
     },
     famousTigers: [
       'Resident tigers rotating through the Pangdi-Kolsa belt',
@@ -670,9 +670,9 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'A mid-sized core allotment — fewer than Moharli and Kolara, but more than Navegaon and Pangdi. Exact numbers set by the Forest Department per season.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM | 2:00 PM – 5:30 PM (winter)',
-      note: 'Closed Tuesdays. Core zone shut July–September.',
+      morningSlot: '6:30–10:30 AM (Nov–Feb) | 6:00–10:00 AM (Oct, Mar–Apr) | 5:30–9:30 AM (May–Jun)',
+      eveningSlot: '2:00–6:00 PM (Nov–Feb) | 2:30–6:30 PM (Oct, Mar–Apr) | 3:00–7:00 PM (May–Jun)',
+      note: 'Closed every Tuesday. Core zones shut 1 July to 30 September.',
     },
     famousTigers: [
       'Resident tigers in the Zari-Peth belt',

@@ -149,7 +149,7 @@ But honestly — most guests skip Nagpur and maximise park time. Fly in, safari,
 
 - **Book airport cab in advance** — cab availability at Nagpur airport after 9 PM is thin
 - **ATM at airport** — withdraw ₹10,000–15,000 for tips, bottled water, entry fees. Cards work at most resorts but not at gates
-- **Your ID must be the same** as on the safari permit — carry the original Aadhaar, passport, or driving licence you booked with
+- **Your ID must be the same** as on the safari permit — carry the original passport, voter ID, PAN card or driving licence you booked with (foreign nationals: passport only)
 - **Layers** — Nagpur can be 32°C at airport and forest can be 10°C at 6 AM morning safari. Pack a light jacket
 - **Phone signal** — Jio and Airtel both work inside the park. Keep phone on silent during safaris
 
@@ -189,9 +189,9 @@ We handle the whole Nagpur-to-Nagpur trip: flight recommendations, airport picku
 
 These four things ruin your trip if missed:
 
-1. **Original government photo ID** — Aadhaar, passport, or driving licence. The name on your ID must match the permit exactly. No ID = no safari, no refund.
+1. **Original government photo ID** — passport, voter ID, PAN card or driving licence (foreign nationals: passport only). Photocopies are refused, and the name must match the permit exactly. No ID = no safari, no refund.
 2. **Printed permit** (or screenshot on phone) — you get this from your operator 24 hrs before entry.
-3. **Cash in small notes** — ₹200, ₹500, ₹2,000. For tips, bottled water at the gate, camera fees, and the odd meal outside the resort.
+3. **Cash in small notes** — ₹100, ₹200, ₹500. For tips, bottled water at the gate, camera fees, and the odd meal outside the resort.
 4. **Any medication you take regularly** — pharmacies near Tadoba are limited. Bring 1.5× what you need.
 
 Everything else is comfort. Without the four above, you simply can't safari.
@@ -405,8 +405,8 @@ Two of our most-requested routes for experienced guests:
 Occasionally a zone is temporarily closed (fire, flood, court order). If your booking's zone is closed, you're reallocated — but to a zone in the **same gate**, not a different gate. Book flexibility matters.
 
 ### The morning–evening split
-- **Morning safaris** (6:00–10:30) have better tiger-sighting odds at both gates in summer
-- **Evening safaris** (15:00–18:30) favour Kolara in winter for dramatic light
+- **Morning safaris** (start 5:30–6:30 AM depending on season) have better tiger-sighting odds at both gates in summer
+- **Evening safaris** (start 2:00–3:00 PM) favour Kolara in winter for dramatic light
 
 ## What we recommend for most guests
 
@@ -418,7 +418,7 @@ Occasionally a zone is temporarily closed (fire, flood, court order). If your bo
 
 ## Booking reality
 
-Kolara sells out faster per-slot because of the smaller permit count. If you're targeting a peak weekend (Dec 25 weekend, Holi weekend, long weekends), get your Kolara permits in the first 15 minutes of the 120-day window opening at 6 AM IST.
+Kolara sells out faster per-slot because of the smaller permit count. If you're targeting a peak weekend (Dec 25 weekend, Holi weekend, long weekends), get your Kolara permits as soon as the 120-day window opens at 12:00 AM IST on the official portal.
 
 We handle this for guests — [tell us your dates](/contact) and we'll secure the permit combo that actually fits your trip, not whatever's easiest to book.`,
   },
@@ -439,24 +439,24 @@ We handle this for guests — [tell us your dates](/contact) and we'll secure th
       'tadoba permit cost',
       'tadoba package price',
     ],
-    tldr: 'A Tadoba safari in 2026 costs between ₹37,000 and ₹60,000 per person for a 3-night all-inclusive trip from Nagpur. DIY (booking the permit yourself, arranging your own resort and transfers) can be cheaper but requires fighting for permits on mahaonline.gov.in at 6 AM and managing logistics across three vendors.',
+    tldr: 'A Tadoba safari in 2026 costs between ₹37,000 and ₹60,000 per person for a 3-night all-inclusive trip from Nagpur. DIY (booking permits yourself on mytadoba.mahaforest.gov.in at ₹5,800–₹12,800 per jeep, plus your own resort and transfers) can be cheaper but means a midnight booking window and managing several vendors.',
     keyFacts: [
-      'Core-zone permit + gypsy + driver + guide: ₹7,000 per safari (per jeep, 6 seats).',
+      'Official core safari fee (entry + guide + gypsy, up to 6 guests): ₹5,800–₹12,800 per jeep, by weekday/weekend and booking window.',
       'Mid-tier jungle resort with all meals: ₹7,000 / night (double occupancy).',
       'Luxury jungle resort: ₹12,000 / night. Ultra-luxury: ₹18,000 / night.',
       'Nagpur-to-Tadoba transfer (round trip): ₹3,800-5,500 / day for sedan / 7-seater / luxury SUV.',
       'Operator margin on full packages: typically 15%.',
     ],
-    content: `**Tadoba safari cost in 2026 ranges from ₹4,500 per person for a single buffer-zone drive to ₹75,000+ per person for a premium 3-night all-inclusive package.** This guide breaks down exactly where that money goes so you can plan a realistic budget.
+    content: `**Tadoba safari cost in 2026 ranges from about ₹3,000 per person for a single buffer-zone drive (two people sharing a jeep) to ₹75,000+ per person for a premium 3-night all-inclusive package.** This guide breaks down exactly where that money goes so you can plan a realistic budget.
 
-All prices below are current for the April 2026 season. Forest department rates revise each October — we'll update this page then.
+Forest-department fees below are taken from the official Tadoba–Andhari Tiger Reserve booking portal, checked on 12 October 2026. Resort, transfer and naturalist figures are typical 2026 market rates.
 
 ## The short answer
 
 | Trip type | Per person (2 sharing) | What's included |
 |---|---|---|
-| Single buffer safari | ₹4,500 – 6,000 | 1 safari, guide, gypsy share |
-| Single core safari | ₹6,500 – 8,500 | 1 safari, guide, gypsy share |
+| Single buffer safari | ₹3,000 – 3,500 | 1 safari: entry, guide, gypsy (jeep shared by 2) |
+| Single core safari | ₹2,900 – 6,400 | 1 safari: entry, guide, gypsy (jeep shared by 2) |
 | 1-night budget package | ₹12,000 – 18,000 | 1 night, 2 safaris, meals, transfers |
 | 2-night mid-range package | ₹25,000 – 40,000 | 2 nights, 3 safaris, mid-tier resort |
 | 3-night premium package | ₹50,000 – 75,000+ | 3 nights, 5 safaris, luxury lodge |
@@ -465,29 +465,29 @@ All prices below are current for the April 2026 season. Forest department rates 
 
 A Tadoba safari is made up of four separate costs that people often confuse for one:
 
-### 1. Permit (government-set)
-- **Core zone** (Moharli, Tadoba, Kolara, Navegaon, Pangdi): **₹2,500–3,500 per jeep** (6 seats)
-- **Buffer zone** (Agarzari, Junona, Alizanza, Devada-Adegaon, Zari): **₹1,200–1,800 per jeep**
-- Foreign national surcharge: add ~₹1,500 per head
+### 1. Official safari fee (government-set)
+Entry, the mandatory forest guide and the gypsy are sold together as one booking on the official portal. Per jeep, up to 6 guests:
 
-A permit buys the whole jeep — not a seat. If you're two people, you either pay for a full jeep or share with strangers.
+| Booked | Core, Mon – Fri | Core, Sat – Sun | Buffer, Mon – Fri | Buffer, Sat – Sun |
+|---|---|---|---|---|
+| 1–59 days ahead | ₹5,800 | ₹6,800 | ₹6,000 | ₹7,000 |
+| 60–120 days ahead | ₹8,800 | ₹12,800 | ₹6,000 | ₹7,000 |
 
-### 2. Gypsy rental (private)
-- **Shared jeep:** ₹600–800 per seat
-- **Exclusive jeep:** ₹3,000–4,500 per safari
-- Air-conditioned premium gypsy (rare): ₹5,500+
+- **Core zone:** Moharli, Kolara, Khutwanda, Navegaon, Pangdi, Zari. **Buffer zone:** Agarzari, Junona, Alizanza, Devada-Adegaon.
+- **Same price for Indian and foreign tourists** on regular safaris. Full-day safaris are the exception: ₹50,000 per jeep for Indians, ₹70,000 for foreigners.
+- Children under 8 ride free (maximum two per jeep).
 
-The gypsy is a Maruti 4x4 operated by a licensed driver. The park enforces a cap on total gypsies per zone per slot.
+A booking buys the whole jeep — not a seat. Two people pay the same as six.
 
-### 3. Naturalist / guide
-- **Mandatory government guide:** ₹500–700 per safari (assigned at gate)
+### 2. Naturalist (optional)
+- **Forest guide:** mandatory and already included in the fee above (₹700 of it).
 - **Private naturalist:** ₹1,500–3,000 per safari (walks you through animal behaviour, tracks, photography)
 
-The government guide is included in your permit. Hiring a private naturalist alongside is optional but dramatically improves the experience for first-timers and photographers.
+Hiring a private naturalist alongside the forest guide is optional but dramatically improves the experience for first-timers and photographers.
 
-### 4. Camera fees (if applicable)
-- **Still camera:** ₹200 per camera per safari (often waived for phones)
-- **Video camera / DSLR with detachable lens:** ₹500–1,000 depending on zone
+### 3. Camera fees
+- **₹250 per camera**, paid on the spot at the gate.
+- Serious photographers can book a **full-day photography safari** in the core: ₹50,000 (Indian) or ₹70,000 (foreign) per jeep, maximum 4 guests, non-refundable.
 
 ## Tadoba resort costs — by tier
 
@@ -507,10 +507,8 @@ Accommodation is usually the biggest line item. Prices below are **per night, do
 When we quote a Tadoba safari package, here's exactly what's in it:
 
 - **Accommodation** — room, breakfast, often dinner
-- **Safari permits** — typically 2 per day (morning + evening)
-- **Gypsy + guide** for each safari
-- **Park entry fees** — small but mandatory
-- **Airport/railway transfers** from Nagpur (Tadoba) or Jabalpur (Pench)
+- **Safari fees** — entry, guide and gypsy for each safari, typically 2 per day (morning + evening)
+- **Airport/railway transfers** from Nagpur, the gateway for both Tadoba and Pench
 - **Inter-park transfers** if combining Tadoba + Pench
 - **GST** — 5% on tour services
 
@@ -533,36 +531,36 @@ Plan an extra ₹1,500–2,500 per person per day for these on top of your packa
 Best for: Travellers in Nagpur for work, weekend trippers.
 
 - Resort (mid-tier): ₹8,000 × 1 night = ₹8,000
-- 2 core safari permits + gypsies: ₹12,000
-- Guide fees + entry: ₹2,500
+- 2 core safaris (entry + guide + gypsy, weekday): 2 × ₹5,800 = ₹11,600
 - Transfer from Nagpur: ₹4,500 round trip
-- **Total for 2 people: ~₹27,000**
+- **Total for 2 people: ~₹24,000**
 
 ### The classic: 2 nights / 3 safaris
 
 Best for: First-time Tadoba visitors.
 
 - Resort (mid-tier): ₹8,000 × 2 nights = ₹16,000
-- 3 safaris (2 core + 1 buffer): ₹15,500
-- Guide + park fees: ₹4,000
+- 3 safaris (2 core at ₹5,800 + 1 buffer at ₹6,000, weekday): ₹17,600
 - Transfer: ₹4,500
 - Meals (3 lunches): ₹3,000
-- **Total for 2 people: ~₹43,000**
+- **Total for 2 people: ~₹41,000**
 
 ### The enthusiast: 3 nights / 5 safaris + photography
 
 Best for: Wildlife photographers, repeat visitors.
 
 - Premium resort: ₹16,000 × 3 nights = ₹48,000
-- 5 core safaris (exclusive gypsy): ₹32,000
+- 5 core safaris (weekday): 5 × ₹5,800 = ₹29,000
 - Private naturalist × 5: ₹10,000
 - Transfers + extras: ₹8,000
 - Meals + camera fees: ₹6,000
-- **Total for 2 people: ~₹1,04,000**
+- **Total for 2 people: ~₹1,01,000**
+
+Safari fees in these examples use the weekday rate for bookings made 1–59 days ahead. Weekend safaris, or bookings made 60–120 days ahead, cost up to ₹12,800 per jeep.
 
 ## When DIY booking is cheaper — and when it isn't
 
-Booking permits yourself via **mahaonline.gov.in** saves the operator fee (usually ₹500–1,500 per safari). **But** you'll fight for permits against a portal that crashes at 6 AM, and you'll still need a separate gypsy + resort booking.
+Booking safaris yourself on the official portal, **mytadoba.mahaforest.gov.in**, saves the operator fee (usually ₹500–1,500 per safari). **But** bookings open at midnight IST, popular gates and weekends go quickly, and you'll still need to arrange your resort and transfers separately.
 
 **DIY makes sense if:** you're flexible on dates, patient with government portals, and travelling off-season.
 
@@ -570,7 +568,7 @@ Booking permits yourself via **mahaonline.gov.in** saves the operator fee (usual
 
 ## Hidden costs to watch for
 
-- **Permit cancellation:** non-refundable. Don't book permits before you've confirmed leave dates.
+- **Permit cancellation:** bookings made 60–120 days ahead can't be cancelled at all. Bookings made under 60 days ahead can be cancelled more than 15 days before the safari, with 50% deducted. Tatkal is non-refundable. Don't book permits before you've confirmed leave dates.
 - **"Minimum pax" surcharges** at resorts — some charge a single-occupancy premium even if you book a shared jeep safari.
 - **Festival peak surcharges** — Diwali, Christmas week, Holi weekend can see resort rates jump 40–60%.
 - **Foreign currency surcharge** if your card is non-Indian: ~2–3%.
@@ -719,58 +717,77 @@ If you have to travel July through September, the choice changes: Tadoba's core 
     keywords: [
       'how to book tadoba safari',
       'tadoba safari booking',
-      'tadoba permit booking',
-      'mahaonline tadoba',
+      'tadoba safari booking official website',
+      'mytadoba booking',
+      'tadoba tatkal booking',
       'tadoba core zone booking',
     ],
-    tldr: 'Tadoba core-zone permits open 120 days in advance on mahaonline.gov.in at 6 AM IST and peak-season slots (March-June, weekends) typically sell within 15-45 minutes. You need a registered ID matching the permit name, a confirmed safari date and gate, and the permit fee paid online before the slot closes.',
+    tldr: 'Tadoba safaris are booked on the official portal mytadoba.mahaforest.gov.in. Normal bookings open 120 days ahead at 12:00 AM IST, with a Tatkal quota for core gates at 8:00 AM IST three days before. A core safari costs ₹5,800–₹12,800 per jeep (up to six guests, guide and gypsy included), and every guest needs original photo ID matching the booking.',
     keyFacts: [
-      'Permit window: opens 120 days out, closes when slots fill.',
-      'Booking time: 6 AM IST sharp on mahaonline.gov.in.',
-      'Peak season (Mar-Jun, weekends): sells in 15-45 minutes.',
-      'Off-peak (Nov, weekdays): available for weeks at a time.',
-      'Cancellation: permits are NON-REFUNDABLE once booked.',
+      'Official portal: mytadoba.mahaforest.gov.in (Tadoba–Andhari Tiger Reserve).',
+      'Normal booking opens at 12:00 AM IST, 120 days before the safari date.',
+      'Tatkal (core gates only) opens at 8:00 AM IST three days before — non-refundable.',
+      'Core fee per jeep: ₹5,800 / ₹6,800 weekday / weekend booked 1–59 days ahead; ₹8,800 / ₹12,800 booked 60–120 days ahead.',
+      'Bookings made 60–120 days ahead cannot be cancelled or refunded.',
     ],
-    content: `Booking a Tadoba safari involves three separate things: a **permit** (government), a **gypsy + guide** (allotted with permit), and a **resort** (private). Most first-timers don't realise permits and resorts are booked on totally different platforms — and that's where trips get derailed.
+    content: `Booking a Tadoba safari involves two separate things: the **safari booking** (government — entry, guide and gypsy in one ticket) and a **resort** (private). Most first-timers don't realise they're booked on different platforms — and that's where trips get derailed.
 
-Here's the full flow.
+Everything below is from the official Tadoba–Andhari Tiger Reserve portal, checked on 12 October 2026.
 
 ## Step 1: Understand the zone types
 
 Tadoba has **core zones** and **buffer zones**.
 
-- **Core zones** (Moharli, Tadoba, Kolara, Navegaon, Pangdi): limited permits, higher tiger density, book 120 days ahead.
-- **Buffer zones** (Agarzari, Junona, Alizanza, Devada-Adegaon, Zari): more permits, slightly lower density, bookable closer to the date.
+- **Core zones** (Moharli, Kolara, Khutwanda, Navegaon, Pangdi, Zari): fewer permits, higher tiger density. **Closed every Tuesday** and from 1 July to 30 September.
+- **Buffer zones** (Agarzari, Junona, Alizanza, Devada-Adegaon): more availability, open through the monsoon. **Closed every Wednesday.**
 
 If you want a realistic shot at a tiger, get at least one core-zone safari in your plan.
 
-## Step 2: Book the permit
+## Step 2: Book the safari
 
-The official portal is **https://mahaonline.gov.in** (look for "Tiger Safari Booking" under Forest Department).
+The official portal is **mytadoba.mahaforest.gov.in** (Tadoba–Andhari Tiger Reserve, Maharashtra Forest Department). The portal itself warns tourists to book online themselves at the actual rates and not to pay extra.
 
-- Core permits open at **6 AM IST, 120 days before the safari date.**
-- They sell out in **15–45 minutes** for peak season (March–June).
-- You need: passport/Aadhaar for all guests, same details must match on safari day, exact travel date.
-- Cost: roughly ₹2,500–3,500 per gypsy (6 seats) per safari, plus guide charges.
+- **Normal booking** opens at **12:00 AM IST, 120 days before** the safari date.
+- **Tatkal** (core gates only) opens at **8:00 AM IST, three days before** — for example, 1 October opens at 8 AM on 28 September.
+- One booking = **one gypsy = up to 6 guests**. Children under 8 ride free without being named, maximum two per gypsy.
+- Book one tab at a time: the portal's cart handles a single booking per browser, and parallel attempts fail.
 
-**Common mistake:** people think one permit = one person. It's one permit = one gypsy = up to 6 guests.
+**Official fees per jeep** (entry + guide + gypsy):
 
-## Step 3: Book the resort
+| Booked | Core, Mon – Fri | Core, Sat – Sun | Buffer, Mon – Fri | Buffer, Sat – Sun |
+|---|---|---|---|---|
+| 1–59 days ahead | ₹5,800 | ₹6,800 | ₹6,000 | ₹7,000 |
+| 60–120 days ahead | ₹8,800 | ₹12,800 | ₹6,000 | ₹7,000 |
 
-This is independent of the permit. Once you have your gate + date locked, book a property near that specific gate — driving between gates adds 40–90 minutes each way.
+Cameras cost ₹250 each, paid at the gate. Regular safaris cost the same for Indian and foreign tourists; only full-day safaris differ (₹50,000 Indian, ₹70,000 foreign).
+
+**Common mistake:** people think one permit = one person. It's one booking = one gypsy = up to 6 guests.
+
+## Step 3: Know the cancellation rules before you pay
+
+- Booked **60–120 days ahead**: cannot be cancelled, no refund.
+- Booked **under 60 days ahead**: can be cancelled more than 15 days before the safari, with 50% deducted. No cancellation after that.
+- **Tatkal** and **full-day** bookings: no cancellation, no refund.
+
+## Step 4: Book the resort
+
+This is independent of the safari booking. Once you have your gate + date locked, book a property near that specific gate — driving between gates adds 40–90 minutes each way.
 
 Gate-wise matches:
 - **Moharli gate** → stay in Moharli village or on the Moharli-Kolsa road.
 - **Kolara gate** → stay in Kolara village.
 - **Navegaon** → stay in Navegaon or Chimur.
 
-## Step 4: Show up prepared
+## Step 5: Show up prepared
 
-Carry original ID (matching the permit), reach the gate **30 minutes before** entry time, and dress in muted colours. No bright whites, reds, or blues — they spook animals.
+- **Original photo ID** for every guest named on the booking. Indian citizens: passport, voter ID, PAN card, driving licence, PSU photo ID, or a nationalised-bank passbook with attested photo. **Foreign nationals: passport only.** Photocopies are refused.
+- **Reach the gate 30 minutes before entry.** Official entry times: 6:30 AM and 2:00 PM (Nov–Feb), 6:00 AM and 2:30 PM (Oct, Mar–Apr), 5:30 AM and 3:00 PM (May–Jun).
+- Dress in muted colours. No bright whites, reds, or blues — they spook animals.
+- No plastic inside the reserve, and noise or disturbing wildlife is a fineable offence (₹5,000).
 
 ## The easier alternative
 
-Most guests don't want to wake up at 5:55 AM to fight for a government portal that often crashes. On our packages, we handle the permit on booking — you tell us the dates, we secure it. You pay the government's published rate plus our service fee. No surprises.
+Most guests don't want to stay up until midnight to fight for permits. On our packages, we handle the safari booking — you tell us the dates, we secure it. You pay the government's published rate plus our service fee. No surprises.
 
 If you've already got dates in mind, check availability at [our Tadoba packages page](/destinations/tadoba) or message us on WhatsApp.`,
   },
@@ -985,12 +1002,12 @@ For more on getting to Tadoba from your city, see our complete [Tadoba Safari fr
       'agarzari gate monsoon safari',
       'tadoba rains',
     ],
-    tldr: 'Tadoba\'s six core gates are closed 1 July to 30 September every year. Four buffer gates — Agarzari, Junona, Devada-Adegaon, and Alizanza — stay open, with permit prices roughly 30% lower and tiger sighting rates around 40-55%. Best for travellers who want green forests, dramatic light, and quiet jeeps over guaranteed tigers.',
+    tldr: 'Tadoba\'s six core gates are closed 1 July to 30 September every year. Four buffer gates — Agarzari, Junona, Devada-Adegaon, and Alizanza — stay open (closed only on Wednesdays), with resort rates 30-50% lower and tiger sighting rates around 40-55%. Best for travellers who want green forests, dramatic light, and quiet jeeps over guaranteed tigers.',
     keyFacts: [
       'Core zone closure: 1 July to 30 September every year (forest department notification).',
       'Buffer gates open year-round: Agarzari, Junona, Devada-Adegaon, Alizanza.',
       'Monsoon tiger sighting rate at buffer gates: 40-55% over a 3-safari trip.',
-      'Permit cost on buffer in monsoon: ~₹2,000 per jeep vs ~₹3,500 in peak season.',
+      'Official buffer safari fee: ₹6,000 weekday / ₹7,000 weekend per jeep, incl. guide and vehicle.',
       'Resort rates drop 30-50% across mid-tier and luxury tiers.',
     ],
     content: `**Tadoba in monsoon is a real experience, not a consolation prize.** The six core gates — Moharli, Kolara, Khutwanda, Navegaon, Pangdi, Zari — shut from 1 July to 30 September every year under forest-department notification. But the **buffer zone stays open**, and the forest in monsoon looks like nothing you'll see in the dry season.
@@ -1008,7 +1025,7 @@ Tadoba has four working buffer gates that operate year-round, monsoon included:
 | **Devada-Adegaon** | Buffer – East | Strong for leopard, sloth bear, and dhole. Less tiger-focused. |
 | **Alizanza** | Buffer – North | Bordering Kolara core. Grassland terrain, favoured by photographers and birders. |
 
-Permit booking still goes through **mahaonline.gov.in**, but monsoon-window slots almost never sell out — you can book a week ahead and get any gate, any time slot.
+Safari booking still goes through the official portal, **mytadoba.mahaforest.gov.in**, but monsoon-window slots almost never sell out — you can book a week ahead and get any gate, any time slot.
 
 ## What you actually see in monsoon
 
@@ -1026,7 +1043,7 @@ The forest itself is the headline. Teak comes back to leaf, the ground is green,
 
 Compared to peak season (April–June):
 
-- **Safari permit**: ~₹2,000 per jeep on buffer (vs ~₹3,500 on core during peak). Permit + gypsy + guide combined: ~₹4,500 per safari per jeep vs ₹7,000 in peak.
+- **Safari fee**: ₹6,000 (weekday) or ₹7,000 (weekend) per jeep on buffer, including entry, guide and vehicle — the same buffer rate as the rest of the year. Core safaris in season run ₹5,800–₹12,800 per jeep.
 - **Resort rates**: 30-50% lower across mid-tier and luxury tiers. A property charging ₹12,000 per night in May runs ₹6,000-7,500 in monsoon.
 - **Transfers**: Same as dry season — Nagpur to Tadoba is the same drive whether it's raining or not.
 
@@ -1047,7 +1064,7 @@ Be clear-eyed about this:
 - **Photographers** chasing green forest, mist, and dramatic light rather than tigers.
 - **Returning Tadoba visitors** who have already seen the core gates and want a quieter, varied experience.
 - **Birders** — monsoon is breeding season for resident species and pre-arrival window for migratory raptors.
-- **Travellers on a tighter budget** — same forest, half the price.
+- **Travellers on a tighter budget** — same forest, with resort rates 30-50% lower.
 - **Long-weekend visitors from Nagpur, Pune, Mumbai** who want to see Tadoba without competing for peak-season permits.
 
 ## Who monsoon is wrong for

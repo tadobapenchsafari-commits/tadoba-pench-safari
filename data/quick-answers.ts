@@ -88,7 +88,7 @@ export const destinationQuickAnswers: Record<string, QuickAnswer[]> = {
     { q: 'Tigers', a: '85+ tigers as of the last census. Among the highest tiger densities in central India.' },
     { q: 'Best months', a: 'April–June for peak sighting odds (80–95%). November–February for comfortable weather.' },
     { q: 'Sighting rate', a: 'Around 82% on a 4-safari trip during April–June at Moharli or Kolara gates.' },
-    { q: 'Closure', a: 'Core zones closed every Tuesday and from 1 July – 30 September (monsoon). Four buffer gates — Agarzari, Junona, Devada-Adegaon, Alizanza — stay open year-round at ~30% lower prices.' },
+    { q: 'Closure', a: 'Core zones closed every Tuesday and from 1 July – 30 September (monsoon). Four buffer gates — Agarzari, Junona, Devada-Adegaon, Alizanza — stay open through the monsoon and close on Wednesdays instead, when resort rates drop 30–50%.' },
   ],
   pench: [
     { q: 'Where', a: 'Seoni district, Madhya Pradesh. 95 km from Nagpur airport (NAG), a 2-hour drive.' },
