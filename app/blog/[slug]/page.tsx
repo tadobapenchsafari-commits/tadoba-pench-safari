@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Clock, ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blog';
+import { metaDescription } from '@/lib/utils';
 
 export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
@@ -14,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!p) return {};
   return {
     title: p.title,
-    description: p.excerpt,
+    description: metaDescription(p.excerpt),
     keywords: p.keywords,
     alternates: { canonical: `/blog/${p.slug}` },
     openGraph: {

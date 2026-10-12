@@ -1364,4 +1364,289 @@ Tadoba gives better single-safari tiger odds; Pench gives variety, quiet, and th
 
 Our [Pench Classic — 3 Nights](/packages/pench-classic-3n) covers Turia + Karmajhiri with four safaris, resort, meals, and Nagpur transfers at ₹69,000 per couple. [Send your dates](/contact) or [WhatsApp us](https://wa.me/918208090280) and we'll hold the permits.`,
   },
+  {
+    slug: 'tadoba-safari-in-winter-christmas-new-year',
+    title: 'Tadoba in Winter (Nov–Feb): Christmas & New Year Safari Guide 2026',
+    excerpt:
+      'Winter is Tadoba\'s most comfortable season and its most crowded fortnight. Official safari timings, what the cold actually feels like in an open jeep, sighting odds, and how to still get Christmas and New Year permits in 2026.',
+    heroImage: '/images/wildlife-tiger-grass-2.jpg',
+    publishedAt: '2026-10-12',
+    readingMinutes: 8,
+    keywords: [
+      'tadoba in winter',
+      'tadoba in december',
+      'tadoba christmas safari',
+      'tadoba new year 2027',
+      'tadoba safari timings winter',
+      'tadoba in january',
+      'tadoba safari booking december',
+    ],
+    tldr: 'From 1 November to 28 February, Tadoba core safaris run 6:30–10:30 AM and 2:00–6:00 PM. Expect tiger sighting odds around 55–70% over a four-safari trip, cold dawn drives, and the year\'s busiest fortnight from Christmas to New Year — dates that are already inside the non-refundable 60–120 day permit window.',
+    keyFacts: [
+      'Official core timings, 1 Nov – 28 Feb: 6:30–10:30 AM and 2:00–6:00 PM.',
+      'Core gates closed every Tuesday; buffer gates closed every Wednesday.',
+      'Permits for dates 60–120 days out cost ₹8,800 (Mon–Fri) or ₹12,800 (Sat–Sun) per jeep and cannot be cancelled.',
+      'Tatkal core permits open at 8:00 AM IST three days before the safari — also non-refundable.',
+      'Christmas–New Year resort rates typically run 40–60% above normal winter rates.',
+    ],
+    content: `**Winter is when most people picture a Tadoba trip** — crisp mornings, golden afternoons, comfortable days. It's also when the reserve is at its busiest. Here's what the season actually looks like, using the forest department's own timings and fees, and how to plan around the Christmas–New Year rush.
+
+## Official winter safari timings
+
+Tadoba's core zone reopens on 1 October after the monsoon closure. The official entry and exit times on the Tadoba–Andhari Tiger Reserve booking portal:
+
+| Season | Morning safari | Evening safari |
+|---|---|---|
+| 1 Oct – 31 Oct | 6:00 – 10:00 AM | 2:30 – 6:30 PM |
+| 1 Nov – 28/29 Feb | 6:30 – 10:30 AM | 2:00 – 6:00 PM |
+| 1 Mar – 30 Apr | 6:00 – 10:00 AM | 2:30 – 6:30 PM |
+
+The later winter start is a gift: you leave the resort around 6:00 instead of 5:00. The **last entry is allowed up to two hours after the scheduled time**, but a late entry simply means a shorter safari — be at the gate on time.
+
+**Closed days:** core gates shut every **Tuesday**, buffer gates every **Wednesday**. In December 2026 that means no core safaris on 1, 8, 15, 22 and 29 December.
+
+## How cold is it, really?
+
+Days are pleasant — mid-20s °C. Dawn is a different story. Night temperatures in December and January drop to around 10°C, and an open jeep moving at 20–30 km/h makes the first hour feel colder still.
+
+What works:
+
+- **Layers you can peel off by 9 AM** — thermal base, fleece, windproof outer.
+- **A beanie, gloves and a scarf or buff** for the morning drive. Most resorts lend blankets for the jeep; ask.
+- **Hand warmers** if you're photographing — cold fingers miss shots.
+
+The full list is in our [Tadoba packing checklist](/blog/what-to-pack-for-tadoba-safari-checklist).
+
+## What you'll see in winter
+
+Winter isn't the peak for tiger odds — that's April to June, when shrinking waterholes pull tigers into the open (see [best time to visit Tadoba](/blog/best-time-to-visit-tadoba-for-tiger-sightings)). With water everywhere after the monsoon, tigers range widely, and in November the grass is still tall.
+
+Realistic numbers:
+
+- **Tigers:** roughly **55–70%** chance of at least one sighting across a four-safari trip. Odds improve through January and February as the grass dries and thins.
+- **Light:** the soft, low-angle light that photographers wait for — mist in the morning, gold by 4:30 PM.
+- **Everything else:** leopards, sloth bears, gaur herds, wild dogs, and the arrival of winter migrant birds around Tadoba lake and the reserve's waterbodies.
+
+If the tiger is the single goal, go in summer. If you want a good chance of a tiger *and* a comfortable trip, winter is the sweet spot.
+
+## Christmas and New Year: the honest picture
+
+The fortnight from about 20 December to 3 January is Tadoba's busiest. Three things to know for 2026:
+
+**1. The permit window has already moved.** Core permits open **120 days ahead at 12:00 AM IST**. Christmas Day 2026 permits went on sale on 27 August; New Year's Day permits on 3 September. Popular gates — Moharli especially — sell out quickly for these dates.
+
+**2. Anything you book now for late December is non-refundable.** As of mid-October, every date from 11 December onward falls in the **60–120 day booking tier**. The official fees for that tier:
+
+| Booked | Mon – Fri | Sat – Sun |
+|---|---|---|
+| 1–59 days ahead | ₹5,800 per jeep | ₹6,800 per jeep |
+| 60–120 days ahead | ₹8,800 per jeep | ₹12,800 per jeep |
+
+Those fees include entry, guide and gypsy, for up to six guests; cameras cost ₹250 extra at the gate. Bookings made 60–120 days out **cannot be cancelled or refunded**. That's the forest department's rule, not ours, so lock your travel dates before you lock permits.
+
+**3. Tatkal is the fallback, not a plan.** A small quota of core permits opens at **8:00 AM IST three days before** each date. It's competitive and also non-refundable. Buffer gates (Agarzari, Junona, Devada-Adegaon, Alizanza) are the realistic backup — ₹6,000 weekday or ₹7,000 weekend per jeep, with tigers regularly seen.
+
+**Resorts** fill just as fast. Expect Christmas–New Year rates **40–60% above** a normal winter week, and minimum-stay rules at many lodges.
+
+**Worth noting for 2026:** both Christmas Day and New Year's Day fall on a Friday, so 26–27 December and 2–3 January carry weekend permit rates.
+
+## Our advice for a winter trip
+
+- **First half of December or mid-January onwards** gives you the winter weather without the holiday premium.
+- **Do three nights, four safaris.** Split them across two gates — typically Moharli and Kolara — so one quiet morning doesn't define the trip. Our [Moharli vs Kolara comparison](/blog/moharli-vs-kolara-gate-tadoba-honest-comparison) explains why.
+- **Add Pench if you have five nights.** It's at its most beautiful in winter, especially for birders — see the [Tadoba + Pench Combo](/packages/tadoba-pench-combo-5n).
+
+## The easy version
+
+Our three-night Tadoba packages include permits, jeeps, naturalist, resort, all meals and Nagpur transfers: [Budget](/packages/tadoba-budget-3n) from ₹74,000, [Mid](/packages/tadoba-mid-3n) from ₹94,000 and [Luxury](/packages/tadoba-luxury-3n) from ₹1,20,000, per couple. Holiday-week dates are priced on request because of the permit and resort premiums.
+
+[Send us your dates](/contact) or [WhatsApp us](https://wa.me/918208090280) — for December, the sooner the better.`,
+  },
+  {
+    slug: 'tadoba-safari-for-foreigners',
+    title: 'Tadoba Safari for Foreigners: Permits, Fees, Passport Rules (2026)',
+    excerpt:
+      'Planning a Tadoba tiger safari from abroad? What foreign nationals actually pay (regular safaris cost the same as for Indians), the passport-only ID rule, when booking opens in your time zone, and how to get to Tadoba from an international flight.',
+    heroImage: '/images/gate-tiger-closeup.jpg',
+    publishedAt: '2026-10-12',
+    readingMinutes: 7,
+    keywords: [
+      'tadoba safari for foreigners',
+      'tadoba safari foreign national fee',
+      'tadoba safari foreigner price',
+      'tiger safari india for foreigners',
+      'tadoba passport',
+      'how to visit tadoba from abroad',
+    ],
+    tldr: 'Foreign nationals pay the same as Indians for a regular Tadoba jeep safari — ₹5,800 to ₹12,800 per jeep depending on the day and how far ahead you book. Only the full-day safaris cost more (₹70,000 vs ₹50,000 per jeep). Your original passport is the only ID accepted at the gate.',
+    keyFacts: [
+      'Regular core safari: ₹5,800–₹12,800 per jeep (up to six guests), same price for all nationalities.',
+      'Full-day core or buffer safari: ₹70,000 for foreign tourists vs ₹50,000 for Indian tourists.',
+      'Foreigners must show an original passport at the gate — photocopies and other IDs are refused.',
+      'Permits open 120 days ahead at 12:00 AM IST (18:30 UTC the previous evening).',
+      'Nearest airport: Nagpur (NAG), about 140 km / 3 hours from Moharli gate.',
+    ],
+    content: `**Tadoba is one of the best places in the world to see a wild tiger** — and one of the least known outside India. If you're planning from abroad, the rules are simpler than most operators make them sound. Here is what the official Tadoba–Andhari Tiger Reserve portal actually says, with the practical bits it doesn't.
+
+## Do foreigners pay more?
+
+**For a regular jeep safari, no.** Tadoba charges per jeep, not per person, and the price is the same whatever passport you hold. What changes the price is the day of the week and how far ahead you book:
+
+| Booked | Mon – Fri | Sat – Sun |
+|---|---|---|
+| 1–59 days ahead | ₹5,800 per jeep | ₹6,800 per jeep |
+| 60–120 days ahead | ₹8,800 per jeep | ₹12,800 per jeep |
+
+That covers entry, the mandatory forest guide and the gypsy (open safari jeep), for up to six guests. A camera fee of ₹250 is paid at the gate. Split between two people, a weekday core safari works out at roughly ₹2,900–4,400 each — roughly US$33–52.
+
+**Buffer-zone safaris** cost ₹6,000 (weekday) or ₹7,000 (weekend) per jeep, again the same for everyone.
+
+**Where foreigners do pay more is the full-day safari.** Tadoba sells a limited number of full-day permits (core, for photography and videography; and buffer) at **₹70,000 per jeep for foreign tourists versus ₹50,000 for Indian tourists**. Full-day core permits allow a maximum of four guests, and they are **non-refundable**. Most visitors don't need one; serious photographers sometimes do.
+
+## The passport rule — read this twice
+
+The reserve's rule, word for word: **"For foreigners, only a passport is accepted as ID proof."** In practice:
+
+- Bring your **original passport** on every safari. Photocopies, phone photos and driving licences are refused, and you will not be let in.
+- The **name on the permit must match your passport** exactly. If someone books for you, send them your name as printed on the passport.
+- Full-day permits are strict: only the names on the online ticket may ride.
+
+## When does booking open — in your time zone?
+
+Permits open **120 days before the safari date at 12:00 AM India Standard Time (UTC+5:30)**. That's the previous evening for most visitors:
+
+| Your location | Booking opens |
+|---|---|
+| London (GMT) | 6:30 PM the day before |
+| Central Europe (CET) | 7:30 PM the day before |
+| New York (EST) | 1:30 PM the day before |
+| Dubai (GST) | 10:30 PM the day before |
+| Singapore (SGT) | 2:30 AM, same date |
+
+These are winter clock times; add an hour if your country is on summer time. For April–June and holiday weeks, popular gates sell out fast. The booking site's payments and refunds run on Indian rails — the refund schedule lists UPI and wallets — which is why most overseas travellers have a local operator book the permits.
+
+## Cancellations
+
+Plan around this before you book permits:
+
+- Permits booked **60–120 days ahead cannot be cancelled** — no refund.
+- Permits booked under 60 days ahead can be cancelled more than 15 days before the safari, with 50% deducted.
+- Tatkal (last-minute) and full-day permits are non-refundable.
+
+If your international flights might move, book permits once flights are confirmed.
+
+## Getting to Tadoba from abroad
+
+**Fly into Nagpur (NAG).** It's the gateway for both Tadoba and Pench, with frequent domestic flights from Delhi, Mumbai, Bengaluru, Hyderabad and Chennai. Most international travellers connect through Delhi or Mumbai the same day.
+
+From Nagpur it's about **140 km to Moharli gate — roughly 3 hours by road**. Our [Nagpur to Tadoba guide](/blog/tadoba-safari-from-nagpur-complete-guide) has the routes and drive times.
+
+You'll also need a **valid Indian visa** — most nationalities can apply for an e-Visa through the Government of India's official portal. Use only the official site, not agents.
+
+## Practical tips for international visitors
+
+- **Season:** October to June. Core zones close 1 July – 30 September. For the best tiger odds, April to early June; for comfortable weather, November to February. See [best time to visit Tadoba](/blog/best-time-to-visit-tadoba-for-tiger-sightings).
+- **Closed days:** core gates every Tuesday, buffer gates every Wednesday — don't schedule a safari day on them.
+- **Clothing:** muted earth tones, layers for cold winter dawns, closed shoes. Our [packing checklist](/blog/what-to-pack-for-tadoba-safari-checklist) covers it.
+- **Cash:** carry some rupees for tips and small purchases near the gates; card acceptance outside resorts is patchy.
+- **Rules in the jeep:** stay seated, no feeding or calling to animals, no plastic. Disturbing wildlife is a fineable offence (₹5,000).
+- **Combine with Pench:** two different forests in one trip, linked by a direct road — see [Tadoba to Pench](/blog/tadoba-to-pench-distance-routes).
+
+## Want us to handle it?
+
+We book permits by passport name, meet you at Nagpur airport and run every safari with an English-speaking naturalist. Our three-night Tadoba packages run from ₹74,000 to ₹1,20,000 per couple all-inclusive, and the [Tadoba + Pench Combo](/packages/tadoba-pench-combo-5n) covers both reserves in five nights.
+
+[Tell us your dates](/contact) or [message us on WhatsApp](https://wa.me/918208090280) — we reply within 24 hours, whatever your time zone.`,
+  },
+  {
+    slug: 'tadoba-safari-with-kids',
+    title: 'Tadoba Safari with Kids: Age Rules, Timings & Family Tips (2026)',
+    excerpt:
+      'Children under 8 ride free on a Tadoba safari — up to two per jeep. The official age rules, how early you really need to get up, how to keep kids happy for four hours in an open jeep, and which trip suits which age.',
+    heroImage: '/images/pkg-pench-family.jpg',
+    publishedAt: '2026-10-12',
+    readingMinutes: 7,
+    keywords: [
+      'tadoba safari with kids',
+      'tadoba safari child age',
+      'tadoba family safari',
+      'tadoba safari children free',
+      'tadoba family package',
+      'tiger safari with kids india',
+    ],
+    tldr: 'Children under 8 can ride a Tadoba safari free, without being named on the booking — up to two per jeep. Older children take a regular seat; Tadoba charges per jeep, not per person, so a family of four fits in one permit. Each safari lasts about four hours and morning drives start at 5:30–6:30 AM depending on the season.',
+    keyFacts: [
+      'Under 8: free, not named on the booking, maximum two per jeep (official TATR rule).',
+      'Ages 8 and up: count as a regular guest within the jeep\'s six seats.',
+      'Fees are per jeep: ₹5,800–₹12,800 for a core safari, regardless of family size.',
+      'Morning entry: 6:30 AM (Nov–Feb), 6:00 AM (Oct, Mar–Apr), 5:30 AM (May–Jun).',
+      'Disturbing wildlife — including loud noise — is a ₹5,000 fineable offence.',
+    ],
+    content: `**A tiger safari is one of the best family trips in India** — and kids often spot animals before the adults do. But four hours in an open jeep, starting before sunrise, needs a little planning. Here are the official rules from the Tadoba–Andhari Tiger Reserve, and what we've learned taking families into the forest.
+
+## Can children go on a Tadoba safari?
+
+Yes, at any age. The reserve's rule:
+
+The reserve's rule, word for word: **"Children below the age of 8 years shall be allowed entry free of charge without mention in the booking. Maximum 2 children below 8 years allowed in a single gypsy."** So:
+
+- **Under 8:** free, and they don't need to be on the permit. Up to **two per jeep**.
+- **8 and older:** a normal guest, named on the booking, using one of the jeep's six seats.
+- **ID:** adults must show original photo ID; carry a copy of your child's birth certificate or passport anyway, in case age is questioned at the gate.
+
+Because **Tadoba charges per jeep, not per person**, a family of four costs the same as a couple for the safari itself:
+
+| Booked | Mon – Fri | Sat – Sun |
+|---|---|---|
+| 1–59 days ahead | ₹5,800 per jeep | ₹6,800 per jeep |
+| 60–120 days ahead | ₹8,800 per jeep | ₹12,800 per jeep |
+
+Those fees include entry, guide and gypsy. Cameras are ₹250 extra at the gate.
+
+## How early do you need to get up?
+
+Official morning entry times:
+
+| Season | Morning | Evening |
+|---|---|---|
+| October | 6:00 – 10:00 AM | 2:30 – 6:30 PM |
+| November – February | 6:30 – 10:30 AM | 2:00 – 6:00 PM |
+| March – April | 6:00 – 10:00 AM | 2:30 – 6:30 PM |
+| May – June | 5:30 – 9:30 AM | 3:00 – 7:00 PM |
+
+Add 20–30 minutes to reach the gate from your resort. With young children, **November to February is the easiest season** — the latest morning start, and no midday heat.
+
+**Tip:** you don't have to do every safari. For kids under 6, we often suggest the evening safaris plus one morning drive — after a proper night's sleep, they enjoy it far more.
+
+## Keeping kids happy in the jeep
+
+Four hours is long for anyone. What works:
+
+- **Give them a job.** A pair of children's binoculars and a printed spotting list (tiger, leopard, sloth bear, gaur, peacock, kingfisher, langur) turns waiting into a game.
+- **Snacks and water in a cloth bag.** No plastic is allowed inside the reserve; carry everything back out.
+- **Layers.** Winter mornings are cold in an open jeep; summer afternoons are hot. A cap and sunscreen year-round.
+- **Whisper rules, explained in advance.** Loud noise and disturbing animals are fineable offences — **₹5,000** under the reserve's rules — and, more practically, noise sends the tiger back into the bamboo. Kids who understand *why* are usually brilliant at being quiet.
+- **Toilet stop before entry.** Once inside, you stay in the jeep except at designated stops.
+- **Ask for a family-friendly naturalist.** Ours adjust the pace on family safaris — shorter circuits, more stops for the small stuff kids love (spiders, owlets, dung beetles).
+
+## Which trip suits which age?
+
+- **Under 5:** keep it short. Two nights, two or three safaris, and a resort with a pool. Pench is quieter and closer to Nagpur — 95 km — which helps; see [Tadoba vs Pench](/blog/tadoba-vs-pench-which-safari-is-right-for-you).
+- **6–11:** the sweet spot. Three nights, four safaris, with a lazy afternoon in the middle. They'll remember it for life.
+- **12+:** treat them like adults. Let them carry a camera; consider the summer months for the best tiger odds.
+
+Between safaris there's plenty to fill the afternoon — see [things to do in Tadoba beyond the jeep safari](/blog/things-to-do-in-tadoba-beyond-safari).
+
+## Where to stay with a family
+
+Look for interconnecting rooms or family cottages, a pool, and a kitchen that will make plain food on request. Most importantly, stay close to your safari gate, so the dawn drive is 10 minutes, not 40.
+
+## Our family-friendly options
+
+- **[Tadoba Mid — 3 Nights](/packages/tadoba-mid-3n)** from ₹94,000 per couple: a luxury resort and a private **7-seater** for the whole trip, so there's room for kids, car seats and bags.
+- **[Pench Classic — 3 Nights](/packages/pench-classic-3n)** from ₹69,000 per couple: shorter drive from Nagpur, calmer jeep traffic, superb birdlife.
+- **Children's pricing** depends on age and room set-up, so we quote families individually.
+
+[Tell us your children's ages and dates](/contact) or [WhatsApp us](https://wa.me/918208090280) — we'll suggest the right gate, resort and safari rhythm for your family.`,
+  },
 ];

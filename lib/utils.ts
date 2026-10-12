@@ -15,7 +15,7 @@ export function metaDescription(text: string, max = 155): string {
     out += s;
   }
   out = out.trim();
-  if (out.length >= 60) return out;
+  if (out.length >= 120) return out;
   const cut = text.slice(0, max - 1);
   return cut.slice(0, cut.lastIndexOf(' ')) + '…';
 }

@@ -101,7 +101,7 @@ const faqJsonLd = {
       name: 'How much does a Tadoba safari cost?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: `A core-zone safari permit is roughly ₹2,500–3,500 per jeep (up to 6 guests), plus guide fees. Our all-inclusive 3-night packages (resort, meals, four safaris, permits, Nagpur transfers) run from ${formatINR(minPackagePrice)} to ${formatINR(maxPackagePrice)} per couple.`,
+        text: `Official core-zone safari fees are ₹5,800–₹12,800 per jeep (up to 6 guests, entry + guide + gypsy), depending on weekday vs weekend and how far ahead you book. Our all-inclusive 3-night packages (resort, meals, four safaris, permits, Nagpur transfers) run from ${formatINR(minPackagePrice)} to ${formatINR(maxPackagePrice)} per couple.`,
       },
     },
     {
