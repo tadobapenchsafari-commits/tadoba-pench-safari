@@ -22,7 +22,7 @@ const organizationJsonLd: Record<string, unknown> = {
   '@type': 'TravelAgency',
   name: 'Tadoba Pench Safari',
   url: 'https://www.tadobapenchsafari.com',
-  logo: 'https://www.tadobapenchsafari.com/logo.png',
+  logo: 'https://www.tadobapenchsafari.com/logo-badge-600.jpg',
   image: 'https://www.tadobapenchsafari.com/images/hero-tiger-tadoba.jpg',
   telephone: '+91-82080-90280',
   email: 'info@tadobapenchsafari.com',

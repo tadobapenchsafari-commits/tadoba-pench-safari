@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mail, Phone, MapPin, Instagram, Facebook, Youtube } from 'lucide-react';
 import { TrackedLink } from './tracked-link';
 import { originCities } from '@/data/origin-cities';
@@ -29,9 +30,7 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-sunrise flex items-center justify-center">
-                <span className="font-display text-bark text-xl">T</span>
-              </div>
+              <Image src="/logo-badge.png" alt="" width={56} height={56} className="w-14 h-14" />
               <div className="font-display text-lg text-bone">Tadoba Pench</div>
             </div>
             <p className="text-sm leading-relaxed">

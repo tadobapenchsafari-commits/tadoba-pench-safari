@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { track } from '@/lib/analytics';
@@ -22,9 +23,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-canopy flex items-center justify-center">
-              <span className="font-display text-bone text-xl">T</span>
-            </div>
+            <Image src="/logo-badge.png" alt="Tadoba Pench Safari" width={48} height={48} priority className="w-12 h-12" />
             <div className="hidden sm:block leading-tight">
               <div className="font-display text-lg text-bark">Tadoba Pench</div>
               <div className="text-[10px] tracking-[0.25em] text-bamboo uppercase">
