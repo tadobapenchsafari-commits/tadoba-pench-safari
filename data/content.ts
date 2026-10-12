@@ -384,6 +384,11 @@ export const properties: Property[] = [
   },
 ];
 
+// Bump whenever package / destination / gate copy changes. Feeds sitemap
+// lastModified and the dateModified fields in Product / TouristAttraction
+// schema so they say something true instead of "now".
+export const CONTENT_UPDATED = '2026-10-12';
+
 export const packages: Package[] = [
   {
     slug: 'tadoba-budget-3n',

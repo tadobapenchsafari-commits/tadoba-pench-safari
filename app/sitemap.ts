@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { destinations, packages } from '@/data/content';
+import { destinations, packages, CONTENT_UPDATED } from '@/data/content';
 import { blogPosts } from '@/data/blog';
 import { gateDetails } from '@/data/gates-content';
 import { originCities } from '@/data/origin-cities';
@@ -8,7 +8,9 @@ import { aggregateRating } from '@/data/testimonials';
 const BASE_URL = 'https://www.tadobapenchsafari.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // Real content date (bumped in data/content.ts), not build time — a
+  // lastModified that changes every deploy is one Google learns to ignore.
+  const now = new Date(CONTENT_UPDATED);
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${BASE_URL}/`, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },

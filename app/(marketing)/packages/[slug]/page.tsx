@@ -2,8 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Check } from 'lucide-react';
-import { packages } from '@/data/content';
-import { formatINR } from '@/lib/utils';
+import { packages, CONTENT_UPDATED } from '@/data/content';
+import { formatINR, metaDescription } from '@/lib/utils';
 import { TrackedLink } from '@/components/marketing/tracked-link';
 import { PlanMySafariForm } from '@/components/marketing/plan-safari-form';
 import { TestimonialsSection } from '@/components/marketing/testimonials-section';
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!p) return {};
   return {
     title: p.name,
-    description: p.shortDescription,
+    description: metaDescription(p.shortDescription),
     alternates: { canonical: `/packages/${p.slug}` },
     openGraph: {
       title: p.name,
@@ -93,7 +93,7 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
     image: [imageUrl],
     brand: { '@type': 'Brand', name: 'Tadoba Pench Safari' },
     category: 'Wildlife Safari Tour Package',
-    dateModified: '2026-06-18',
+    dateModified: CONTENT_UPDATED,
     offers: {
       '@type': 'Offer',
       url: pageUrl,

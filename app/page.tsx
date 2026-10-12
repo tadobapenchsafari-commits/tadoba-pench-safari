@@ -11,6 +11,12 @@ import { testimonials, aggregateRating } from '@/data/testimonials';
 
 const homeAggregateRating = aggregateRating();
 
+// Prices quoted anywhere on this page derive from data/content.ts so the
+// FAQ schema, priceRange, and visible copy can never disagree.
+const packagePrices = packages.map((p) => p.priceFromINR);
+const minPackagePrice = Math.min(...packagePrices);
+const maxPackagePrice = Math.max(...packagePrices);
+
 const organizationJsonLd: Record<string, unknown> = {
   '@context': 'https://schema.org',
   '@type': 'TravelAgency',
@@ -22,7 +28,7 @@ const organizationJsonLd: Record<string, unknown> = {
   email: 'info@tadobapenchsafari.com',
   description:
     'Premium tiger safari experiences in Tadoba and Pench with curated resorts, expert naturalists, and end-to-end trip planning.',
-  priceRange: '₹19,500–₹1,10,000',
+  priceRange: `${formatINR(minPackagePrice)}–${formatINR(maxPackagePrice)}`,
   foundingDate: '2018',
   address: {
     '@type': 'PostalAddress',
@@ -95,7 +101,7 @@ const faqJsonLd = {
       name: 'How much does a Tadoba safari cost?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A core-zone safari permit is roughly ₹2,500–3,500 per jeep (up to 6 guests), plus guide fees. Full packages including resort stay, safaris, meals, and transfers typically start from ₹15,000 per person for 2 nights.',
+        text: `A core-zone safari permit is roughly ₹2,500–3,500 per jeep (up to 6 guests), plus guide fees. Our all-inclusive 3-night packages (resort, meals, four safaris, permits, Nagpur transfers) run from ${formatINR(minPackagePrice)} to ${formatINR(maxPackagePrice)} per couple.`,
       },
     },
     {

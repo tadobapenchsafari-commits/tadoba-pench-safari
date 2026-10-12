@@ -97,6 +97,10 @@ const nextConfig = {
       { source: '/packages/pench-weekend-2n',           destination: '/packages/pench-classic-3n', permanent: true },
       { source: '/packages/pench-birding-wildlife-4n',  destination: '/packages/pench-classic-3n', permanent: true },
       { source: '/packages/pench-family-adventure-3n',  destination: '/packages/pench-classic-3n', permanent: true },
+      // /properties/* was removed in 2026 but is still indexed and still gets
+      // visits (GA4 shows 404 hits). Send listing → packages, detail → Tadoba.
+      { source: '/properties',                          destination: '/packages',                  permanent: true },
+      { source: '/properties/:slug',                    destination: '/destinations/tadoba',       permanent: true },
     ];
   },
 };

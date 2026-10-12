@@ -575,7 +575,7 @@ Booking permits yourself via **mahaonline.gov.in** saves the operator fee (usual
 
 ## Ready to plan?
 
-We build custom packages at every budget — from a ₹15,000-per-person 1-night trip to bespoke photography expeditions. [Tell us your dates on the contact page](/contact) or check our [packages](/packages) for starting quotes.
+We build custom packages at every budget — from our ₹69,000-per-couple 3-night Pench Classic to bespoke photography expeditions. [Tell us your dates on the contact page](/contact) or check our [packages](/packages) for starting quotes.
 
 Pricing on all our packages is transparent: permit, gypsy, guide, resort, transfers, meals — itemised on the invoice. No surprises.`,
   },

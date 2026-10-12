@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowRight, MapPin } from 'lucide-react';
-import { destinations, packages, gates } from '@/data/content';
+import { destinations, packages, gates, CONTENT_UPDATED } from '@/data/content';
 import { PlanMySafariForm } from '@/components/marketing/plan-safari-form';
 import { formatINR } from '@/lib/utils';
 import { destinationFaqs } from '@/data/faqs';
@@ -60,7 +60,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
     description: d.description,
     image: imageUrl,
     url: pageUrl,
-    dateModified: '2026-06-18',
+    dateModified: CONTENT_UPDATED,
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'IN',
