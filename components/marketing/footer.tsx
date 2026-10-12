@@ -46,6 +46,7 @@ export function Footer() {
               <li><Link href="/destinations/pench" className="hover:text-sunrise">Pench</Link></li>
               <li><Link href="/gates" className="hover:text-sunrise">All gates</Link></li>
               <li><Link href="/packages" className="hover:text-sunrise">Packages</Link></li>
+              <li><Link href="/stays/tadoba-aranya-villa" className="hover:text-sunrise">Stay: Tadoba Aranya Villa</Link></li>
               <li><Link href="/blog" className="hover:text-sunrise">Journal</Link></li>
               {aggregateRating() && (
                 <li><Link href="/testimonials" className="hover:text-sunrise">Reviews</Link></li>

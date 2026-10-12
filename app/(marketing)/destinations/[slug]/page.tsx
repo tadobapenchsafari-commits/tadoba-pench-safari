@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { destinations, packages, gates, CONTENT_UPDATED } from '@/data/content';
 import { PlanMySafariForm } from '@/components/marketing/plan-safari-form';
+import { PartnerStayCard } from '@/components/marketing/partner-stay-card';
 import { formatINR } from '@/lib/utils';
 import { destinationFaqs } from '@/data/faqs';
 import { QuickAnswers } from '@/components/marketing/quick-answers';
@@ -292,6 +293,8 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
           </div>
         </section>
       )}
+
+      {isTadoba && <PartnerStayCard />}
 
       <PlanMySafariForm context={`a ${d.name} safari`} />
     </>

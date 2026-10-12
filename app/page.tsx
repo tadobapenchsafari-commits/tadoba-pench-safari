@@ -6,6 +6,7 @@ import { formatINR } from '@/lib/utils';
 import { TrackedLink } from '@/components/marketing/tracked-link';
 import { TestimonialsSection } from '@/components/marketing/testimonials-section';
 import { QuickAnswers } from '@/components/marketing/quick-answers';
+import { PartnerStayCard } from '@/components/marketing/partner-stay-card';
 import { homeQuickAnswers } from '@/data/quick-answers';
 import { testimonials, aggregateRating } from '@/data/testimonials';
 
@@ -294,6 +295,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* PARTNER STAY */}
+      <PartnerStayCard />
 
       {/* WHY US */}
       <section className="bg-canopy text-bone py-24">
