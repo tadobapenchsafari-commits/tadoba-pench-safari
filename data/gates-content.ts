@@ -95,6 +95,10 @@ export const gateDetails: Record<string, GateDetail> = {
         a: 'Tiger Villa, Svasara Jungle Lodge, Tadoba Tiger Resort, and many mid-tier lodges are within 500m–5km of Moharli gate.',
       },
       {
+        q: 'Can tourists book the cruiser safari at Moharli?',
+        a: 'No. The 9-seater cruiser at Moharli and Kolara (₹700 a seat, booked a week ahead) is only for residents of Chandrapur district. Visitors book a gypsy (up to 6 guests) on the official portal.',
+      },
+      {
         q: 'Can I book Moharli permits online?',
         a: 'Yes, via the Maharashtra Forest Department official portal mytadoba.mahaforest.gov.in. Normal bookings open 120 days before the safari date at 12:00 AM IST, and a Tatkal quota opens at 8:00 AM IST three days before. Peak-season weekend slots go quickly.',
       },

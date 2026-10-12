@@ -88,7 +88,7 @@ export const packageFaqs: Record<string, FAQ[]> = {
     },
     {
       q: 'Should I choose Pench or Tadoba for my first tiger safari?',
-      a: 'Tadoba has a higher tiger density and better single-sighting odds. Pench offers more wildlife variety — leopards, wild dogs, sloth bears, and over 325 bird species — with noticeably quieter jeep traffic and the Jungle Book setting. If a tiger photo is the one goal, pick Tadoba. If you want a calmer, more varied forest experience, pick Pench. For a 4–5 day trip, combining both works best.',
+      a: 'Tadoba has a higher tiger density and better single-sighting odds. Pench offers more wildlife variety — leopards, wild dogs, sloth bears, and over 300 bird species — with noticeably quieter jeep traffic and the Jungle Book setting. If a tiger photo is the one goal, pick Tadoba. If you want a calmer, more varied forest experience, pick Pench. For a 4–5 day trip, combining both works best.',
     },
     {
       q: 'Which Pench gates does the Classic package visit?',
@@ -119,7 +119,7 @@ export const packageFaqs: Record<string, FAQ[]> = {
     },
     {
       q: 'Why do the combo and not just one park?',
-      a: 'Because they are genuinely different forests: Tadoba is dry teak-bamboo with the best single-safari tiger odds in India; Pench is riverine Jungle Book country with wild dogs, leopards, and 325+ bird species and far quieter jeeps. Six safaris across both gives you near-certain tiger sightings plus real variety — see our full Tadoba vs Pench comparison on the journal.',
+      a: 'Because they are genuinely different forests: Tadoba is dry teak-bamboo with the best single-safari tiger odds in India; Pench is riverine Jungle Book country with wild dogs, leopards, and 300+ bird species and far quieter jeeps. Six safaris across both gives you near-certain tiger sightings plus real variety — see our full Tadoba vs Pench comparison on the journal.',
     },
     {
       q: 'Can the combo be customised — different split, more nights, better resorts?',

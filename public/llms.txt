@@ -51,9 +51,13 @@ Each gate has a dedicated page at /gates/<slug> with permits, timings, sighting 
 - Transport per day (round-trip from Nagpur): sedan ₹3,800, 7-seater ₹4,500, luxury SUV ₹5,500.
 - Stay per night (double occupancy, all meals): mid-tier ₹7,000, luxury ₹12,000, ultra-luxury ₹18,000.
 - Tadoba core zone closure: 1 July to 30 September (monsoon).
+- Tadoba official activities (buffer): Erai backwater boating Rs 2,000/hour; birding machans Rs 1,500 for two; guided cycling and nature trails Rs 2,000 for 1-5 people; kayaking, camping, Agarzari adventure park and Butterfly World. Night safaris are not offered.
+- 9-seater cruiser (Moharli, Kolara, Rs 700/seat) is for Chandrapur district residents only.
+- Phones/gadgets used in a way that disturbs the forest: Rs 5,000 fine.
+- 2026 waterhole census (Buddha Purnima): 42 tigers, 5,765 wildlife sightings (one-night count, not a population total).
 - Tadoba weekly closure: core gates every Tuesday, buffer gates every Wednesday.
 - Tadoba safari timings: Nov-Feb 6:30-10:30 AM and 2:00-6:00 PM; Oct and Mar-Apr 6:00-10:00 AM and 2:30-6:30 PM; May-Jun 5:30-9:30 AM and 3:00-7:00 PM.
-- Booking: official portal mytadoba.mahaforest.gov.in. Normal bookings open 12:00 AM IST, 120 days ahead; Tatkal (core gates) opens 8:00 AM IST three days ahead. Bookings made 60-120 days ahead are non-refundable. ID: foreigners passport only; Indians passport, voter ID, PAN, driving licence (originals).
+- Booking: official portal mytadoba.mahaforest.gov.in. Normal bookings open 12:00 AM IST, 120 days ahead; Tatkal (core gates) opens 8:00 AM IST three days ahead. Bookings made 60-120 days ahead are non-refundable. ID (originals): foreigners passport only; Indians Aadhaar, passport, voter ID, PAN, driving licence, student ID, government/PSU photo ID or bank passbook with photo.
 
 ## Sample tiger sighting rates (4-safari trip)
 

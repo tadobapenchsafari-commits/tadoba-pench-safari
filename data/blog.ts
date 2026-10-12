@@ -149,7 +149,7 @@ But honestly — most guests skip Nagpur and maximise park time. Fly in, safari,
 
 - **Book airport cab in advance** — cab availability at Nagpur airport after 9 PM is thin
 - **ATM at airport** — withdraw ₹10,000–15,000 for tips, bottled water, entry fees. Cards work at most resorts but not at gates
-- **Your ID must be the same** as on the safari permit — carry the original passport, voter ID, PAN card or driving licence you booked with (foreign nationals: passport only)
+- **Your ID must be the same** as on the safari permit — carry the original Aadhaar, passport, voter ID, PAN card or driving licence you booked with (foreign nationals: passport only)
 - **Layers** — Nagpur can be 32°C at airport and forest can be 10°C at 6 AM morning safari. Pack a light jacket
 - **Phone signal** — Jio and Airtel both work inside the park. Keep phone on silent during safaris
 
@@ -189,7 +189,7 @@ We handle the whole Nagpur-to-Nagpur trip: flight recommendations, airport picku
 
 These four things ruin your trip if missed:
 
-1. **Original government photo ID** — passport, voter ID, PAN card or driving licence (foreign nationals: passport only). Photocopies are refused, and the name must match the permit exactly. No ID = no safari, no refund.
+1. **Original government photo ID** — Aadhaar, passport, voter ID, PAN card or driving licence (foreign nationals: passport only). Photocopies are refused, and the name must match the permit exactly. No ID = no safari, no refund.
 2. **Printed permit** (or screenshot on phone) — you get this from your operator 24 hrs before entry.
 3. **Cash in small notes** — ₹100, ₹200, ₹500. For tips, bottled water at the gate, camera fees, and the odd meal outside the resort.
 4. **Any medication you take regularly** — pharmacies near Tadoba are limited. Bring 1.5× what you need.
@@ -751,6 +751,7 @@ The official portal is **mytadoba.mahaforest.gov.in** (Tadoba–Andhari Tiger Re
 - **Tatkal** (core gates only) opens at **8:00 AM IST, three days before** — for example, 1 October opens at 8 AM on 28 September.
 - One booking = **one gypsy = up to 6 guests**. Children under 8 ride free without being named, maximum two per gypsy.
 - Book one tab at a time: the portal's cart handles a single booking per browser, and parallel attempts fail.
+- The **9-seater cruiser** at Moharli and Kolara (₹700 a seat) is only for residents of Chandrapur district. Visitors book a gypsy.
 
 **Official fees per jeep** (entry + guide + gypsy):
 
@@ -780,10 +781,10 @@ Gate-wise matches:
 
 ## Step 5: Show up prepared
 
-- **Original photo ID** for every guest named on the booking. Indian citizens: passport, voter ID, PAN card, driving licence, PSU photo ID, or a nationalised-bank passbook with attested photo. **Foreign nationals: passport only.** Photocopies are refused.
+- **Original photo ID** for every guest named on the booking. Indian citizens: passport, voter ID, PAN card, driving licence, Aadhaar, student ID, government or PSU photo ID, or a nationalised-bank passbook with attested photo. **Foreign nationals: passport only.** Photocopies are refused.
 - **Reach the gate 30 minutes before entry.** Official entry times: 6:30 AM and 2:00 PM (Nov–Feb), 6:00 AM and 2:30 PM (Oct, Mar–Apr), 5:30 AM and 3:00 PM (May–Jun).
 - Dress in muted colours. No bright whites, reds, or blues — they spook animals.
-- No plastic inside the reserve, and noise or disturbing wildlife is a fineable offence (₹5,000).
+- No plastic inside the reserve. Noise, or using a phone or other gadget in a way that disturbs the forest or other visitors, is a ₹5,000 fine.
 
 ## The easier alternative
 
@@ -1245,7 +1246,8 @@ When core-zone tourism was capped after 2012's nationwide court orders, Tadoba's
 
 - **The lake is the heart.** Tadoba lake — Taru's lake — anchors the richest tiger territories in the park. Routes around it from [Moharli gate](/gates/moharli) sit at the centre of a hundred years of protection.
 - **Teak and bamboo are the stage.** The same timber the Gonds and British valued now gives Tadoba its dry-season visibility — sparse understorey, long sightlines, reliable sightings. See [when to visit](/blog/best-time-to-visit-tadoba-for-tiger-sightings) to use that to your advantage.
-- **The buffer is the future.** Most new tiger territories, night safaris, and value stays are in the buffer — the newest chapter of the story above.
+- **The buffer is the future.** Most new tiger territories, the forest department's new activities (boating, kayaking, cycling, camping), and value stays are in the buffer — the newest chapter of the story above.
+- **The 2026 count.** On Buddha Purnima night in 2026, the reserve's waterhole (machan) census recorded 42 tigers among 5,765 wildlife sightings. It's a one-night count at waterholes, so the real population is higher — but it shows a healthy prey base across core and buffer.
 
 Walk it with people who grew up beside it — [our packages](/packages) are led by naturalists from these villages. [Tell us your dates](/contact) and we'll plan your trip.`,
   },
@@ -1253,20 +1255,22 @@ Walk it with people who grew up beside it — [our packages](/packages) are led 
     slug: 'things-to-do-in-tadoba-beyond-safari',
     title: 'Things to Do in Tadoba Beyond the Jeep Safari',
     excerpt:
-      'The jeep safari is the headline act, but Tadoba rewards the hours between drives: buffer-zone night safaris, birding on the Irai backwaters, the Agarzari butterfly garden, Gond-era Chandrapur, and village visits.',
+      'The jeep safari is the headline act, but Tadoba rewards the hours between drives: the forest department\'s own boating, kayaking, cycling, nature trails and birding machans, the Agarzari butterfly garden, Gond-era Chandrapur, and village visits.',
     heroImage: '/images/gate-bird-insect.jpg',
     publishedAt: '2026-07-24',
     readingMinutes: 6,
     keywords: [
       'things to do in tadoba',
       'tadoba activities',
-      'tadoba night safari',
+      'tadoba boating erai',
+      'tadoba cycling nature trail',
       'tadoba butterfly park agarzari',
       'places to visit near tadoba',
     ],
-    tldr: 'Between morning and evening safaris, Tadoba offers buffer-zone night drives (Junona and Devada-Adegaon gates), winter birding along the Irai backwaters, the Agarzari butterfly garden, Gond-era forts and temples in Chandrapur, and village walks arranged by resorts. Plan activities around the afternoon gap and the Tuesday core-zone closure.',
+    tldr: 'Between morning and evening safaris, Tadoba\'s forest department runs boating on the Erai backwaters (₹2,000 an hour), kayaking, guided cycling and nature trails (₹2,000 for up to five people), birding machans and camping. Add winter birding along the Irai backwaters, the Agarzari butterfly garden, Gond-era forts and temples in Chandrapur, and village walks arranged by resorts. Plan activities around the afternoon gap and the Tuesday core-zone closure.',
     keyFacts: [
-      'Night safaris run in select buffer zones (Junona, Devada-Adegaon) — book like a regular buffer permit.',
+      'Official activities: Erai boating ₹2,000/hour, birding machans ₹1,500 for two, cycling and nature trails ₹2,000 for 1–5 people.',
+      'Night safaris are not on the reserve\'s list of activities — be wary of anyone selling one.',
       'Irai backwaters draw winter waterfowl and raptors November–February.',
       'Agarzari butterfly garden is a short, family-friendly stop near the Moharli road.',
       'Chandrapur\'s Gond fort walls and Mahakali temple are ~45 minutes from Moharli.',
@@ -1274,17 +1278,29 @@ Walk it with people who grew up beside it — [our packages](/packages) are led 
     ],
     content: `**A Tadoba trip has a rhythm:** safari at dawn, a long bright gap, safari again at three. First-time visitors treat the gap as pool time. Repeat visitors know it's a second itinerary. Here's what actually exists around the park — no padding, only things you can genuinely do.
 
-## 1. Night safari in the buffer
+## 1. The forest department's own activities
 
-The core zones shut at dusk, but select buffer gates — **[Junona](/gates/junona)** and **[Devada-Adegaon](/gates/devada-adegaon)** among them — run permitted night drives with forest-department guides and red-filtered spotlights. Expect civets, jungle cats, owls, sometimes a leopard, occasionally a tiger crossing a forest road in the dark. It books like any buffer safari — see our [booking guide](/blog/how-to-book-tadoba-safari-online) — and slots are far easier to get than core-zone permits.
+The Tadoba–Andhari Tiger Reserve runs a set of activities in the buffer zone, listed on its official portal (checked October 2026):
+
+| Activity | Where | Official price |
+|---|---|---|
+| Boating on the Erai backwaters | Sitarampeth | ₹2,000 per hour; ₹1,200 per half hour |
+| Kayaking | [Junona](/gates/junona); Gondhomali-Belara | On request |
+| Birding machans | Moharli and Sitarampeth | ₹1,500 for two people, guide included |
+| Guided cycling (15 km) | Agarzari–Adegaon–Devada; Junona | ₹2,000 for 1–5 people; ₹4,000 for 6–10 |
+| Guided nature trail | [Agarzari](/gates/agarzari) | ₹2,000 for 1–5 people; ₹4,000 for 6–10 |
+| Nature camping (tents) | Agarzari; Madnapur | On request |
+| Adventure park (zip-line, rappelling, zorbing) | Agarzari | On request |
+
+Cycling can be booked on the spot. **Night safaris are not on the reserve's list** — the earlier log-hut and machan night stays no longer appear either — so be wary of anyone offering a night drive inside the reserve.
 
 ## 2. Birding on the Irai backwaters
 
-The Irai dam's backwaters lap the western edge of the reserve, and from **November to February** they hold winter waterfowl — pintails, shovellers, jacanas — plus fishing raptors: osprey, grey-headed fish eagle. Resorts near [Moharli](/gates/moharli) arrange guided morning walks along the shoreline. Bring binoculars; the light off the water at 7 AM is the best photography light of the day.
+The Irai dam's backwaters lap the western edge of the reserve, and from **November to February** they hold winter waterfowl — pintails, shovellers, jacanas — plus fishing raptors: osprey, grey-headed fish eagle. Resorts near [Moharli](/gates/moharli) arrange guided morning walks along the shoreline, and the official boating at Sitarampeth puts you on the water itself. Our [birdwatching guide](/blog/birdwatching-in-tadoba-and-pench) has the full picture. Bring binoculars; the light off the water at 7 AM is the best photography light of the day.
 
-## 3. Agarzari butterfly garden
+## 3. Agarzari Butterfly World
 
-Beside the [Agarzari buffer gate](/gates/agarzari), the forest department maintains a small butterfly garden and interpretation area — an easy, shaded hour that younger kids genuinely enjoy, and a useful half-day pairing with an Agarzari buffer safari.
+Beside the [Agarzari buffer gate](/gates/agarzari), the forest department runs **Butterfly World**, with planted nectar trails and an interpretation area — an easy, shaded hour that younger kids genuinely enjoy, and a useful half-day pairing with an Agarzari buffer safari.
 
 ## 4. Gond-era Chandrapur
 
@@ -1303,8 +1319,8 @@ Buffer villages like Agarzari and Moharli increasingly host guided walks — bam
 
 | When | What fits |
 |---|---|
-| Tuesday (core closed) | Night safari eve before, Chandrapur or Anandvan day trip, buffer safari |
-| Midday gap (11 AM–3 PM) | Butterfly garden, village walk, pool |
+| Tuesday (core closed) | Chandrapur or Anandvan day trip, buffer safari, Erai boating |
+| Midday gap (11 AM–3 PM) | Butterfly World, adventure park, village walk, pool |
 | Winter mornings without permits | Irai backwater birding |
 | Monsoon (Jul–Sep) | Buffer safaris + everything above — see [Tadoba in monsoon](/blog/tadoba-safari-in-monsoon) |
 
@@ -1331,7 +1347,7 @@ All [our packages](/packages) can fold these in — tell us what you enjoy beyon
       'Nagpur → Turia gate: 95 km, about 2.5 hours on NH44 — the closest major tiger reserve to an airport in central India.',
       'MP-side gates: Turia (main), Karmajhiri (quiet, riverine), Jamtara (buffer value). Maharashtra side runs separately (Sillari/East Pench).',
       'Permits open 120 days ahead; Turia weekends sell out first from the Nagpur crowd.',
-      '60+ tigers, strong wild dog and leopard populations, 325+ bird species.',
+      '60+ tigers, strong wild dog and leopard populations, 300+ bird species.',
       'Turia core stays open Jul–Sep when Tadoba\'s core is shut.',
     ],
     content: `**Pench is the forest that raised Mowgli.** Kipling set The Jungle Book in these teak hills, and the reserve now holds a TX2 award for doubling its tigers. It is also, practically speaking, the easiest serious tiger reserve to reach in India — 95 km from Nagpur airport, close enough that a morning flight connects to the same afternoon's safari. This guide covers the park end to end; for a ready-made trip, our [Pench Classic package](/packages/pench-classic-3n) bundles all of it.
@@ -1367,7 +1383,7 @@ Weekday slots at Karmajhiri and Jamtara are genuinely easy; Turia weekends need 
 
 | Months | What you get |
 |---|---|
-| Oct–Feb | 10–25°C, migratory birds among 325+ species, relaxed sightings — the comfortable season |
+| Oct–Feb | 10–25°C, migratory birds among 300+ species, relaxed sightings — the comfortable season |
 | Mar–Jun | Heat rising to 40°C+, tigers pinned to water, best sighting odds |
 | Jul–Sep | Monsoon — Turia core stays open (unlike Tadoba), forest at its greenest, lowest prices — our [monsoon Pench guide](/blog/pench-safari-in-monsoon) covers it |
 
@@ -1669,5 +1685,204 @@ Look for interconnecting rooms or family cottages, a pool, and a kitchen that wi
 - **Children's pricing** depends on age and room set-up, so we quote families individually.
 
 [Tell us your children's ages and dates](/contact) or [WhatsApp us](https://wa.me/918208090280) — we'll suggest the right gate, resort and safari rhythm for your family.`,
+  },
+  {
+    slug: 'tadoba-pench-wildlife-photography-guide',
+    title: 'Wildlife Photography in Tadoba & Pench: Permits, Light & Lenses (2026)',
+    excerpt:
+      'A practical guide for wildlife photographers: the official full-day photography permit, safari timings for the best light, which lenses to pack for an open gypsy, the rules that get people fined, and how to plan four safaris around the shots you want.',
+    heroImage: '/images/blog-tiger-walking-trail.jpg',
+    publishedAt: '2026-10-13',
+    readingMinutes: 8,
+    keywords: [
+      'tadoba wildlife photography',
+      'tadoba photography safari',
+      'tadoba full day safari',
+      'pench wildlife photography',
+      'best lens for tiger safari',
+      'tadoba photography permit',
+    ],
+    tldr: 'For photographers, Tadoba sells a full-day core photography and videography safari at ₹50,000 per jeep for Indian tourists and ₹70,000 for foreign tourists. It allows four guests, three jeeps a day, and entry 15 minutes before the gates open. Regular safaris cost ₹5,800–₹12,800 per jeep plus ₹250 per camera. Pack a 100–400 mm or 150–600 mm zoom, a bean bag for the jeep rail, and dust and rain protection.',
+    keyFacts: [
+      'Full-day core photography safari: ₹50,000 (Indian) / ₹70,000 (foreign) per jeep, max 4 guests, max 3 jeeps a day.',
+      'Full-day jeeps enter 15 minutes before opening and leave 15 minutes after closing; non-refundable.',
+      'Regular safari: ₹5,800–₹12,800 per jeep (up to 6 guests), plus ₹250 per camera at the gate.',
+      'Best light: November–February (6:30 AM entry). Best tiger odds: April–June, when tigers come to water.',
+      'Disruptive phone or gadget use is a ₹5,000 fine; drones need forest-department permission.',
+    ],
+    content: `**Tadoba and Pench are two of the most photographed tiger forests in India** — and for good reason. Tadoba's open dry-deciduous forest puts tigers on roads and at waterholes in clean light. Pench adds teak, the river, leopards and wild dogs. This guide covers what a photographer needs to plan: permits, light, gear and the rules.
+
+Permit details are from the official Tadoba–Andhari Tiger Reserve portal, checked in October 2026.
+
+## The full-day photography safari
+
+Most photographers shoot on regular morning and evening safaris (around four hours each). For serious work, Tadoba also offers a **full-day photography / videography safari** in the core zone:
+
+| | Indian tourists | Foreign tourists |
+|---|---|---|
+| Entry fee | ₹38,000 | ₹58,000 |
+| Guide fee | ₹2,100 | ₹2,100 |
+| Gypsy fee | ₹9,900 | ₹9,900 |
+| **Total per jeep** | **₹50,000** | **₹70,000** |
+
+The rules that matter:
+
+- **Only three jeeps a day** are allowed in the core on full-day permits.
+- You apply to the **Field Director**, and you need a confirmed regular online booking (morning or evening) for the same day and gate.
+- **Maximum four guests**, plus the driver and guide. Only the people named on the ticket may ride.
+- The jeep may **enter 15 minutes before opening and leave 15 minutes after closing**, so you get the first and last light.
+- Full-day bookings are **non-refundable**.
+
+At ₹50,000 it isn't for everyone. But on a full day you stay with a tiger through the midday lull, when regular jeeps have to leave.
+
+## Regular safaris: what photographers pay
+
+A regular safari costs **₹5,800–₹12,800 per jeep** (entry, guide and gypsy, up to six guests), depending on weekday or weekend and how far ahead you book. Each camera costs **₹250**, paid at the gate. Our [Tadoba safari cost guide](/blog/tadoba-safari-cost-2026) has the full table.
+
+**Book the jeep for yourself.** Two photographers in a six-seat jeep can each shoot from both sides. In a full jeep you'll fight for angles.
+
+## Light and season
+
+Official safari timings change with the season:
+
+| Season | Morning | Evening |
+|---|---|---|
+| Nov – Feb | 6:30 – 10:30 AM | 2:00 – 6:00 PM |
+| Oct, Mar – Apr | 6:00 – 10:00 AM | 2:30 – 6:30 PM |
+| May – Jun | 5:30 – 9:30 AM | 3:00 – 7:00 PM |
+
+- **November to February:** the best light of the year — mist in the morning, gold after 4:30 PM, soft shadows. Tigers range widely, so sightings take more patience. See our [winter guide](/blog/tadoba-safari-in-winter-christmas-new-year).
+- **March to June:** the best tiger odds, as shrinking waterholes pull tigers into the open. The light is harsh by 8 AM, so the first and last hour matter most. Dust is constant.
+- **July to September:** core gates close, but the buffer stays open with green forest and dramatic skies. See [Tadoba in monsoon](/blog/tadoba-safari-in-monsoon).
+
+## What to pack
+
+- **Main lens:** a 100–400 mm, 150–600 mm or 200–500 mm zoom covers most situations from a gypsy. Tigers are often 20–80 metres away.
+- **Second body with a 24–105 mm or 70–200 mm** for habitat shots and close encounters. Changing lenses in the dust is how sensors get dirty.
+- **A bean bag**, not a tripod. You shoot resting on the jeep's rail or roll bar; a tripod won't fit and isn't practical in a moving vehicle.
+- **Dust and rain covers**, a blower, and lens cloths. Summer dust gets into everything.
+- **Spare batteries and cards.** There's nowhere to charge inside the park.
+
+**Settings that work:** shutter speed 1/1000 s or faster for a walking tiger, continuous autofocus with animal-eye detection, and auto ISO with a sensible cap. Shoot a burst when a tiger turns its head or steps out of cover.
+
+## Choosing gates
+
+- **Moharli** has the most jeeps and the most reliable sightings, but crowded sightings make clean frames harder.
+- **Kolara** has fewer jeeps per slot, so sightings are calmer — the photographers' favourite. See [Moharli vs Kolara](/blog/moharli-vs-kolara-gate-tadoba-honest-comparison).
+- **Pench:** Turia for tigers; Karmajhiri for the river, landscapes and birds. See our [Pench guide](/blog/pench-national-park-complete-guide).
+
+## Rules and ethics
+
+These protect the animals and keep you from being fined:
+
+- **Stay in the jeep and on the track.** Never ask the driver to go off-road or get closer than the guide allows.
+- **No flash, no calling or baiting animals.** Tigers that are disturbed walk away, and the shot is gone for everyone.
+- **Phones and gadgets:** using a phone or other device in a way that disturbs the forest or other visitors is a **₹5,000 fine** under the reserve's rules.
+- **Drones:** don't bring one without written forest-department permission. Elsewhere in India, a drone flown in a tiger reserve without permission was seized and its owner fined ₹1 lakh.
+- **No plastic** inside the reserve.
+
+## Beyond the tiger
+
+Some of the best frames in Tadoba aren't tigers:
+
+- **Birding machans** at Moharli and Sitarampeth: ₹1,500 for two people, guide included — eye-level views of forest birds.
+- **Boating on the Erai backwaters** (Sitarampeth): ₹2,000 per hour, for waterbirds and reflections.
+- **Butterfly World** at Agarzari, for macro work.
+
+Our [birdwatching guide](/blog/birdwatching-in-tadoba-and-pench) covers the birds in detail.
+
+## Plan a photography trip with us
+
+Our [Tadoba Luxury — 3 Nights](/packages/tadoba-luxury-3n) package (from ₹1,20,000 per couple) includes a dedicated naturalist and tracker, who plans each safari around your shots. We can also apply for a full-day photography permit on your behalf.
+
+[Tell us your dates and what you want to shoot](/contact), or [WhatsApp us](https://wa.me/918208090280).`,
+  },
+  {
+    slug: 'birdwatching-in-tadoba-and-pench',
+    title: 'Birdwatching in Tadoba & Pench: Species, Hotspots & Best Season (2026)',
+    excerpt:
+      'Tadoba has around 195 recorded bird species and Pench over 300. Where to watch birds in both reserves, the official birding machans and Erai boating, the best months for migrants, and what to pack.',
+    heroImage: '/images/pkg-pench-birding.jpg',
+    publishedAt: '2026-10-13',
+    readingMinutes: 7,
+    keywords: [
+      'birdwatching in tadoba',
+      'tadoba birds',
+      'pench birding',
+      'tadoba bird species',
+      'irai lake birds',
+      'birding machan tadoba',
+    ],
+    tldr: 'Tadoba has around 195 recorded bird species, and Pench over 300 on the Central India Bird Academy checklist. November to February brings migrant waterfowl: in Tadoba\'s January 2025 waterbird census, Irai lake held 3,906 birds, the most of any waterbody. Tadoba\'s official birding machans (₹1,500 for two) and Erai boating (₹2,000 an hour) are the best ways to bird outside the jeep.',
+    keyFacts: [
+      'Tadoba: around 195 bird species recorded; both reserves are Important Bird Areas (BirdLife International).',
+      'Pench: 310 species on the Central India Bird Academy checklist; a January 2023 survey of the Maharashtra side found 226.',
+      'Irai lake: 3,906 birds in the January 2025 waterbird census, the highest count of any waterbody in the reserve.',
+      'Birding machans (Moharli, Sitarampeth): ₹1,500 for two people, guide included.',
+      'Best season for migrants: November to February.',
+    ],
+    content: `**Most people come to Tadoba and Pench for tigers and leave talking about the birds.** Both reserves are recognised as Important Bird Areas by BirdLife International, and between them they hold most of central India's forest birds, plus a winter flood of migrant waterfowl.
+
+This guide covers what you can see, where, and when — using the reserves' own surveys where they exist.
+
+## How many species?
+
+- **Tadoba:** around **195 species** recorded. Older forest-department checklists list 181–185, and a newer rapid bird survey commissioned by the reserve is updating the list. Five globally threatened species have been recorded here.
+- **Pench:** **310 species** on the checklist compiled by the Central India Bird Academy. A citizen-science survey of the Maharashtra side in January 2023 found **226 species** over 741 sq km.
+
+## Birds to look for
+
+**In the forest (both reserves):**
+
+- **Raptors:** grey-headed fish eagle along the water, crested serpent eagles perched over the roads.
+- **Indian paradise flycatcher:** the male's long white tail streaming through the bamboo is one of Tadoba's classic sights.
+- **Malabar pied hornbill (Pench):** a highlight of the 2023 Pench survey, and evidence that the species ranges far wider than once thought.
+- **Vultures:** the critically endangered white-rumped vulture was also recorded in the 2023 Pench survey.
+- Peafowl, junglefowl, woodpeckers, drongos, orioles and owls are common on every safari.
+
+**On the water (winter):**
+
+Tadoba's **January 2025 waterbird census** counted the most birds — **3,906** — at **Irai lake** (the Erai backwaters), more than at any other waterbody in the reserve. Across the census, **red-crested pochard** was the most numerous species (1,605 birds), and **black storks** and **bar-headed geese** were recorded at several waterbodies.
+
+**Sarus cranes:** Tadoba is near the southern edge of their range. They aren't found inside the forest; they have been reported at lakes outside the reserve, but sightings are rare.
+
+## Where to bird
+
+Tadoba's official activities include several made for birders:
+
+| Activity | Where | Official price |
+|---|---|---|
+| Birding machans | Moharli and Sitarampeth | ₹1,500 for two people, guide included |
+| Boating on the Erai backwaters | Sitarampeth | ₹2,000 per hour; ₹1,200 per half hour |
+| Kayaking | Junona; Gondhomali-Belara | On request |
+| Guided nature trail | Agarzari | ₹2,000 for 1–5 people |
+| Guided cycling (15 km) | Agarzari–Adegaon–Devada; Junona | ₹2,000 for 1–5 people, booked on the spot |
+
+**On safari:** ask your guide to stop for birds. Morning safaris are best for forest birds; waterholes in summer bring everything in.
+
+**In Pench:** Karmajhiri, along the Pench river, is the quieter gate with excellent birdlife. See our [Pench guide](/blog/pench-national-park-complete-guide).
+
+## When to go
+
+- **November to February:** the best birding season. Migrant ducks, geese and storks arrive on the lakes, the weather is comfortable, and forest birds are active all morning.
+- **March to June:** hot, but birds gather at the few remaining waterholes — and it's the best time for tigers too.
+- **July to September:** core zones close; the buffer stays open. Breeding plumage and lush forest, but heavy rain.
+
+## What to pack
+
+- **Binoculars** (8×42 is the standard choice) — most important of all.
+- A field guide or a bird-ID app, and a notebook. Upload your sightings to **eBird**; Tadoba and Pench still have gaps in their records.
+- A lens of 400 mm or more if you photograph birds. Our [photography guide](/blog/tadoba-pench-wildlife-photography-guide) covers gear and rules.
+- Muted clothing, a hat, and water.
+
+## Birding etiquette
+
+Stay on trails and in vehicles, keep your voice low, never use playback to call birds near nests, and carry all litter out — plastic isn't allowed inside the reserve.
+
+## Plan a birding trip
+
+A birding trip fits naturally around safaris. Our [Pench Classic — 3 Nights](/packages/pench-classic-3n) (from ₹69,000 per couple) covers Turia and riverside Karmajhiri. The [Tadoba + Pench Combo](/packages/tadoba-pench-combo-5n) (from ₹1,09,000 per couple) gives you both forests and the Erai backwaters.
+
+[Tell us your dates and target species](/contact), or [WhatsApp us](https://wa.me/918208090280).`,
   },
 ];
