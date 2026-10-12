@@ -238,6 +238,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         <div className="relative aspect-[16/9] md:aspect-[21/9] overflow-hidden">
           <Image src={post.heroImage} alt={`${post.title} — Tadoba Pench Safari blog`} priority className="absolute inset-0 w-full h-full object-cover" width={1600} height={686} />
           <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/40 to-transparent" />
+          {post.heroCredit && (
+            <p className="absolute bottom-2 right-3 text-[11px] text-bone/70">Photo © {post.heroCredit}</p>
+          )}
         </div>
 
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

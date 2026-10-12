@@ -9,6 +9,8 @@ export type BlogPost = {
   content: string;
   // AEO: a 1-2 sentence direct answer rendered as a TLDR box at the top
   // of the post. Optional but recommended — LLMs extract this verbatim.
+  // Photographer credit shown over the hero, e.g. 'Partha'. Omit for own photos.
+  heroCredit?: string;
   tldr?: string;
   // 3-5 bullet 'key facts' rendered alongside the TLDR.
   keyFacts?: string[];
@@ -1369,7 +1371,8 @@ Our [Pench Classic — 3 Nights](/packages/pench-classic-3n) covers Turia + Karm
     title: 'Tadoba in Winter (Nov–Feb): Christmas & New Year Safari Guide 2026',
     excerpt:
       'Winter is Tadoba\'s most comfortable season and its most crowded fortnight. Official safari timings, what the cold actually feels like in an open jeep, sighting odds, and how to still get Christmas and New Year permits in 2026.',
-    heroImage: '/images/wildlife-tiger-grass-2.jpg',
+    heroImage: '/images/blog-tiger-varun-dry-grass.jpg',
+    heroCredit: 'Varun',
     publishedAt: '2026-10-12',
     readingMinutes: 8,
     keywords: [
@@ -1467,7 +1470,8 @@ Our three-night Tadoba packages include permits, jeeps, naturalist, resort, all 
     title: 'Tadoba Safari for Foreigners: Permits, Fees, Passport Rules (2026)',
     excerpt:
       'Planning a Tadoba tiger safari from abroad? What foreign nationals actually pay (regular safaris cost the same as for Indians), the passport-only ID rule, when booking opens in your time zone, and how to get to Tadoba from an international flight.',
-    heroImage: '/images/gate-tiger-closeup.jpg',
+    heroImage: '/images/blog-tiger-partha-gaze.jpg',
+    heroCredit: 'Partha',
     publishedAt: '2026-10-12',
     readingMinutes: 7,
     keywords: [
@@ -1563,7 +1567,7 @@ We book permits by passport name, meet you at Nagpur airport and run every safar
     title: 'Tadoba Safari with Kids: Age Rules, Timings & Family Tips (2026)',
     excerpt:
       'Children under 8 ride free on a Tadoba safari — up to two per jeep. The official age rules, how early you really need to get up, how to keep kids happy for four hours in an open jeep, and which trip suits which age.',
-    heroImage: '/images/pkg-pench-family.jpg',
+    heroImage: '/images/blog-tiger-resting-grass.jpg',
     publishedAt: '2026-10-12',
     readingMinutes: 7,
     keywords: [
