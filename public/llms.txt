@@ -33,7 +33,7 @@ Tadoba has 6 core gates and 4 buffer gates. Pench has 3 working gates.
 
 Core Tadoba: Moharli (south, most popular), Kolara (north, photographer favourite), Khutwanda (south-east), Navegaon (north), Pangdi (west), Zari (east).
 Buffer Tadoba: Agarzari, Junona, Devada-Adegaon, Alizanza.
-Pench: Turia (Madhya Pradesh core), Jamtara (buffer-north), Karmajhiri (east core).
+Pench: Turia (Madhya Pradesh core), Jamtara (core, smallest: about 5 jeeps a slot), Karmajhiri (east core).
 
 Each gate has a dedicated page at /gates/<slug> with permits, timings, sighting odds, famous tigers, and season-by-season notes.
 

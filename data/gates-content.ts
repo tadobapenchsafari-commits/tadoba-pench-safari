@@ -260,8 +260,8 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'Turia is the highest-capacity gate on the MP side of Pench. Exact numbers are set seasonally by the MP Forest Department; online quota is smaller than the total quota.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
+      morningSlot: '6:00–11:30 AM (Oct–Nov) | 6:20–11:30 AM (Dec–Jan) | 6:10–11:30 AM (Feb–Mar) | 5:30–11:00 AM (Apr–Jun)',
+      eveningSlot: '3:00–6:00 PM (Oct–Jan) | 3:00–6:30 PM (Feb–Mar) | 3:30–7:00 PM (Apr–Jun)',
       note: 'Closed every Wednesday. Core zones shut 1 July to 30 September.',
     },
     famousTigers: [
@@ -320,20 +320,20 @@ export const gateDetails: Record<string, GateDetail> = {
     heroImage:
       '/images/pkg-pench-family.jpg',
     metaDescription:
-      'Jamtara is Pench\'s top buffer-zone gate — better value permits, quieter safaris, and tigers increasingly habituated to jeeps. Complete 2026 guide.',
+      'Jamtara is Pench\'s smallest core zone — only 4–5 jeeps a slot, so safaris are quiet and permits are scarce. Timings, access and tips. 2026 guide.',
     intro:
-      'Jamtara is the best-positioned buffer gate at Pench and a favourite among travellers who\'ve outgrown the Turia traffic. Buffer zones were historically overlooked in favour of the core, but Jamtara has changed that — tigers here are increasingly comfortable with jeeps, sightings are genuinely good, and permits are half the cost of Turia\'s.',
+      'Jamtara is the smallest of Pench\'s three core zones on the Madhya Pradesh side (with Turia and Karmajhiri), entered from the western, Chhindwara side of the reserve. The MP Forest Department allows only about five jeeps in the morning and four in the evening, so a Jamtara safari is about as quiet as Pench gets — and the permits are the hardest to win. A favourite of travellers who have outgrown the Turia traffic.',
     location: {
       distanceFromNagpur: '100 km (2 hrs 15 min)',
       distanceFromJabalpur: '195 km (4 hrs)',
       nearestVillage: 'Jamtara village, Seoni district, MP',
       mapQuery: 'Jamtara+Gate+Pench+Tiger+Reserve',
     },
-    dailyPermits: 'Jamtara is Pench\'s main buffer gate with a growing allotment. Exact counts are set per season by the Forest Department. Permits are cheaper than Turia core.',
+    dailyPermits: 'A core zone with a very small quota: 5 jeeps in the morning and 4 in the evening (MP Forest Department, 2026), against 37 a slot at Turia. Book as early as the window allows.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
-      note: 'Buffer zones sometimes remain open during monsoon (check with operator). Wednesday closure applies.',
+      morningSlot: '6:00–11:30 AM (Oct–Nov) | 6:20–11:30 AM (Dec–Jan) | 6:10–11:30 AM (Feb–Mar) | 5:30–11:00 AM (Apr–Jun)',
+      eveningSlot: '3:00–6:00 PM (Oct–Jan) | 3:00–6:30 PM (Feb–Mar) | 3:30–7:00 PM (Apr–Jun)',
+      note: 'Core zone — closed for the monsoon (the MP season runs about 15 October to 30 June). Wednesday closure applies. Timings revised by MP from 1 October 2026.',
     },
     famousTigers: [
       'Habituated tigresses with cubs in the Jamtara beat',
@@ -342,8 +342,7 @@ export const gateDetails: Record<string, GateDetail> = {
     ],
     bestFor: [
       'Repeat Pench visitors wanting to avoid core-zone crowds',
-      'Budget-conscious travellers (permits ₹1,200–1,800 vs Turia\'s ₹2,500+)',
-      'Monsoon travel — buffer often stays open',
+      'Travellers who plan early — the tiny quota rewards booking the day the window opens',
       'Photographers — less jeep competition for clean shots',
     ],
     tradeOffs: [
@@ -352,10 +351,6 @@ export const gateDetails: Record<string, GateDetail> = {
       'Some guests expect "premium" gate infrastructure and find it modest',
     ],
     seasonalNotes: [
-      {
-        season: 'Monsoon (July–Sept)',
-        notes: 'Jamtara\'s biggest edge — the gate often stays open while Turia core is shut. Lush green forest, dramatic storm skies.',
-      },
       {
         season: 'Summer (March–June)',
         notes: 'Good sighting rates, especially as core-zone tigers spill into buffer looking for prey.',
@@ -367,12 +362,12 @@ export const gateDetails: Record<string, GateDetail> = {
         a: 'For repeat visitors and value-conscious travellers, Jamtara is better. For first-timers wanting maximum tiger odds, stick with Turia or combine both.',
       },
       {
-        q: 'Does Jamtara stay open during the monsoon?',
-        a: 'Yes — as a buffer zone, Jamtara often remains operational 1 July to 30 September when the core gates (like Turia) are closed. Verify with your operator before booking.',
+        q: 'Is Jamtara a core or buffer zone?',
+        a: 'Core. The MP Forest Department lists Jamtara with Turia and Karmajhiri as Pench\'s three core tourism zones. Like them, it closes for the monsoon; the season runs about 15 October to 30 June.',
       },
       {
-        q: 'What is the permit cost at Jamtara?',
-        a: 'Around ₹1,200–1,800 per jeep — roughly half the cost of Turia\'s core-zone permits.',
+        q: 'How hard is it to get a Jamtara permit?',
+        a: 'Hard. Only about 5 jeeps enter in the morning and 4 in the evening, against 37 a slot at Turia, so book the day the window opens or let us hold it for you.',
       },
     ],
     nearbyPropertySlugs: ['seoni-forest-lodge'],
@@ -718,8 +713,8 @@ export const gateDetails: Record<string, GateDetail> = {
     },
     dailyPermits: 'Karmajhiri has a smaller quota than Turia. Exact numbers are set per season by the Forest Department. Less booked than Turia — easier for last-minute plans.',
     entrySchedule: {
-      morningSlot: '6:00 AM – 10:00 AM (summer) | 6:30 AM – 10:30 AM (winter)',
-      eveningSlot: '3:00 PM – 6:30 PM (summer) | 2:00 PM – 5:30 PM (winter)',
+      morningSlot: '6:00–11:30 AM (Oct–Nov) | 6:20–11:30 AM (Dec–Jan) | 6:10–11:30 AM (Feb–Mar) | 5:30–11:00 AM (Apr–Jun)',
+      eveningSlot: '3:00–6:00 PM (Oct–Jan) | 3:00–6:30 PM (Feb–Mar) | 3:30–7:00 PM (Apr–Jun)',
       note: 'Closed Wednesdays. Core zones shut during monsoon.',
     },
     famousTigers: [

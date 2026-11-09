@@ -1342,13 +1342,13 @@ All [our packages](/packages) can fold these in — tell us what you enjoy beyon
       'best time to visit pench',
       'pench from nagpur',
     ],
-    tldr: 'Pench straddles Madhya Pradesh and Maharashtra, 95 km from Nagpur airport. First-timers should book the MP side: Turia gate for infrastructure and sighting reliability, Karmajhiri for quiet, Jamtara for value. Permits open 120 days ahead on the MP forest portal. March–June is best for tigers, November–February for birds and comfort, and Turia stays open through the monsoon.',
+    tldr: 'Pench straddles Madhya Pradesh and Maharashtra, 95 km from Nagpur airport. First-timers should book the MP side: Turia gate for infrastructure and sighting reliability, Karmajhiri or Jamtara for quiet. Permits open 120 days ahead on the MP forest portal. March–June is best for tigers, November–February for birds and comfort; core zones close for the monsoon (the MP season runs about 15 October to 30 June).',
     keyFacts: [
       'Nagpur → Turia gate: 95 km, about 2.5 hours on NH44 — the closest major tiger reserve to an airport in central India.',
-      'MP-side gates: Turia (main), Karmajhiri (quiet, riverine), Jamtara (buffer value). Maharashtra side runs separately (Sillari/East Pench).',
+      'MP-side core zones: Turia (37 jeeps a slot), Karmajhiri (8), Jamtara (4–5). Maharashtra side runs separately (Sillari/East Pench).',
       'Permits open 120 days ahead; Turia weekends sell out first from the Nagpur crowd.',
-      '60+ tigers, strong wild dog and leopard populations, 300+ bird species.',
-      'Turia core stays open Jul–Sep when Tadoba\'s core is shut.',
+      '60+ tigers, strong wild dog and leopard populations, about 325 bird species (MP Forest Department).',
+      'MP safari timings were revised from 1 October 2026: morning drives now run to 11:00–11:30 AM.',
     ],
     content: `**Pench is the forest that raised Mowgli.** Kipling set The Jungle Book in these teak hills, and the reserve now holds a TX2 award for doubling its tigers. It is also, practically speaking, the easiest serious tiger reserve to reach in India — 95 km from Nagpur airport, close enough that a morning flight connects to the same afternoon's safari. This guide covers the park end to end; for a ready-made trip, our [Pench Classic package](/packages/pench-classic-3n) bundles all of it.
 
@@ -1367,25 +1367,25 @@ Two hours from Nagpur, the biggest resort cluster, the most naturalists, and dep
 ### Karmajhiri — the connoisseur's gate
 The scenic eastern entry along the Pench river: fewer vehicles, superb birdlife, landscapes that reward photographers. Sightings are less frequent than Turia but feel earned. See [Karmajhiri](/gates/karmajhiri).
 
-### Jamtara — the value play
-A newer buffer gate — easier permits, lower cost, and tigers increasingly comfortable around vehicles. Good third-safari option or budget fallback. See [Jamtara](/gates/jamtara).
+### Jamtara — the quiet one
+The smallest of the three core zones, entered from the western (Chhindwara) side. Only about five jeeps go in each morning and four each evening, so sightings are calm — but permits are the hardest to get. See [Jamtara](/gates/jamtara).
 
 ## Booking, step by step
 
 1. Permits open **120 days ahead** on the MP forest portal and sell gate-wise, slot-wise (morning/evening).
-2. A core jeep permit lands around **₹2,500–4,000 per vehicle** with guide fees, before gypsy hire — budget roughly ₹6,000–7,500 all-in per safari for a private jeep.
+2. Each zone has a fixed jeep quota per slot, set by the MP Forest Department: **Turia 37, Karmajhiri 8, Jamtara 4–5**. Fees are set by the department and shown when you book on forest.mponline.gov.in.
 3. Carry the **same photo ID** used on the permit; it's checked at the gate.
 4. Or skip the portal wrangling: our packages include permits, gypsy, naturalist, and gate timing strategy.
 
-Weekday slots at Karmajhiri and Jamtara are genuinely easy; Turia weekends need the full 120-day head start.
+Turia has the most permits but the most demand on weekends; Karmajhiri and especially Jamtara have so few jeeps that they can sell out first. Book as early as the window allows.
 
 ## When to go
 
 | Months | What you get |
 |---|---|
-| Oct–Feb | 10–25°C, migratory birds among 300+ species, relaxed sightings — the comfortable season |
+| Oct–Feb | 10–25°C, migratory birds among about 325 species, relaxed sightings — the comfortable season |
 | Mar–Jun | Heat rising to 40°C+, tigers pinned to water, best sighting odds |
-| Jul–Sep | Monsoon — Turia core stays open (unlike Tadoba), forest at its greenest, lowest prices — our [monsoon Pench guide](/blog/pench-safari-in-monsoon) covers it |
+| Jul–Sep | Monsoon — core zones closed; the MP season runs about 15 October to 30 June |
 
 ## What you'll see
 

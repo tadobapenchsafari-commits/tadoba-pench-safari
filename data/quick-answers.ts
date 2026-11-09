@@ -130,8 +130,8 @@ export const gateQuickAnswers: Record<string, QuickAnswer[]> = {
     { q: 'Closest to', a: 'Right next to Moharli gate. Same resort cluster.' },
   ],
   jamtara: [
-    { q: 'Reserve', a: 'Pench Tiger Reserve, north buffer zone.' },
-    { q: 'Why pick it', a: 'Newer gate, quieter safaris, and tigers increasingly habituated to jeeps. Better value than Turia for similar wildlife.' },
+    { q: 'Reserve', a: 'Pench Tiger Reserve (MP side) — the smallest of its three core zones.' },
+    { q: 'Why pick it', a: 'The quietest Pench safari: only about 5 jeeps in the morning and 4 in the evening. Book early — the small quota sells out.' },
     { q: 'Sighting rate', a: 'Around 50-65% in peak months. Strong for leopards and dholes year-round.' },
     { q: 'Famous for', a: 'Excellent for wildlife photography of non-tiger species — sloth bears, leopards, gaur.' },
   ],
