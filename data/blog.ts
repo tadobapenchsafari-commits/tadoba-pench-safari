@@ -1490,7 +1490,7 @@ Those fees include entry, guide and gypsy, for up to six guests; cameras cost �
 
 - **First half of December or mid-January onwards** gives you the winter weather without the holiday premium.
 - **Do three nights, four safaris.** Split them across two gates — typically Moharli and Kolara — so one quiet morning doesn't define the trip. Our [Moharli vs Kolara comparison](/blog/moharli-vs-kolara-gate-tadoba-honest-comparison) explains why.
-- **Add Pench if you have five nights.** It's at its most beautiful in winter, especially for birders — see the [Tadoba + Pench Combo](/packages/tadoba-pench-combo-5n).
+- **Add Pench if you have five nights.** It's at its most beautiful in winter, especially for birders — see our [Tadoba & Pench winter guide](/blog/winter-safari-tadoba-pench) and the [Tadoba + Pench Combo](/packages/tadoba-pench-combo-5n).
 
 ## The easy version
 
@@ -1884,5 +1884,110 @@ Stay on trails and in vehicles, keep your voice low, never use playback to call 
 A birding trip fits naturally around safaris. Our [Pench Classic — 3 Nights](/packages/pench-classic-3n) (from ₹69,000 per couple) covers Turia and riverside Karmajhiri. The [Tadoba + Pench Combo](/packages/tadoba-pench-combo-5n) (from ₹1,09,000 per couple) gives you both forests and the Erai backwaters.
 
 [Tell us your dates and target species](/contact), or [WhatsApp us](https://wa.me/918208090280).`,
+  },
+  {
+    slug: 'winter-safari-tadoba-pench',
+    title: 'Winter Safari in Tadoba & Pench (Nov–Feb): Which Park, Timings & a Combined Trip',
+    excerpt:
+      'Planning a tiger safari this winter? How Tadoba and Pench compare from November to February: official safari timings for both parks, how cold the mornings get, migrant birds, permit windows for winter 2026–27, and how to combine both reserves in one trip.',
+    heroImage: '/images/gate-tiger-grass.jpg',
+    publishedAt: '2026-11-09',
+    readingMinutes: 8,
+    keywords: [
+      'winter safari tadoba pench',
+      'tadoba pench winter',
+      'pench in winter',
+      'pench safari december',
+      'tadoba safari january',
+      'tadoba and pench in one trip',
+      'central india tiger safari winter',
+    ],
+    tldr: 'Winter (November to February) is the most comfortable time for a tiger safari in Tadoba and Pench. Tadoba runs 6:30–10:30 AM and 2:00–6:00 PM; Pench\'s revised MP timings run from about 6:00–6:20 AM to 11:30 AM, and 3:00–6:00 PM. Expect near-freezing dawns in Pench in January, migrant waterbirds on both reserves\' lakes, and good, if not peak, tiger odds. With five nights, do both parks.',
+    keyFacts: [
+      'Tadoba safari timings, 1 Nov – 28 Feb: 6:30–10:30 AM and 2:00–6:00 PM (official).',
+      'Pench (MP) timings from 1 Oct 2026: Dec–Jan 6:20–11:30 AM and 3:00–6:00 PM (official).',
+      'Pench January minimum can touch 1°C, with occasional frost (MP Forest Department).',
+      'Tadoba core gates close every Tuesday — including Republic Day, Tue 26 Jan 2027.',
+      'Kolara gate (Tadoba) to Turia gate (Pench): about 145 km, 3½ hours.',
+    ],
+    content: `**Winter is when most people picture a central-India tiger safari** — cool mornings, golden afternoons, comfortable days between drives. Tadoba and Pench are two hours apart from Nagpur in opposite directions, and in winter they complement each other well: Tadoba for tigers, Pench for variety, birds and the Jungle Book forest.
+
+Timings below are from the official forest-department booking sites for each reserve, checked in November 2026.
+
+## Tadoba or Pench in winter?
+
+| | Tadoba | Pench (MP side) |
+|---|---|---|
+| Best for | The best tiger odds in central India | Variety: leopards, wild dogs, birds, river scenery |
+| Morning safari | 6:30 – 10:30 AM | 6:00–6:20 AM to 11:30 AM |
+| Evening safari | 2:00 – 6:00 PM | 3:00 – 6:00 PM (6:30 PM in Feb) |
+| Winter mornings | Cold in an open jeep | Colder — January can touch 1°C, with frost |
+| Water in winter | Irai backwaters: thousands of migrant waterbirds | Totladoh reservoir: ruddy shelduck, pintail, whistling teal |
+| From Nagpur | About 140 km to Moharli | About 85–95 km to Turia |
+
+**If you only have three nights,** choose Tadoba for tigers or Pench for a quieter, birdier trip. **With five nights, do both.**
+
+## Safari timings this winter
+
+**Tadoba** (official, Tadoba–Andhari Tiger Reserve):
+
+| Season | Morning | Evening |
+|---|---|---|
+| 1 Nov – 28 Feb | 6:30 – 10:30 AM | 2:00 – 6:00 PM |
+
+**Pench, Madhya Pradesh side** (official MP timings, revised from 1 October 2026):
+
+| Months | Morning | Evening |
+|---|---|---|
+| Oct – Nov | 6:00 – 11:30 AM | 3:00 – 6:00 PM |
+| Dec – Jan | 6:20 – 11:30 AM | 3:00 – 6:00 PM |
+| Feb – Mar | 6:10 – 11:30 AM | 3:00 – 6:30 PM |
+
+Pench's morning drive now runs until 11:30 AM — over an hour longer than Tadoba's — which gives tigers time to show themselves once the forest warms up.
+
+## How cold does it get?
+
+Days are pleasant in both parks — the mid-20s °C. Dawn is a different matter. The MP Forest Department records January minimums around **1°C at Pench**, and notes that January can bring frost. Tadoba mornings are milder but still cold, especially in an open jeep moving at 20–30 km/h.
+
+Pack a thermal base layer, a fleece, a windproof outer, a beanie, gloves and a scarf. You'll peel them off by 9 AM. Our [packing checklist](/blog/what-to-pack-for-tadoba-safari-checklist) has the full list.
+
+## What you'll see
+
+**Tigers.** Winter isn't peak tiger season — that's April to June, when shrinking waterholes draw tigers into the open (see [best time to visit Tadoba](/blog/best-time-to-visit-tadoba-for-tiger-sightings)). In winter, water is everywhere and tigers range widely, so sightings take more patience. Odds improve through January and February as the grass dries and thins. Tadoba remains the stronger bet for a tiger.
+
+**Birds.** Winter is the birding season in both reserves:
+
+- **Tadoba:** in the reserve's January 2025 waterbird census, Irai lake held **3,906 birds** — more than any other waterbody — with red-crested pochard the most numerous species.
+- **Pench:** the MP Forest Department records about **325 bird species**, and the Totladoh reservoir fills with migrants in the cold season.
+
+Our [birdwatching guide](/blog/birdwatching-in-tadoba-and-pench) covers species, hotspots and the official birding machans.
+
+**Light.** Mist in the morning and gold after 4:30 PM — the best light of the year for photographers. See our [photography guide](/blog/tadoba-pench-wildlife-photography-guide).
+
+## A five-night winter itinerary
+
+1. **Day 1:** fly into Nagpur, drive to Pench (about 2 hours). Evening safari at Turia.
+2. **Day 2:** morning safari at Turia or Karmajhiri; afternoon free, or a second drive.
+3. **Day 3:** morning safari, then drive Turia to Tadoba's Kolara gate (about 145 km, 3½ hours). See [Tadoba to Pench routes](/blog/tadoba-to-pench-distance-routes).
+4. **Days 4–5:** four safaris in Tadoba, split between Kolara and Moharli.
+5. **Day 6:** morning safari, then drive back to Nagpur (about 2½–3 hours) for an evening flight.
+
+This is the shape of our [Tadoba + Pench Combo — 5 Nights](/packages/tadoba-pench-combo-5n), from ₹1,09,000 per couple, all-inclusive.
+
+## Booking this winter
+
+- **Tadoba** safaris open on the official portal **120 days ahead at 12:00 AM IST**. As of mid-November, every date to early March is already open. Dates from 8 January 2027 onwards fall in the **60–120 day tier** — costlier, and non-refundable once booked. Our [how-to-book guide](/blog/how-to-book-tadoba-safari-online) has the fee table.
+- **Pench (MP)** permits are sold on the MP Forest Department portal, zone by zone, with fixed jeep quotas: **Turia 37 jeeps per slot, Karmajhiri 8, Jamtara 4–5**. The small zones sell out first. See our [Pench guide](/blog/pench-national-park-complete-guide).
+
+**Dates to watch:**
+
+- **Christmas to New Year** is the busiest fortnight of the year in both parks. Christmas Day and New Year's Day 2026–27 both fall on a Friday. Our [Tadoba winter guide](/blog/tadoba-safari-in-winter-christmas-new-year) covers holiday permits in detail.
+- **Republic Day, Tuesday 26 January 2027:** Tadoba's core gates close every Tuesday, so for that long weekend, plan Pench or a Tadoba buffer gate on the 26th.
+
+## Plan your winter safari
+
+Our [Tadoba + Pench Combo](/packages/tadoba-pench-combo-5n) covers both reserves in five nights. For a shorter trip, choose [Pench Classic — 3 Nights](/packages/pench-classic-3n) (from ₹69,000 per couple) or a [three-night Tadoba package](/packages/tadoba-budget-3n) (from ₹74,000).
+
+[Send us your winter dates](/contact) or [WhatsApp us](https://wa.me/918208090280) — for December, the sooner the better.`,
   },
 ];
