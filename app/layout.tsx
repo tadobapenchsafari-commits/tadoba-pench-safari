@@ -37,13 +37,9 @@ export const metadata: Metadata = {
     'pench resort',
     'india tiger safari',
   ],
-  alternates: {
-    canonical: '/',
-  },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://www.tadobapenchsafari.com',
     siteName: 'Tadoba Pench Safari',
     images: [
       {

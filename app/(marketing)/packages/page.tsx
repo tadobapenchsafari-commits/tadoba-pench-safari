@@ -4,8 +4,10 @@ import { packages } from '@/data/content';
 import { formatINR } from '@/lib/utils';
 
 export const metadata = {
-  title: 'Safari Packages — Curated journeys in Tadoba & Pench',
-  description: 'Ready-to-book safari packages for every traveler.',
+  title: 'Tadoba & Pench Safari Packages 2026',
+  description:
+    'All-inclusive Tadoba and Pench safari packages: 3-night Budget, Mid and Luxury tiers, Pench Classic and a 5-night Combo, from ₹69,000 per couple.',
+  alternates: { canonical: '/packages' },
 };
 
 export default function PackagesPage() {

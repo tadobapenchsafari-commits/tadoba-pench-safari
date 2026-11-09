@@ -3,8 +3,10 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
 export const metadata = {
-  title: 'About — Tadoba Pench Safari',
-  description: 'A safari team born and raised in the forests of central India.',
+  title: 'About Us',
+  description:
+    'Tadoba Pench Safari is a Nagpur-based tiger safari operator, founded in 2018, running hosted trips to Tadoba and Pench with local naturalists.',
+  alternates: { canonical: '/about' },
 };
 
 export default function AboutPage() {

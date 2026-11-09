@@ -5,6 +5,12 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+// Titles get the ' | Tadoba Pench Safari' suffix from the root layout. When
+// that would push past ~60 chars (Google's display limit), drop the suffix.
+export function seoTitle(title: string): string | { absolute: string } {
+  return title.length + ' | Tadoba Pench Safari'.length > 60 ? { absolute: title } : title;
+}
+
 // Meta description from longer copy: whole sentences up to `max` chars, or a
 // word-boundary cut when the first sentence alone is too short to be useful.
 export function metaDescription(text: string, max = 155): string {

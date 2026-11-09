@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Clock, ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blog';
-import { metaDescription } from '@/lib/utils';
+import { metaDescription, seoTitle } from '@/lib/utils';
 
 export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const p = blogPosts.find((x) => x.slug === slug);
   if (!p) return {};
   return {
-    title: p.title,
+    title: seoTitle(p.title),
     description: metaDescription(p.excerpt),
     keywords: p.keywords,
     alternates: { canonical: `/blog/${p.slug}` },

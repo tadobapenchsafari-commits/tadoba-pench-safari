@@ -15,7 +15,7 @@ const WA =
   encodeURIComponent("Hi! I'd like a quote for Tadoba Aranya Villa + Kolara safaris. Dates: ");
 
 export const metadata: Metadata = {
-  title: 'Tadoba Aranya Villa Resort — Kolara Gate Stay + Safari Booking',
+  title: 'Tadoba Aranya Villa Resort, Kolara Gate',
   description:
     'Tadoba Aranya Villa, minutes from Kolara gate: 12 rooms + family room, pool, machan, all meals included. Book your stay and Kolara safaris together.',
   alternates: { canonical: '/stays/tadoba-aranya-villa' },

@@ -5,7 +5,7 @@ import { ArrowRight, MapPin } from 'lucide-react';
 import { destinations, packages, gates, CONTENT_UPDATED } from '@/data/content';
 import { PlanMySafariForm } from '@/components/marketing/plan-safari-form';
 import { PartnerStayCard } from '@/components/marketing/partner-stay-card';
-import { formatINR } from '@/lib/utils';
+import { formatINR, seoTitle } from '@/lib/utils';
 import { destinationFaqs } from '@/data/faqs';
 import { QuickAnswers } from '@/components/marketing/quick-answers';
 import { destinationQuickAnswers } from '@/data/quick-answers';
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const d = destinations.find((x) => x.slug === slug);
   if (!d) return {};
   return {
-    title: `${d.name} Safari — ${d.tagline}`,
+    title: seoTitle(`${d.name} Safari 2026: Tiger Reserve Guide & Packages`),
     description: d.description.slice(0, 160),
     alternates: { canonical: `/destinations/${d.slug}` },
     openGraph: {

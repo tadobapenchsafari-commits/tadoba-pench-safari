@@ -6,7 +6,7 @@ import { destinations } from '@/data/content';
 const SITE_URL = 'https://www.tadobapenchsafari.com';
 
 export const metadata = {
-  title: 'Tadoba & Pench Tiger Reserves — Safari Destinations',
+  title: 'Tadoba & Pench Tiger Reserves',
   description:
     'Plan a tiger safari in central India. Compare Tadoba Andhari Tiger Reserve and Pench National Park — terrain, sighting odds, gates, and best season.',
   alternates: { canonical: '/destinations' },

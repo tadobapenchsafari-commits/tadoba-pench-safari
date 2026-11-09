@@ -6,7 +6,7 @@ import { gateDetails } from '@/data/gates-content';
 import { gates, packages } from '@/data/content';
 import { QuickAnswers } from '@/components/marketing/quick-answers';
 import { gateQuickAnswers } from '@/data/quick-answers';
-import { formatINR } from '@/lib/utils';
+import { formatINR, seoTitle } from '@/lib/utils';
 
 export function generateStaticParams() {
   return Object.keys(gateDetails).map((slug) => ({ slug }));
@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const d = gateDetails[slug];
   if (!d) return {};
   return {
-    title: `${d.targetKeyword}: Permits, Timings, Sightings (2026 Guide)`,
+    title: seoTitle(`${d.targetKeyword}: Permits, Timings & Sightings 2026`),
     description: d.metaDescription,
     keywords: [d.targetKeyword.toLowerCase(), `${slug} gate`, `${slug} safari`, `${slug} tadoba permit`, `${slug} pench permit`],
     alternates: { canonical: `/gates/${slug}` },
@@ -65,6 +65,20 @@ export default async function GatePage({ params }: { params: Promise<{ slug: str
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.tadobapenchsafari.com' },
+              { '@type': 'ListItem', position: 2, name: 'Safari gates', item: 'https://www.tadobapenchsafari.com/gates' },
+              { '@type': 'ListItem', position: 3, name: d.targetKeyword, item: `https://www.tadobapenchsafari.com/gates/${slug}` },
+            ],
+          }),
+        }}
       />
 
       <section className="relative min-h-[60vh] flex items-end overflow-hidden grain">

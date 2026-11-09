@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import { ArrowRight, MapPin, Compass, Star, Clock, Users, Shield } from 'lucide-react';
 import { destinations, packages } from '@/data/content';
@@ -9,6 +10,19 @@ import { QuickAnswers } from '@/components/marketing/quick-answers';
 import { PartnerStayCard } from '@/components/marketing/partner-stay-card';
 import { homeQuickAnswers } from '@/data/quick-answers';
 import { testimonials, aggregateRating } from '@/data/testimonials';
+
+// Canonical + og:url live here, not in the root layout, so other pages
+// don't inherit the homepage URL.
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+  openGraph: {
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://www.tadobapenchsafari.com',
+    siteName: 'Tadoba Pench Safari',
+    images: [{ url: '/og/home.jpg', width: 1200, height: 630, alt: 'Tadoba & Pench Tiger Safari — curated boutique safaris in central India' }],
+  },
+};
 
 const homeAggregateRating = aggregateRating();
 

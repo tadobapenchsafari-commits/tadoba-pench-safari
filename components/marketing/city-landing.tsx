@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { ArrowRight, Plane, Car, Train, Clock } from 'lucide-react';
 import type { OriginCity } from '@/data/origin-cities';
 import { packages } from '@/data/content';
-import { formatINR } from '@/lib/utils';
+import { formatINR, seoTitle } from '@/lib/utils';
 import { TrackedLink } from './tracked-link';
 
 const SITE_URL = 'https://www.tadobapenchsafari.com';
@@ -313,7 +313,7 @@ function TransportCard({
 
 export function cityMetadata(c: OriginCity) {
   return {
-    title: `Tadoba Safari from ${c.name} — 2026 Booking Guide`,
+    title: seoTitle(`Tadoba Safari from ${c.name}: 2026 Guide`),
     description: `Plan a Tadoba tiger safari from ${c.name}: direct flights to Nagpur in ${c.flight.durationHrs}h, ${c.drive.distanceKm} km drive route, train options, recommended ${c.bestTripLength} itinerary, and curated package picks.`,
     alternates: { canonical: `/tadoba-safari-from-${c.slug}` },
     openGraph: {

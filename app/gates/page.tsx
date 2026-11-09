@@ -5,7 +5,7 @@ import { gates } from '@/data/content';
 const SITE_URL = 'https://www.tadobapenchsafari.com';
 
 export const metadata = {
-  title: 'All Safari Gates at Tadoba & Pench — 2026 Guide',
+  title: 'Tadoba & Pench Safari Gates: 2026 Guide',
   description:
     'Every safari gate at Tadoba Andhari Tiger Reserve and Pench National Park — core zones, buffer zones, permits, sighting odds. Pick the right gate for your trip.',
   alternates: { canonical: '/gates' },
