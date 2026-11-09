@@ -164,12 +164,12 @@ export default function HomePage() {
               <span>Est. 2018</span>
             </p>
             <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-bone leading-[0.95] mb-6">
-              Walk Tadoba &amp; Pench{' '}
+              Tadoba &amp; Pench tiger safaris,{' '}
               <br />
               <span className="italic text-sunrise">with those who know the forest best.</span>
             </h1>
             <p className="text-lg md:text-xl text-bone/85 max-w-xl leading-relaxed mb-10">
-              <strong className="font-medium text-bone">Tadoba Pench Safari</strong> runs boutique tiger-safari trips from Nagpur to two central-India reserves — Tadoba (Maharashtra) and Pench (Madhya Pradesh). All-inclusive 3-night packages from ₹74,000 per couple. Founded 2018.
+              <strong className="font-medium text-bone">Tadoba Pench Safari</strong> runs boutique tiger-safari trips from Nagpur to two central-India reserves — Tadoba (Maharashtra) and Pench (Madhya Pradesh). All-inclusive 3-night packages from {formatINR(minPackagePrice)} per couple. Founded 2018.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -210,9 +210,9 @@ export default function HomePage() {
         <div className="max-w-2xl mb-14">
           <p className="divider-tribal max-w-xs mb-4">Two forests, one story</p>
           <h2 className="font-display text-4xl md:text-5xl text-bark leading-tight">
-            Choose where your
+            Tadoba or Pench:
             <br />
-            <span className="italic">wild journey</span> begins.
+            <span className="italic">where your wild journey</span> begins.
           </h2>
         </div>
 
@@ -247,7 +247,7 @@ export default function HomePage() {
             <div className="max-w-2xl">
               <p className="divider-tribal max-w-xs mb-4">Curated journeys</p>
               <h2 className="font-display text-4xl md:text-5xl text-bark leading-tight">
-                Thoughtful packages,
+                2026 safari packages,
                 <br />
                 <span className="italic">honest pricing.</span>
               </h2>
@@ -309,7 +309,7 @@ export default function HomePage() {
             <h2 className="font-display text-4xl md:text-5xl leading-tight">
               Not a booking portal.
               <br />
-              <span className="italic text-sunrise">Safari specialists.</span>
+              <span className="italic text-sunrise">Tadoba safari specialists.</span>
             </h2>
           </div>
 
